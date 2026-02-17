@@ -1,0 +1,476 @@
+2026-02-15 15:43:52,641 - ERROR - 加载配置文件失败: [Errno 2] No such file or directory: 'macro_tasks.json'
+2026-02-15 15:45:17,167 - INFO - 开始下载 214 个宏观数据接口...
+2026-02-15 15:45:17,167 - INFO - [1/214] 处理接口: macro_cnbs
+2026-02-15 15:45:17,528 - INFO - ✓ macro_cnbs: 成功下载 80 行数据 -> data/macro_cnbs.parquet
+2026-02-15 15:45:18,033 - INFO - [2/214] 处理接口: macro_china_qyspjg
+2026-02-15 15:45:18,509 - INFO - ✓ macro_china_qyspjg: 成功下载 252 行数据 -> data/macro_china_qyspjg.parquet
+2026-02-15 15:45:19,014 - INFO - [3/214] 处理接口: macro_china_fdi
+2026-02-15 15:45:19,178 - INFO - ✓ macro_china_fdi: 成功下载 185 行数据 -> data/macro_china_fdi.parquet
+2026-02-15 15:45:19,683 - INFO - [4/214] 处理接口: macro_china_lpr
+2026-02-15 15:45:20,922 - INFO - ✓ macro_china_lpr: 成功下载 1568 行数据 -> data/macro_china_lpr.parquet
+2026-02-15 15:45:21,427 - INFO - [5/214] 处理接口: macro_china_urban_unemployment
+2026-02-15 15:45:21,852 - INFO - ✓ macro_china_urban_unemployment: 成功下载 648 行数据 -> data/macro_china_urban_unemployment.parquet
+2026-02-15 15:45:22,358 - INFO - [6/214] 处理接口: macro_china_shrzgm
+2026-02-15 15:45:22,441 - ERROR - ✗ macro_china_shrzgm: 下载失败 - HTTPSConnectionPool(host='data.mofcom.gov.cn', port=443): Max retries exceeded with url: /datamofcom/front/gnmy/shrzgmQuery (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1028)')))
+2026-02-15 15:45:22,441 - WARNING - 第 1 次尝试失败，等待重试...
+2026-02-15 15:45:24,506 - ERROR - ✗ macro_china_shrzgm: 下载失败 - HTTPSConnectionPool(host='data.mofcom.gov.cn', port=443): Max retries exceeded with url: /datamofcom/front/gnmy/shrzgmQuery (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1028)')))
+2026-02-15 15:45:24,506 - WARNING - 第 2 次尝试失败，等待重试...
+2026-02-15 15:45:28,563 - ERROR - ✗ macro_china_shrzgm: 下载失败 - HTTPSConnectionPool(host='data.mofcom.gov.cn', port=443): Max retries exceeded with url: /datamofcom/front/gnmy/shrzgmQuery (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1028)')))
+2026-02-15 15:45:28,563 - ERROR - 接口 macro_china_shrzgm 经过 3 次尝试仍然失败
+2026-02-15 15:45:29,068 - INFO - [7/214] 处理接口: macro_china_gdp_yearly
+2026-02-15 15:45:30,641 - INFO - ✓ macro_china_gdp_yearly: 成功下载 61 行数据 -> data/macro_china_gdp_yearly.parquet
+2026-02-15 15:45:31,144 - INFO - [8/214] 处理接口: macro_china_cpi_yearly
+2026-02-15 15:45:34,973 - INFO - ✓ macro_china_cpi_yearly: 成功下载 477 行数据 -> data/macro_china_cpi_yearly.parquet
+2026-02-15 15:45:35,478 - INFO - [9/214] 处理接口: macro_china_cpi_monthly
+2026-02-15 15:45:39,337 - INFO - ✓ macro_china_cpi_monthly: 成功下载 357 行数据 -> data/macro_china_cpi_monthly.parquet
+2026-02-15 15:45:39,842 - INFO - [10/214] 处理接口: macro_china_ppi_yearly
+2026-02-15 15:45:45,025 - INFO - ✓ macro_china_ppi_yearly: 成功下载 363 行数据 -> data/macro_china_ppi_yearly.parquet
+2026-02-15 15:45:45,529 - INFO - [11/214] 处理接口: macro_china_exports_yoy
+2026-02-15 15:45:51,889 - INFO - ✓ macro_china_exports_yoy: 成功下载 542 行数据 -> data/macro_china_exports_yoy.parquet
+2026-02-15 15:45:52,394 - INFO - [12/214] 处理接口: macro_china_imports_yoy
+2026-02-15 15:45:55,610 - INFO - ✓ macro_china_imports_yoy: 成功下载 381 行数据 -> data/macro_china_imports_yoy.parquet
+2026-02-15 15:45:56,112 - INFO - [13/214] 处理接口: macro_china_trade_balance
+2026-02-15 15:46:01,297 - INFO - ✓ macro_china_trade_balance: 成功下载 565 行数据 -> data/macro_china_trade_balance.parquet
+2026-02-15 15:46:01,802 - INFO - [14/214] 处理接口: macro_china_gyzjz
+2026-02-15 15:46:01,970 - INFO - ✓ macro_china_gyzjz: 成功下载 198 行数据 -> data/macro_china_gyzjz.parquet
+2026-02-15 15:46:02,475 - INFO - [15/214] 处理接口: macro_china_industrial_production_yoy
+2026-02-15 15:46:06,241 - INFO - ✓ macro_china_industrial_production_yoy: 成功下载 413 行数据 -> data/macro_china_industrial_production_yoy.parquet
+2026-02-15 15:46:06,746 - INFO - [16/214] 处理接口: macro_china_pmi_yearly
+2026-02-15 15:46:08,936 - INFO - ✓ macro_china_pmi_yearly: 成功下载 250 行数据 -> data/macro_china_pmi_yearly.parquet
+2026-02-15 15:46:09,441 - INFO - [17/214] 处理接口: macro_china_cx_pmi_yearly
+2026-02-15 15:46:11,018 - INFO - ✓ macro_china_cx_pmi_yearly: 成功下载 219 行数据 -> data/macro_china_cx_pmi_yearly.parquet
+2026-02-15 15:46:11,523 - INFO - [18/214] 处理接口: macro_china_cx_services_pmi_yearly
+2026-02-15 15:46:13,341 - INFO - ✓ macro_china_cx_services_pmi_yearly: 成功下载 166 行数据 -> data/macro_china_cx_services_pmi_yearly.parquet
+2026-02-15 15:46:13,843 - INFO - [19/214] 处理接口: macro_china_non_man_pmi
+2026-02-15 15:46:17,111 - INFO - ✓ macro_china_non_man_pmi: 成功下载 226 行数据 -> data/macro_china_non_man_pmi.parquet
+2026-02-15 15:46:17,615 - INFO - [20/214] 处理接口: macro_china_fx_reserves_yearly
+2026-02-15 15:46:19,033 - INFO - ✓ macro_china_fx_reserves_yearly: 成功下载 132 行数据 -> data/macro_china_fx_reserves_yearly.parquet
+2026-02-15 15:46:19,538 - INFO - [21/214] 处理接口: macro_china_m2_yearly
+2026-02-15 15:46:25,069 - INFO - ✓ macro_china_m2_yearly: 成功下载 395 行数据 -> data/macro_china_m2_yearly.parquet
+2026-02-15 15:46:25,574 - INFO - [22/214] 处理接口: macro_china_new_house_price
+2026-02-15 15:46:26,308 - INFO - ✓ macro_china_new_house_price: 成功下载 362 行数据 -> data/macro_china_new_house_price.parquet
+2026-02-15 15:46:26,814 - INFO - [23/214] 处理接口: macro_china_enterprise_boom_index
+2026-02-15 15:46:27,152 - INFO - ✓ macro_china_enterprise_boom_index: 成功下载 83 行数据 -> data/macro_china_enterprise_boom_index.parquet
+2026-02-15 15:46:27,654 - INFO - [24/214] 处理接口: macro_china_national_tax_receipts
+2026-02-15 15:46:27,797 - INFO - ✓ macro_china_national_tax_receipts: 成功下载 82 行数据 -> data/macro_china_national_tax_receipts.parquet
+2026-02-15 15:46:28,301 - INFO - [25/214] 处理接口: macro_china_bank_financing
+2026-02-15 15:46:28,520 - INFO - ✓ macro_china_bank_financing: 成功下载 265 行数据 -> data/macro_china_bank_financing.parquet
+2026-02-15 15:46:29,024 - INFO - [26/214] 处理接口: macro_china_insurance_income
+2026-02-15 15:46:29,275 - INFO - ✓ macro_china_insurance_income: 成功下载 257 行数据 -> data/macro_china_insurance_income.parquet
+2026-02-15 15:46:29,780 - INFO - [27/214] 处理接口: macro_china_mobile_number
+2026-02-15 15:46:29,978 - INFO - ✓ macro_china_mobile_number: 成功下载 168 行数据 -> data/macro_china_mobile_number.parquet
+2026-02-15 15:46:30,484 - INFO - [28/214] 处理接口: macro_china_vegetable_basket
+2026-02-15 15:46:37,427 - INFO - ✓ macro_china_vegetable_basket: 成功下载 5586 行数据 -> data/macro_china_vegetable_basket.parquet
+2026-02-15 15:46:37,932 - INFO - [29/214] 处理接口: macro_china_agricultural_product
+2026-02-15 15:46:42,222 - INFO - ✓ macro_china_agricultural_product: 成功下载 5586 行数据 -> data/macro_china_agricultural_product.parquet
+2026-02-15 15:46:42,727 - INFO - [30/214] 处理接口: macro_china_agricultural_index
+2026-02-15 15:46:48,437 - INFO - ✓ macro_china_agricultural_index: 成功下载 4387 行数据 -> data/macro_china_agricultural_index.parquet
+2026-02-15 15:46:48,942 - INFO - [31/214] 处理接口: macro_china_energy_index
+2026-02-15 15:46:53,851 - INFO - ✓ macro_china_energy_index: 成功下载 4387 行数据 -> data/macro_china_energy_index.parquet
+2026-02-15 15:46:54,356 - INFO - [32/214] 处理接口: macro_china_commodity_price_index
+2026-02-15 15:46:58,299 - INFO - ✓ macro_china_commodity_price_index: 成功下载 4388 行数据 -> data/macro_china_commodity_price_index.parquet
+2026-02-15 15:46:58,804 - INFO - [33/214] 处理接口: macro_global_sox_index
+2026-02-15 15:47:12,303 - INFO - ✓ macro_global_sox_index: 成功下载 7933 行数据 -> data/macro_global_sox_index.parquet
+2026-02-15 15:47:12,809 - INFO - [34/214] 处理接口: macro_china_yw_electronic_index
+2026-02-15 15:47:14,393 - INFO - ✓ macro_china_yw_electronic_index: 成功下载 862 行数据 -> data/macro_china_yw_electronic_index.parquet
+2026-02-15 15:47:14,899 - INFO - [35/214] 处理接口: macro_china_construction_index
+2026-02-15 15:47:20,626 - INFO - ✓ macro_china_construction_index: 成功下载 3865 行数据 -> data/macro_china_construction_index.parquet
+2026-02-15 15:47:21,132 - INFO - [36/214] 处理接口: macro_china_construction_price_index
+2026-02-15 15:47:24,552 - INFO - ✓ macro_china_construction_price_index: 成功下载 4732 行数据 -> data/macro_china_construction_price_index.parquet
+2026-02-15 15:47:25,057 - INFO - [37/214] 处理接口: macro_china_lpi_index
+2026-02-15 15:47:27,730 - INFO - ✓ macro_china_lpi_index: 成功下载 149 行数据 -> data/macro_china_lpi_index.parquet
+2026-02-15 15:47:28,233 - INFO - [38/214] 处理接口: macro_china_bdti_index
+2026-02-15 15:47:34,349 - INFO - ✓ macro_china_bdti_index: 成功下载 5869 行数据 -> data/macro_china_bdti_index.parquet
+2026-02-15 15:47:34,854 - INFO - [39/214] 处理接口: macro_china_bsi_index
+2026-02-15 15:47:38,202 - INFO - ✓ macro_china_bsi_index: 成功下载 4926 行数据 -> data/macro_china_bsi_index.parquet
+2026-02-15 15:47:38,707 - INFO - [40/214] 处理接口: macro_shipping_bci
+2026-02-15 15:47:43,222 - INFO - ✓ macro_shipping_bci: 成功下载 6712 行数据 -> data/macro_shipping_bci.parquet
+2026-02-15 15:47:43,727 - INFO - [41/214] 处理接口: macro_shipping_bdi
+2026-02-15 15:47:50,704 - INFO - ✓ macro_shipping_bdi: 成功下载 9392 行数据 -> data/macro_shipping_bdi.parquet
+2026-02-15 15:47:51,209 - INFO - [42/214] 处理接口: macro_shipping_bpi
+2026-02-15 15:47:55,782 - INFO - ✓ macro_shipping_bpi: 成功下载 6675 行数据 -> data/macro_shipping_bpi.parquet
+2026-02-15 15:47:56,288 - INFO - [43/214] 处理接口: macro_shipping_bcti
+2026-02-15 15:48:00,289 - INFO - ✓ macro_shipping_bcti: 成功下载 5872 行数据 -> data/macro_shipping_bcti.parquet
+2026-02-15 15:48:00,791 - INFO - [44/214] 处理接口: macro_china_new_financial_credit
+2026-02-15 15:48:01,034 - INFO - ✓ macro_china_new_financial_credit: 成功下载 217 行数据 -> data/macro_china_new_financial_credit.parquet
+2026-02-15 15:48:01,538 - INFO - [45/214] 处理接口: macro_china_cpi
+2026-02-15 15:48:01,830 - INFO - ✓ macro_china_cpi: 成功下载 217 行数据 -> data/macro_china_cpi.parquet
+2026-02-15 15:48:02,335 - INFO - [46/214] 处理接口: macro_china_gdp
+2026-02-15 15:48:02,489 - INFO - ✓ macro_china_gdp: 成功下载 80 行数据 -> data/macro_china_gdp.parquet
+2026-02-15 15:48:02,995 - INFO - [47/214] 处理接口: macro_china_ppi
+2026-02-15 15:48:03,878 - INFO - ✓ macro_china_ppi: 成功下载 241 行数据 -> data/macro_china_ppi.parquet
+2026-02-15 15:48:04,382 - INFO - [48/214] 处理接口: macro_china_pmi
+2026-02-15 15:48:05,136 - INFO - ✓ macro_china_pmi: 成功下载 217 行数据 -> data/macro_china_pmi.parquet
+2026-02-15 15:48:05,641 - INFO - [49/214] 处理接口: macro_china_gdzctz
+2026-02-15 15:48:05,966 - INFO - ✓ macro_china_gdzctz: 成功下载 198 行数据 -> data/macro_china_gdzctz.parquet
+2026-02-15 15:48:06,471 - INFO - [50/214] 处理接口: macro_china_hgjck
+2026-02-15 15:48:06,717 - INFO - ✓ macro_china_hgjck: 成功下载 216 行数据 -> data/macro_china_hgjck.parquet
+2026-02-15 15:48:07,221 - INFO - [51/214] 处理接口: macro_china_czsr
+2026-02-15 15:48:07,574 - INFO - ✓ macro_china_czsr: 成功下载 209 行数据 -> data/macro_china_czsr.parquet
+2026-02-15 15:48:08,079 - INFO - [52/214] 处理接口: macro_china_whxd
+2026-02-15 15:48:08,321 - INFO - ✓ macro_china_whxd: 成功下载 217 行数据 -> data/macro_china_whxd.parquet
+2026-02-15 15:48:08,826 - INFO - [53/214] 处理接口: macro_china_wbck
+2026-02-15 15:48:09,025 - INFO - ✓ macro_china_wbck: 成功下载 216 行数据 -> data/macro_china_wbck.parquet
+2026-02-15 15:48:09,530 - INFO - [54/214] 处理接口: macro_china_bond_public
+2026-02-15 15:48:26,309 - INFO - ✓ macro_china_bond_public: 成功下载 61 行数据 -> data/macro_china_bond_public.parquet
+2026-02-15 15:48:26,814 - INFO - [55/214] 处理接口: macro_china_xfzxx
+2026-02-15 15:48:27,089 - INFO - ✓ macro_china_xfzxx: 成功下载 228 行数据 -> data/macro_china_xfzxx.parquet
+2026-02-15 15:48:27,594 - INFO - [56/214] 处理接口: macro_china_reserve_requirement_ratio
+2026-02-15 15:48:27,803 - INFO - ✓ macro_china_reserve_requirement_ratio: 成功下载 58 行数据 -> data/macro_china_reserve_requirement_ratio.parquet
+2026-02-15 15:48:28,307 - INFO - [57/214] 处理接口: macro_china_consumer_goods_retail
+2026-02-15 15:48:28,503 - INFO - ✓ macro_china_consumer_goods_retail: 成功下载 202 行数据 -> data/macro_china_consumer_goods_retail.parquet
+2026-02-15 15:48:29,008 - INFO - [58/214] 处理接口: macro_china_society_electricity
+2026-02-15 15:48:29,910 - INFO - ✓ macro_china_society_electricity: 成功下载 235 行数据 -> data/macro_china_society_electricity.parquet
+2026-02-15 15:48:30,415 - INFO - [59/214] 处理接口: macro_china_society_traffic_volume
+2026-02-15 15:48:44,883 - INFO - ✓ macro_china_society_traffic_volume: 成功下载 2916 行数据 -> data/macro_china_society_traffic_volume.parquet
+2026-02-15 15:48:45,388 - INFO - [60/214] 处理接口: macro_china_postal_telecommunicational
+2026-02-15 15:48:46,795 - INFO - ✓ macro_china_postal_telecommunicational: 成功下载 332 行数据 -> data/macro_china_postal_telecommunicational.parquet
+2026-02-15 15:48:47,296 - INFO - [61/214] 处理接口: macro_china_international_tourism_fx
+2026-02-15 15:48:47,955 - INFO - ✓ macro_china_international_tourism_fx: 成功下载 264 行数据 -> data/macro_china_international_tourism_fx.parquet
+2026-02-15 15:48:48,460 - INFO - [62/214] 处理接口: macro_china_passenger_load_factor
+2026-02-15 15:48:49,275 - INFO - ✓ macro_china_passenger_load_factor: 成功下载 236 行数据 -> data/macro_china_passenger_load_factor.parquet
+2026-02-15 15:48:49,780 - INFO - [63/214] 处理接口: macro_china_freight_index
+2026-02-15 15:48:50,191 - INFO - ✓ macro_china_freight_index: 成功下载 4969 行数据 -> data/macro_china_freight_index.parquet
+2026-02-15 15:48:50,697 - INFO - [64/214] 处理接口: macro_china_central_bank_balance
+2026-02-15 15:48:51,629 - ERROR - ✗ macro_china_central_bank_balance: 下载失败 - No value to decode
+2026-02-15 15:48:51,629 - WARNING - 第 1 次尝试失败，等待重试...
+2026-02-15 15:48:53,710 - ERROR - ✗ macro_china_central_bank_balance: 下载失败 - No value to decode
+2026-02-15 15:48:53,711 - WARNING - 第 2 次尝试失败，等待重试...
+2026-02-15 15:48:57,767 - ERROR - ✗ macro_china_central_bank_balance: 下载失败 - No value to decode
+2026-02-15 15:48:57,767 - ERROR - 接口 macro_china_central_bank_balance 经过 3 次尝试仍然失败
+2026-02-15 15:48:58,273 - INFO - [65/214] 处理接口: macro_china_insurance
+2026-02-15 15:48:58,335 - ERROR - ✗ macro_china_insurance: 下载失败 - No value to decode
+2026-02-15 15:48:58,336 - WARNING - 第 1 次尝试失败，等待重试...
+2026-02-15 15:49:00,626 - ERROR - ✗ macro_china_insurance: 下载失败 - No value to decode
+2026-02-15 15:49:00,627 - WARNING - 第 2 次尝试失败，等待重试...
+2026-02-15 15:49:04,681 - ERROR - ✗ macro_china_insurance: 下载失败 - No value to decode
+2026-02-15 15:49:04,682 - ERROR - 接口 macro_china_insurance 经过 3 次尝试仍然失败
+2026-02-15 15:49:05,184 - INFO - [66/214] 处理接口: macro_china_supply_of_money
+2026-02-15 15:49:05,488 - ERROR - ✗ macro_china_supply_of_money: 下载失败 - No value to decode
+2026-02-15 15:49:05,488 - WARNING - 第 1 次尝试失败，等待重试...
+2026-02-15 15:49:07,552 - ERROR - ✗ macro_china_supply_of_money: 下载失败 - No value to decode
+2026-02-15 15:49:07,552 - WARNING - 第 2 次尝试失败，等待重试...
+2026-02-15 15:49:11,616 - ERROR - ✗ macro_china_supply_of_money: 下载失败 - No value to decode
+2026-02-15 15:49:11,616 - ERROR - 接口 macro_china_supply_of_money 经过 3 次尝试仍然失败
+2026-02-15 15:49:12,121 - INFO - [67/214] 处理接口: macro_china_swap_rate
+2026-02-15 15:49:12,285 - ERROR - ✗ macro_china_swap_rate: 下载失败 - Length mismatch: Expected axis has 0 elements, new values have 17 elements
+2026-02-15 15:49:12,287 - WARNING - 第 1 次尝试失败，等待重试...
+2026-02-15 15:49:14,460 - ERROR - ✗ macro_china_swap_rate: 下载失败 - Length mismatch: Expected axis has 0 elements, new values have 17 elements
+2026-02-15 15:49:14,463 - WARNING - 第 2 次尝试失败，等待重试...
+2026-02-15 15:49:18,645 - ERROR - ✗ macro_china_swap_rate: 下载失败 - Length mismatch: Expected axis has 0 elements, new values have 17 elements
+2026-02-15 15:49:18,648 - ERROR - 接口 macro_china_swap_rate 经过 3 次尝试仍然失败
+2026-02-15 15:49:19,150 - INFO - [68/214] 处理接口: macro_china_foreign_exchange_gold
+2026-02-15 15:49:19,206 - ERROR - ✗ macro_china_foreign_exchange_gold: 下载失败 - No value to decode
+2026-02-15 15:49:19,206 - WARNING - 第 1 次尝试失败，等待重试...
+2026-02-15 15:49:21,363 - ERROR - ✗ macro_china_foreign_exchange_gold: 下载失败 - No value to decode
+2026-02-15 15:49:21,363 - WARNING - 第 2 次尝试失败，等待重试...
+2026-02-15 15:49:25,497 - ERROR - ✗ macro_china_foreign_exchange_gold: 下载失败 - No value to decode
+2026-02-15 15:49:25,497 - ERROR - 接口 macro_china_foreign_exchange_gold 经过 3 次尝试仍然失败
+2026-02-15 15:49:26,002 - INFO - [69/214] 处理接口: macro_china_retail_price_index
+2026-02-15 15:49:26,085 - ERROR - ✗ macro_china_retail_price_index: 下载失败 - No value to decode
+2026-02-15 15:49:26,086 - WARNING - 第 1 次尝试失败，等待重试...
+2026-02-15 15:49:28,275 - ERROR - ✗ macro_china_retail_price_index: 下载失败 - No value to decode
+2026-02-15 15:49:28,275 - WARNING - 第 2 次尝试失败，等待重试...
+2026-02-15 15:49:32,334 - ERROR - ✗ macro_china_retail_price_index: 下载失败 - No value to decode
+2026-02-15 15:49:32,334 - ERROR - 接口 macro_china_retail_price_index 经过 3 次尝试仍然失败
+2026-02-15 15:49:32,839 - INFO - [70/214] 处理接口: macro_china_real_estate
+2026-02-15 15:49:33,761 - INFO - ✓ macro_china_real_estate: 成功下载 326 行数据 -> data/macro_china_real_estate.parquet
+2026-02-15 15:49:34,266 - INFO - [71/214] 处理接口: macro_china_fx_gold
+2026-02-15 15:49:34,951 - INFO - ✓ macro_china_fx_gold: 成功下载 217 行数据 -> data/macro_china_fx_gold.parquet
+2026-02-15 15:49:35,456 - INFO - [72/214] 处理接口: macro_china_money_supply
+2026-02-15 15:49:35,732 - INFO - ✓ macro_china_money_supply: 成功下载 217 行数据 -> data/macro_china_money_supply.parquet
+2026-02-15 15:49:36,237 - INFO - [73/214] 处理接口: macro_china_stock_market_cap
+2026-02-15 15:49:36,574 - INFO - ✓ macro_china_stock_market_cap: 成功下载 218 行数据 -> data/macro_china_stock_market_cap.parquet
+2026-02-15 15:49:37,079 - INFO - [74/214] 处理接口: macro_china_shibor_all
+2026-02-15 15:49:37,264 - INFO - ✓ macro_china_shibor_all: 成功下载 2225 行数据 -> data/macro_china_shibor_all.parquet
+2026-02-15 15:49:37,764 - INFO - [75/214] 处理接口: macro_china_hk_market_info
+2026-02-15 15:49:37,960 - INFO - ✓ macro_china_hk_market_info: 成功下载 2189 行数据 -> data/macro_china_hk_market_info.parquet
+2026-02-15 15:49:38,465 - INFO - [76/214] 处理接口: macro_china_daily_energy
+2026-02-15 15:49:38,692 - INFO - ✓ macro_china_daily_energy: 成功下载 1207 行数据 -> data/macro_china_daily_energy.parquet
+2026-02-15 15:49:39,197 - INFO - [77/214] 处理接口: macro_china_rmb
+2026-02-15 15:49:39,491 - INFO - ✓ macro_china_rmb: 成功下载 791 行数据 -> data/macro_china_rmb.parquet
+2026-02-15 15:49:39,996 - INFO - [78/214] 处理接口: macro_china_market_margin_sz
+2026-02-15 15:49:40,643 - INFO - ✓ macro_china_market_margin_sz: 成功下载 3656 行数据 -> data/macro_china_market_margin_sz.parquet
+2026-02-15 15:49:41,148 - INFO - [79/214] 处理接口: macro_china_market_margin_sh
+2026-02-15 15:49:41,481 - INFO - ✓ macro_china_market_margin_sh: 成功下载 3854 行数据 -> data/macro_china_market_margin_sh.parquet
+2026-02-15 15:49:41,987 - INFO - [80/214] 处理接口: macro_china_au_report
+2026-02-15 15:49:43,835 - INFO - ✓ macro_china_au_report: 成功下载 35581 行数据 -> data/macro_china_au_report.parquet
+2026-02-15 15:49:44,341 - INFO - [81/214] 处理接口: macro_china_nbs_nation
+2026-02-15 15:49:44,341 - ERROR - ✗ macro_china_nbs_nation: 下载失败 - macro_china_nbs_nation() missing 2 required positional arguments: 'kind' and 'path'
+2026-02-15 15:49:44,341 - WARNING - 第 1 次尝试失败，等待重试...
+2026-02-15 15:49:46,347 - ERROR - ✗ macro_china_nbs_nation: 下载失败 - macro_china_nbs_nation() missing 2 required positional arguments: 'kind' and 'path'
+2026-02-15 15:49:46,347 - WARNING - 第 2 次尝试失败，等待重试...
+2026-02-15 15:49:50,350 - ERROR - ✗ macro_china_nbs_nation: 下载失败 - macro_china_nbs_nation() missing 2 required positional arguments: 'kind' and 'path'
+2026-02-15 15:49:50,351 - ERROR - 接口 macro_china_nbs_nation 经过 3 次尝试仍然失败
+2026-02-15 15:49:50,855 - INFO - [82/214] 处理接口: macro_china_nbs_region
+2026-02-15 15:49:50,855 - ERROR - ✗ macro_china_nbs_region: 下载失败 - macro_china_nbs_region() missing 3 required positional arguments: 'kind', 'path', and 'indicator'
+2026-02-15 15:49:50,855 - WARNING - 第 1 次尝试失败，等待重试...
+2026-02-15 15:49:52,859 - ERROR - ✗ macro_china_nbs_region: 下载失败 - macro_china_nbs_region() missing 3 required positional arguments: 'kind', 'path', and 'indicator'
+2026-02-15 15:49:52,859 - WARNING - 第 2 次尝试失败，等待重试...
+2026-02-15 15:49:56,864 - ERROR - ✗ macro_china_nbs_region: 下载失败 - macro_china_nbs_region() missing 3 required positional arguments: 'kind', 'path', and 'indicator'
+2026-02-15 15:49:56,864 - ERROR - 接口 macro_china_nbs_region 经过 3 次尝试仍然失败
+2026-02-15 15:49:57,368 - INFO - [83/214] 处理接口: macro_stock_finance
+2026-02-15 15:49:57,531 - INFO - ✓ macro_stock_finance: 成功下载 30 行数据 -> data/macro_stock_finance.parquet
+2026-02-15 15:49:58,036 - INFO - [84/214] 处理接口: macro_rmb_loan
+2026-02-15 15:49:58,113 - INFO - ✓ macro_rmb_loan: 成功下载 30 行数据 -> data/macro_rmb_loan.parquet
+2026-02-15 15:49:58,618 - INFO - [85/214] 处理接口: macro_rmb_deposit
+2026-02-15 15:49:58,792 - INFO - ✓ macro_rmb_deposit: 成功下载 30 行数据 -> data/macro_rmb_deposit.parquet
+2026-02-15 15:49:59,298 - INFO - [86/214] 处理接口: macro_china_hk_cpi
+2026-02-15 15:49:59,443 - INFO - ✓ macro_china_hk_cpi: 成功下载 172 行数据 -> data/macro_china_hk_cpi.parquet
+2026-02-15 15:49:59,948 - INFO - [87/214] 处理接口: macro_china_hk_cpi_ratio
+2026-02-15 15:50:00,116 - INFO - ✓ macro_china_hk_cpi_ratio: 成功下载 172 行数据 -> data/macro_china_hk_cpi_ratio.parquet
+2026-02-15 15:50:00,619 - INFO - [88/214] 处理接口: macro_china_hk_rate_of_unemployment
+2026-02-15 15:50:00,790 - INFO - ✓ macro_china_hk_rate_of_unemployment: 成功下载 217 行数据 -> data/macro_china_hk_rate_of_unemployment.parquet
+2026-02-15 15:50:01,295 - INFO - [89/214] 处理接口: macro_china_hk_gbp
+2026-02-15 15:50:01,433 - INFO - ✓ macro_china_hk_gbp: 成功下载 72 行数据 -> data/macro_china_hk_gbp.parquet
+2026-02-15 15:50:01,938 - INFO - [90/214] 处理接口: macro_china_hk_gbp_ratio
+2026-02-15 15:50:02,102 - INFO - ✓ macro_china_hk_gbp_ratio: 成功下载 72 行数据 -> data/macro_china_hk_gbp_ratio.parquet
+2026-02-15 15:50:02,608 - INFO - [91/214] 处理接口: macro_china_hk_building_volume
+2026-02-15 15:50:02,819 - INFO - ✓ macro_china_hk_building_volume: 成功下载 217 行数据 -> data/macro_china_hk_building_volume.parquet
+2026-02-15 15:50:03,324 - INFO - [92/214] 处理接口: macro_china_hk_building_amount
+2026-02-15 15:50:03,501 - INFO - ✓ macro_china_hk_building_amount: 成功下载 217 行数据 -> data/macro_china_hk_building_amount.parquet
+2026-02-15 15:50:04,005 - INFO - [93/214] 处理接口: macro_china_hk_trade_diff_ratio
+2026-02-15 15:50:04,204 - INFO - ✓ macro_china_hk_trade_diff_ratio: 成功下载 216 行数据 -> data/macro_china_hk_trade_diff_ratio.parquet
+2026-02-15 15:50:04,708 - INFO - [94/214] 处理接口: macro_china_hk_ppi
+2026-02-15 15:50:04,921 - INFO - ✓ macro_china_hk_ppi: 成功下载 72 行数据 -> data/macro_china_hk_ppi.parquet
+2026-02-15 15:50:05,426 - INFO - [95/214] 处理接口: macro_usa_gdp_monthly
+2026-02-15 15:50:06,931 - INFO - ✓ macro_usa_gdp_monthly: 成功下载 210 行数据 -> data/macro_usa_gdp_monthly.parquet
+2026-02-15 15:50:07,436 - INFO - [96/214] 处理接口: macro_usa_cpi_monthly
+2026-02-15 15:50:12,057 - INFO - ✓ macro_usa_cpi_monthly: 成功下载 669 行数据 -> data/macro_usa_cpi_monthly.parquet
+2026-02-15 15:50:12,563 - INFO - [97/214] 处理接口: macro_usa_cpi_yoy
+2026-02-15 15:50:12,832 - INFO - ✓ macro_usa_cpi_yoy: 成功下载 217 行数据 -> data/macro_usa_cpi_yoy.parquet
+2026-02-15 15:50:13,337 - INFO - [98/214] 处理接口: macro_usa_core_cpi_monthly
+2026-02-15 15:50:17,826 - INFO - ✓ macro_usa_core_cpi_monthly: 成功下载 669 行数据 -> data/macro_usa_core_cpi_monthly.parquet
+2026-02-15 15:50:18,328 - INFO - [99/214] 处理接口: macro_usa_personal_spending
+2026-02-15 15:50:22,833 - INFO - ✓ macro_usa_personal_spending: 成功下载 668 行数据 -> data/macro_usa_personal_spending.parquet
+2026-02-15 15:50:23,336 - INFO - [100/214] 处理接口: macro_usa_retail_sales
+2026-02-15 15:50:27,138 - INFO - ✓ macro_usa_retail_sales: 成功下载 403 行数据 -> data/macro_usa_retail_sales.parquet
+2026-02-15 15:50:27,643 - INFO - [101/214] 处理接口: macro_usa_import_price
+2026-02-15 15:50:30,678 - INFO - ✓ macro_usa_import_price: 成功下载 442 行数据 -> data/macro_usa_import_price.parquet
+2026-02-15 15:50:31,184 - INFO - [102/214] 处理接口: macro_usa_export_price
+2026-02-15 15:50:34,160 - INFO - ✓ macro_usa_export_price: 成功下载 442 行数据 -> data/macro_usa_export_price.parquet
+2026-02-15 15:50:34,665 - INFO - [103/214] 处理接口: macro_usa_lmci
+2026-02-15 15:50:35,034 - INFO - ✓ macro_usa_lmci: 成功下载 34 行数据 -> data/macro_usa_lmci.parquet
+2026-02-15 15:50:35,539 - INFO - [104/214] 处理接口: macro_usa_unemployment_rate
+2026-02-15 15:50:40,012 - INFO - ✓ macro_usa_unemployment_rate: 成功下载 669 行数据 -> data/macro_usa_unemployment_rate.parquet
+2026-02-15 15:50:40,517 - INFO - [105/214] 处理接口: macro_usa_job_cuts
+2026-02-15 15:50:43,093 - INFO - ✓ macro_usa_job_cuts: 成功下载 382 行数据 -> data/macro_usa_job_cuts.parquet
+2026-02-15 15:50:43,598 - INFO - [106/214] 处理接口: macro_usa_non_farm
+2026-02-15 15:50:48,006 - INFO - ✓ macro_usa_non_farm: 成功下载 669 行数据 -> data/macro_usa_non_farm.parquet
+2026-02-15 15:50:48,511 - INFO - [107/214] 处理接口: macro_usa_adp_employment
+2026-02-15 15:50:50,625 - INFO - ✓ macro_usa_adp_employment: 成功下载 293 行数据 -> data/macro_usa_adp_employment.parquet
+2026-02-15 15:50:51,130 - INFO - [108/214] 处理接口: macro_usa_core_pce_price
+2026-02-15 15:50:55,743 - INFO - ✓ macro_usa_core_pce_price: 成功下载 670 行数据 -> data/macro_usa_core_pce_price.parquet
+2026-02-15 15:50:56,248 - INFO - [109/214] 处理接口: macro_usa_real_consumer_spending
+2026-02-15 15:50:57,322 - INFO - ✓ macro_usa_real_consumer_spending: 成功下载 146 行数据 -> data/macro_usa_real_consumer_spending.parquet
+2026-02-15 15:50:57,825 - INFO - [110/214] 处理接口: macro_usa_trade_balance
+2026-02-15 15:51:02,343 - INFO - ✓ macro_usa_trade_balance: 成功下载 670 行数据 -> data/macro_usa_trade_balance.parquet
+2026-02-15 15:51:02,848 - INFO - [111/214] 处理接口: macro_usa_current_account
+2026-02-15 15:51:04,479 - INFO - ✓ macro_usa_current_account: 成功下载 71 行数据 -> data/macro_usa_current_account.parquet
+2026-02-15 15:51:04,985 - INFO - [112/214] 处理接口: macro_usa_rig_count
+2026-02-15 15:51:05,151 - INFO - ✓ macro_usa_rig_count: 成功下载 1896 行数据 -> data/macro_usa_rig_count.parquet
+2026-02-15 15:51:05,656 - INFO - [113/214] 处理接口: macro_usa_ppi
+2026-02-15 15:51:07,153 - INFO - ✓ macro_usa_ppi: 成功下载 213 行数据 -> data/macro_usa_ppi.parquet
+2026-02-15 15:51:07,656 - INFO - [114/214] 处理接口: macro_usa_core_ppi
+2026-02-15 15:51:09,181 - INFO - ✓ macro_usa_core_ppi: 成功下载 210 行数据 -> data/macro_usa_core_ppi.parquet
+2026-02-15 15:51:09,683 - INFO - [115/214] 处理接口: macro_usa_api_crude_stock
+2026-02-15 15:51:15,348 - INFO - ✓ macro_usa_api_crude_stock: 成功下载 705 行数据 -> data/macro_usa_api_crude_stock.parquet
+2026-02-15 15:51:15,854 - INFO - [116/214] 处理接口: macro_usa_pmi
+2026-02-15 15:51:18,006 - INFO - ✓ macro_usa_pmi: 成功下载 319 行数据 -> data/macro_usa_pmi.parquet
+2026-02-15 15:51:18,511 - INFO - [117/214] 处理接口: macro_usa_ism_pmi
+2026-02-15 15:51:22,807 - INFO - ✓ macro_usa_ism_pmi: 成功下载 671 行数据 -> data/macro_usa_ism_pmi.parquet
+2026-02-15 15:51:23,312 - INFO - [118/214] 处理接口: macro_usa_industrial_production
+2026-02-15 15:51:27,698 - INFO - ✓ macro_usa_industrial_production: 成功下载 669 行数据 -> data/macro_usa_industrial_production.parquet
+2026-02-15 15:51:28,203 - INFO - [119/214] 处理接口: macro_usa_durable_goods_orders
+2026-02-15 15:51:29,805 - INFO - ✓ macro_usa_durable_goods_orders: 成功下载 221 行数据 -> data/macro_usa_durable_goods_orders.parquet
+2026-02-15 15:51:30,310 - INFO - [120/214] 处理接口: macro_usa_factory_orders
+2026-02-15 15:51:33,085 - INFO - ✓ macro_usa_factory_orders: 成功下载 403 行数据 -> data/macro_usa_factory_orders.parquet
+2026-02-15 15:51:33,590 - INFO - [121/214] 处理接口: macro_usa_services_pmi
+2026-02-15 15:51:35,704 - INFO - ✓ macro_usa_services_pmi: 成功下载 303 行数据 -> data/macro_usa_services_pmi.parquet
+2026-02-15 15:51:36,209 - INFO - [122/214] 处理接口: macro_usa_business_inventories
+2026-02-15 15:51:39,007 - INFO - ✓ macro_usa_business_inventories: 成功下载 403 行数据 -> data/macro_usa_business_inventories.parquet
+2026-02-15 15:51:39,512 - INFO - [123/214] 处理接口: macro_usa_ism_non_pmi
+2026-02-15 15:51:41,927 - INFO - ✓ macro_usa_ism_non_pmi: 成功下载 342 行数据 -> data/macro_usa_ism_non_pmi.parquet
+2026-02-15 15:51:42,433 - INFO - [124/214] 处理接口: macro_usa_nahb_house_market_index
+2026-02-15 15:51:45,827 - INFO - ✓ macro_usa_nahb_house_market_index: 成功下载 489 行数据 -> data/macro_usa_nahb_house_market_index.parquet
+2026-02-15 15:51:46,333 - INFO - [125/214] 处理接口: macro_usa_house_starts
+2026-02-15 15:51:50,712 - INFO - ✓ macro_usa_house_starts: 成功下载 667 行数据 -> data/macro_usa_house_starts.parquet
+2026-02-15 15:51:51,217 - INFO - [126/214] 处理接口: macro_usa_new_home_sales
+2026-02-15 15:51:56,603 - INFO - ✓ macro_usa_new_home_sales: 成功下载 669 行数据 -> data/macro_usa_new_home_sales.parquet
+2026-02-15 15:51:57,105 - INFO - [127/214] 处理接口: macro_usa_building_permits
+2026-02-15 15:51:59,031 - INFO - ✓ macro_usa_building_permits: 成功下载 246 行数据 -> data/macro_usa_building_permits.parquet
+2026-02-15 15:51:59,536 - INFO - [128/214] 处理接口: macro_usa_exist_home_sales
+2026-02-15 15:52:03,848 - INFO - ✓ macro_usa_exist_home_sales: 成功下载 669 行数据 -> data/macro_usa_exist_home_sales.parquet
+2026-02-15 15:52:04,353 - INFO - [129/214] 处理接口: macro_usa_house_price_index
+2026-02-15 15:52:07,161 - INFO - ✓ macro_usa_house_price_index: 成功下载 414 行数据 -> data/macro_usa_house_price_index.parquet
+2026-02-15 15:52:07,666 - INFO - [130/214] 处理接口: macro_usa_spcs20
+2026-02-15 15:52:09,724 - INFO - ✓ macro_usa_spcs20: 成功下载 298 行数据 -> data/macro_usa_spcs20.parquet
+2026-02-15 15:52:10,228 - INFO - [131/214] 处理接口: macro_usa_pending_home_sales
+2026-02-15 15:52:12,268 - INFO - ✓ macro_usa_pending_home_sales: 成功下载 295 行数据 -> data/macro_usa_pending_home_sales.parquet
+2026-02-15 15:52:12,773 - INFO - [132/214] 处理接口: macro_usa_phs
+2026-02-15 15:52:13,015 - INFO - ✓ macro_usa_phs: 成功下载 210 行数据 -> data/macro_usa_phs.parquet
+2026-02-15 15:52:13,520 - INFO - [133/214] 处理接口: macro_usa_cb_consumer_confidence
+2026-02-15 15:52:18,011 - INFO - ✓ macro_usa_cb_consumer_confidence: 成功下载 672 行数据 -> data/macro_usa_cb_consumer_confidence.parquet
+2026-02-15 15:52:18,516 - INFO - [134/214] 处理接口: macro_usa_nfib_small_business
+2026-02-15 15:52:22,116 - INFO - ✓ macro_usa_nfib_small_business: 成功下载 525 行数据 -> data/macro_usa_nfib_small_business.parquet
+2026-02-15 15:52:22,621 - INFO - [135/214] 处理接口: macro_usa_michigan_consumer_sentiment
+2026-02-15 15:52:27,928 - INFO - ✓ macro_usa_michigan_consumer_sentiment: 成功下载 811 行数据 -> data/macro_usa_michigan_consumer_sentiment.parquet
+2026-02-15 15:52:28,431 - INFO - [136/214] 处理接口: macro_usa_eia_crude_rate
+2026-02-15 15:52:36,644 - INFO - ✓ macro_usa_eia_crude_rate: 成功下载 1228 行数据 -> data/macro_usa_eia_crude_rate.parquet
+2026-02-15 15:52:37,149 - INFO - [137/214] 处理接口: macro_usa_initial_jobless
+2026-02-15 15:52:48,293 - INFO - ✓ macro_usa_initial_jobless: 成功下载 1375 行数据 -> data/macro_usa_initial_jobless.parquet
+2026-02-15 15:52:48,799 - INFO - [138/214] 处理接口: macro_usa_crude_inner
+2026-02-15 15:52:49,013 - INFO - ✓ macro_usa_crude_inner: 成功下载 2246 行数据 -> data/macro_usa_crude_inner.parquet
+2026-02-15 15:52:49,518 - INFO - [139/214] 处理接口: macro_euro_gdp_yoy
+2026-02-15 15:52:53,012 - INFO - ✓ macro_euro_gdp_yoy: 成功下载 495 行数据 -> data/macro_euro_gdp_yoy.parquet
+2026-02-15 15:52:53,517 - INFO - [140/214] 处理接口: macro_euro_cpi_mom
+2026-02-15 15:52:57,098 - INFO - ✓ macro_euro_cpi_mom: 成功下载 495 行数据 -> data/macro_euro_cpi_mom.parquet
+2026-02-15 15:52:57,600 - INFO - [141/214] 处理接口: macro_euro_cpi_yoy
+2026-02-15 15:53:01,929 - INFO - ✓ macro_euro_cpi_yoy: 成功下载 630 行数据 -> data/macro_euro_cpi_yoy.parquet
+2026-02-15 15:53:02,433 - INFO - [142/214] 处理接口: macro_euro_ppi_mom
+2026-02-15 15:53:06,083 - INFO - ✓ macro_euro_ppi_mom: 成功下载 538 行数据 -> data/macro_euro_ppi_mom.parquet
+2026-02-15 15:53:06,587 - INFO - [143/214] 处理接口: macro_euro_retail_sales_mom
+2026-02-15 15:53:08,775 - INFO - ✓ macro_euro_retail_sales_mom: 成功下载 310 行数据 -> data/macro_euro_retail_sales_mom.parquet
+2026-02-15 15:53:09,280 - INFO - [144/214] 处理接口: macro_euro_employment_change_qoq
+2026-02-15 15:53:10,078 - INFO - ✓ macro_euro_employment_change_qoq: 成功下载 100 行数据 -> data/macro_euro_employment_change_qoq.parquet
+2026-02-15 15:53:10,583 - INFO - [145/214] 处理接口: macro_euro_unemployment_rate_mom
+2026-02-15 15:53:13,941 - INFO - ✓ macro_euro_unemployment_rate_mom: 成功下载 331 行数据 -> data/macro_euro_unemployment_rate_mom.parquet
+2026-02-15 15:53:14,446 - INFO - [146/214] 处理接口: macro_euro_trade_balance
+2026-02-15 15:53:17,002 - INFO - ✓ macro_euro_trade_balance: 成功下载 321 行数据 -> data/macro_euro_trade_balance.parquet
+2026-02-15 15:53:17,505 - INFO - [147/214] 处理接口: macro_euro_current_account_mom
+2026-02-15 15:53:19,082 - INFO - ✓ macro_euro_current_account_mom: 成功下载 214 行数据 -> data/macro_euro_current_account_mom.parquet
+2026-02-15 15:53:19,587 - INFO - [148/214] 处理接口: macro_euro_industrial_production_mom
+2026-02-15 15:53:22,763 - INFO - ✓ macro_euro_industrial_production_mom: 成功下载 421 行数据 -> data/macro_euro_industrial_production_mom.parquet
+2026-02-15 15:53:23,267 - INFO - [149/214] 处理接口: macro_euro_manufacturing_pmi
+2026-02-15 15:53:26,538 - INFO - ✓ macro_euro_manufacturing_pmi: 成功下载 426 行数据 -> data/macro_euro_manufacturing_pmi.parquet
+2026-02-15 15:53:27,041 - INFO - [150/214] 处理接口: macro_euro_services_pmi
+2026-02-15 15:53:30,013 - INFO - ✓ macro_euro_services_pmi: 成功下载 425 行数据 -> data/macro_euro_services_pmi.parquet
+2026-02-15 15:53:30,519 - INFO - [151/214] 处理接口: macro_euro_zew_economic_sentiment
+2026-02-15 15:53:32,435 - INFO - ✓ macro_euro_zew_economic_sentiment: 成功下载 215 行数据 -> data/macro_euro_zew_economic_sentiment.parquet
+2026-02-15 15:53:32,938 - INFO - [152/214] 处理接口: macro_euro_sentix_investor_confidence
+2026-02-15 15:53:34,813 - INFO - ✓ macro_euro_sentix_investor_confidence: 成功下载 280 行数据 -> data/macro_euro_sentix_investor_confidence.parquet
+2026-02-15 15:53:35,318 - INFO - [153/214] 处理接口: macro_germany_ifo
+2026-02-15 15:53:35,586 - INFO - ✓ macro_germany_ifo: 成功下载 218 行数据 -> data/macro_germany_ifo.parquet
+2026-02-15 15:53:36,089 - INFO - [154/214] 处理接口: macro_germany_cpi_monthly
+2026-02-15 15:53:36,254 - INFO - ✓ macro_germany_cpi_monthly: 成功下载 216 行数据 -> data/macro_germany_cpi_monthly.parquet
+2026-02-15 15:53:36,759 - INFO - [155/214] 处理接口: macro_germany_cpi_yearly
+2026-02-15 15:53:36,922 - INFO - ✓ macro_germany_cpi_yearly: 成功下载 217 行数据 -> data/macro_germany_cpi_yearly.parquet
+2026-02-15 15:53:37,427 - INFO - [156/214] 处理接口: macro_germany_trade_adjusted
+2026-02-15 15:53:37,684 - INFO - ✓ macro_germany_trade_adjusted: 成功下载 216 行数据 -> data/macro_germany_trade_adjusted.parquet
+2026-02-15 15:53:38,189 - INFO - [157/214] 处理接口: macro_germany_gdp
+2026-02-15 15:53:38,337 - INFO - ✓ macro_germany_gdp: 成功下载 71 行数据 -> data/macro_germany_gdp.parquet
+2026-02-15 15:53:38,842 - INFO - [158/214] 处理接口: macro_germany_retail_sale_monthly
+2026-02-15 15:53:39,116 - INFO - ✓ macro_germany_retail_sale_monthly: 成功下载 217 行数据 -> data/macro_germany_retail_sale_monthly.parquet
+2026-02-15 15:53:39,621 - INFO - [159/214] 处理接口: macro_germany_retail_sale_yearly
+2026-02-15 15:53:39,765 - INFO - ✓ macro_germany_retail_sale_yearly: 成功下载 18 行数据 -> data/macro_germany_retail_sale_yearly.parquet
+2026-02-15 15:53:40,269 - INFO - [160/214] 处理接口: macro_germany_zew
+2026-02-15 15:53:40,515 - INFO - ✓ macro_germany_zew: 成功下载 218 行数据 -> data/macro_germany_zew.parquet
+2026-02-15 15:53:41,020 - INFO - [161/214] 处理接口: macro_swiss_svme
+2026-02-15 15:53:41,184 - INFO - ✓ macro_swiss_svme: 成功下载 219 行数据 -> data/macro_swiss_svme.parquet
+2026-02-15 15:53:41,689 - INFO - [162/214] 处理接口: macro_swiss_trade
+2026-02-15 15:53:41,896 - INFO - ✓ macro_swiss_trade: 成功下载 73 行数据 -> data/macro_swiss_trade.parquet
+2026-02-15 15:53:42,402 - INFO - [163/214] 处理接口: macro_swiss_cpi_yearly
+2026-02-15 15:53:42,526 - INFO - ✓ macro_swiss_cpi_yearly: 成功下载 19 行数据 -> data/macro_swiss_cpi_yearly.parquet
+2026-02-15 15:53:43,031 - INFO - [164/214] 处理接口: macro_swiss_gdp_quarterly
+2026-02-15 15:53:43,203 - INFO - ✓ macro_swiss_gdp_quarterly: 成功下载 73 行数据 -> data/macro_swiss_gdp_quarterly.parquet
+2026-02-15 15:53:43,708 - INFO - [165/214] 处理接口: macro_swiss_gbd_yearly
+2026-02-15 15:53:43,848 - INFO - ✓ macro_swiss_gbd_yearly: 成功下载 58 行数据 -> data/macro_swiss_gbd_yearly.parquet
+2026-02-15 15:53:44,353 - INFO - [166/214] 处理接口: macro_swiss_gbd_bank_rate
+2026-02-15 15:53:44,581 - INFO - ✓ macro_swiss_gbd_bank_rate: 成功下载 73 行数据 -> data/macro_swiss_gbd_bank_rate.parquet
+2026-02-15 15:53:45,086 - INFO - [167/214] 处理接口: macro_japan_bank_rate
+2026-02-15 15:53:45,235 - INFO - ✓ macro_japan_bank_rate: 成功下载 196 行数据 -> data/macro_japan_bank_rate.parquet
+2026-02-15 15:53:45,739 - INFO - [168/214] 处理接口: macro_japan_cpi_yearly
+2026-02-15 15:53:46,009 - INFO - ✓ macro_japan_cpi_yearly: 成功下载 217 行数据 -> data/macro_japan_cpi_yearly.parquet
+2026-02-15 15:53:46,514 - INFO - [169/214] 处理接口: macro_japan_core_cpi_yearly
+2026-02-15 15:53:46,791 - INFO - ✓ macro_japan_core_cpi_yearly: 成功下载 217 行数据 -> data/macro_japan_core_cpi_yearly.parquet
+2026-02-15 15:53:47,296 - INFO - [170/214] 处理接口: macro_japan_unemployment_rate
+2026-02-15 15:53:47,587 - INFO - ✓ macro_japan_unemployment_rate: 成功下载 217 行数据 -> data/macro_japan_unemployment_rate.parquet
+2026-02-15 15:53:48,093 - INFO - [171/214] 处理接口: macro_japan_head_indicator
+2026-02-15 15:53:48,381 - INFO - ✓ macro_japan_head_indicator: 成功下载 216 行数据 -> data/macro_japan_head_indicator.parquet
+2026-02-15 15:53:48,886 - INFO - [172/214] 处理接口: macro_uk_halifax_monthly
+2026-02-15 15:53:49,076 - INFO - ✓ macro_uk_halifax_monthly: 成功下载 218 行数据 -> data/macro_uk_halifax_monthly.parquet
+2026-02-15 15:53:49,581 - INFO - [173/214] 处理接口: macro_uk_halifax_yearly
+2026-02-15 15:53:49,877 - INFO - ✓ macro_uk_halifax_yearly: 成功下载 218 行数据 -> data/macro_uk_halifax_yearly.parquet
+2026-02-15 15:53:50,380 - INFO - [174/214] 处理接口: macro_uk_trade
+2026-02-15 15:53:50,535 - INFO - ✓ macro_uk_trade: 成功下载 216 行数据 -> data/macro_uk_trade.parquet
+2026-02-15 15:53:51,039 - INFO - [175/214] 处理接口: macro_uk_bank_rate
+2026-02-15 15:53:51,239 - INFO - ✓ macro_uk_bank_rate: 成功下载 182 行数据 -> data/macro_uk_bank_rate.parquet
+2026-02-15 15:53:51,745 - INFO - [176/214] 处理接口: macro_uk_core_cpi_yearly
+2026-02-15 15:53:51,915 - INFO - ✓ macro_uk_core_cpi_yearly: 成功下载 217 行数据 -> data/macro_uk_core_cpi_yearly.parquet
+2026-02-15 15:53:52,420 - INFO - [177/214] 处理接口: macro_uk_core_cpi_monthly
+2026-02-15 15:53:52,568 - INFO - ✓ macro_uk_core_cpi_monthly: 成功下载 214 行数据 -> data/macro_uk_core_cpi_monthly.parquet
+2026-02-15 15:53:53,073 - INFO - [178/214] 处理接口: macro_uk_cpi_yearly
+2026-02-15 15:53:53,396 - INFO - ✓ macro_uk_cpi_yearly: 成功下载 217 行数据 -> data/macro_uk_cpi_yearly.parquet
+2026-02-15 15:53:53,901 - INFO - [179/214] 处理接口: macro_uk_cpi_monthly
+2026-02-15 15:53:54,166 - INFO - ✓ macro_uk_cpi_monthly: 成功下载 214 行数据 -> data/macro_uk_cpi_monthly.parquet
+2026-02-15 15:53:54,671 - INFO - [180/214] 处理接口: macro_uk_retail_monthly
+2026-02-15 15:53:54,848 - INFO - ✓ macro_uk_retail_monthly: 成功下载 216 行数据 -> data/macro_uk_retail_monthly.parquet
+2026-02-15 15:53:55,353 - INFO - [181/214] 处理接口: macro_uk_retail_yearly
+2026-02-15 15:53:55,636 - INFO - ✓ macro_uk_retail_yearly: 成功下载 213 行数据 -> data/macro_uk_retail_yearly.parquet
+2026-02-15 15:53:56,141 - INFO - [182/214] 处理接口: macro_uk_rightmove_yearly
+2026-02-15 15:53:56,410 - INFO - ✓ macro_uk_rightmove_yearly: 成功下载 195 行数据 -> data/macro_uk_rightmove_yearly.parquet
+2026-02-15 15:53:56,915 - INFO - [183/214] 处理接口: macro_uk_rightmove_monthly
+2026-02-15 15:53:57,083 - INFO - ✓ macro_uk_rightmove_monthly: 成功下载 195 行数据 -> data/macro_uk_rightmove_monthly.parquet
+2026-02-15 15:53:57,588 - INFO - [184/214] 处理接口: macro_uk_gdp_quarterly
+2026-02-15 15:53:57,793 - INFO - ✓ macro_uk_gdp_quarterly: 成功下载 69 行数据 -> data/macro_uk_gdp_quarterly.parquet
+2026-02-15 15:53:58,298 - INFO - [185/214] 处理接口: macro_uk_gdp_yearly
+2026-02-15 15:53:58,594 - INFO - ✓ macro_uk_gdp_yearly: 成功下载 16 行数据 -> data/macro_uk_gdp_yearly.parquet
+2026-02-15 15:53:59,100 - INFO - [186/214] 处理接口: macro_uk_unemployment_rate
+2026-02-15 15:53:59,292 - INFO - ✓ macro_uk_unemployment_rate: 成功下载 216 行数据 -> data/macro_uk_unemployment_rate.parquet
+2026-02-15 15:53:59,797 - INFO - [187/214] 处理接口: macro_australia_retail_rate_monthly
+2026-02-15 15:54:00,062 - INFO - ✓ macro_australia_retail_rate_monthly: 成功下载 210 行数据 -> data/macro_australia_retail_rate_monthly.parquet
+2026-02-15 15:54:00,567 - INFO - [188/214] 处理接口: macro_australia_trade
+2026-02-15 15:54:00,819 - INFO - ✓ macro_australia_trade: 成功下载 188 行数据 -> data/macro_australia_trade.parquet
+2026-02-15 15:54:01,324 - INFO - [189/214] 处理接口: macro_australia_unemployment_rate
+2026-02-15 15:54:01,979 - INFO - ✓ macro_australia_unemployment_rate: 成功下载 217 行数据 -> data/macro_australia_unemployment_rate.parquet
+2026-02-15 15:54:02,484 - INFO - [190/214] 处理接口: macro_australia_ppi_quarterly
+2026-02-15 15:54:02,599 - INFO - ✓ macro_australia_ppi_quarterly: 成功下载 73 行数据 -> data/macro_australia_ppi_quarterly.parquet
+2026-02-15 15:54:03,104 - INFO - [191/214] 处理接口: macro_australia_cpi_quarterly
+2026-02-15 15:54:03,265 - INFO - ✓ macro_australia_cpi_quarterly: 成功下载 73 行数据 -> data/macro_australia_cpi_quarterly.parquet
+2026-02-15 15:54:03,770 - INFO - [192/214] 处理接口: macro_australia_cpi_yearly
+2026-02-15 15:54:04,060 - INFO - ✓ macro_australia_cpi_yearly: 成功下载 73 行数据 -> data/macro_australia_cpi_yearly.parquet
+2026-02-15 15:54:04,565 - INFO - [193/214] 处理接口: macro_australia_bank_rate
+2026-02-15 15:54:04,937 - INFO - ✓ macro_australia_bank_rate: 成功下载 194 行数据 -> data/macro_australia_bank_rate.parquet
+2026-02-15 15:54:05,443 - INFO - [194/214] 处理接口: macro_canada_new_house_rate
+2026-02-15 15:54:05,629 - INFO - ✓ macro_canada_new_house_rate: 成功下载 217 行数据 -> data/macro_canada_new_house_rate.parquet
+2026-02-15 15:54:06,134 - INFO - [195/214] 处理接口: macro_canada_unemployment_rate
+2026-02-15 15:54:06,313 - INFO - ✓ macro_canada_unemployment_rate: 成功下载 217 行数据 -> data/macro_canada_unemployment_rate.parquet
+2026-02-15 15:54:06,818 - INFO - [196/214] 处理接口: macro_canada_trade
+2026-02-15 15:54:07,107 - INFO - ✓ macro_canada_trade: 成功下载 216 行数据 -> data/macro_canada_trade.parquet
+2026-02-15 15:54:07,612 - INFO - [197/214] 处理接口: macro_canada_retail_rate_monthly
+2026-02-15 15:54:07,829 - INFO - ✓ macro_canada_retail_rate_monthly: 成功下载 73 行数据 -> data/macro_canada_retail_rate_monthly.parquet
+2026-02-15 15:54:08,331 - INFO - [198/214] 处理接口: macro_canada_bank_rate
+2026-02-15 15:54:08,475 - INFO - ✓ macro_canada_bank_rate: 成功下载 174 行数据 -> data/macro_canada_bank_rate.parquet
+2026-02-15 15:54:08,980 - INFO - [199/214] 处理接口: macro_canada_core_cpi_yearly
+2026-02-15 15:54:09,246 - INFO - ✓ macro_canada_core_cpi_yearly: 成功下载 216 行数据 -> data/macro_canada_core_cpi_yearly.parquet
+2026-02-15 15:54:09,751 - INFO - [200/214] 处理接口: macro_canada_core_cpi_monthly
+2026-02-15 15:54:09,926 - INFO - ✓ macro_canada_core_cpi_monthly: 成功下载 216 行数据 -> data/macro_canada_core_cpi_monthly.parquet
+2026-02-15 15:54:10,431 - INFO - [201/214] 处理接口: macro_canada_cpi_yearly
+2026-02-15 15:54:10,666 - INFO - ✓ macro_canada_cpi_yearly: 成功下载 217 行数据 -> data/macro_canada_cpi_yearly.parquet
+2026-02-15 15:54:11,171 - INFO - [202/214] 处理接口: macro_canada_cpi_monthly
+2026-02-15 15:54:12,434 - INFO - ✓ macro_canada_cpi_monthly: 成功下载 215 行数据 -> data/macro_canada_cpi_monthly.parquet
+2026-02-15 15:54:12,939 - INFO - [203/214] 处理接口: macro_canada_gdp_monthly
+2026-02-15 15:54:13,112 - INFO - ✓ macro_canada_gdp_monthly: 成功下载 215 行数据 -> data/macro_canada_gdp_monthly.parquet
+2026-02-15 15:54:13,617 - INFO - [204/214] 处理接口: macro_cons_gold
+2026-02-15 15:54:34,019 - INFO - ✓ macro_cons_gold: 成功下载 2748 行数据 -> data/macro_cons_gold.parquet
+2026-02-15 15:54:34,522 - INFO - [205/214] 处理接口: macro_cons_silver
+2026-02-15 15:54:47,310 - INFO - ✓ macro_cons_silver: 成功下载 1552 行数据 -> data/macro_cons_silver.parquet
+2026-02-15 15:54:47,815 - INFO - [206/214] 处理接口: macro_cons_opec_month
+2026-02-15 15:54:59,714 - INFO - ✓ macro_cons_opec_month: 成功下载 75 行数据 -> data/macro_cons_opec_month.parquet
+2026-02-15 15:55:00,225 - INFO - [207/214] 处理接口: macro_euro_lme_holding
+2026-02-15 15:55:00,496 - INFO - ✓ macro_euro_lme_holding: 成功下载 756 行数据 -> data/macro_euro_lme_holding.parquet
+2026-02-15 15:55:01,006 - INFO - [208/214] 处理接口: macro_euro_lme_stock
+2026-02-15 15:55:01,631 - INFO - ✓ macro_euro_lme_stock: 成功下载 2612 行数据 -> data/macro_euro_lme_stock.parquet
+2026-02-15 15:55:02,142 - INFO - [209/214] 处理接口: macro_usa_cftc_nc_holding
+2026-02-15 15:55:02,843 - INFO - ✓ macro_usa_cftc_nc_holding: 成功下载 1905 行数据 -> data/macro_usa_cftc_nc_holding.parquet
+2026-02-15 15:55:03,353 - INFO - [210/214] 处理接口: macro_usa_cftc_c_holding
+2026-02-15 15:55:04,072 - INFO - ✓ macro_usa_cftc_c_holding: 成功下载 1905 行数据 -> data/macro_usa_cftc_c_holding.parquet
+2026-02-15 15:55:04,582 - INFO - [211/214] 处理接口: macro_usa_cftc_merchant_currency_holding
+2026-02-15 15:55:05,219 - INFO - ✓ macro_usa_cftc_merchant_currency_holding: 成功下载 1905 行数据 -> data/macro_usa_cftc_merchant_currency_holding.parquet
+2026-02-15 15:55:05,729 - INFO - [212/214] 处理接口: macro_usa_cftc_merchant_goods_holding
+2026-02-15 15:55:06,464 - INFO - ✓ macro_usa_cftc_merchant_goods_holding: 成功下载 1905 行数据 -> data/macro_usa_cftc_merchant_goods_holding.parquet
+2026-02-15 15:55:06,974 - INFO - [213/214] 处理接口: macro_usa_cme_merchant_goods_holding
+2026-02-15 15:55:09,017 - INFO - ✓ macro_usa_cme_merchant_goods_holding: 成功下载 30129 行数据 -> data/macro_usa_cme_merchant_goods_holding.parquet
+2026-02-15 15:55:09,528 - INFO - [214/214] 处理接口: macro_info_ws
+2026-02-15 15:55:09,783 - INFO - ✓ macro_info_ws: 成功下载 28 行数据 -> data/macro_info_ws.parquet
+2026-02-15 15:55:10,297 - INFO - 下载摘要报告已保存: data/download_summary.json

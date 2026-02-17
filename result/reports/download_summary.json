@@ -1,0 +1,2098 @@
+{
+  "download_time": "2026-02-15T15:55:10.293571",
+  "total_interfaces": 232,
+  "successful_downloads": 205,
+  "failed_downloads": 27,
+  "success_rate": 0.8836206896551724,
+  "total_data_rows": 237546,
+  "details": [
+    {
+      "name": "macro_cnbs",
+      "func_name": "macro_cnbs",
+      "status": "success",
+      "file_path": "data/macro_cnbs.parquet",
+      "data_size": 80,
+      "error": null,
+      "execution_time": 0.223
+    },
+    {
+      "name": "macro_china_qyspjg",
+      "func_name": "macro_china_qyspjg",
+      "status": "success",
+      "file_path": "data/macro_china_qyspjg.parquet",
+      "data_size": 252,
+      "error": null,
+      "execution_time": 0.473
+    },
+    {
+      "name": "macro_china_fdi",
+      "func_name": "macro_china_fdi",
+      "status": "success",
+      "file_path": "data/macro_china_fdi.parquet",
+      "data_size": 185,
+      "error": null,
+      "execution_time": 0.162
+    },
+    {
+      "name": "macro_china_lpr",
+      "func_name": "macro_china_lpr",
+      "status": "success",
+      "file_path": "data/macro_china_lpr.parquet",
+      "data_size": 1568,
+      "error": null,
+      "execution_time": 1.234
+    },
+    {
+      "name": "macro_china_urban_unemployment",
+      "func_name": "macro_china_urban_unemployment",
+      "status": "success",
+      "file_path": "data/macro_china_urban_unemployment.parquet",
+      "data_size": 648,
+      "error": null,
+      "execution_time": 0.424
+    },
+    {
+      "name": "macro_china_shrzgm",
+      "func_name": "macro_china_shrzgm",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "HTTPSConnectionPool(host='data.mofcom.gov.cn', port=443): Max retries exceeded with url: /datamofcom/front/gnmy/shrzgmQuery (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1028)')))",
+      "execution_time": 0.083
+    },
+    {
+      "name": "macro_china_shrzgm",
+      "func_name": "macro_china_shrzgm",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "HTTPSConnectionPool(host='data.mofcom.gov.cn', port=443): Max retries exceeded with url: /datamofcom/front/gnmy/shrzgmQuery (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1028)')))",
+      "execution_time": 0.061
+    },
+    {
+      "name": "macro_china_shrzgm",
+      "func_name": "macro_china_shrzgm",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "HTTPSConnectionPool(host='data.mofcom.gov.cn', port=443): Max retries exceeded with url: /datamofcom/front/gnmy/shrzgmQuery (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1028)')))",
+      "execution_time": 0.053
+    },
+    {
+      "name": "macro_china_gdp_yearly",
+      "func_name": "macro_china_gdp_yearly",
+      "status": "success",
+      "file_path": "data/macro_china_gdp_yearly.parquet",
+      "data_size": 61,
+      "error": null,
+      "execution_time": 1.57
+    },
+    {
+      "name": "macro_china_cpi_yearly",
+      "func_name": "macro_china_cpi_yearly",
+      "status": "success",
+      "file_path": "data/macro_china_cpi_yearly.parquet",
+      "data_size": 477,
+      "error": null,
+      "execution_time": 3.827
+    },
+    {
+      "name": "macro_china_cpi_monthly",
+      "func_name": "macro_china_cpi_monthly",
+      "status": "success",
+      "file_path": "data/macro_china_cpi_monthly.parquet",
+      "data_size": 357,
+      "error": null,
+      "execution_time": 3.858
+    },
+    {
+      "name": "macro_china_ppi_yearly",
+      "func_name": "macro_china_ppi_yearly",
+      "status": "success",
+      "file_path": "data/macro_china_ppi_yearly.parquet",
+      "data_size": 363,
+      "error": null,
+      "execution_time": 5.18
+    },
+    {
+      "name": "macro_china_exports_yoy",
+      "func_name": "macro_china_exports_yoy",
+      "status": "success",
+      "file_path": "data/macro_china_exports_yoy.parquet",
+      "data_size": 542,
+      "error": null,
+      "execution_time": 6.355
+    },
+    {
+      "name": "macro_china_imports_yoy",
+      "func_name": "macro_china_imports_yoy",
+      "status": "success",
+      "file_path": "data/macro_china_imports_yoy.parquet",
+      "data_size": 381,
+      "error": null,
+      "execution_time": 3.213
+    },
+    {
+      "name": "macro_china_trade_balance",
+      "func_name": "macro_china_trade_balance",
+      "status": "success",
+      "file_path": "data/macro_china_trade_balance.parquet",
+      "data_size": 565,
+      "error": null,
+      "execution_time": 5.173
+    },
+    {
+      "name": "macro_china_gyzjz",
+      "func_name": "macro_china_gyzjz",
+      "status": "success",
+      "file_path": "data/macro_china_gyzjz.parquet",
+      "data_size": 198,
+      "error": null,
+      "execution_time": 0.166
+    },
+    {
+      "name": "macro_china_industrial_production_yoy",
+      "func_name": "macro_china_industrial_production_yoy",
+      "status": "success",
+      "file_path": "data/macro_china_industrial_production_yoy.parquet",
+      "data_size": 413,
+      "error": null,
+      "execution_time": 3.765
+    },
+    {
+      "name": "macro_china_pmi_yearly",
+      "func_name": "macro_china_pmi_yearly",
+      "status": "success",
+      "file_path": "data/macro_china_pmi_yearly.parquet",
+      "data_size": 250,
+      "error": null,
+      "execution_time": 2.188
+    },
+    {
+      "name": "macro_china_cx_pmi_yearly",
+      "func_name": "macro_china_cx_pmi_yearly",
+      "status": "success",
+      "file_path": "data/macro_china_cx_pmi_yearly.parquet",
+      "data_size": 219,
+      "error": null,
+      "execution_time": 1.575
+    },
+    {
+      "name": "macro_china_cx_services_pmi_yearly",
+      "func_name": "macro_china_cx_services_pmi_yearly",
+      "status": "success",
+      "file_path": "data/macro_china_cx_services_pmi_yearly.parquet",
+      "data_size": 166,
+      "error": null,
+      "execution_time": 1.816
+    },
+    {
+      "name": "macro_china_non_man_pmi",
+      "func_name": "macro_china_non_man_pmi",
+      "status": "success",
+      "file_path": "data/macro_china_non_man_pmi.parquet",
+      "data_size": 226,
+      "error": null,
+      "execution_time": 3.265
+    },
+    {
+      "name": "macro_china_fx_reserves_yearly",
+      "func_name": "macro_china_fx_reserves_yearly",
+      "status": "success",
+      "file_path": "data/macro_china_fx_reserves_yearly.parquet",
+      "data_size": 132,
+      "error": null,
+      "execution_time": 1.413
+    },
+    {
+      "name": "macro_china_m2_yearly",
+      "func_name": "macro_china_m2_yearly",
+      "status": "success",
+      "file_path": "data/macro_china_m2_yearly.parquet",
+      "data_size": 395,
+      "error": null,
+      "execution_time": 5.529
+    },
+    {
+      "name": "macro_china_new_house_price",
+      "func_name": "macro_china_new_house_price",
+      "status": "success",
+      "file_path": "data/macro_china_new_house_price.parquet",
+      "data_size": 362,
+      "error": null,
+      "execution_time": 0.732
+    },
+    {
+      "name": "macro_china_enterprise_boom_index",
+      "func_name": "macro_china_enterprise_boom_index",
+      "status": "success",
+      "file_path": "data/macro_china_enterprise_boom_index.parquet",
+      "data_size": 83,
+      "error": null,
+      "execution_time": 0.336
+    },
+    {
+      "name": "macro_china_national_tax_receipts",
+      "func_name": "macro_china_national_tax_receipts",
+      "status": "success",
+      "file_path": "data/macro_china_national_tax_receipts.parquet",
+      "data_size": 82,
+      "error": null,
+      "execution_time": 0.14
+    },
+    {
+      "name": "macro_china_bank_financing",
+      "func_name": "macro_china_bank_financing",
+      "status": "success",
+      "file_path": "data/macro_china_bank_financing.parquet",
+      "data_size": 265,
+      "error": null,
+      "execution_time": 0.215
+    },
+    {
+      "name": "macro_china_insurance_income",
+      "func_name": "macro_china_insurance_income",
+      "status": "success",
+      "file_path": "data/macro_china_insurance_income.parquet",
+      "data_size": 257,
+      "error": null,
+      "execution_time": 0.248
+    },
+    {
+      "name": "macro_china_mobile_number",
+      "func_name": "macro_china_mobile_number",
+      "status": "success",
+      "file_path": "data/macro_china_mobile_number.parquet",
+      "data_size": 168,
+      "error": null,
+      "execution_time": 0.197
+    },
+    {
+      "name": "macro_china_vegetable_basket",
+      "func_name": "macro_china_vegetable_basket",
+      "status": "success",
+      "file_path": "data/macro_china_vegetable_basket.parquet",
+      "data_size": 5586,
+      "error": null,
+      "execution_time": 6.935
+    },
+    {
+      "name": "macro_china_agricultural_product",
+      "func_name": "macro_china_agricultural_product",
+      "status": "success",
+      "file_path": "data/macro_china_agricultural_product.parquet",
+      "data_size": 5586,
+      "error": null,
+      "execution_time": 4.284
+    },
+    {
+      "name": "macro_china_agricultural_index",
+      "func_name": "macro_china_agricultural_index",
+      "status": "success",
+      "file_path": "data/macro_china_agricultural_index.parquet",
+      "data_size": 4387,
+      "error": null,
+      "execution_time": 5.707
+    },
+    {
+      "name": "macro_china_energy_index",
+      "func_name": "macro_china_energy_index",
+      "status": "success",
+      "file_path": "data/macro_china_energy_index.parquet",
+      "data_size": 4387,
+      "error": null,
+      "execution_time": 4.903
+    },
+    {
+      "name": "macro_china_commodity_price_index",
+      "func_name": "macro_china_commodity_price_index",
+      "status": "success",
+      "file_path": "data/macro_china_commodity_price_index.parquet",
+      "data_size": 4388,
+      "error": null,
+      "execution_time": 3.937
+    },
+    {
+      "name": "macro_global_sox_index",
+      "func_name": "macro_global_sox_index",
+      "status": "success",
+      "file_path": "data/macro_global_sox_index.parquet",
+      "data_size": 7933,
+      "error": null,
+      "execution_time": 13.492
+    },
+    {
+      "name": "macro_china_yw_electronic_index",
+      "func_name": "macro_china_yw_electronic_index",
+      "status": "success",
+      "file_path": "data/macro_china_yw_electronic_index.parquet",
+      "data_size": 862,
+      "error": null,
+      "execution_time": 1.58
+    },
+    {
+      "name": "macro_china_construction_index",
+      "func_name": "macro_china_construction_index",
+      "status": "success",
+      "file_path": "data/macro_china_construction_index.parquet",
+      "data_size": 3865,
+      "error": null,
+      "execution_time": 5.723
+    },
+    {
+      "name": "macro_china_construction_price_index",
+      "func_name": "macro_china_construction_price_index",
+      "status": "success",
+      "file_path": "data/macro_china_construction_price_index.parquet",
+      "data_size": 4732,
+      "error": null,
+      "execution_time": 3.416
+    },
+    {
+      "name": "macro_china_lpi_index",
+      "func_name": "macro_china_lpi_index",
+      "status": "success",
+      "file_path": "data/macro_china_lpi_index.parquet",
+      "data_size": 149,
+      "error": null,
+      "execution_time": 2.669
+    },
+    {
+      "name": "macro_china_bdti_index",
+      "func_name": "macro_china_bdti_index",
+      "status": "success",
+      "file_path": "data/macro_china_bdti_index.parquet",
+      "data_size": 5869,
+      "error": null,
+      "execution_time": 6.109
+    },
+    {
+      "name": "macro_china_bsi_index",
+      "func_name": "macro_china_bsi_index",
+      "status": "success",
+      "file_path": "data/macro_china_bsi_index.parquet",
+      "data_size": 4926,
+      "error": null,
+      "execution_time": 3.342
+    },
+    {
+      "name": "macro_shipping_bci",
+      "func_name": "macro_shipping_bci",
+      "status": "success",
+      "file_path": "data/macro_shipping_bci.parquet",
+      "data_size": 6712,
+      "error": null,
+      "execution_time": 4.508
+    },
+    {
+      "name": "macro_shipping_bdi",
+      "func_name": "macro_shipping_bdi",
+      "status": "success",
+      "file_path": "data/macro_shipping_bdi.parquet",
+      "data_size": 9392,
+      "error": null,
+      "execution_time": 6.968
+    },
+    {
+      "name": "macro_shipping_bpi",
+      "func_name": "macro_shipping_bpi",
+      "status": "success",
+      "file_path": "data/macro_shipping_bpi.parquet",
+      "data_size": 6675,
+      "error": null,
+      "execution_time": 4.57
+    },
+    {
+      "name": "macro_shipping_bcti",
+      "func_name": "macro_shipping_bcti",
+      "status": "success",
+      "file_path": "data/macro_shipping_bcti.parquet",
+      "data_size": 5872,
+      "error": null,
+      "execution_time": 3.995
+    },
+    {
+      "name": "macro_china_new_financial_credit",
+      "func_name": "macro_china_new_financial_credit",
+      "status": "success",
+      "file_path": "data/macro_china_new_financial_credit.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.241
+    },
+    {
+      "name": "macro_china_cpi",
+      "func_name": "macro_china_cpi",
+      "status": "success",
+      "file_path": "data/macro_china_cpi.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.289
+    },
+    {
+      "name": "macro_china_gdp",
+      "func_name": "macro_china_gdp",
+      "status": "success",
+      "file_path": "data/macro_china_gdp.parquet",
+      "data_size": 80,
+      "error": null,
+      "execution_time": 0.152
+    },
+    {
+      "name": "macro_china_ppi",
+      "func_name": "macro_china_ppi",
+      "status": "success",
+      "file_path": "data/macro_china_ppi.parquet",
+      "data_size": 241,
+      "error": null,
+      "execution_time": 0.881
+    },
+    {
+      "name": "macro_china_pmi",
+      "func_name": "macro_china_pmi",
+      "status": "success",
+      "file_path": "data/macro_china_pmi.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.751
+    },
+    {
+      "name": "macro_china_gdzctz",
+      "func_name": "macro_china_gdzctz",
+      "status": "success",
+      "file_path": "data/macro_china_gdzctz.parquet",
+      "data_size": 198,
+      "error": null,
+      "execution_time": 0.322
+    },
+    {
+      "name": "macro_china_hgjck",
+      "func_name": "macro_china_hgjck",
+      "status": "success",
+      "file_path": "data/macro_china_hgjck.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.243
+    },
+    {
+      "name": "macro_china_czsr",
+      "func_name": "macro_china_czsr",
+      "status": "success",
+      "file_path": "data/macro_china_czsr.parquet",
+      "data_size": 209,
+      "error": null,
+      "execution_time": 0.35
+    },
+    {
+      "name": "macro_china_whxd",
+      "func_name": "macro_china_whxd",
+      "status": "success",
+      "file_path": "data/macro_china_whxd.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.24
+    },
+    {
+      "name": "macro_china_wbck",
+      "func_name": "macro_china_wbck",
+      "status": "success",
+      "file_path": "data/macro_china_wbck.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.197
+    },
+    {
+      "name": "macro_china_bond_public",
+      "func_name": "macro_china_bond_public",
+      "status": "success",
+      "file_path": "data/macro_china_bond_public.parquet",
+      "data_size": 61,
+      "error": null,
+      "execution_time": 16.775
+    },
+    {
+      "name": "macro_china_xfzxx",
+      "func_name": "macro_china_xfzxx",
+      "status": "success",
+      "file_path": "data/macro_china_xfzxx.parquet",
+      "data_size": 228,
+      "error": null,
+      "execution_time": 0.272
+    },
+    {
+      "name": "macro_china_reserve_requirement_ratio",
+      "func_name": "macro_china_reserve_requirement_ratio",
+      "status": "success",
+      "file_path": "data/macro_china_reserve_requirement_ratio.parquet",
+      "data_size": 58,
+      "error": null,
+      "execution_time": 0.204
+    },
+    {
+      "name": "macro_china_consumer_goods_retail",
+      "func_name": "macro_china_consumer_goods_retail",
+      "status": "success",
+      "file_path": "data/macro_china_consumer_goods_retail.parquet",
+      "data_size": 202,
+      "error": null,
+      "execution_time": 0.191
+    },
+    {
+      "name": "macro_china_society_electricity",
+      "func_name": "macro_china_society_electricity",
+      "status": "success",
+      "file_path": "data/macro_china_society_electricity.parquet",
+      "data_size": 235,
+      "error": null,
+      "execution_time": 0.901
+    },
+    {
+      "name": "macro_china_society_traffic_volume",
+      "func_name": "macro_china_society_traffic_volume",
+      "status": "success",
+      "file_path": "data/macro_china_society_traffic_volume.parquet",
+      "data_size": 2916,
+      "error": null,
+      "execution_time": 14.463
+    },
+    {
+      "name": "macro_china_postal_telecommunicational",
+      "func_name": "macro_china_postal_telecommunicational",
+      "status": "success",
+      "file_path": "data/macro_china_postal_telecommunicational.parquet",
+      "data_size": 332,
+      "error": null,
+      "execution_time": 1.404
+    },
+    {
+      "name": "macro_china_international_tourism_fx",
+      "func_name": "macro_china_international_tourism_fx",
+      "status": "success",
+      "file_path": "data/macro_china_international_tourism_fx.parquet",
+      "data_size": 264,
+      "error": null,
+      "execution_time": 0.658
+    },
+    {
+      "name": "macro_china_passenger_load_factor",
+      "func_name": "macro_china_passenger_load_factor",
+      "status": "success",
+      "file_path": "data/macro_china_passenger_load_factor.parquet",
+      "data_size": 236,
+      "error": null,
+      "execution_time": 0.814
+    },
+    {
+      "name": "macro_china_freight_index",
+      "func_name": "macro_china_freight_index",
+      "status": "success",
+      "file_path": "data/macro_china_freight_index.parquet",
+      "data_size": 4969,
+      "error": null,
+      "execution_time": 0.405
+    },
+    {
+      "name": "macro_china_central_bank_balance",
+      "func_name": "macro_china_central_bank_balance",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.932
+    },
+    {
+      "name": "macro_china_central_bank_balance",
+      "func_name": "macro_china_central_bank_balance",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.076
+    },
+    {
+      "name": "macro_china_central_bank_balance",
+      "func_name": "macro_china_central_bank_balance",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.052
+    },
+    {
+      "name": "macro_china_insurance",
+      "func_name": "macro_china_insurance",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.063
+    },
+    {
+      "name": "macro_china_insurance",
+      "func_name": "macro_china_insurance",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.288
+    },
+    {
+      "name": "macro_china_insurance",
+      "func_name": "macro_china_insurance",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.051
+    },
+    {
+      "name": "macro_china_supply_of_money",
+      "func_name": "macro_china_supply_of_money",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.304
+    },
+    {
+      "name": "macro_china_supply_of_money",
+      "func_name": "macro_china_supply_of_money",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.059
+    },
+    {
+      "name": "macro_china_supply_of_money",
+      "func_name": "macro_china_supply_of_money",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.058
+    },
+    {
+      "name": "macro_china_swap_rate",
+      "func_name": "macro_china_swap_rate",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "Length mismatch: Expected axis has 0 elements, new values have 17 elements",
+      "execution_time": 0.164
+    },
+    {
+      "name": "macro_china_swap_rate",
+      "func_name": "macro_china_swap_rate",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "Length mismatch: Expected axis has 0 elements, new values have 17 elements",
+      "execution_time": 0.169
+    },
+    {
+      "name": "macro_china_swap_rate",
+      "func_name": "macro_china_swap_rate",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "Length mismatch: Expected axis has 0 elements, new values have 17 elements",
+      "execution_time": 0.178
+    },
+    {
+      "name": "macro_china_foreign_exchange_gold",
+      "func_name": "macro_china_foreign_exchange_gold",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.056
+    },
+    {
+      "name": "macro_china_foreign_exchange_gold",
+      "func_name": "macro_china_foreign_exchange_gold",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.152
+    },
+    {
+      "name": "macro_china_foreign_exchange_gold",
+      "func_name": "macro_china_foreign_exchange_gold",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.132
+    },
+    {
+      "name": "macro_china_retail_price_index",
+      "func_name": "macro_china_retail_price_index",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.082
+    },
+    {
+      "name": "macro_china_retail_price_index",
+      "func_name": "macro_china_retail_price_index",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.185
+    },
+    {
+      "name": "macro_china_retail_price_index",
+      "func_name": "macro_china_retail_price_index",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "No value to decode",
+      "execution_time": 0.055
+    },
+    {
+      "name": "macro_china_real_estate",
+      "func_name": "macro_china_real_estate",
+      "status": "success",
+      "file_path": "data/macro_china_real_estate.parquet",
+      "data_size": 326,
+      "error": null,
+      "execution_time": 0.92
+    },
+    {
+      "name": "macro_china_fx_gold",
+      "func_name": "macro_china_fx_gold",
+      "status": "success",
+      "file_path": "data/macro_china_fx_gold.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.683
+    },
+    {
+      "name": "macro_china_money_supply",
+      "func_name": "macro_china_money_supply",
+      "status": "success",
+      "file_path": "data/macro_china_money_supply.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.274
+    },
+    {
+      "name": "macro_china_stock_market_cap",
+      "func_name": "macro_china_stock_market_cap",
+      "status": "success",
+      "file_path": "data/macro_china_stock_market_cap.parquet",
+      "data_size": 218,
+      "error": null,
+      "execution_time": 0.334
+    },
+    {
+      "name": "macro_china_shibor_all",
+      "func_name": "macro_china_shibor_all",
+      "status": "success",
+      "file_path": "data/macro_china_shibor_all.parquet",
+      "data_size": 2225,
+      "error": null,
+      "execution_time": 0.18
+    },
+    {
+      "name": "macro_china_hk_market_info",
+      "func_name": "macro_china_hk_market_info",
+      "status": "success",
+      "file_path": "data/macro_china_hk_market_info.parquet",
+      "data_size": 2189,
+      "error": null,
+      "execution_time": 0.192
+    },
+    {
+      "name": "macro_china_daily_energy",
+      "func_name": "macro_china_daily_energy",
+      "status": "success",
+      "file_path": "data/macro_china_daily_energy.parquet",
+      "data_size": 1207,
+      "error": null,
+      "execution_time": 0.225
+    },
+    {
+      "name": "macro_china_rmb",
+      "func_name": "macro_china_rmb",
+      "status": "success",
+      "file_path": "data/macro_china_rmb.parquet",
+      "data_size": 791,
+      "error": null,
+      "execution_time": 0.288
+    },
+    {
+      "name": "macro_china_market_margin_sz",
+      "func_name": "macro_china_market_margin_sz",
+      "status": "success",
+      "file_path": "data/macro_china_market_margin_sz.parquet",
+      "data_size": 3656,
+      "error": null,
+      "execution_time": 0.641
+    },
+    {
+      "name": "macro_china_market_margin_sh",
+      "func_name": "macro_china_market_margin_sh",
+      "status": "success",
+      "file_path": "data/macro_china_market_margin_sh.parquet",
+      "data_size": 3854,
+      "error": null,
+      "execution_time": 0.33
+    },
+    {
+      "name": "macro_china_au_report",
+      "func_name": "macro_china_au_report",
+      "status": "success",
+      "file_path": "data/macro_china_au_report.parquet",
+      "data_size": 35581,
+      "error": null,
+      "execution_time": 1.833
+    },
+    {
+      "name": "macro_china_nbs_nation",
+      "func_name": "macro_china_nbs_nation",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "macro_china_nbs_nation() missing 2 required positional arguments: 'kind' and 'path'",
+      "execution_time": 0.0
+    },
+    {
+      "name": "macro_china_nbs_nation",
+      "func_name": "macro_china_nbs_nation",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "macro_china_nbs_nation() missing 2 required positional arguments: 'kind' and 'path'",
+      "execution_time": 0.0
+    },
+    {
+      "name": "macro_china_nbs_nation",
+      "func_name": "macro_china_nbs_nation",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "macro_china_nbs_nation() missing 2 required positional arguments: 'kind' and 'path'",
+      "execution_time": 0.0
+    },
+    {
+      "name": "macro_china_nbs_region",
+      "func_name": "macro_china_nbs_region",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "macro_china_nbs_region() missing 3 required positional arguments: 'kind', 'path', and 'indicator'",
+      "execution_time": 0.0
+    },
+    {
+      "name": "macro_china_nbs_region",
+      "func_name": "macro_china_nbs_region",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "macro_china_nbs_region() missing 3 required positional arguments: 'kind', 'path', and 'indicator'",
+      "execution_time": 0.0
+    },
+    {
+      "name": "macro_china_nbs_region",
+      "func_name": "macro_china_nbs_region",
+      "status": "error",
+      "file_path": null,
+      "data_size": 0,
+      "error": "macro_china_nbs_region() missing 3 required positional arguments: 'kind', 'path', and 'indicator'",
+      "execution_time": 0.0
+    },
+    {
+      "name": "macro_stock_finance",
+      "func_name": "macro_stock_finance",
+      "status": "success",
+      "file_path": "data/macro_stock_finance.parquet",
+      "data_size": 30,
+      "error": null,
+      "execution_time": 0.161
+    },
+    {
+      "name": "macro_rmb_loan",
+      "func_name": "macro_rmb_loan",
+      "status": "success",
+      "file_path": "data/macro_rmb_loan.parquet",
+      "data_size": 30,
+      "error": null,
+      "execution_time": 0.076
+    },
+    {
+      "name": "macro_rmb_deposit",
+      "func_name": "macro_rmb_deposit",
+      "status": "success",
+      "file_path": "data/macro_rmb_deposit.parquet",
+      "data_size": 30,
+      "error": null,
+      "execution_time": 0.173
+    },
+    {
+      "name": "macro_china_hk_cpi",
+      "func_name": "macro_china_hk_cpi",
+      "status": "success",
+      "file_path": "data/macro_china_hk_cpi.parquet",
+      "data_size": 172,
+      "error": null,
+      "execution_time": 0.143
+    },
+    {
+      "name": "macro_china_hk_cpi_ratio",
+      "func_name": "macro_china_hk_cpi_ratio",
+      "status": "success",
+      "file_path": "data/macro_china_hk_cpi_ratio.parquet",
+      "data_size": 172,
+      "error": null,
+      "execution_time": 0.165
+    },
+    {
+      "name": "macro_china_hk_rate_of_unemployment",
+      "func_name": "macro_china_hk_rate_of_unemployment",
+      "status": "success",
+      "file_path": "data/macro_china_hk_rate_of_unemployment.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.168
+    },
+    {
+      "name": "macro_china_hk_gbp",
+      "func_name": "macro_china_hk_gbp",
+      "status": "success",
+      "file_path": "data/macro_china_hk_gbp.parquet",
+      "data_size": 72,
+      "error": null,
+      "execution_time": 0.135
+    },
+    {
+      "name": "macro_china_hk_gbp_ratio",
+      "func_name": "macro_china_hk_gbp_ratio",
+      "status": "success",
+      "file_path": "data/macro_china_hk_gbp_ratio.parquet",
+      "data_size": 72,
+      "error": null,
+      "execution_time": 0.163
+    },
+    {
+      "name": "macro_china_hk_building_volume",
+      "func_name": "macro_china_hk_building_volume",
+      "status": "success",
+      "file_path": "data/macro_china_hk_building_volume.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.21
+    },
+    {
+      "name": "macro_china_hk_building_amount",
+      "func_name": "macro_china_hk_building_amount",
+      "status": "success",
+      "file_path": "data/macro_china_hk_building_amount.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.173
+    },
+    {
+      "name": "macro_china_hk_trade_diff_ratio",
+      "func_name": "macro_china_hk_trade_diff_ratio",
+      "status": "success",
+      "file_path": "data/macro_china_hk_trade_diff_ratio.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.197
+    },
+    {
+      "name": "macro_china_hk_ppi",
+      "func_name": "macro_china_hk_ppi",
+      "status": "success",
+      "file_path": "data/macro_china_hk_ppi.parquet",
+      "data_size": 72,
+      "error": null,
+      "execution_time": 0.211
+    },
+    {
+      "name": "macro_usa_gdp_monthly",
+      "func_name": "macro_usa_gdp_monthly",
+      "status": "success",
+      "file_path": "data/macro_usa_gdp_monthly.parquet",
+      "data_size": 210,
+      "error": null,
+      "execution_time": 1.504
+    },
+    {
+      "name": "macro_usa_cpi_monthly",
+      "func_name": "macro_usa_cpi_monthly",
+      "status": "success",
+      "file_path": "data/macro_usa_cpi_monthly.parquet",
+      "data_size": 669,
+      "error": null,
+      "execution_time": 4.617
+    },
+    {
+      "name": "macro_usa_cpi_yoy",
+      "func_name": "macro_usa_cpi_yoy",
+      "status": "success",
+      "file_path": "data/macro_usa_cpi_yoy.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.268
+    },
+    {
+      "name": "macro_usa_core_cpi_monthly",
+      "func_name": "macro_usa_core_cpi_monthly",
+      "status": "success",
+      "file_path": "data/macro_usa_core_cpi_monthly.parquet",
+      "data_size": 669,
+      "error": null,
+      "execution_time": 4.484
+    },
+    {
+      "name": "macro_usa_personal_spending",
+      "func_name": "macro_usa_personal_spending",
+      "status": "success",
+      "file_path": "data/macro_usa_personal_spending.parquet",
+      "data_size": 668,
+      "error": null,
+      "execution_time": 4.501
+    },
+    {
+      "name": "macro_usa_retail_sales",
+      "func_name": "macro_usa_retail_sales",
+      "status": "success",
+      "file_path": "data/macro_usa_retail_sales.parquet",
+      "data_size": 403,
+      "error": null,
+      "execution_time": 3.801
+    },
+    {
+      "name": "macro_usa_import_price",
+      "func_name": "macro_usa_import_price",
+      "status": "success",
+      "file_path": "data/macro_usa_import_price.parquet",
+      "data_size": 442,
+      "error": null,
+      "execution_time": 3.033
+    },
+    {
+      "name": "macro_usa_export_price",
+      "func_name": "macro_usa_export_price",
+      "status": "success",
+      "file_path": "data/macro_usa_export_price.parquet",
+      "data_size": 442,
+      "error": null,
+      "execution_time": 2.975
+    },
+    {
+      "name": "macro_usa_lmci",
+      "func_name": "macro_usa_lmci",
+      "status": "success",
+      "file_path": "data/macro_usa_lmci.parquet",
+      "data_size": 34,
+      "error": null,
+      "execution_time": 0.366
+    },
+    {
+      "name": "macro_usa_unemployment_rate",
+      "func_name": "macro_usa_unemployment_rate",
+      "status": "success",
+      "file_path": "data/macro_usa_unemployment_rate.parquet",
+      "data_size": 669,
+      "error": null,
+      "execution_time": 4.47
+    },
+    {
+      "name": "macro_usa_job_cuts",
+      "func_name": "macro_usa_job_cuts",
+      "status": "success",
+      "file_path": "data/macro_usa_job_cuts.parquet",
+      "data_size": 382,
+      "error": null,
+      "execution_time": 2.574
+    },
+    {
+      "name": "macro_usa_non_farm",
+      "func_name": "macro_usa_non_farm",
+      "status": "success",
+      "file_path": "data/macro_usa_non_farm.parquet",
+      "data_size": 669,
+      "error": null,
+      "execution_time": 4.404
+    },
+    {
+      "name": "macro_usa_adp_employment",
+      "func_name": "macro_usa_adp_employment",
+      "status": "success",
+      "file_path": "data/macro_usa_adp_employment.parquet",
+      "data_size": 293,
+      "error": null,
+      "execution_time": 2.112
+    },
+    {
+      "name": "macro_usa_core_pce_price",
+      "func_name": "macro_usa_core_pce_price",
+      "status": "success",
+      "file_path": "data/macro_usa_core_pce_price.parquet",
+      "data_size": 670,
+      "error": null,
+      "execution_time": 4.61
+    },
+    {
+      "name": "macro_usa_real_consumer_spending",
+      "func_name": "macro_usa_real_consumer_spending",
+      "status": "success",
+      "file_path": "data/macro_usa_real_consumer_spending.parquet",
+      "data_size": 146,
+      "error": null,
+      "execution_time": 1.071
+    },
+    {
+      "name": "macro_usa_trade_balance",
+      "func_name": "macro_usa_trade_balance",
+      "status": "success",
+      "file_path": "data/macro_usa_trade_balance.parquet",
+      "data_size": 670,
+      "error": null,
+      "execution_time": 4.516
+    },
+    {
+      "name": "macro_usa_current_account",
+      "func_name": "macro_usa_current_account",
+      "status": "success",
+      "file_path": "data/macro_usa_current_account.parquet",
+      "data_size": 71,
+      "error": null,
+      "execution_time": 1.629
+    },
+    {
+      "name": "macro_usa_rig_count",
+      "func_name": "macro_usa_rig_count",
+      "status": "success",
+      "file_path": "data/macro_usa_rig_count.parquet",
+      "data_size": 1896,
+      "error": null,
+      "execution_time": 0.164
+    },
+    {
+      "name": "macro_usa_ppi",
+      "func_name": "macro_usa_ppi",
+      "status": "success",
+      "file_path": "data/macro_usa_ppi.parquet",
+      "data_size": 213,
+      "error": null,
+      "execution_time": 1.495
+    },
+    {
+      "name": "macro_usa_core_ppi",
+      "func_name": "macro_usa_core_ppi",
+      "status": "success",
+      "file_path": "data/macro_usa_core_ppi.parquet",
+      "data_size": 210,
+      "error": null,
+      "execution_time": 1.522
+    },
+    {
+      "name": "macro_usa_api_crude_stock",
+      "func_name": "macro_usa_api_crude_stock",
+      "status": "success",
+      "file_path": "data/macro_usa_api_crude_stock.parquet",
+      "data_size": 705,
+      "error": null,
+      "execution_time": 5.663
+    },
+    {
+      "name": "macro_usa_pmi",
+      "func_name": "macro_usa_pmi",
+      "status": "success",
+      "file_path": "data/macro_usa_pmi.parquet",
+      "data_size": 319,
+      "error": null,
+      "execution_time": 2.151
+    },
+    {
+      "name": "macro_usa_ism_pmi",
+      "func_name": "macro_usa_ism_pmi",
+      "status": "success",
+      "file_path": "data/macro_usa_ism_pmi.parquet",
+      "data_size": 671,
+      "error": null,
+      "execution_time": 4.294
+    },
+    {
+      "name": "macro_usa_industrial_production",
+      "func_name": "macro_usa_industrial_production",
+      "status": "success",
+      "file_path": "data/macro_usa_industrial_production.parquet",
+      "data_size": 669,
+      "error": null,
+      "execution_time": 4.384
+    },
+    {
+      "name": "macro_usa_durable_goods_orders",
+      "func_name": "macro_usa_durable_goods_orders",
+      "status": "success",
+      "file_path": "data/macro_usa_durable_goods_orders.parquet",
+      "data_size": 221,
+      "error": null,
+      "execution_time": 1.599
+    },
+    {
+      "name": "macro_usa_factory_orders",
+      "func_name": "macro_usa_factory_orders",
+      "status": "success",
+      "file_path": "data/macro_usa_factory_orders.parquet",
+      "data_size": 403,
+      "error": null,
+      "execution_time": 2.773
+    },
+    {
+      "name": "macro_usa_services_pmi",
+      "func_name": "macro_usa_services_pmi",
+      "status": "success",
+      "file_path": "data/macro_usa_services_pmi.parquet",
+      "data_size": 303,
+      "error": null,
+      "execution_time": 2.113
+    },
+    {
+      "name": "macro_usa_business_inventories",
+      "func_name": "macro_usa_business_inventories",
+      "status": "success",
+      "file_path": "data/macro_usa_business_inventories.parquet",
+      "data_size": 403,
+      "error": null,
+      "execution_time": 2.797
+    },
+    {
+      "name": "macro_usa_ism_non_pmi",
+      "func_name": "macro_usa_ism_non_pmi",
+      "status": "success",
+      "file_path": "data/macro_usa_ism_non_pmi.parquet",
+      "data_size": 342,
+      "error": null,
+      "execution_time": 2.414
+    },
+    {
+      "name": "macro_usa_nahb_house_market_index",
+      "func_name": "macro_usa_nahb_house_market_index",
+      "status": "success",
+      "file_path": "data/macro_usa_nahb_house_market_index.parquet",
+      "data_size": 489,
+      "error": null,
+      "execution_time": 3.393
+    },
+    {
+      "name": "macro_usa_house_starts",
+      "func_name": "macro_usa_house_starts",
+      "status": "success",
+      "file_path": "data/macro_usa_house_starts.parquet",
+      "data_size": 667,
+      "error": null,
+      "execution_time": 4.376
+    },
+    {
+      "name": "macro_usa_new_home_sales",
+      "func_name": "macro_usa_new_home_sales",
+      "status": "success",
+      "file_path": "data/macro_usa_new_home_sales.parquet",
+      "data_size": 669,
+      "error": null,
+      "execution_time": 5.381
+    },
+    {
+      "name": "macro_usa_building_permits",
+      "func_name": "macro_usa_building_permits",
+      "status": "success",
+      "file_path": "data/macro_usa_building_permits.parquet",
+      "data_size": 246,
+      "error": null,
+      "execution_time": 1.924
+    },
+    {
+      "name": "macro_usa_exist_home_sales",
+      "func_name": "macro_usa_exist_home_sales",
+      "status": "success",
+      "file_path": "data/macro_usa_exist_home_sales.parquet",
+      "data_size": 669,
+      "error": null,
+      "execution_time": 4.31
+    },
+    {
+      "name": "macro_usa_house_price_index",
+      "func_name": "macro_usa_house_price_index",
+      "status": "success",
+      "file_path": "data/macro_usa_house_price_index.parquet",
+      "data_size": 414,
+      "error": null,
+      "execution_time": 2.805
+    },
+    {
+      "name": "macro_usa_spcs20",
+      "func_name": "macro_usa_spcs20",
+      "status": "success",
+      "file_path": "data/macro_usa_spcs20.parquet",
+      "data_size": 298,
+      "error": null,
+      "execution_time": 2.055
+    },
+    {
+      "name": "macro_usa_pending_home_sales",
+      "func_name": "macro_usa_pending_home_sales",
+      "status": "success",
+      "file_path": "data/macro_usa_pending_home_sales.parquet",
+      "data_size": 295,
+      "error": null,
+      "execution_time": 2.039
+    },
+    {
+      "name": "macro_usa_phs",
+      "func_name": "macro_usa_phs",
+      "status": "success",
+      "file_path": "data/macro_usa_phs.parquet",
+      "data_size": 210,
+      "error": null,
+      "execution_time": 0.24
+    },
+    {
+      "name": "macro_usa_cb_consumer_confidence",
+      "func_name": "macro_usa_cb_consumer_confidence",
+      "status": "success",
+      "file_path": "data/macro_usa_cb_consumer_confidence.parquet",
+      "data_size": 672,
+      "error": null,
+      "execution_time": 4.488
+    },
+    {
+      "name": "macro_usa_nfib_small_business",
+      "func_name": "macro_usa_nfib_small_business",
+      "status": "success",
+      "file_path": "data/macro_usa_nfib_small_business.parquet",
+      "data_size": 525,
+      "error": null,
+      "execution_time": 3.597
+    },
+    {
+      "name": "macro_usa_michigan_consumer_sentiment",
+      "func_name": "macro_usa_michigan_consumer_sentiment",
+      "status": "success",
+      "file_path": "data/macro_usa_michigan_consumer_sentiment.parquet",
+      "data_size": 811,
+      "error": null,
+      "execution_time": 5.302
+    },
+    {
+      "name": "macro_usa_eia_crude_rate",
+      "func_name": "macro_usa_eia_crude_rate",
+      "status": "success",
+      "file_path": "data/macro_usa_eia_crude_rate.parquet",
+      "data_size": 1228,
+      "error": null,
+      "execution_time": 8.21
+    },
+    {
+      "name": "macro_usa_initial_jobless",
+      "func_name": "macro_usa_initial_jobless",
+      "status": "success",
+      "file_path": "data/macro_usa_initial_jobless.parquet",
+      "data_size": 1375,
+      "error": null,
+      "execution_time": 11.141
+    },
+    {
+      "name": "macro_usa_crude_inner",
+      "func_name": "macro_usa_crude_inner",
+      "status": "success",
+      "file_path": "data/macro_usa_crude_inner.parquet",
+      "data_size": 2246,
+      "error": null,
+      "execution_time": 0.212
+    },
+    {
+      "name": "macro_euro_gdp_yoy",
+      "func_name": "macro_euro_gdp_yoy",
+      "status": "success",
+      "file_path": "data/macro_euro_gdp_yoy.parquet",
+      "data_size": 495,
+      "error": null,
+      "execution_time": 3.491
+    },
+    {
+      "name": "macro_euro_cpi_mom",
+      "func_name": "macro_euro_cpi_mom",
+      "status": "success",
+      "file_path": "data/macro_euro_cpi_mom.parquet",
+      "data_size": 495,
+      "error": null,
+      "execution_time": 3.578
+    },
+    {
+      "name": "macro_euro_cpi_yoy",
+      "func_name": "macro_euro_cpi_yoy",
+      "status": "success",
+      "file_path": "data/macro_euro_cpi_yoy.parquet",
+      "data_size": 630,
+      "error": null,
+      "execution_time": 4.323
+    },
+    {
+      "name": "macro_euro_ppi_mom",
+      "func_name": "macro_euro_ppi_mom",
+      "status": "success",
+      "file_path": "data/macro_euro_ppi_mom.parquet",
+      "data_size": 538,
+      "error": null,
+      "execution_time": 3.646
+    },
+    {
+      "name": "macro_euro_retail_sales_mom",
+      "func_name": "macro_euro_retail_sales_mom",
+      "status": "success",
+      "file_path": "data/macro_euro_retail_sales_mom.parquet",
+      "data_size": 310,
+      "error": null,
+      "execution_time": 2.185
+    },
+    {
+      "name": "macro_euro_employment_change_qoq",
+      "func_name": "macro_euro_employment_change_qoq",
+      "status": "success",
+      "file_path": "data/macro_euro_employment_change_qoq.parquet",
+      "data_size": 100,
+      "error": null,
+      "execution_time": 0.796
+    },
+    {
+      "name": "macro_euro_unemployment_rate_mom",
+      "func_name": "macro_euro_unemployment_rate_mom",
+      "status": "success",
+      "file_path": "data/macro_euro_unemployment_rate_mom.parquet",
+      "data_size": 331,
+      "error": null,
+      "execution_time": 3.357
+    },
+    {
+      "name": "macro_euro_trade_balance",
+      "func_name": "macro_euro_trade_balance",
+      "status": "success",
+      "file_path": "data/macro_euro_trade_balance.parquet",
+      "data_size": 321,
+      "error": null,
+      "execution_time": 2.553
+    },
+    {
+      "name": "macro_euro_current_account_mom",
+      "func_name": "macro_euro_current_account_mom",
+      "status": "success",
+      "file_path": "data/macro_euro_current_account_mom.parquet",
+      "data_size": 214,
+      "error": null,
+      "execution_time": 1.575
+    },
+    {
+      "name": "macro_euro_industrial_production_mom",
+      "func_name": "macro_euro_industrial_production_mom",
+      "status": "success",
+      "file_path": "data/macro_euro_industrial_production_mom.parquet",
+      "data_size": 421,
+      "error": null,
+      "execution_time": 3.173
+    },
+    {
+      "name": "macro_euro_manufacturing_pmi",
+      "func_name": "macro_euro_manufacturing_pmi",
+      "status": "success",
+      "file_path": "data/macro_euro_manufacturing_pmi.parquet",
+      "data_size": 426,
+      "error": null,
+      "execution_time": 3.267
+    },
+    {
+      "name": "macro_euro_services_pmi",
+      "func_name": "macro_euro_services_pmi",
+      "status": "success",
+      "file_path": "data/macro_euro_services_pmi.parquet",
+      "data_size": 425,
+      "error": null,
+      "execution_time": 2.971
+    },
+    {
+      "name": "macro_euro_zew_economic_sentiment",
+      "func_name": "macro_euro_zew_economic_sentiment",
+      "status": "success",
+      "file_path": "data/macro_euro_zew_economic_sentiment.parquet",
+      "data_size": 215,
+      "error": null,
+      "execution_time": 1.915
+    },
+    {
+      "name": "macro_euro_sentix_investor_confidence",
+      "func_name": "macro_euro_sentix_investor_confidence",
+      "status": "success",
+      "file_path": "data/macro_euro_sentix_investor_confidence.parquet",
+      "data_size": 280,
+      "error": null,
+      "execution_time": 1.872
+    },
+    {
+      "name": "macro_germany_ifo",
+      "func_name": "macro_germany_ifo",
+      "status": "success",
+      "file_path": "data/macro_germany_ifo.parquet",
+      "data_size": 218,
+      "error": null,
+      "execution_time": 0.266
+    },
+    {
+      "name": "macro_germany_cpi_monthly",
+      "func_name": "macro_germany_cpi_monthly",
+      "status": "success",
+      "file_path": "data/macro_germany_cpi_monthly.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.163
+    },
+    {
+      "name": "macro_germany_cpi_yearly",
+      "func_name": "macro_germany_cpi_yearly",
+      "status": "success",
+      "file_path": "data/macro_germany_cpi_yearly.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.161
+    },
+    {
+      "name": "macro_germany_trade_adjusted",
+      "func_name": "macro_germany_trade_adjusted",
+      "status": "success",
+      "file_path": "data/macro_germany_trade_adjusted.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.256
+    },
+    {
+      "name": "macro_germany_gdp",
+      "func_name": "macro_germany_gdp",
+      "status": "success",
+      "file_path": "data/macro_germany_gdp.parquet",
+      "data_size": 71,
+      "error": null,
+      "execution_time": 0.146
+    },
+    {
+      "name": "macro_germany_retail_sale_monthly",
+      "func_name": "macro_germany_retail_sale_monthly",
+      "status": "success",
+      "file_path": "data/macro_germany_retail_sale_monthly.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.27
+    },
+    {
+      "name": "macro_germany_retail_sale_yearly",
+      "func_name": "macro_germany_retail_sale_yearly",
+      "status": "success",
+      "file_path": "data/macro_germany_retail_sale_yearly.parquet",
+      "data_size": 18,
+      "error": null,
+      "execution_time": 0.142
+    },
+    {
+      "name": "macro_germany_zew",
+      "func_name": "macro_germany_zew",
+      "status": "success",
+      "file_path": "data/macro_germany_zew.parquet",
+      "data_size": 218,
+      "error": null,
+      "execution_time": 0.243
+    },
+    {
+      "name": "macro_swiss_svme",
+      "func_name": "macro_swiss_svme",
+      "status": "success",
+      "file_path": "data/macro_swiss_svme.parquet",
+      "data_size": 219,
+      "error": null,
+      "execution_time": 0.162
+    },
+    {
+      "name": "macro_swiss_trade",
+      "func_name": "macro_swiss_trade",
+      "status": "success",
+      "file_path": "data/macro_swiss_trade.parquet",
+      "data_size": 73,
+      "error": null,
+      "execution_time": 0.206
+    },
+    {
+      "name": "macro_swiss_cpi_yearly",
+      "func_name": "macro_swiss_cpi_yearly",
+      "status": "success",
+      "file_path": "data/macro_swiss_cpi_yearly.parquet",
+      "data_size": 19,
+      "error": null,
+      "execution_time": 0.123
+    },
+    {
+      "name": "macro_swiss_gdp_quarterly",
+      "func_name": "macro_swiss_gdp_quarterly",
+      "status": "success",
+      "file_path": "data/macro_swiss_gdp_quarterly.parquet",
+      "data_size": 73,
+      "error": null,
+      "execution_time": 0.169
+    },
+    {
+      "name": "macro_swiss_gbd_yearly",
+      "func_name": "macro_swiss_gbd_yearly",
+      "status": "success",
+      "file_path": "data/macro_swiss_gbd_yearly.parquet",
+      "data_size": 58,
+      "error": null,
+      "execution_time": 0.138
+    },
+    {
+      "name": "macro_swiss_gbd_bank_rate",
+      "func_name": "macro_swiss_gbd_bank_rate",
+      "status": "success",
+      "file_path": "data/macro_swiss_gbd_bank_rate.parquet",
+      "data_size": 73,
+      "error": null,
+      "execution_time": 0.225
+    },
+    {
+      "name": "macro_japan_bank_rate",
+      "func_name": "macro_japan_bank_rate",
+      "status": "success",
+      "file_path": "data/macro_japan_bank_rate.parquet",
+      "data_size": 196,
+      "error": null,
+      "execution_time": 0.146
+    },
+    {
+      "name": "macro_japan_cpi_yearly",
+      "func_name": "macro_japan_cpi_yearly",
+      "status": "success",
+      "file_path": "data/macro_japan_cpi_yearly.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.268
+    },
+    {
+      "name": "macro_japan_core_cpi_yearly",
+      "func_name": "macro_japan_core_cpi_yearly",
+      "status": "success",
+      "file_path": "data/macro_japan_core_cpi_yearly.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.275
+    },
+    {
+      "name": "macro_japan_unemployment_rate",
+      "func_name": "macro_japan_unemployment_rate",
+      "status": "success",
+      "file_path": "data/macro_japan_unemployment_rate.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.289
+    },
+    {
+      "name": "macro_japan_head_indicator",
+      "func_name": "macro_japan_head_indicator",
+      "status": "success",
+      "file_path": "data/macro_japan_head_indicator.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.286
+    },
+    {
+      "name": "macro_uk_halifax_monthly",
+      "func_name": "macro_uk_halifax_monthly",
+      "status": "success",
+      "file_path": "data/macro_uk_halifax_monthly.parquet",
+      "data_size": 218,
+      "error": null,
+      "execution_time": 0.188
+    },
+    {
+      "name": "macro_uk_halifax_yearly",
+      "func_name": "macro_uk_halifax_yearly",
+      "status": "success",
+      "file_path": "data/macro_uk_halifax_yearly.parquet",
+      "data_size": 218,
+      "error": null,
+      "execution_time": 0.293
+    },
+    {
+      "name": "macro_uk_trade",
+      "func_name": "macro_uk_trade",
+      "status": "success",
+      "file_path": "data/macro_uk_trade.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.154
+    },
+    {
+      "name": "macro_uk_bank_rate",
+      "func_name": "macro_uk_bank_rate",
+      "status": "success",
+      "file_path": "data/macro_uk_bank_rate.parquet",
+      "data_size": 182,
+      "error": null,
+      "execution_time": 0.198
+    },
+    {
+      "name": "macro_uk_core_cpi_yearly",
+      "func_name": "macro_uk_core_cpi_yearly",
+      "status": "success",
+      "file_path": "data/macro_uk_core_cpi_yearly.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.169
+    },
+    {
+      "name": "macro_uk_core_cpi_monthly",
+      "func_name": "macro_uk_core_cpi_monthly",
+      "status": "success",
+      "file_path": "data/macro_uk_core_cpi_monthly.parquet",
+      "data_size": 214,
+      "error": null,
+      "execution_time": 0.146
+    },
+    {
+      "name": "macro_uk_cpi_yearly",
+      "func_name": "macro_uk_cpi_yearly",
+      "status": "success",
+      "file_path": "data/macro_uk_cpi_yearly.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.321
+    },
+    {
+      "name": "macro_uk_cpi_monthly",
+      "func_name": "macro_uk_cpi_monthly",
+      "status": "success",
+      "file_path": "data/macro_uk_cpi_monthly.parquet",
+      "data_size": 214,
+      "error": null,
+      "execution_time": 0.263
+    },
+    {
+      "name": "macro_uk_retail_monthly",
+      "func_name": "macro_uk_retail_monthly",
+      "status": "success",
+      "file_path": "data/macro_uk_retail_monthly.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.175
+    },
+    {
+      "name": "macro_uk_retail_yearly",
+      "func_name": "macro_uk_retail_yearly",
+      "status": "success",
+      "file_path": "data/macro_uk_retail_yearly.parquet",
+      "data_size": 213,
+      "error": null,
+      "execution_time": 0.281
+    },
+    {
+      "name": "macro_uk_rightmove_yearly",
+      "func_name": "macro_uk_rightmove_yearly",
+      "status": "success",
+      "file_path": "data/macro_uk_rightmove_yearly.parquet",
+      "data_size": 195,
+      "error": null,
+      "execution_time": 0.267
+    },
+    {
+      "name": "macro_uk_rightmove_monthly",
+      "func_name": "macro_uk_rightmove_monthly",
+      "status": "success",
+      "file_path": "data/macro_uk_rightmove_monthly.parquet",
+      "data_size": 195,
+      "error": null,
+      "execution_time": 0.166
+    },
+    {
+      "name": "macro_uk_gdp_quarterly",
+      "func_name": "macro_uk_gdp_quarterly",
+      "status": "success",
+      "file_path": "data/macro_uk_gdp_quarterly.parquet",
+      "data_size": 69,
+      "error": null,
+      "execution_time": 0.203
+    },
+    {
+      "name": "macro_uk_gdp_yearly",
+      "func_name": "macro_uk_gdp_yearly",
+      "status": "success",
+      "file_path": "data/macro_uk_gdp_yearly.parquet",
+      "data_size": 16,
+      "error": null,
+      "execution_time": 0.295
+    },
+    {
+      "name": "macro_uk_unemployment_rate",
+      "func_name": "macro_uk_unemployment_rate",
+      "status": "success",
+      "file_path": "data/macro_uk_unemployment_rate.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.189
+    },
+    {
+      "name": "macro_australia_retail_rate_monthly",
+      "func_name": "macro_australia_retail_rate_monthly",
+      "status": "success",
+      "file_path": "data/macro_australia_retail_rate_monthly.parquet",
+      "data_size": 210,
+      "error": null,
+      "execution_time": 0.264
+    },
+    {
+      "name": "macro_australia_trade",
+      "func_name": "macro_australia_trade",
+      "status": "success",
+      "file_path": "data/macro_australia_trade.parquet",
+      "data_size": 188,
+      "error": null,
+      "execution_time": 0.25
+    },
+    {
+      "name": "macro_australia_unemployment_rate",
+      "func_name": "macro_australia_unemployment_rate",
+      "status": "success",
+      "file_path": "data/macro_australia_unemployment_rate.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.653
+    },
+    {
+      "name": "macro_australia_ppi_quarterly",
+      "func_name": "macro_australia_ppi_quarterly",
+      "status": "success",
+      "file_path": "data/macro_australia_ppi_quarterly.parquet",
+      "data_size": 73,
+      "error": null,
+      "execution_time": 0.113
+    },
+    {
+      "name": "macro_australia_cpi_quarterly",
+      "func_name": "macro_australia_cpi_quarterly",
+      "status": "success",
+      "file_path": "data/macro_australia_cpi_quarterly.parquet",
+      "data_size": 73,
+      "error": null,
+      "execution_time": 0.159
+    },
+    {
+      "name": "macro_australia_cpi_yearly",
+      "func_name": "macro_australia_cpi_yearly",
+      "status": "success",
+      "file_path": "data/macro_australia_cpi_yearly.parquet",
+      "data_size": 73,
+      "error": null,
+      "execution_time": 0.289
+    },
+    {
+      "name": "macro_australia_bank_rate",
+      "func_name": "macro_australia_bank_rate",
+      "status": "success",
+      "file_path": "data/macro_australia_bank_rate.parquet",
+      "data_size": 194,
+      "error": null,
+      "execution_time": 0.371
+    },
+    {
+      "name": "macro_canada_new_house_rate",
+      "func_name": "macro_canada_new_house_rate",
+      "status": "success",
+      "file_path": "data/macro_canada_new_house_rate.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.183
+    },
+    {
+      "name": "macro_canada_unemployment_rate",
+      "func_name": "macro_canada_unemployment_rate",
+      "status": "success",
+      "file_path": "data/macro_canada_unemployment_rate.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.177
+    },
+    {
+      "name": "macro_canada_trade",
+      "func_name": "macro_canada_trade",
+      "status": "success",
+      "file_path": "data/macro_canada_trade.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.287
+    },
+    {
+      "name": "macro_canada_retail_rate_monthly",
+      "func_name": "macro_canada_retail_rate_monthly",
+      "status": "success",
+      "file_path": "data/macro_canada_retail_rate_monthly.parquet",
+      "data_size": 73,
+      "error": null,
+      "execution_time": 0.215
+    },
+    {
+      "name": "macro_canada_bank_rate",
+      "func_name": "macro_canada_bank_rate",
+      "status": "success",
+      "file_path": "data/macro_canada_bank_rate.parquet",
+      "data_size": 174,
+      "error": null,
+      "execution_time": 0.142
+    },
+    {
+      "name": "macro_canada_core_cpi_yearly",
+      "func_name": "macro_canada_core_cpi_yearly",
+      "status": "success",
+      "file_path": "data/macro_canada_core_cpi_yearly.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.265
+    },
+    {
+      "name": "macro_canada_core_cpi_monthly",
+      "func_name": "macro_canada_core_cpi_monthly",
+      "status": "success",
+      "file_path": "data/macro_canada_core_cpi_monthly.parquet",
+      "data_size": 216,
+      "error": null,
+      "execution_time": 0.173
+    },
+    {
+      "name": "macro_canada_cpi_yearly",
+      "func_name": "macro_canada_cpi_yearly",
+      "status": "success",
+      "file_path": "data/macro_canada_cpi_yearly.parquet",
+      "data_size": 217,
+      "error": null,
+      "execution_time": 0.233
+    },
+    {
+      "name": "macro_canada_cpi_monthly",
+      "func_name": "macro_canada_cpi_monthly",
+      "status": "success",
+      "file_path": "data/macro_canada_cpi_monthly.parquet",
+      "data_size": 215,
+      "error": null,
+      "execution_time": 1.26
+    },
+    {
+      "name": "macro_canada_gdp_monthly",
+      "func_name": "macro_canada_gdp_monthly",
+      "status": "success",
+      "file_path": "data/macro_canada_gdp_monthly.parquet",
+      "data_size": 215,
+      "error": null,
+      "execution_time": 0.171
+    },
+    {
+      "name": "macro_cons_gold",
+      "func_name": "macro_cons_gold",
+      "status": "success",
+      "file_path": "data/macro_cons_gold.parquet",
+      "data_size": 2748,
+      "error": null,
+      "execution_time": 20.4
+    },
+    {
+      "name": "macro_cons_silver",
+      "func_name": "macro_cons_silver",
+      "status": "success",
+      "file_path": "data/macro_cons_silver.parquet",
+      "data_size": 1552,
+      "error": null,
+      "execution_time": 12.783
+    },
+    {
+      "name": "macro_cons_opec_month",
+      "func_name": "macro_cons_opec_month",
+      "status": "success",
+      "file_path": "data/macro_cons_opec_month.parquet",
+      "data_size": 75,
+      "error": null,
+      "execution_time": 11.893
+    },
+    {
+      "name": "macro_euro_lme_holding",
+      "func_name": "macro_euro_lme_holding",
+      "status": "success",
+      "file_path": "data/macro_euro_lme_holding.parquet",
+      "data_size": 756,
+      "error": null,
+      "execution_time": 0.269
+    },
+    {
+      "name": "macro_euro_lme_stock",
+      "func_name": "macro_euro_lme_stock",
+      "status": "success",
+      "file_path": "data/macro_euro_lme_stock.parquet",
+      "data_size": 2612,
+      "error": null,
+      "execution_time": 0.62
+    },
+    {
+      "name": "macro_usa_cftc_nc_holding",
+      "func_name": "macro_usa_cftc_nc_holding",
+      "status": "success",
+      "file_path": "data/macro_usa_cftc_nc_holding.parquet",
+      "data_size": 1905,
+      "error": null,
+      "execution_time": 0.697
+    },
+    {
+      "name": "macro_usa_cftc_c_holding",
+      "func_name": "macro_usa_cftc_c_holding",
+      "status": "success",
+      "file_path": "data/macro_usa_cftc_c_holding.parquet",
+      "data_size": 1905,
+      "error": null,
+      "execution_time": 0.714
+    },
+    {
+      "name": "macro_usa_cftc_merchant_currency_holding",
+      "func_name": "macro_usa_cftc_merchant_currency_holding",
+      "status": "success",
+      "file_path": "data/macro_usa_cftc_merchant_currency_holding.parquet",
+      "data_size": 1905,
+      "error": null,
+      "execution_time": 0.633
+    },
+    {
+      "name": "macro_usa_cftc_merchant_goods_holding",
+      "func_name": "macro_usa_cftc_merchant_goods_holding",
+      "status": "success",
+      "file_path": "data/macro_usa_cftc_merchant_goods_holding.parquet",
+      "data_size": 1905,
+      "error": null,
+      "execution_time": 0.73
+    },
+    {
+      "name": "macro_usa_cme_merchant_goods_holding",
+      "func_name": "macro_usa_cme_merchant_goods_holding",
+      "status": "success",
+      "file_path": "data/macro_usa_cme_merchant_goods_holding.parquet",
+      "data_size": 30129,
+      "error": null,
+      "execution_time": 2.038
+    },
+    {
+      "name": "macro_info_ws",
+      "func_name": "macro_info_ws",
+      "status": "success",
+      "file_path": "data/macro_info_ws.parquet",
+      "data_size": 28,
+      "error": null,
+      "execution_time": 0.253
+    }
+  ]
+}
