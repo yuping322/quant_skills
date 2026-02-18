@@ -23,7 +23,7 @@ echo "详细日志请查看: macro_download.log"
 echo ""
 
 # 运行下载程序，后台运行并记录PID
-nohup python download_macro_data.py > $LOG_DIR/download_$(date +%Y%m%d_%H%M%S).log 2>&1 &
+nohup python src/downloaders/macro_downloader.py > $LOG_DIR/download_$(date +%Y%m%d_%H%M%S).log 2>&1 &
 
 DOWNLOAD_PID=$!
 echo $DOWNLOAD_PID > download.pid

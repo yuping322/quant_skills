@@ -1,87 +1,108 @@
-# quant_skills
+# Quant Skills - 金融数据接口统一化系统
 
-量化投资技能库 - AKShare 数据接口处理工具集
+基于 akshare 的金融数据接口统一化系统，实现字段标准化和自动转换。
 
-## 项目概述
+## 功能特性
 
-这是一个通用的 AKShare 数据接口处理系统，能够解析和处理所有类型的数据接口文档，包括：
-- 宏观经济数据
-- 股票数据  
-- 债券数据
-- 期货数据
-- 基金数据
-- 指数数据
-- QDII数据等
+- 🔄 **字段统一化** - 自动将不同接口的字段转换为标准格式
+- 🤖 **LLM 增强** - 支持使用大模型分析字段语义等价关系
+- ⚙️ **配置驱动** - 字段等价关系通过配置文件管理，代码与配置分离
+- ✅ **完整验证** - 包含字段等价关系验证和系统测试工具
+
+## 快速开始
+
+### 安装依赖
+
+```bash
+pip install -r requirements.txt
+```
+
+### 使用统一字段系统
+
+```python
+from src.unified_field_system import UnifiedFieldSystem
+
+# 初始化系统
+system = UnifiedFieldSystem(config_path="config/unified_field_config.json")
+
+# 执行接口（自动处理字段转换）
+result = system.execute_with_unification(
+    api_name="stock_zh_a_hist",
+    user_input={
+        "代码": "000001",
+        "开始日期": "2024-01-01"
+    }
+)
+```
+
+## 完整工作流
+
+### 1. 生成分析数据和 Prompts
+
+```bash
+python src/scripts/llm_field_analyzer_v2.py
+```
+
+### 2. （可选）LLM 分析
+
+将 `prompts/` 目录下的提示词提交给大模型分析，保存结果到 `config/` 目录。
+
+### 3. 生成统一配置
+
+```bash
+python src/scripts/generate_unified_config.py
+```
+
+### 4. 验证配置
+
+```bash
+python src/scripts/validate_field_equivalents.py
+```
+
+### 5. 一键完整工作流
+
+```bash
+python src/scripts/run_complete_workflow.py
+```
 
 ## 项目结构
 
 ```
 quant_skills/
-├── data/                      # 原始数据文档
-│   ├── *.md.txt             # 接口文档（按数据类型分类）
-│   │   ├── macro.md.txt        # 宏观数据
-│   │   ├── stock.md.txt        # 股票数据
-│   │   ├── bond.md.txt         # 债券数据
-│   │   ├── futures.md.txt      # 期货数据
-│   │   ├── fund_public.md.txt  # 公募基金
-│   │   ├── fund_private.md.txt # 私募基金
-│   │   ├── index.md.txt        # 指数数据
-│   │   └── qdii.md.txt        # QDII数据
-│   │
-│   └── dictionary/           # 生成的数据字典
-│       ├── all_data_dictionary_with_examples.csv    # 完整数据字典
-│       └── normalized_data_dictionary_sorted.csv    # 归一化数据字典
-│
-├── code/                      # 核心代码
-│   └── md_parser.py           # 统一解析器
-│
-├── scripts/                   # 工具脚本
-│   ├── analyze_macro_params.py  # 参数分析
-│   └── generate_macro_tasks.py # 任务生成
-│
-├── download_macro_data.py      # 数据下载主程序
-├── validate_macro_data.py    # 数据验证工具
-├── requirements.txt          # Python依赖
-└── start_download.sh         # 启动脚本
+├── src/
+│   ├── mappers/
+│   │   └── field_mapper.py         # 字段映射器
+│   ├── formatters/
+│   │   └── field_formatter.py      # 字段格式化器
+│   ├── testers/
+│   │   └── interface_tester.py     # 接口测试器
+│   ├── scripts/
+│   │   ├── llm_field_analyzer_v2.py   # LLM 字段分析器
+│   │   ├── generate_unified_config.py  # 配置生成器
+│   │   ├── validate_field_equivalents.py # 验证工具
+│   │   └── run_complete_workflow.py    # 完整工作流
+│   ├── unified_field_system.py        # 统一字段系统（核心）
+│   └── test_config_loading.py         # 配置加载测试
+├── docs/                    # 文档目录
+│   ├── 完整工作流设计.md
+│   ├── LLM字段分析系统使用指南.md
+│   ├── 字段等价关系验证指南.md
+│   └── 完整工作流快速开始.md
+├── config/                  # 配置文件目录
+│   └── unified_field_config.json
+├── data/                    # 数据目录（.gitignore）
+├── prompts/                 # 提示词目录（.gitignore）
+├── analysis/                # 分析报告目录（.gitignore）
+└── result/                  # 结果目录（.gitignore）
 ```
 
-## 快速开始
+## 文档
 
-### 安装依赖
-```bash
-pip install -r requirements.txt
-```
+- [完整工作流快速开始](docs/完整工作流快速开始.md) - 推荐先看这个！
+- [完整工作流设计](docs/完整工作流设计.md) - 详细架构设计
+- [LLM字段分析系统使用指南](docs/LLM字段分析系统使用指南.md)
+- [字段等价关系验证指南](docs/字段等价关系验证指南.md)
 
-### 下载数据
-```bash
-chmod +x start_download.sh
-./start_download.sh
-```
+## 许可证
 
-### 使用解析器
-```python
-from code.md_parser import DataDictParser, FieldNormalizer
-
-# 解析所有数据文档
-parser = DataDictParser()
-parser.parse_all().save_csv("data/dictionary/all_data_dictionary_with_examples.csv")
-
-# 归一化处理
-normalizer = FieldNormalizer("data/dictionary/all_data_dictionary_with_examples.csv")
-normalizer.normalize("data/dictionary/normalized_data_dictionary_sorted.csv")
-```
-
-## 核心功能
-
-| 模块 | 说明 |
-|------|------|
-| download_macro_data.py | 从AKShare批量下载所有类型数据 |
-| validate_macro_data.py | 验证下载数据的完整性 |
-| md_parser.py | 解析所有Markdown文档生成统一数据字典 |
-| analyze_macro_params.py | 分析接口参数取值范围 |
-
-## 依赖
-
-- akshare
-- pandas
-- requests
+MIT License

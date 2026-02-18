@@ -7,12 +7,15 @@
 
 import json
 import os
-from code.md_parser import DataDictParser
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
+from src.parsers.md_parser import DataInterfaceParser
 
 def generate_tasks_for_all_data():
     """为所有数据类型生成任务配置"""
-    parser = DataDictParser()
-    df = parser.parse_all()
+    parser = DataInterfaceParser()
+    df = parser.parse_all_files()
     
     tasks = []
     for _, row in df.iterrows():
