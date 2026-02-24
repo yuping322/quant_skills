@@ -1,0 +1,290 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-02-18T10:45:07.617302",
+  "description": "统一字段配置文件",
+  "field_equivalents": {
+    "date": [
+      "日期",
+      "DATE",
+      "TRADE_DATE",
+      "年月",
+      "发布时间",
+      "时间",
+      "datetime",
+      "交易日期",
+      "更新日期",
+      "公告日期",
+      "上市日期",
+      "成立日期",
+      "报告期",
+      "变动日期",
+      "净值日期",
+      "统计时间",
+      "start_date",
+      "end_date",
+      "tradedate",
+      "report_date",
+      "REPORT_DATE",
+      "发布日期",
+      "DATE_TYPE_CODE",
+      "STD_REPORT_DATE",
+      "START_DATE",
+      "NOTICE_DATE",
+      "FINANCIAL_DATE",
+      "DATE_TYPE",
+      "update_time",
+      "月份",
+      "当月"
+    ],
+    "symbol": [
+      "代码",
+      "股票代码",
+      "基金代码",
+      "指数代码",
+      "债券代码",
+      "期货代码",
+      "合约代码",
+      "code",
+      "stock_code",
+      "fund_code",
+      "证券代码",
+      "stock",
+      "bond_code",
+      "bond_name",
+      "bond_code"
+    ],
+    "name": [
+      "名称",
+      "股票名称",
+      "基金名称",
+      "指数名称",
+      "债券名称",
+      "期货名称",
+      "商品",
+      "title",
+      "股票简称",
+      "基金简称",
+      "债券简称",
+      "证券简称",
+      "简称",
+      "report_name",
+      "quarter_name",
+      "metric_name",
+      "SECURITY_NAME_ABBR",
+      "STD_ITEM_NAME",
+      "ITEM_NAME",
+      "REPORT_DATE_NAME"
+    ],
+    "close": [
+      "收盘价",
+      "CLOSE",
+      "最新价",
+      "现价",
+      "收盘"
+    ],
+    "open": [
+      "开盘价",
+      "OPEN",
+      "今开",
+      "开盘"
+    ],
+    "high": [
+      "最高价",
+      "HIGH",
+      "最高"
+    ],
+    "low": [
+      "最低价",
+      "LOW",
+      "最低"
+    ],
+    "volume": [
+      "成交量",
+      "VOLUME",
+      "成交量(手)"
+    ],
+    "amount": [
+      "成交额",
+      "AMOUNT",
+      "成交额(万)"
+    ],
+    "change_pct": [
+      "涨跌幅",
+      "涨跌",
+      "涨跌幅(%)",
+      "change",
+      "变动"
+    ],
+    "change_amount": [
+      "涨跌额",
+      "变化值"
+    ],
+    "actual": [
+      "今值",
+      "现值",
+      "最新值"
+    ],
+    "previous": [
+      "前值",
+      "昨收"
+    ],
+    "forecast": [
+      "预测值",
+      "预期值",
+      "预测"
+    ],
+    "market": [
+      "市场",
+      "exchange",
+      "交易所",
+      "交易市场"
+    ],
+    "adjust": [
+      "复权类型",
+      "复权"
+    ],
+    "period": [
+      "周期",
+      "frequency"
+    ],
+    "market_cap": [
+      "总市值",
+      "市值"
+    ],
+    "float_market_cap": [
+      "流通市值"
+    ],
+    "pe_ratio": [
+      "市盈率",
+      "市盈率-动态"
+    ],
+    "pb_ratio": [
+      "市净率"
+    ],
+    "turnover_rate": [
+      "换手率"
+    ],
+    "net_value": [
+      "单位净值"
+    ],
+    "daily_growth": [
+      "日增长率"
+    ],
+    "fund_manager": [
+      "基金经理"
+    ],
+    "fund_company": [
+      "基金公司"
+    ],
+    "value": [
+      "数值",
+      "值",
+      "mid_convert_value"
+    ],
+    "year": [
+      "年"
+    ],
+    "month": [
+      "月"
+    ],
+    "issue_year": [
+      "发行年份"
+    ],
+    "indicator": [
+      "指标",
+      "item"
+    ],
+    "amplitude": [
+      "振幅"
+    ],
+    "change_pct_1y": [
+      "近1年涨跌幅"
+    ],
+    "change_pct_3m": [
+      "近3月涨跌幅"
+    ],
+    "change_pct_6m": [
+      "近6月涨跌幅"
+    ],
+    "change_pct_2y": [
+      "近2年涨跌幅"
+    ],
+    "change_pct_3y": [
+      "近3年涨跌幅"
+    ],
+    "industry": [
+      "所属行业",
+      "行业"
+    ],
+    "shareholder_name": [
+      "股东名称"
+    ],
+    "shareholder_type": [
+      "股东类型"
+    ],
+    "volume_ratio": [
+      "量比"
+    ],
+    "fee": [
+      "手续费"
+    ],
+    "change_speed": [
+      "涨速"
+    ],
+    "location": [
+      "注册地"
+    ],
+    "status": [
+      "申购状态",
+      "赎回状态"
+    ],
+    "type": [
+      "类型",
+      "品种"
+    ],
+    "index": [
+      "指数"
+    ],
+    "total_shares": [
+      "总股本"
+    ],
+    "issue_price": [
+      "发行价格"
+    ],
+    "institution_name": [
+      "机构名称",
+      "营业部名称"
+    ],
+    "avg_price": [
+      "均价"
+    ],
+    "change_pct_5m": [
+      "5分钟涨跌"
+    ],
+    "change_pct_60d": [
+      "60日涨跌幅"
+    ],
+    "change_pct_ytd": [
+      "年初至今涨跌幅"
+    ],
+    "holding_value": [
+      "持股市值"
+    ],
+    "qvix": []
+  },
+  "api_mappings": {},
+  "value_normalization": {
+    "date": {
+      "formatter": "date",
+      "format": "YYYY-MM-DD"
+    },
+    "symbol": {
+      "formatter": "stock_code",
+      "market_prefix": true
+    },
+    "numeric": {
+      "formatter": "float",
+      "decimal_places": 4
+    }
+  }
+}

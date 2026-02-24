@@ -1,0 +1,1584 @@
+﻿接口名,参数类型,参数名,类型,描述,接口描述
+macro_cnbs,输入参数,无,,,中国国家金融与发展实验室-中国宏观杠杆率数据
+macro_cnbs,输出参数,年份,object,"日期, 年-月",中国国家金融与发展实验室-中国宏观杠杆率数据
+macro_cnbs,输出参数,居民部门,float64,-,中国国家金融与发展实验室-中国宏观杠杆率数据
+macro_cnbs,输出参数,非金融企业部门,float64,-,中国国家金融与发展实验室-中国宏观杠杆率数据
+macro_cnbs,输出参数,政府部门,float64,-,中国国家金融与发展实验室-中国宏观杠杆率数据
+macro_cnbs,输出参数,中央政府,float64,-,中国国家金融与发展实验室-中国宏观杠杆率数据
+macro_cnbs,输出参数,地方政府,float64,-,中国国家金融与发展实验室-中国宏观杠杆率数据
+macro_cnbs,输出参数,实体经济部门,float64,-,中国国家金融与发展实验室-中国宏观杠杆率数据
+macro_cnbs,输出参数,金融部门资产方,float64,-,中国国家金融与发展实验室-中国宏观杠杆率数据
+macro_cnbs,输出参数,金融部门负债方,float64,-,中国国家金融与发展实验室-中国宏观杠杆率数据
+macro_china_qyspjg,输入参数,无,,,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,月份,object,-,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,总指数-指数值,float64,-,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,总指数-同比增长,float64,注意单位: %,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,总指数-环比增长,float64,注意单位: %,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,农产品-指数值,float64,-,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,农产品-同比增长,float64,注意单位: %,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,农产品-环比增长,float64,注意单位: %,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,矿产品-指数值,float64,-,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,矿产品-同比增长,float64,注意单位: %,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,矿产品-环比增长,float64,注意单位: %,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,煤油电-指数值,float64,-,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,煤油电-同比增长,float64,注意单位: %,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_qyspjg,输出参数,煤油电-环比增长,float64,注意单位: %,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今"
+macro_china_fdi,输入参数,无,,,"东方财富-经济数据一览-中国-外商直接投资数据, 数据区间从 200801-202307"
+macro_china_fdi,输出参数,月份,object,-,"东方财富-经济数据一览-中国-外商直接投资数据, 数据区间从 200801-202307"
+macro_china_fdi,输出参数,当月,int64,-,"东方财富-经济数据一览-中国-外商直接投资数据, 数据区间从 200801-202307"
+macro_china_fdi,输出参数,当月-同比增长,float64,注意单位: 美元,"东方财富-经济数据一览-中国-外商直接投资数据, 数据区间从 200801-202307"
+macro_china_fdi,输出参数,当月-环比增长,float64,注意单位: %,"东方财富-经济数据一览-中国-外商直接投资数据, 数据区间从 200801-202307"
+macro_china_fdi,输出参数,累计,float64,注意单位: 美元,"东方财富-经济数据一览-中国-外商直接投资数据, 数据区间从 200801-202307"
+macro_china_fdi,输出参数,累计-同比增长,float64,注意单位: %,"东方财富-经济数据一览-中国-外商直接投资数据, 数据区间从 200801-202307"
+macro_china_lpr,输入参数,无,,,"中国 LPR 品种数据, 数据区间从 19910421-至今"
+macro_china_lpr,输出参数,TRADE_DATE,object,日期,"中国 LPR 品种数据, 数据区间从 19910421-至今"
+macro_china_lpr,输出参数,LPR1Y,float64,LPR_1Y利率(%),"中国 LPR 品种数据, 数据区间从 19910421-至今"
+macro_china_lpr,输出参数,LPR5Y,float64,LPR_5Y利率(%),"中国 LPR 品种数据, 数据区间从 19910421-至今"
+macro_china_lpr,输出参数,RATE_1,float64,短期贷款利率:6个月至1年(含)(%),"中国 LPR 品种数据, 数据区间从 19910421-至今"
+macro_china_lpr,输出参数,RATE_2,float64,中长期贷款利率:5年以上(%),"中国 LPR 品种数据, 数据区间从 19910421-至今"
+macro_china_urban_unemployment,输入参数,无,,,国家统计局-月度数据-城镇调查失业率
+macro_china_urban_unemployment,输出参数,date,object,年月,国家统计局-月度数据-城镇调查失业率
+macro_china_urban_unemployment,输出参数,item,object,-,国家统计局-月度数据-城镇调查失业率
+macro_china_urban_unemployment,输出参数,value,float64,-,国家统计局-月度数据-城镇调查失业率
+macro_china_shrzgm,输入参数,无,,,"商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今"
+macro_china_shrzgm,输出参数,月份,object,年月,"商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今"
+macro_china_shrzgm,输出参数,社会融资规模增量,float64,注意单位: 亿元,"商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今"
+macro_china_shrzgm,输出参数,其中-人民币贷款,float64,注意单位: 亿元,"商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今"
+macro_china_shrzgm,输出参数,其中-委托贷款外币贷款,float64,"注意单位: 折合人民币, 亿元","商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今"
+macro_china_shrzgm,输出参数,其中-委托贷款,float64,注意单位: 亿元,"商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今"
+macro_china_shrzgm,输出参数,其中-信托贷款,float64,注意单位: 亿元,"商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今"
+macro_china_shrzgm,输出参数,其中-未贴现银行承兑汇票,float64,注意单位: 亿元,"商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今"
+macro_china_shrzgm,输出参数,其中-企业债券,float64,注意单位: 亿元,"商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今"
+macro_china_shrzgm,输出参数,其中-非金融企业境内股票融资,float64,注意单位: 亿元,"商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今"
+macro_china_gdp_yearly,输入参数,无,,,"金十数据中心-中国 GDP 年率报告, 数据区间从 20110120-至今"
+macro_china_gdp_yearly,输出参数,商品,object,-,"金十数据中心-中国 GDP 年率报告, 数据区间从 20110120-至今"
+macro_china_gdp_yearly,输出参数,日期,object,-,"金十数据中心-中国 GDP 年率报告, 数据区间从 20110120-至今"
+macro_china_gdp_yearly,输出参数,今值,float64,注意单位: %,"金十数据中心-中国 GDP 年率报告, 数据区间从 20110120-至今"
+macro_china_gdp_yearly,输出参数,预测值,float64,注意单位: %,"金十数据中心-中国 GDP 年率报告, 数据区间从 20110120-至今"
+macro_china_gdp_yearly,输出参数,前值,float64,注意单位: %,"金十数据中心-中国 GDP 年率报告, 数据区间从 20110120-至今"
+macro_china_cpi_yearly,输入参数,无,,,"中国年度 CPI 数据, 数据区间从 19860201-至今"
+macro_china_cpi_yearly,输出参数,商品,object,-,"中国年度 CPI 数据, 数据区间从 19860201-至今"
+macro_china_cpi_yearly,输出参数,日期,object,-,"中国年度 CPI 数据, 数据区间从 19860201-至今"
+macro_china_cpi_yearly,输出参数,今值,float64,注意单位: %,"中国年度 CPI 数据, 数据区间从 19860201-至今"
+macro_china_cpi_yearly,输出参数,预测值,float64,注意单位: %,"中国年度 CPI 数据, 数据区间从 19860201-至今"
+macro_china_cpi_yearly,输出参数,前值,float64,注意单位: %,"中国年度 CPI 数据, 数据区间从 19860201-至今"
+macro_china_cpi_monthly,输入参数,无,,,"中国月度 CPI 数据, 数据区间从 19960201-至今"
+macro_china_cpi_monthly,输出参数,商品,object,-,"中国月度 CPI 数据, 数据区间从 19960201-至今"
+macro_china_cpi_monthly,输出参数,日期,object,-,"中国月度 CPI 数据, 数据区间从 19960201-至今"
+macro_china_cpi_monthly,输出参数,今值,float64,注意单位: %,"中国月度 CPI 数据, 数据区间从 19960201-至今"
+macro_china_cpi_monthly,输出参数,预测值,float64,注意单位: %,"中国月度 CPI 数据, 数据区间从 19960201-至今"
+macro_china_cpi_monthly,输出参数,前值,float64,注意单位: %,"中国月度 CPI 数据, 数据区间从 19960201-至今"
+macro_china_ppi_yearly,输入参数,无,,,"中国年度 PPI 数据, 数据区间从 19950801-至今"
+macro_china_ppi_yearly,输出参数,商品,object,-,"中国年度 PPI 数据, 数据区间从 19950801-至今"
+macro_china_ppi_yearly,输出参数,日期,object,-,"中国年度 PPI 数据, 数据区间从 19950801-至今"
+macro_china_ppi_yearly,输出参数,今值,float64,注意单位: %,"中国年度 PPI 数据, 数据区间从 19950801-至今"
+macro_china_ppi_yearly,输出参数,预测值,float64,注意单位: %,"中国年度 PPI 数据, 数据区间从 19950801-至今"
+macro_china_ppi_yearly,输出参数,前值,float64,注意单位: %,"中国年度 PPI 数据, 数据区间从 19950801-至今"
+macro_china_exports_yoy,输入参数,无,,,"中国以美元计算出口年率报告, 数据区间从 19820201-至今"
+macro_china_exports_yoy,输出参数,商品,object,-,"中国以美元计算出口年率报告, 数据区间从 19820201-至今"
+macro_china_exports_yoy,输出参数,日期,object,-,"中国以美元计算出口年率报告, 数据区间从 19820201-至今"
+macro_china_exports_yoy,输出参数,今值,float64,注意单位: %,"中国以美元计算出口年率报告, 数据区间从 19820201-至今"
+macro_china_exports_yoy,输出参数,预测值,float64,注意单位: %,"中国以美元计算出口年率报告, 数据区间从 19820201-至今"
+macro_china_exports_yoy,输出参数,前值,float64,注意单位: %,"中国以美元计算出口年率报告, 数据区间从 19820201-至今"
+macro_china_imports_yoy,输入参数,无,,,"中国以美元计算进口年率报告, 数据区间从 19960201-至今"
+macro_china_imports_yoy,输出参数,商品,object,-,"中国以美元计算进口年率报告, 数据区间从 19960201-至今"
+macro_china_imports_yoy,输出参数,日期,object,-,"中国以美元计算进口年率报告, 数据区间从 19960201-至今"
+macro_china_imports_yoy,输出参数,今值,float64,注意单位: %,"中国以美元计算进口年率报告, 数据区间从 19960201-至今"
+macro_china_imports_yoy,输出参数,预测值,float64,注意单位: %,"中国以美元计算进口年率报告, 数据区间从 19960201-至今"
+macro_china_imports_yoy,输出参数,前值,float64,注意单位: %,"中国以美元计算进口年率报告, 数据区间从 19960201-至今"
+macro_china_trade_balance,输入参数,无,,,"中国以美元计算贸易帐报告, 数据区间从19810201-至今"
+macro_china_trade_balance,输出参数,商品,object,-,"中国以美元计算贸易帐报告, 数据区间从19810201-至今"
+macro_china_trade_balance,输出参数,日期,object,-,"中国以美元计算贸易帐报告, 数据区间从19810201-至今"
+macro_china_trade_balance,输出参数,今值,float64,注意单位: 亿美元,"中国以美元计算贸易帐报告, 数据区间从19810201-至今"
+macro_china_trade_balance,输出参数,预测值,float64,注意单位: 亿美元,"中国以美元计算贸易帐报告, 数据区间从19810201-至今"
+macro_china_trade_balance,输出参数,前值,float64,注意单位: 亿美元,"中国以美元计算贸易帐报告, 数据区间从19810201-至今"
+macro_china_gyzjz,输入参数,无,,,"东方财富-中国工业增加值增长, 数据区间从 2008 - 至今"
+macro_china_gyzjz,输出参数,月份,object,-,"东方财富-中国工业增加值增长, 数据区间从 2008 - 至今"
+macro_china_gyzjz,输出参数,同比增长,float64,注意单位: %,"东方财富-中国工业增加值增长, 数据区间从 2008 - 至今"
+macro_china_gyzjz,输出参数,累计增长,float64,注意单位: %,"东方财富-中国工业增加值增长, 数据区间从 2008 - 至今"
+macro_china_gyzjz,输出参数,发布时间,object,-,"东方财富-中国工业增加值增长, 数据区间从 2008 - 至今"
+macro_china_industrial_production_yoy,输入参数,无,,,"中国规模以上工业增加值年率报告, 数据区间从 19900301-至今"
+macro_china_industrial_production_yoy,输出参数,商品,object,-,"中国规模以上工业增加值年率报告, 数据区间从 19900301-至今"
+macro_china_industrial_production_yoy,输出参数,日期,object,-,"中国规模以上工业增加值年率报告, 数据区间从 19900301-至今"
+macro_china_industrial_production_yoy,输出参数,今值,float64,注意单位: %,"中国规模以上工业增加值年率报告, 数据区间从 19900301-至今"
+macro_china_industrial_production_yoy,输出参数,预测值,float64,注意单位: %,"中国规模以上工业增加值年率报告, 数据区间从 19900301-至今"
+macro_china_industrial_production_yoy,输出参数,前值,float64,注意单位: %,"中国规模以上工业增加值年率报告, 数据区间从 19900301-至今"
+macro_china_pmi_yearly,输入参数,无,,,"中国年度PMI数据, 数据区间从 20050201-至今"
+macro_china_pmi_yearly,输出参数,商品,object,-,"中国年度PMI数据, 数据区间从 20050201-至今"
+macro_china_pmi_yearly,输出参数,日期,object,-,"中国年度PMI数据, 数据区间从 20050201-至今"
+macro_china_pmi_yearly,输出参数,今值,float64,-,"中国年度PMI数据, 数据区间从 20050201-至今"
+macro_china_pmi_yearly,输出参数,预测值,float64,-,"中国年度PMI数据, 数据区间从 20050201-至今"
+macro_china_pmi_yearly,输出参数,前值,float64,-,"中国年度PMI数据, 数据区间从 20050201-至今"
+macro_china_cx_pmi_yearly,输入参数,无,,,"中国年度财新 PMI 数据, 数据区间从 20120120-至今"
+macro_china_cx_pmi_yearly,输出参数,商品,object,-,"中国年度财新 PMI 数据, 数据区间从 20120120-至今"
+macro_china_cx_pmi_yearly,输出参数,日期,object,-,"中国年度财新 PMI 数据, 数据区间从 20120120-至今"
+macro_china_cx_pmi_yearly,输出参数,今值,float64,-,"中国年度财新 PMI 数据, 数据区间从 20120120-至今"
+macro_china_cx_pmi_yearly,输出参数,预测值,float64,-,"中国年度财新 PMI 数据, 数据区间从 20120120-至今"
+macro_china_cx_pmi_yearly,输出参数,前值,float64,-,"中国年度财新 PMI 数据, 数据区间从 20120120-至今"
+macro_china_cx_services_pmi_yearly,输入参数,无,,,"中国财新服务业 PMI 报告, 数据区间从 20120405-至今"
+macro_china_cx_services_pmi_yearly,输出参数,商品,object,-,"中国财新服务业 PMI 报告, 数据区间从 20120405-至今"
+macro_china_cx_services_pmi_yearly,输出参数,日期,object,-,"中国财新服务业 PMI 报告, 数据区间从 20120405-至今"
+macro_china_cx_services_pmi_yearly,输出参数,今值,float64,-,"中国财新服务业 PMI 报告, 数据区间从 20120405-至今"
+macro_china_cx_services_pmi_yearly,输出参数,预测值,float64,-,"中国财新服务业 PMI 报告, 数据区间从 20120405-至今"
+macro_china_cx_services_pmi_yearly,输出参数,前值,float64,-,"中国财新服务业 PMI 报告, 数据区间从 20120405-至今"
+macro_china_non_man_pmi,输入参数,无,,,"中国官方非制造业 PMI, 数据区间从 20160101-至今"
+macro_china_non_man_pmi,输出参数,商品,object,-,"中国官方非制造业 PMI, 数据区间从 20160101-至今"
+macro_china_non_man_pmi,输出参数,日期,object,-,"中国官方非制造业 PMI, 数据区间从 20160101-至今"
+macro_china_non_man_pmi,输出参数,今值,float64,注意单位: %,"中国官方非制造业 PMI, 数据区间从 20160101-至今"
+macro_china_non_man_pmi,输出参数,预测值,float64,注意单位: %,"中国官方非制造业 PMI, 数据区间从 20160101-至今"
+macro_china_non_man_pmi,输出参数,前值,float64,注意单位: %,"中国官方非制造业 PMI, 数据区间从 20160101-至今"
+macro_china_fx_reserves_yearly,输入参数,无,,,"中国年度外汇储备数据, 数据区间从 20140115-至今"
+macro_china_fx_reserves_yearly,输出参数,商品,object,-,"中国年度外汇储备数据, 数据区间从 20140115-至今"
+macro_china_fx_reserves_yearly,输出参数,日期,object,-,"中国年度外汇储备数据, 数据区间从 20140115-至今"
+macro_china_fx_reserves_yearly,输出参数,今值,float64,注意单位: 亿美元,"中国年度外汇储备数据, 数据区间从 20140115-至今"
+macro_china_fx_reserves_yearly,输出参数,预测值,float64,注意单位: 亿美元,"中国年度外汇储备数据, 数据区间从 20140115-至今"
+macro_china_fx_reserves_yearly,输出参数,前值,float64,注意单位: 亿美元,"中国年度外汇储备数据, 数据区间从 20140115-至今"
+macro_china_m2_yearly,输入参数,无,,,"中国年度 M2 数据, 数据区间从 19980201-至今"
+macro_china_m2_yearly,输出参数,商品,object,-,"中国年度 M2 数据, 数据区间从 19980201-至今"
+macro_china_m2_yearly,输出参数,日期,object,-,"中国年度 M2 数据, 数据区间从 19980201-至今"
+macro_china_m2_yearly,输出参数,今值,float64,注意单位: %,"中国年度 M2 数据, 数据区间从 19980201-至今"
+macro_china_m2_yearly,输出参数,预测值,float64,注意单位: %,"中国年度 M2 数据, 数据区间从 19980201-至今"
+macro_china_m2_yearly,输出参数,前值,float64,注意单位: %,"中国年度 M2 数据, 数据区间从 19980201-至今"
+macro_china_new_house_price,输入参数,city_first,str,"city_first=""北京""; 城市列表见目标网站","中国新房价指数月度数据, 数据区间从 201101-至今"
+macro_china_new_house_price,输入参数,city_second,str,"city_second=""上海""; 城市列表见目标网站","中国新房价指数月度数据, 数据区间从 201101-至今"
+macro_china_new_house_price,输出参数,日期,object,日期,"中国新房价指数月度数据, 数据区间从 201101-至今"
+macro_china_new_house_price,输出参数,城市,object,-,"中国新房价指数月度数据, 数据区间从 201101-至今"
+macro_china_new_house_price,输出参数,新建商品住宅价格指数-环比,float64,-,"中国新房价指数月度数据, 数据区间从 201101-至今"
+macro_china_new_house_price,输出参数,新建商品住宅价格指数-同比,float64,-,"中国新房价指数月度数据, 数据区间从 201101-至今"
+macro_china_new_house_price,输出参数,新建商品住宅价格指数-定基,float64,-,"中国新房价指数月度数据, 数据区间从 201101-至今"
+macro_china_new_house_price,输出参数,二手住宅价格指数-环比,float64,-,"中国新房价指数月度数据, 数据区间从 201101-至今"
+macro_china_new_house_price,输出参数,二手住宅价格指数-同比,float64,-,"中国新房价指数月度数据, 数据区间从 201101-至今"
+macro_china_new_house_price,输出参数,二手住宅价格指数-定基,float64,-,"中国新房价指数月度数据, 数据区间从 201101-至今"
+macro_china_enterprise_boom_index,输入参数,无,,,"中国企业景气及企业家信心指数数据, 数据区间从 2005 一季度-至今"
+macro_china_enterprise_boom_index,输出参数,季度,object,日期,"中国企业景气及企业家信心指数数据, 数据区间从 2005 一季度-至今"
+macro_china_enterprise_boom_index,输出参数,企业景气指数-指数,float64,-,"中国企业景气及企业家信心指数数据, 数据区间从 2005 一季度-至今"
+macro_china_enterprise_boom_index,输出参数,企业景气指数-同比,float64,注意单位: %,"中国企业景气及企业家信心指数数据, 数据区间从 2005 一季度-至今"
+macro_china_enterprise_boom_index,输出参数,企业景气指数-环比,float64,注意单位: %,"中国企业景气及企业家信心指数数据, 数据区间从 2005 一季度-至今"
+macro_china_enterprise_boom_index,输出参数,企业家信心指数-指数,float64,-,"中国企业景气及企业家信心指数数据, 数据区间从 2005 一季度-至今"
+macro_china_enterprise_boom_index,输出参数,企业家信心指数-同比,float64,注意单位: %,"中国企业景气及企业家信心指数数据, 数据区间从 2005 一季度-至今"
+macro_china_enterprise_boom_index,输出参数,企业家信心指数-环比,float64,注意单位: %,"中国企业景气及企业家信心指数数据, 数据区间从 2005 一季度-至今"
+macro_china_national_tax_receipts,输入参数,无,,,"中国全国税收收入数据, 数据区间从 2005 一季度-至今"
+macro_china_national_tax_receipts,输出参数,季度,object,日期,"中国全国税收收入数据, 数据区间从 2005 一季度-至今"
+macro_china_national_tax_receipts,输出参数,税收收入合计,float64,注意单位: 亿元,"中国全国税收收入数据, 数据区间从 2005 一季度-至今"
+macro_china_national_tax_receipts,输出参数,较上年同期,float64,注意单位: %,"中国全国税收收入数据, 数据区间从 2005 一季度-至今"
+macro_china_national_tax_receipts,输出参数,季度环比,float64,-,"中国全国税收收入数据, 数据区间从 2005 一季度-至今"
+macro_china_bank_financing,输入参数,无,,,"银行理财产品发行数量, 数据区间从 2000 一月-至今"
+macro_china_bank_financing,输出参数,日期,object,-,"银行理财产品发行数量, 数据区间从 2000 一月-至今"
+macro_china_bank_financing,输出参数,最新值,int64,-,"银行理财产品发行数量, 数据区间从 2000 一月-至今"
+macro_china_bank_financing,输出参数,涨跌幅,float64,注意单位: %,"银行理财产品发行数量, 数据区间从 2000 一月-至今"
+macro_china_bank_financing,输出参数,近3月涨跌幅,float64,注意单位: %,"银行理财产品发行数量, 数据区间从 2000 一月-至今"
+macro_china_bank_financing,输出参数,近6月涨跌幅,float64,注意单位: %,"银行理财产品发行数量, 数据区间从 2000 一月-至今"
+macro_china_bank_financing,输出参数,近1年涨跌幅,float64,注意单位: %,"银行理财产品发行数量, 数据区间从 2000 一月-至今"
+macro_china_bank_financing,输出参数,近2年涨跌幅,float64,注意单位: %,"银行理财产品发行数量, 数据区间从 2000 一月-至今"
+macro_china_bank_financing,输出参数,近3年涨跌幅,float64,注意单位: %,"银行理财产品发行数量, 数据区间从 2000 一月-至今"
+macro_china_insurance_income,输入参数,无,,,"原保险保费收入, 数据区间从 200407-至今"
+macro_china_insurance_income,输出参数,日期,object,-,"原保险保费收入, 数据区间从 200407-至今"
+macro_china_insurance_income,输出参数,最新值,int64,-,"原保险保费收入, 数据区间从 200407-至今"
+macro_china_insurance_income,输出参数,涨跌幅,float64,注意单位: %,"原保险保费收入, 数据区间从 200407-至今"
+macro_china_insurance_income,输出参数,近3月涨跌幅,float64,注意单位: %,"原保险保费收入, 数据区间从 200407-至今"
+macro_china_insurance_income,输出参数,近6月涨跌幅,float64,注意单位: %,"原保险保费收入, 数据区间从 200407-至今"
+macro_china_insurance_income,输出参数,近1年涨跌幅,float64,注意单位: %,"原保险保费收入, 数据区间从 200407-至今"
+macro_china_insurance_income,输出参数,近2年涨跌幅,float64,注意单位: %,"原保险保费收入, 数据区间从 200407-至今"
+macro_china_insurance_income,输出参数,近3年涨跌幅,float64,注意单位: %,"原保险保费收入, 数据区间从 200407-至今"
+macro_china_mobile_number,输入参数,无,,,"手机出货量, 数据区间从 201201-至今"
+macro_china_mobile_number,输出参数,日期,object,-,"手机出货量, 数据区间从 201201-至今"
+macro_china_mobile_number,输出参数,最新值,int64,-,"手机出货量, 数据区间从 201201-至今"
+macro_china_mobile_number,输出参数,涨跌幅,float64,注意单位: %,"手机出货量, 数据区间从 201201-至今"
+macro_china_mobile_number,输出参数,近3月涨跌幅,float64,注意单位: %,"手机出货量, 数据区间从 201201-至今"
+macro_china_mobile_number,输出参数,近6月涨跌幅,float64,注意单位: %,"手机出货量, 数据区间从 201201-至今"
+macro_china_mobile_number,输出参数,近1年涨跌幅,float64,注意单位: %,"手机出货量, 数据区间从 201201-至今"
+macro_china_mobile_number,输出参数,近2年涨跌幅,float64,注意单位: %,"手机出货量, 数据区间从 201201-至今"
+macro_china_mobile_number,输出参数,近3年涨跌幅,float64,注意单位: %,"手机出货量, 数据区间从 201201-至今"
+macro_china_vegetable_basket,输入参数,无,,,"菜篮子产品批发价格指数, 数据区间从 20050927-至今"
+macro_china_vegetable_basket,输出参数,日期,object,-,"菜篮子产品批发价格指数, 数据区间从 20050927-至今"
+macro_china_vegetable_basket,输出参数,最新值,int64,-,"菜篮子产品批发价格指数, 数据区间从 20050927-至今"
+macro_china_vegetable_basket,输出参数,涨跌幅,float64,注意单位: %,"菜篮子产品批发价格指数, 数据区间从 20050927-至今"
+macro_china_vegetable_basket,输出参数,近3月涨跌幅,float64,注意单位: %,"菜篮子产品批发价格指数, 数据区间从 20050927-至今"
+macro_china_vegetable_basket,输出参数,近6月涨跌幅,float64,注意单位: %,"菜篮子产品批发价格指数, 数据区间从 20050927-至今"
+macro_china_vegetable_basket,输出参数,近1年涨跌幅,float64,注意单位: %,"菜篮子产品批发价格指数, 数据区间从 20050927-至今"
+macro_china_vegetable_basket,输出参数,近2年涨跌幅,float64,注意单位: %,"菜篮子产品批发价格指数, 数据区间从 20050927-至今"
+macro_china_vegetable_basket,输出参数,近3年涨跌幅,float64,注意单位: %,"菜篮子产品批发价格指数, 数据区间从 20050927-至今"
+macro_china_agricultural_product,输入参数,无,,,"农产品批发价格总指数, 数据区间从 20050927-至今"
+macro_china_agricultural_product,输出参数,日期,object,-,"农产品批发价格总指数, 数据区间从 20050927-至今"
+macro_china_agricultural_product,输出参数,最新值,int64,-,"农产品批发价格总指数, 数据区间从 20050927-至今"
+macro_china_agricultural_product,输出参数,涨跌幅,float64,注意单位: %,"农产品批发价格总指数, 数据区间从 20050927-至今"
+macro_china_agricultural_product,输出参数,近3月涨跌幅,float64,注意单位: %,"农产品批发价格总指数, 数据区间从 20050927-至今"
+macro_china_agricultural_product,输出参数,近6月涨跌幅,float64,注意单位: %,"农产品批发价格总指数, 数据区间从 20050927-至今"
+macro_china_agricultural_product,输出参数,近1年涨跌幅,float64,注意单位: %,"农产品批发价格总指数, 数据区间从 20050927-至今"
+macro_china_agricultural_product,输出参数,近2年涨跌幅,float64,注意单位: %,"农产品批发价格总指数, 数据区间从 20050927-至今"
+macro_china_agricultural_product,输出参数,近3年涨跌幅,float64,注意单位: %,"农产品批发价格总指数, 数据区间从 20050927-至今"
+macro_china_agricultural_index,输入参数,无,,,"农副指数数据, 数据区间从 20111205-至今"
+macro_china_agricultural_index,输出参数,日期,object,-,"农副指数数据, 数据区间从 20111205-至今"
+macro_china_agricultural_index,输出参数,最新值,int64,-,"农副指数数据, 数据区间从 20111205-至今"
+macro_china_agricultural_index,输出参数,涨跌幅,float64,注意单位: %,"农副指数数据, 数据区间从 20111205-至今"
+macro_china_agricultural_index,输出参数,近3月涨跌幅,float64,注意单位: %,"农副指数数据, 数据区间从 20111205-至今"
+macro_china_agricultural_index,输出参数,近6月涨跌幅,float64,注意单位: %,"农副指数数据, 数据区间从 20111205-至今"
+macro_china_agricultural_index,输出参数,近1年涨跌幅,float64,注意单位: %,"农副指数数据, 数据区间从 20111205-至今"
+macro_china_agricultural_index,输出参数,近2年涨跌幅,float64,注意单位: %,"农副指数数据, 数据区间从 20111205-至今"
+macro_china_agricultural_index,输出参数,近3年涨跌幅,float64,注意单位: %,"农副指数数据, 数据区间从 20111205-至今"
+macro_china_energy_index,输入参数,无,,,"能源指数数据, 数据区间从 20111205-至今"
+macro_china_energy_index,输出参数,日期,object,-,"能源指数数据, 数据区间从 20111205-至今"
+macro_china_energy_index,输出参数,最新值,int64,-,"能源指数数据, 数据区间从 20111205-至今"
+macro_china_energy_index,输出参数,涨跌幅,float64,注意单位: %,"能源指数数据, 数据区间从 20111205-至今"
+macro_china_energy_index,输出参数,近3月涨跌幅,float64,注意单位: %,"能源指数数据, 数据区间从 20111205-至今"
+macro_china_energy_index,输出参数,近6月涨跌幅,float64,注意单位: %,"能源指数数据, 数据区间从 20111205-至今"
+macro_china_energy_index,输出参数,近1年涨跌幅,float64,注意单位: %,"能源指数数据, 数据区间从 20111205-至今"
+macro_china_energy_index,输出参数,近2年涨跌幅,float64,注意单位: %,"能源指数数据, 数据区间从 20111205-至今"
+macro_china_energy_index,输出参数,近3年涨跌幅,float64,注意单位: %,"能源指数数据, 数据区间从 20111205-至今"
+macro_china_commodity_price_index,输入参数,无,,,"大宗商品价格数据, 数据区间从 20111205-至今"
+macro_china_commodity_price_index,输出参数,日期,object,-,"大宗商品价格数据, 数据区间从 20111205-至今"
+macro_china_commodity_price_index,输出参数,最新值,int64,-,"大宗商品价格数据, 数据区间从 20111205-至今"
+macro_china_commodity_price_index,输出参数,涨跌幅,float64,注意单位: %,"大宗商品价格数据, 数据区间从 20111205-至今"
+macro_china_commodity_price_index,输出参数,近3月涨跌幅,float64,注意单位: %,"大宗商品价格数据, 数据区间从 20111205-至今"
+macro_china_commodity_price_index,输出参数,近6月涨跌幅,float64,注意单位: %,"大宗商品价格数据, 数据区间从 20111205-至今"
+macro_china_commodity_price_index,输出参数,近1年涨跌幅,float64,注意单位: %,"大宗商品价格数据, 数据区间从 20111205-至今"
+macro_china_commodity_price_index,输出参数,近2年涨跌幅,float64,注意单位: %,"大宗商品价格数据, 数据区间从 20111205-至今"
+macro_china_commodity_price_index,输出参数,近3年涨跌幅,float64,注意单位: %,"大宗商品价格数据, 数据区间从 20111205-至今"
+macro_global_sox_index,输入参数,无,,,"费城半导体指数数据, 数据区间从 19940504-至今"
+macro_global_sox_index,输出参数,日期,object,-,"费城半导体指数数据, 数据区间从 19940504-至今"
+macro_global_sox_index,输出参数,最新值,int64,-,"费城半导体指数数据, 数据区间从 19940504-至今"
+macro_global_sox_index,输出参数,涨跌幅,float64,注意单位: %,"费城半导体指数数据, 数据区间从 19940504-至今"
+macro_global_sox_index,输出参数,近3月涨跌幅,float64,注意单位: %,"费城半导体指数数据, 数据区间从 19940504-至今"
+macro_global_sox_index,输出参数,近6月涨跌幅,float64,注意单位: %,"费城半导体指数数据, 数据区间从 19940504-至今"
+macro_global_sox_index,输出参数,近1年涨跌幅,float64,注意单位: %,"费城半导体指数数据, 数据区间从 19940504-至今"
+macro_global_sox_index,输出参数,近2年涨跌幅,float64,注意单位: %,"费城半导体指数数据, 数据区间从 19940504-至今"
+macro_global_sox_index,输出参数,近3年涨跌幅,float64,注意单位: %,"费城半导体指数数据, 数据区间从 19940504-至今"
+macro_china_yw_electronic_index,输入参数,无,,,"义乌小商品指数-电子元器件数据, 数据区间从 20060911-至今"
+macro_china_yw_electronic_index,输出参数,日期,object,-,"义乌小商品指数-电子元器件数据, 数据区间从 20060911-至今"
+macro_china_yw_electronic_index,输出参数,最新值,int64,-,"义乌小商品指数-电子元器件数据, 数据区间从 20060911-至今"
+macro_china_yw_electronic_index,输出参数,涨跌幅,float64,注意单位: %,"义乌小商品指数-电子元器件数据, 数据区间从 20060911-至今"
+macro_china_yw_electronic_index,输出参数,近3月涨跌幅,float64,注意单位: %,"义乌小商品指数-电子元器件数据, 数据区间从 20060911-至今"
+macro_china_yw_electronic_index,输出参数,近6月涨跌幅,float64,注意单位: %,"义乌小商品指数-电子元器件数据, 数据区间从 20060911-至今"
+macro_china_yw_electronic_index,输出参数,近1年涨跌幅,float64,注意单位: %,"义乌小商品指数-电子元器件数据, 数据区间从 20060911-至今"
+macro_china_yw_electronic_index,输出参数,近2年涨跌幅,float64,注意单位: %,"义乌小商品指数-电子元器件数据, 数据区间从 20060911-至今"
+macro_china_yw_electronic_index,输出参数,近3年涨跌幅,float64,注意单位: %,"义乌小商品指数-电子元器件数据, 数据区间从 20060911-至今"
+macro_china_construction_index,输入参数,无,,,"建材指数数据, 数据区间从 20111205-至今"
+macro_china_construction_index,输出参数,日期,object,-,"建材指数数据, 数据区间从 20111205-至今"
+macro_china_construction_index,输出参数,最新值,int64,-,"建材指数数据, 数据区间从 20111205-至今"
+macro_china_construction_index,输出参数,涨跌幅,float64,注意单位: %,"建材指数数据, 数据区间从 20111205-至今"
+macro_china_construction_index,输出参数,近3月涨跌幅,float64,注意单位: %,"建材指数数据, 数据区间从 20111205-至今"
+macro_china_construction_index,输出参数,近6月涨跌幅,float64,注意单位: %,"建材指数数据, 数据区间从 20111205-至今"
+macro_china_construction_index,输出参数,近1年涨跌幅,float64,注意单位: %,"建材指数数据, 数据区间从 20111205-至今"
+macro_china_construction_index,输出参数,近2年涨跌幅,float64,注意单位: %,"建材指数数据, 数据区间从 20111205-至今"
+macro_china_construction_index,输出参数,近3年涨跌幅,float64,注意单位: %,"建材指数数据, 数据区间从 20111205-至今"
+macro_china_construction_price_index,输入参数,无,,,"建材价格指数数据, 数据区间从 20100615-至今"
+macro_china_construction_price_index,输出参数,日期,object,-,"建材价格指数数据, 数据区间从 20100615-至今"
+macro_china_construction_price_index,输出参数,最新值,int64,-,"建材价格指数数据, 数据区间从 20100615-至今"
+macro_china_construction_price_index,输出参数,涨跌幅,float64,注意单位: %,"建材价格指数数据, 数据区间从 20100615-至今"
+macro_china_construction_price_index,输出参数,近3月涨跌幅,float64,注意单位: %,"建材价格指数数据, 数据区间从 20100615-至今"
+macro_china_construction_price_index,输出参数,近6月涨跌幅,float64,注意单位: %,"建材价格指数数据, 数据区间从 20100615-至今"
+macro_china_construction_price_index,输出参数,近1年涨跌幅,float64,注意单位: %,"建材价格指数数据, 数据区间从 20100615-至今"
+macro_china_construction_price_index,输出参数,近2年涨跌幅,float64,注意单位: %,"建材价格指数数据, 数据区间从 20100615-至今"
+macro_china_construction_price_index,输出参数,近3年涨跌幅,float64,注意单位: %,"建材价格指数数据, 数据区间从 20100615-至今"
+macro_china_lpi_index,输入参数,无,,,"物流景气指数数据, 数据区间从 20130701-至今"
+macro_china_lpi_index,输出参数,日期,object,-,"物流景气指数数据, 数据区间从 20130701-至今"
+macro_china_lpi_index,输出参数,最新值,int64,-,"物流景气指数数据, 数据区间从 20130701-至今"
+macro_china_lpi_index,输出参数,涨跌幅,float64,注意单位: %,"物流景气指数数据, 数据区间从 20130701-至今"
+macro_china_lpi_index,输出参数,近3月涨跌幅,float64,注意单位: %,"物流景气指数数据, 数据区间从 20130701-至今"
+macro_china_lpi_index,输出参数,近6月涨跌幅,float64,注意单位: %,"物流景气指数数据, 数据区间从 20130701-至今"
+macro_china_lpi_index,输出参数,近1年涨跌幅,float64,注意单位: %,"物流景气指数数据, 数据区间从 20130701-至今"
+macro_china_lpi_index,输出参数,近2年涨跌幅,float64,注意单位: %,"物流景气指数数据, 数据区间从 20130701-至今"
+macro_china_lpi_index,输出参数,近3年涨跌幅,float64,注意单位: %,"物流景气指数数据, 数据区间从 20130701-至今"
+macro_china_bdti_index,输入参数,无,,,"原油运输指数数据, 数据区间从 20011227-至今"
+macro_china_bdti_index,输出参数,日期,object,-,"原油运输指数数据, 数据区间从 20011227-至今"
+macro_china_bdti_index,输出参数,最新值,int64,-,"原油运输指数数据, 数据区间从 20011227-至今"
+macro_china_bdti_index,输出参数,涨跌幅,float64,注意单位: %,"原油运输指数数据, 数据区间从 20011227-至今"
+macro_china_bdti_index,输出参数,近3月涨跌幅,float64,注意单位: %,"原油运输指数数据, 数据区间从 20011227-至今"
+macro_china_bdti_index,输出参数,近6月涨跌幅,float64,注意单位: %,"原油运输指数数据, 数据区间从 20011227-至今"
+macro_china_bdti_index,输出参数,近1年涨跌幅,float64,注意单位: %,"原油运输指数数据, 数据区间从 20011227-至今"
+macro_china_bdti_index,输出参数,近2年涨跌幅,float64,注意单位: %,"原油运输指数数据, 数据区间从 20011227-至今"
+macro_china_bdti_index,输出参数,近3年涨跌幅,float64,注意单位: %,"原油运输指数数据, 数据区间从 20011227-至今"
+macro_china_bsi_index,输入参数,无,,,"超灵便型船运价指数数据, 数据区间从 20060103-至今"
+macro_china_bsi_index,输出参数,日期,object,-,"超灵便型船运价指数数据, 数据区间从 20060103-至今"
+macro_china_bsi_index,输出参数,最新值,int64,-,"超灵便型船运价指数数据, 数据区间从 20060103-至今"
+macro_china_bsi_index,输出参数,涨跌幅,float64,注意单位: %,"超灵便型船运价指数数据, 数据区间从 20060103-至今"
+macro_china_bsi_index,输出参数,近3月涨跌幅,float64,注意单位: %,"超灵便型船运价指数数据, 数据区间从 20060103-至今"
+macro_china_bsi_index,输出参数,近6月涨跌幅,float64,注意单位: %,"超灵便型船运价指数数据, 数据区间从 20060103-至今"
+macro_china_bsi_index,输出参数,近1年涨跌幅,float64,注意单位: %,"超灵便型船运价指数数据, 数据区间从 20060103-至今"
+macro_china_bsi_index,输出参数,近2年涨跌幅,float64,注意单位: %,"超灵便型船运价指数数据, 数据区间从 20060103-至今"
+macro_china_bsi_index,输出参数,近3年涨跌幅,float64,注意单位: %,"超灵便型船运价指数数据, 数据区间从 20060103-至今"
+macro_shipping_bci,输入参数,无,,,"海岬型运费指数, 数据区间从 19990430-至今"
+macro_shipping_bci,输出参数,日期,object,-,"海岬型运费指数, 数据区间从 19990430-至今"
+macro_shipping_bci,输出参数,最新值,int64,-,"海岬型运费指数, 数据区间从 19990430-至今"
+macro_shipping_bci,输出参数,涨跌幅,float64,注意单位: %,"海岬型运费指数, 数据区间从 19990430-至今"
+macro_shipping_bci,输出参数,近3月涨跌幅,float64,注意单位: %,"海岬型运费指数, 数据区间从 19990430-至今"
+macro_shipping_bci,输出参数,近6月涨跌幅,float64,注意单位: %,"海岬型运费指数, 数据区间从 19990430-至今"
+macro_shipping_bci,输出参数,近1年涨跌幅,float64,注意单位: %,"海岬型运费指数, 数据区间从 19990430-至今"
+macro_shipping_bci,输出参数,近2年涨跌幅,float64,注意单位: %,"海岬型运费指数, 数据区间从 19990430-至今"
+macro_shipping_bci,输出参数,近3年涨跌幅,float64,注意单位: %,"海岬型运费指数, 数据区间从 19990430-至今"
+macro_shipping_bdi,输入参数,无,,,"波罗的海干散货指数, 数据区间从 19881019-至今"
+macro_shipping_bdi,输出参数,日期,object,-,"波罗的海干散货指数, 数据区间从 19881019-至今"
+macro_shipping_bdi,输出参数,最新值,int64,-,"波罗的海干散货指数, 数据区间从 19881019-至今"
+macro_shipping_bdi,输出参数,涨跌幅,float64,注意单位: %,"波罗的海干散货指数, 数据区间从 19881019-至今"
+macro_shipping_bdi,输出参数,近3月涨跌幅,float64,注意单位: %,"波罗的海干散货指数, 数据区间从 19881019-至今"
+macro_shipping_bdi,输出参数,近6月涨跌幅,float64,注意单位: %,"波罗的海干散货指数, 数据区间从 19881019-至今"
+macro_shipping_bdi,输出参数,近1年涨跌幅,float64,注意单位: %,"波罗的海干散货指数, 数据区间从 19881019-至今"
+macro_shipping_bdi,输出参数,近2年涨跌幅,float64,注意单位: %,"波罗的海干散货指数, 数据区间从 19881019-至今"
+macro_shipping_bdi,输出参数,近3年涨跌幅,float64,注意单位: %,"波罗的海干散货指数, 数据区间从 19881019-至今"
+macro_shipping_bpi,输入参数,无,,,"巴拿马型运费指数, 数据区间从 19981231-至今"
+macro_shipping_bpi,输出参数,日期,object,-,"巴拿马型运费指数, 数据区间从 19981231-至今"
+macro_shipping_bpi,输出参数,最新值,int64,-,"巴拿马型运费指数, 数据区间从 19981231-至今"
+macro_shipping_bpi,输出参数,涨跌幅,float64,注意单位: %,"巴拿马型运费指数, 数据区间从 19981231-至今"
+macro_shipping_bpi,输出参数,近3月涨跌幅,float64,注意单位: %,"巴拿马型运费指数, 数据区间从 19981231-至今"
+macro_shipping_bpi,输出参数,近6月涨跌幅,float64,注意单位: %,"巴拿马型运费指数, 数据区间从 19981231-至今"
+macro_shipping_bpi,输出参数,近1年涨跌幅,float64,注意单位: %,"巴拿马型运费指数, 数据区间从 19981231-至今"
+macro_shipping_bpi,输出参数,近2年涨跌幅,float64,注意单位: %,"巴拿马型运费指数, 数据区间从 19981231-至今"
+macro_shipping_bpi,输出参数,近3年涨跌幅,float64,注意单位: %,"巴拿马型运费指数, 数据区间从 19981231-至今"
+macro_shipping_bcti,输入参数,无,,,"成品油运输指数, 数据区间从 20011217-至今"
+macro_shipping_bcti,输出参数,日期,object,-,"成品油运输指数, 数据区间从 20011217-至今"
+macro_shipping_bcti,输出参数,最新值,int64,-,"成品油运输指数, 数据区间从 20011217-至今"
+macro_shipping_bcti,输出参数,涨跌幅,float64,注意单位: %,"成品油运输指数, 数据区间从 20011217-至今"
+macro_shipping_bcti,输出参数,近3月涨跌幅,float64,注意单位: %,"成品油运输指数, 数据区间从 20011217-至今"
+macro_shipping_bcti,输出参数,近6月涨跌幅,float64,注意单位: %,"成品油运输指数, 数据区间从 20011217-至今"
+macro_shipping_bcti,输出参数,近1年涨跌幅,float64,注意单位: %,"成品油运输指数, 数据区间从 20011217-至今"
+macro_shipping_bcti,输出参数,近2年涨跌幅,float64,注意单位: %,"成品油运输指数, 数据区间从 20011217-至今"
+macro_shipping_bcti,输出参数,近3年涨跌幅,float64,注意单位: %,"成品油运输指数, 数据区间从 20011217-至今"
+macro_china_new_financial_credit,输入参数,无,,,"中国新增信贷数据数据, 数据区间从 200801 至今, 月度数据"
+macro_china_new_financial_credit,输出参数,月份,object,-,"中国新增信贷数据数据, 数据区间从 200801 至今, 月度数据"
+macro_china_new_financial_credit,输出参数,当月,float64,注意单位: 亿元,"中国新增信贷数据数据, 数据区间从 200801 至今, 月度数据"
+macro_china_new_financial_credit,输出参数,当月-同比增长,float64,注意单位: %,"中国新增信贷数据数据, 数据区间从 200801 至今, 月度数据"
+macro_china_new_financial_credit,输出参数,当月-环比增长,float64,注意单位: %,"中国新增信贷数据数据, 数据区间从 200801 至今, 月度数据"
+macro_china_new_financial_credit,输出参数,累计,float64,注意单位: 亿元,"中国新增信贷数据数据, 数据区间从 200801 至今, 月度数据"
+macro_china_new_financial_credit,输出参数,累计-同比增长,float64,注意单位: %,"中国新增信贷数据数据, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输入参数,无,,,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,月份,object,-,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,全国-当月,float64,-,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,全国-同比增长,float64,注意单位: %,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,全国-环比增长,float64,注意单位: %,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,全国-累计,float64,-,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,城市-当月,float64,-,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,城市-同比增长,float64,注意单位: %,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,城市-环比增长,float64,注意单位: %,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,城市-累计,float64,-,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,农村-当月,float64,-,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,农村-同比增长,float64,注意单位: %,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,农村-环比增长,float64,注意单位: %,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_cpi,输出参数,农村-累计,float64,-,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据"
+macro_china_gdp,输入参数,无,,,"中国国内生产总值, 数据区间从 200601 至今, 月度数据"
+macro_china_gdp,输出参数,季度,object,-,"中国国内生产总值, 数据区间从 200601 至今, 月度数据"
+macro_china_gdp,输出参数,国内生产总值-绝对值,float64,注意单位: 亿元,"中国国内生产总值, 数据区间从 200601 至今, 月度数据"
+macro_china_gdp,输出参数,国内生产总值-同比增长,float64,注意单位: %,"中国国内生产总值, 数据区间从 200601 至今, 月度数据"
+macro_china_gdp,输出参数,第一产业-绝对值,float64,注意单位: 亿元,"中国国内生产总值, 数据区间从 200601 至今, 月度数据"
+macro_china_gdp,输出参数,第一产业-同比增长,float64,注意单位: %,"中国国内生产总值, 数据区间从 200601 至今, 月度数据"
+macro_china_gdp,输出参数,第二产业-绝对值,float64,注意单位: 亿元,"中国国内生产总值, 数据区间从 200601 至今, 月度数据"
+macro_china_gdp,输出参数,第二产业-同比增长,float64,注意单位: %,"中国国内生产总值, 数据区间从 200601 至今, 月度数据"
+macro_china_gdp,输出参数,第三产业-绝对值,float64,注意单位: 亿元,"中国国内生产总值, 数据区间从 200601 至今, 月度数据"
+macro_china_gdp,输出参数,第三产业-同比增长,float64,注意单位: %,"中国国内生产总值, 数据区间从 200601 至今, 月度数据"
+macro_china_ppi,输入参数,无,,,"工业品出厂价格指数, 数据区间从 200601 至今, 月度数据"
+macro_china_ppi,输出参数,月份,object,-,"工业品出厂价格指数, 数据区间从 200601 至今, 月度数据"
+macro_china_ppi,输出参数,当月,float64,-,"工业品出厂价格指数, 数据区间从 200601 至今, 月度数据"
+macro_china_ppi,输出参数,当月同比增长,float64,注意单位: %,"工业品出厂价格指数, 数据区间从 200601 至今, 月度数据"
+macro_china_ppi,输出参数,累计,float64,-,"工业品出厂价格指数, 数据区间从 200601 至今, 月度数据"
+macro_china_pmi,输入参数,无,,,"采购经理人指数, 数据区间从 200801 至今, 月度数据"
+macro_china_pmi,输出参数,月份,object,-,"采购经理人指数, 数据区间从 200801 至今, 月度数据"
+macro_china_pmi,输出参数,制造业-指数,float64,-,"采购经理人指数, 数据区间从 200801 至今, 月度数据"
+macro_china_pmi,输出参数,制造业-同比增长,float64,注意单位: %,"采购经理人指数, 数据区间从 200801 至今, 月度数据"
+macro_china_pmi,输出参数,非制造业-指数,float64,-,"采购经理人指数, 数据区间从 200801 至今, 月度数据"
+macro_china_pmi,输出参数,非制造业-同比增长,float64,注意单位: %,"采购经理人指数, 数据区间从 200801 至今, 月度数据"
+macro_china_gdzctz,输入参数,无,,,"中国城镇固定资产投资, 数据区间从 200802 至今, 月度数据"
+macro_china_gdzctz,输出参数,月份,object,-,"中国城镇固定资产投资, 数据区间从 200802 至今, 月度数据"
+macro_china_gdzctz,输出参数,当月,float64,注意单位: 亿元,"中国城镇固定资产投资, 数据区间从 200802 至今, 月度数据"
+macro_china_gdzctz,输出参数,同比增长,float64,注意单位: %,"中国城镇固定资产投资, 数据区间从 200802 至今, 月度数据"
+macro_china_gdzctz,输出参数,环比增长,float64,注意单位: %,"中国城镇固定资产投资, 数据区间从 200802 至今, 月度数据"
+macro_china_gdzctz,输出参数,自年初累计,float64,注意单位: 亿元,"中国城镇固定资产投资, 数据区间从 200802 至今, 月度数据"
+macro_china_hgjck,输入参数,无,,,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_hgjck,输出参数,月份,object,-,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_hgjck,输出参数,当月出口额-金额,float64,注意单位: 亿美元,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_hgjck,输出参数,当月出口额-同比增长,float64,注意单位: %,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_hgjck,输出参数,当月出口额-环比增长,float64,注意单位: %,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_hgjck,输出参数,当月进口额-金额,float64,注意单位: 亿美元,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_hgjck,输出参数,当月进口额-同比增长,float64,注意单位: %,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_hgjck,输出参数,当月进口额-环比增长,float64,注意单位: %,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_hgjck,输出参数,累计出口额-金额,float64,注意单位: 亿美元,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_hgjck,输出参数,累计出口额-同比增长,float64,注意单位: %,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_hgjck,输出参数,累计进口额-金额,float64,注意单位: 亿美元,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_hgjck,输出参数,累计进口额-同比增长,float64,注意单位: %,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据"
+macro_china_czsr,输入参数,无,,,"中国财政收入, 数据区间从 200801 至今, 月度数据"
+macro_china_czsr,输出参数,月份,object,-,"中国财政收入, 数据区间从 200801 至今, 月度数据"
+macro_china_czsr,输出参数,当月,float64,注意单位: 亿元,"中国财政收入, 数据区间从 200801 至今, 月度数据"
+macro_china_czsr,输出参数,当月-同比增长,float64,注意单位: %,"中国财政收入, 数据区间从 200801 至今, 月度数据"
+macro_china_czsr,输出参数,当月-环比增长,float64,注意单位: %,"中国财政收入, 数据区间从 200801 至今, 月度数据"
+macro_china_czsr,输出参数,累计,float64,注意单位: 亿元,"中国财政收入, 数据区间从 200801 至今, 月度数据"
+macro_china_czsr,输出参数,累计-同比增长,float64,注意单位: %,"中国财政收入, 数据区间从 200801 至今, 月度数据"
+macro_china_whxd,输入参数,无,,,"外汇贷款数据, 数据区间从 200802 至今, 月度数据"
+macro_china_whxd,输出参数,月份,object,-,"外汇贷款数据, 数据区间从 200802 至今, 月度数据"
+macro_china_whxd,输出参数,当月,float64,注意单位: 亿美元,"外汇贷款数据, 数据区间从 200802 至今, 月度数据"
+macro_china_whxd,输出参数,同比增长,float64,注意单位: %,"外汇贷款数据, 数据区间从 200802 至今, 月度数据"
+macro_china_whxd,输出参数,环比增长,float64,注意单位: %,"外汇贷款数据, 数据区间从 200802 至今, 月度数据"
+macro_china_whxd,输出参数,累计,float64,注意单位: 亿美元,"外汇贷款数据, 数据区间从 200802 至今, 月度数据"
+macro_china_wbck,输入参数,无,,,"本外币存款, 数据区间从 200802 至今, 月度数据"
+macro_china_wbck,输出参数,月份,object,-,"本外币存款, 数据区间从 200802 至今, 月度数据"
+macro_china_wbck,输出参数,当月,float64,注意单位: 亿元,"本外币存款, 数据区间从 200802 至今, 月度数据"
+macro_china_wbck,输出参数,同比增长,float64,注意单位: %,"本外币存款, 数据区间从 200802 至今, 月度数据"
+macro_china_wbck,输出参数,环比增长,float64,注意单位: %,"本外币存款, 数据区间从 200802 至今, 月度数据"
+macro_china_wbck,输出参数,累计,float64,注意单位: 亿元,"本外币存款, 数据区间从 200802 至今, 月度数据"
+macro_china_bond_public,输入参数,无,,,中国外汇交易中心暨全国银行间同业拆借中心-债券信息披露-新债发行; 近期债券发行数据
+macro_china_bond_public,输出参数,债券全称,object,-,中国外汇交易中心暨全国银行间同业拆借中心-债券信息披露-新债发行; 近期债券发行数据
+macro_china_bond_public,输出参数,债券类型,object,-,中国外汇交易中心暨全国银行间同业拆借中心-债券信息披露-新债发行; 近期债券发行数据
+macro_china_bond_public,输出参数,发行日期,object,-,中国外汇交易中心暨全国银行间同业拆借中心-债券信息披露-新债发行; 近期债券发行数据
+macro_china_bond_public,输出参数,计息方式,object,-,中国外汇交易中心暨全国银行间同业拆借中心-债券信息披露-新债发行; 近期债券发行数据
+macro_china_bond_public,输出参数,价格,float64,注意单位: 元,中国外汇交易中心暨全国银行间同业拆借中心-债券信息披露-新债发行; 近期债券发行数据
+macro_china_bond_public,输出参数,债券期限,object,-,中国外汇交易中心暨全国银行间同业拆借中心-债券信息披露-新债发行; 近期债券发行数据
+macro_china_bond_public,输出参数,计划发行量,float64,注意单位: 亿元,中国外汇交易中心暨全国银行间同业拆借中心-债券信息披露-新债发行; 近期债券发行数据
+macro_china_bond_public,输出参数,债券评级,object,-,中国外汇交易中心暨全国银行间同业拆借中心-债券信息披露-新债发行; 近期债券发行数据
+macro_china_xfzxx,输入参数,无,,,东方财富网-消费者信心指数
+macro_china_xfzxx,输出参数,月份,object,-,东方财富网-消费者信心指数
+macro_china_xfzxx,输出参数,消费者信心指数-指数值,float64,-,东方财富网-消费者信心指数
+macro_china_xfzxx,输出参数,消费者信心指数-同比增长,float64,注意单位: %,东方财富网-消费者信心指数
+macro_china_xfzxx,输出参数,消费者信心指数-环比增长,float64,注意单位: %,东方财富网-消费者信心指数
+macro_china_xfzxx,输出参数,消费者满意指数-指数值,float64,-,东方财富网-消费者信心指数
+macro_china_xfzxx,输出参数,消费者满意指数-同比增长,float64,注意单位: %,东方财富网-消费者信心指数
+macro_china_xfzxx,输出参数,消费者满意指数-环比增长,float64,注意单位: %,东方财富网-消费者信心指数
+macro_china_xfzxx,输出参数,消费者预期指数-指数值,float64,-,东方财富网-消费者信心指数
+macro_china_xfzxx,输出参数,消费者预期指数-同比增长,float64,注意单位: %,东方财富网-消费者信心指数
+macro_china_xfzxx,输出参数,消费者预期指数-环比增长,float64,注意单位: %,东方财富网-消费者信心指数
+macro_china_reserve_requirement_ratio,输入参数,无,,,国家统计局-存款准备金率
+macro_china_reserve_requirement_ratio,输出参数,公布时间,object,XXXX年X月,国家统计局-存款准备金率
+macro_china_reserve_requirement_ratio,输出参数,生效时间,object,XXXX年X月,国家统计局-存款准备金率
+macro_china_reserve_requirement_ratio,输出参数,大型金融机构-调整前,float64,注意单位: %,国家统计局-存款准备金率
+macro_china_reserve_requirement_ratio,输出参数,大型金融机构-调整后,float64,注意单位: %,国家统计局-存款准备金率
+macro_china_reserve_requirement_ratio,输出参数,大型金融机构-调整幅度,float64,注意单位: %,国家统计局-存款准备金率
+macro_china_reserve_requirement_ratio,输出参数,中小金融机构-调整前,float64,注意单位: %,国家统计局-存款准备金率
+macro_china_reserve_requirement_ratio,输出参数,中小金融机构-调整后,float64,注意单位: %,国家统计局-存款准备金率
+macro_china_reserve_requirement_ratio,输出参数,中小金融机构-调整幅度,float64,注意单位: %,国家统计局-存款准备金率
+macro_china_reserve_requirement_ratio,输出参数,消息公布次日指数涨跌-上证,float64,注意单位: %,国家统计局-存款准备金率
+macro_china_reserve_requirement_ratio,输出参数,消息公布次日指数涨跌-深证,float64,注意单位: %,国家统计局-存款准备金率
+macro_china_reserve_requirement_ratio,输出参数,备注,object,-,国家统计局-存款准备金率
+macro_china_consumer_goods_retail,输入参数,无,,,东方财富-经济数据-社会消费品零售总额
+macro_china_consumer_goods_retail,输出参数,月份,object,-,东方财富-经济数据-社会消费品零售总额
+macro_china_consumer_goods_retail,输出参数,当月,float64,注意单位: 亿元,东方财富-经济数据-社会消费品零售总额
+macro_china_consumer_goods_retail,输出参数,同比增长,float64,注意单位: %,东方财富-经济数据-社会消费品零售总额
+macro_china_consumer_goods_retail,输出参数,环比增长,float64,注意单位: %,东方财富-经济数据-社会消费品零售总额
+macro_china_consumer_goods_retail,输出参数,累计,float64,注意单位: 亿元,东方财富-经济数据-社会消费品零售总额
+macro_china_consumer_goods_retail,输出参数,累计-同比增长,float64,注意单位: %,东方财富-经济数据-社会消费品零售总额
+macro_china_society_electricity,输入参数,无,,,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,统计时间,object,-,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,全社会用电量,float64,注意单位: 万千瓦时,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,全社会用电量同比,float64,注意单位: %,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,各行业用电量合计,float64,注意单位: 万千瓦时,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,各行业用电量合计同比,float64,注意单位: %,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,第一产业用电量,float64,注意单位: 万千瓦时,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,第一产业用电量同比,float64,注意单位: %,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,第二产业用电量,float64,注意单位: 万千瓦时,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,第二产业用电量同比,float64,注意单位: %,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,第三产业用电量,float64,注意单位: 万千瓦时,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,第三产业用电量同比,float64,注意单位: %,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,城乡居民生活用电量合计,float64,注意单位: 万千瓦时,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,城乡居民生活用电量合计同比,float64,注意单位: %,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,城镇居民用电量,float64,注意单位: 万千瓦时,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,城镇居民用电量同比,float64,注意单位: %,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,乡村居民用电量,float64,注意单位: 万千瓦时,国家统计局-全社会用电分类情况表
+macro_china_society_electricity,输出参数,乡村居民用电量同比,float64,注意单位: %,国家统计局-全社会用电分类情况表
+macro_china_society_traffic_volume,输入参数,无,,,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,统计时间,object,年月,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,统计对象,object,-,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,货运量,float64,注意单位: 亿吨,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,货运量同比增长,float64,注意单位: %,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,货物周转量,float64,注意单位: 亿,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,公里货物周转量同比增长,float64,注意单位: %,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,客运量,float64,注意单位: 亿人,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,客运量同比增长,float64,注意单位: %,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,旅客周转量,float64,注意单位: 亿,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,公里旅客周转量同比增长,float64,注意单位: %,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,沿海主要港口货物吞吐量,float64,注意单位: 亿吨,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,沿海主要港口货物吞吐量同比增长,float64,注意单位: %,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,其中:外贸货物吞吐量,float64,注意单位: 亿吨,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,其中:外贸货物吞吐量同比增长,float64,注意单位: %,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,民航总周转量,float64,注意单位: 亿,国家统计局-全社会客货运输量-非累计
+macro_china_society_traffic_volume,输出参数,公里民航总周转,float64,注意单位: %,国家统计局-全社会客货运输量-非累计
+macro_china_postal_telecommunicational,输入参数,无,,,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,统计时间,str,年月,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,邮电业务总量,float,注意单位: 亿元,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,邮电业务总量同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,邮政业务总量,float,注意单位: 亿元,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,邮政业务总量同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,电信业务总量,float,注意单位: 亿元,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,电信业务总量同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,函件总数,float,注意单位: 万件,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,函件总数同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,包件,float,注意单位: 万件,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,包件同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,特快专递,float,注意单位: 万件,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,特快专递同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,汇票,float,注意单位: 万张,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,汇票同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,订销报纸累计数,float,注意单位: 万份,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,订销报纸累计数同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,订销杂志累计数,float,注意单位: 万份,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,订销杂志累计数同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,集邮业务,float,注意单位: 万枚,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,集邮业务同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,邮政储蓄期末余额,float,注意单位: 亿元,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,邮政储蓄期末余额同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,长途电话通话时长,float,注意单位: 万,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,钟长途电话通话时长同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,本地电话期末用户数,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,本地电话期末用户数同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,城市电话用户数,float,注意单位: 万户,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,城市电话用户数同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,乡村电话用户数,float,注意单位: 万户,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,乡村电话用户数同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,无线寻呼用户数,float,注意单位: 万户,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,无线寻呼用户数同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,移动电话用户数,float,注意单位: 万户,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,移动电话用户数同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,固定电话用,float,注意单位: 万户,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,固定电话用户数同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,城市住宅电话用户,float,注意单位: 万户,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,城市住宅电话用户同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,乡村住宅电话用户,float,注意单位: 万户,国家统计局-邮电业务基本情况-非累计
+macro_china_postal_telecommunicational,输出参数,乡村住宅电话用户同比增长,float,注意单位: %,国家统计局-邮电业务基本情况-非累计
+macro_china_international_tourism_fx,输入参数,无,,,国家统计局-国际旅游外汇收入构成
+macro_china_international_tourism_fx,输出参数,统计年度,object,年,国家统计局-国际旅游外汇收入构成
+macro_china_international_tourism_fx,输出参数,指标,object,-,国家统计局-国际旅游外汇收入构成
+macro_china_international_tourism_fx,输出参数,数量,float64,注意单位: 百万美元,国家统计局-国际旅游外汇收入构成
+macro_china_international_tourism_fx,输出参数,比重,float64,注意单位: %,国家统计局-国际旅游外汇收入构成
+macro_china_passenger_load_factor,输入参数,无,,,国家统计局-民航客座率及载运率
+macro_china_passenger_load_factor,输出参数,统计年度,object,年月,国家统计局-民航客座率及载运率
+macro_china_passenger_load_factor,输出参数,客座率,float64,注意单位: %,国家统计局-民航客座率及载运率
+macro_china_passenger_load_factor,输出参数,载运率,float64,注意单位: %,国家统计局-民航客座率及载运率
+macro_china_freight_index,输入参数,无,,,新浪财经-中国宏观经济数据-航贸运价指数
+macro_china_freight_index,输出参数,截止日期,object,年月,新浪财经-中国宏观经济数据-航贸运价指数
+macro_china_freight_index,输出参数,波罗的海好望角型船运价指数BCI,float64,-,新浪财经-中国宏观经济数据-航贸运价指数
+macro_china_freight_index,输出参数,灵便型船综合运价指数BHMI,float64,-,新浪财经-中国宏观经济数据-航贸运价指数
+macro_china_freight_index,输出参数,波罗的海超级大灵便型船BSI指数,float64,-,新浪财经-中国宏观经济数据-航贸运价指数
+macro_china_freight_index,输出参数,波罗的海综合运价指数BDI,float64,-,新浪财经-中国宏观经济数据-航贸运价指数
+macro_china_freight_index,输出参数,HRCI国际集装箱租船指数,float64,-,新浪财经-中国宏观经济数据-航贸运价指数
+macro_china_freight_index,输出参数,油轮运价指数成品油运价指数BCTI,float64,-,新浪财经-中国宏观经济数据-航贸运价指数
+macro_china_freight_index,输出参数,油轮运价指数原油运价指数BDTI,float64,-,新浪财经-中国宏观经济数据-航贸运价指数
+macro_china_central_bank_balance,输入参数,无,,,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,统计时间,object,年月,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,国外资产,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,外汇,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,货币黄金,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,其他国外资产,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,对政府债权,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,其中:中央政府,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,对其他存款性公司债权,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,对其他金融性公司债权,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,对非货币金融机构债权,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,对非金融性公司债权,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,其他资产,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,总资产,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,储备货币,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,发行货币,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,金融性公司存款,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,其他存款性公司,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,其他金融性公司,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,对金融机构负债,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,准备金存款,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,非金融性公司存款,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,活期存款,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,债券,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,国外负债,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,政府存款,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,自有资金,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,其他负债,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_central_bank_balance,输出参数,总负债,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-央行货币当局资产负债
+macro_china_insurance,输入参数,无,,,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,统计时间,object,年月,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,省市地区,object,地区,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,原保险保费收入,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,财产险保费收入,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,人身险保费收入,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,人身险-寿险保费收入,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,人身险-健康险保费收入,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,人身险-意外险保费收入,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,养老保险公司企业年金缴费,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,原保险赔付支出,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,财产险保费赔付支出,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,人身险保费赔付支出,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,人身险-寿险赔付支出,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,人身险-健康险赔付支出,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,人身险-意外险赔付支出,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,业务及管理费,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,银行存款,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,投资,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,资产总额,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,养老保险公司企业年金受托管理资产,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_insurance,输出参数,养老保险公司企业年金投资管理资产,float64,注意单位: 万元,新浪财经-中国宏观经济数据-保险业经营情况
+macro_china_supply_of_money,输入参数,无,,,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,统计时间,object,年月,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,货币和准货币（广义货币M2）,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,货币和准货币（广义货币M2）同比增长,float64,注意单位: %,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,货币(狭义货币M1),float64,注意单位: 亿元,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,货币(狭义货币M1)同比增长,float64,注意单位: %,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,流通中现金(M0),float64,注意单位: 亿元,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,流通中现金(M0)同比增长,float64,注意单位: %,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,活期存款,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,活期存款同比增长,float64,注意单位: %,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,准货币,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,准货币同比增长,float64,注意单位: %,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,定期存款,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,定期存款同比增长,float64,注意单位: %,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,储蓄存款出,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,储蓄存款同比增长,float64,注意单位: %,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,其他存款,float64,注意单位: 亿元,新浪财经-中国宏观经济数据-货币供应量
+macro_china_supply_of_money,输出参数,其他存款同比增长,float64,注意单位: %,新浪财经-中国宏观经济数据-货币供应量
+macro_china_swap_rate,输入参数,start_date,str,"start_date=""20231128""；注意时间间隔",国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输入参数,end_date,str,"end_date=""20231130""",国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,日期,object,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,曲线名称,object,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,时刻,object,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,价格类型,object,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,1M,float64,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,3M,float64,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,6M,float64,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,9M,float64,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,1Y,float64,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,2Y,float64,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,3Y,float64,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,4Y,float64,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,5Y,float64,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,7Y,float64,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_swap_rate,输出参数,10Y,float64,-,国家统计局-FR007利率互换曲线历史数据
+macro_china_foreign_exchange_gold,输入参数,无,,,"国家统计局-央行黄金和外汇储备, 比东财接口数据时间长"
+macro_china_foreign_exchange_gold,输出参数,统计时间,object,年月,"国家统计局-央行黄金和外汇储备, 比东财接口数据时间长"
+macro_china_foreign_exchange_gold,输出参数,黄金储备,float64,注意单位: 万盎司,"国家统计局-央行黄金和外汇储备, 比东财接口数据时间长"
+macro_china_foreign_exchange_gold,输出参数,国家外汇储备,float64,注意单位: 亿美元,"国家统计局-央行黄金和外汇储备, 比东财接口数据时间长"
+macro_china_retail_price_index,输入参数,无,,,国家统计局-商品零售价格指数
+macro_china_retail_price_index,输出参数,统计月份,object,年月,国家统计局-商品零售价格指数
+macro_china_retail_price_index,输出参数,居民消费项目,object,-,国家统计局-商品零售价格指数
+macro_china_retail_price_index,输出参数,零售商品价格指数,float64,-,国家统计局-商品零售价格指数
+macro_china_real_estate,输入参数,无,,,国家统计局-国房景气指数
+macro_china_real_estate,输出参数,日期,object,-,国家统计局-国房景气指数
+macro_china_real_estate,输出参数,最新值,float64,-,国家统计局-国房景气指数
+macro_china_real_estate,输出参数,涨跌幅,float64,-,国家统计局-国房景气指数
+macro_china_real_estate,输出参数,近3月涨跌幅,float64,-,国家统计局-国房景气指数
+macro_china_real_estate,输出参数,近6月涨跌幅,float64,-,国家统计局-国房景气指数
+macro_china_real_estate,输出参数,近1年涨跌幅,float64,-,国家统计局-国房景气指数
+macro_china_real_estate,输出参数,近2年涨跌幅,float64,-,国家统计局-国房景气指数
+macro_china_real_estate,输出参数,近3年涨跌幅,float64,-,国家统计局-国房景气指数
+macro_china_fx_gold,输入参数,无,,,"中国外汇和黄金储备, 数据区间从 200801 至今, 月度数据"
+macro_china_fx_gold,输出参数,月份,object,年度和月份,"中国外汇和黄金储备, 数据区间从 200801 至今, 月度数据"
+macro_china_fx_gold,输出参数,黄金储备-数值,float64,注意单位: 万盎司,"中国外汇和黄金储备, 数据区间从 200801 至今, 月度数据"
+macro_china_fx_gold,输出参数,黄金储备-同比,float64,注意单位: 万盎司,"中国外汇和黄金储备, 数据区间从 200801 至今, 月度数据"
+macro_china_fx_gold,输出参数,黄金储备-环比,float64,注意单位: 万盎司,"中国外汇和黄金储备, 数据区间从 200801 至今, 月度数据"
+macro_china_fx_gold,输出参数,国家外汇储备-数值,float64,注意单位: 亿美元,"中国外汇和黄金储备, 数据区间从 200801 至今, 月度数据"
+macro_china_fx_gold,输出参数,国家外汇储备-同比,float64,注意单位: 亿美元,"中国外汇和黄金储备, 数据区间从 200801 至今, 月度数据"
+macro_china_fx_gold,输出参数,国家外汇储备-环比,float64,注意单位: 亿美元,"中国外汇和黄金储备, 数据区间从 200801 至今, 月度数据"
+macro_china_money_supply,输入参数,无,,,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据"
+macro_china_money_supply,输出参数,月份,object,年度和月份,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据"
+macro_china_money_supply,输出参数,货币和准货币(M2)-数量(亿元),float64,-,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据"
+macro_china_money_supply,输出参数,货币和准货币(M2)-同比增长,float64,-,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据"
+macro_china_money_supply,输出参数,货币和准货币(M2)-环比增长,float64,-,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据"
+macro_china_money_supply,输出参数,货币(M1)-数量(亿元),float64,-,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据"
+macro_china_money_supply,输出参数,货币(M1)-同比增长,float64,-,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据"
+macro_china_money_supply,输出参数,货币(M1)-环比增长,float64,-,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据"
+macro_china_money_supply,输出参数,流通中的现金(M0)-数量(亿元),float64,-,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据"
+macro_china_money_supply,输出参数,流通中的现金(M0)-同比增长,float64,-,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据"
+macro_china_money_supply,输出参数,流通中的现金(M0)-环比增长,float64,-,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输入参数,无,,,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,数据日期,object,年度和月份,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,发行总股本-上海,float64,注意单位: 亿元,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,发行总股本-深圳,float64,注意单位: 亿元,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,市价总值-上海,float64,注意单位: 亿元,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,市价总值-深圳,float64,注意单位: 亿元,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,成交金额-上海,float64,注意单位: 亿元,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,成交金额-深圳,float64,注意单位: 亿元,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,成交量-上海,float64,-,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,成交量-深圳,float64,-,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,A股最高综合股价指数-上海,float64,-,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,A股最高综合股价指数-深圳,float64,-,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,A股最低综合股价指数-上海,float64,-,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_stock_market_cap,输出参数,A股最低综合股价指数-深圳,float64,-,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据"
+macro_china_shibor_all,输入参数,无,,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,日期,object,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,O/N-定价,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,O/N-涨跌幅,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,1W-定价,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,1W-涨跌幅,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,2W-定价,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,2W-涨跌幅,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,1M-定价,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,1M-涨跌幅,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,3M-定价,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,3M-涨跌幅,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,6M-定价,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,6M-涨跌幅,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,9M-定价,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,9M-涨跌幅,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,1Y-定价,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,1Y-涨跌幅,float,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,ON-定价,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,ON-涨跌幅,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,2M-定价,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_shibor_all,输出参数,2M-涨跌幅,float64,,"上海银行业同业拆借报告, 数据区间从 20170317-至今"
+macro_china_hk_market_info,输入参数,无,,,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,日期,object,日期,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,O/N-定价,float64,-,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,O/N-涨跌幅,float64,单位: 点,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,1W-定价,float64,-,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,1W-涨跌幅,float64,单位: 点,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,2W-定价,float64,-,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,2W-涨跌幅,float64,单位: 点,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,1M-定价,float64,-,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,1M-涨跌幅,float64,单位: 点,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,3M-定价,float64,-,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,3M-涨跌幅,float64,单位: 点,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,6M-定价,float64,-,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,6M-涨跌幅,float64,单位: 点,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,9M-定价,float64,-,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,9M-涨跌幅,float64,单位: 点,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,1Y-定价,float64,-,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,1Y-涨跌幅,float64,单位: 点,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,ON-定价,float64,-,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,ON-涨跌幅,float64,单位: 点,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,2M-定价,float64,-,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_hk_market_info,输出参数,2M-涨跌幅,float64,单位: 点,"香港同业拆借报告, 数据区间从 20170320-至今"
+macro_china_daily_energy,输入参数,无,,,"中国日度沿海六大电库存数据, 数据区间从20160101-至今, 不再更新, 只能获得历史数据"
+macro_china_daily_energy,输出参数,日期,object,-,"中国日度沿海六大电库存数据, 数据区间从20160101-至今, 不再更新, 只能获得历史数据"
+macro_china_daily_energy,输出参数,沿海六大电库存,float64,-,"中国日度沿海六大电库存数据, 数据区间从20160101-至今, 不再更新, 只能获得历史数据"
+macro_china_daily_energy,输出参数,日耗,float64,-,"中国日度沿海六大电库存数据, 数据区间从20160101-至今, 不再更新, 只能获得历史数据"
+macro_china_daily_energy,输出参数,存煤可用天数,float64,-,"中国日度沿海六大电库存数据, 数据区间从20160101-至今, 不再更新, 只能获得历史数据"
+macro_china_rmb,输入参数,无,,,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,日期,object,日期,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,美元/人民币_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,美元/人民币_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,欧元/人民币_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,欧元/人民币_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,100日元/人民币_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,100日元/人民币_涨跌幅,float64,单位: 点对,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,港元/人民币_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,港元/人民币_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,英镑/人民币_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,英镑/人民币_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,澳元/人民币_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,澳元/人民币_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,新西兰元/人民币_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,新西兰元/人民币_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,新加坡元/人民币_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,新加坡元/人民币_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,瑞郎/人民币_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,瑞郎/人民币_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,加元/人民币_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,加元/人民币_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/马来西亚林吉特_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/马来西亚林吉特_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/俄罗斯卢布_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/俄罗斯卢布_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/南非兰特_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/南非兰特_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/韩元_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/韩元_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/阿联酋迪拉姆_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/阿联酋迪拉姆_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/沙特里亚尔_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/沙特里亚尔_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/匈牙利福林_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/匈牙利福林_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/波兰兹罗提_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/波兰兹罗提_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/丹麦克朗_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/丹麦克朗_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/瑞典克朗_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/瑞典克朗_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/丹麦克朗_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/丹麦克朗_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/挪威克朗_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/挪威克朗_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/土耳其里拉_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/土耳其里拉_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/墨西哥比索_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/墨西哥比索_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/泰铢_中间价,float64,-,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_rmb,输出参数,人民币/泰铢_涨跌幅,float64,单位: 点,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513"
+macro_china_market_margin_sz,输入参数,无,,,"深圳融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sz,输出参数,日期,object,-,"深圳融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sz,输出参数,融资买入额,float64,注意单位: 元,"深圳融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sz,输出参数,融资余额,float64,注意单位: 元,"深圳融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sz,输出参数,融券卖出量,float64,注意单位: 股,"深圳融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sz,输出参数,融券余量,float64,注意单位: 股,"深圳融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sz,输出参数,融券余额,float64,注意单位: 元,"深圳融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sz,输出参数,融资融券余额,float64,注意单位: 元,"深圳融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sh,输入参数,无,,,"上海融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sh,输出参数,日期,object,日期,"上海融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sh,输出参数,融资余额,int64,注意单位：元,"上海融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sh,输出参数,融资买入额,int64,注意单位：元,"上海融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sh,输出参数,融券余量,int64,注意单位：股,"上海融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sh,输出参数,融券余额,int64,注意单位：元,"上海融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sh,输出参数,融券卖出量,int64,注意单位：股,"上海融资融券报告, 数据区间从 20100331-至今"
+macro_china_market_margin_sh,输出参数,融资融券余额,int64,注意单位：元,"上海融资融券报告, 数据区间从 20100331-至今"
+macro_china_au_report,输入参数,无,,,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,日期,object,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,商品,object,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,开盘价,float64,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,最高价,float64,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,最低价,float64,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,收盘价,float64,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,涨跌,float64,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,涨跌幅,float64,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,加权平均价,float64,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,成交量,float64,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,成交金额,float64,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,持仓量,float64,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,交收方向,object,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_au_report,输出参数,交收量,float64,-,"上海黄金交易所报告, 数据区间从 20140905-至今"
+macro_china_nbs_nation,输入参数,kind,str,数据类别，包括：月度数据、季度数据、年度数据。,国家统计局全国数据通用接口，包括月度数据、季度数据、年度数据，具体指标见数据官网。
+macro_china_nbs_nation,输入参数,path,str,数据路径， 需与kind参数匹配，具体见官网，多层级之间使用  > 连接 。<br> 示例：<br>    国民经济核算 > 支出法国内生产总值<br>   人口 > 总人口<br>   金融业 > 保险系统机构、人员数 > 保险系统机构数,国家统计局全国数据通用接口，包括月度数据、季度数据、年度数据，具体指标见数据官网。
+macro_china_nbs_nation,输入参数,period,str,"时间区间 <br/>参考格式如下(英文逗号分割，且不能有多余空格)：<br/>    月：201201,201205<br/>    季：2012A,2012B,2012C,2012D<br/>    年：2012,2013 <br>    至今：2013-<br>    最近：last10",国家统计局全国数据通用接口，包括月度数据、季度数据、年度数据，具体指标见数据官网。
+macro_china_nbs_nation,输出参数,-,-,-,国家统计局全国数据通用接口，包括月度数据、季度数据、年度数据，具体指标见数据官网。
+macro_china_nbs_region,输入参数,kind,str,数据类别，包括：分省月度数据、分省季度数据、分省年度数据、主要城市月度价格、主要城市年度数据、港澳台月度数据、港澳台年度数据。,国家统计局地区数据通用接口，包括分省月度数据、分省季度数据、分省年度数据、主要城市月度价格、主要城市年度数据、港澳台月度数据、港澳台年度数据，具体指标见数据官网。
+macro_china_nbs_region,输入参数,path,str,数据路径， 需与kind匹配，具体见官网，多层级之间使用  > 连接 。<br> 示例：<br>   国民经济核算 > 地区生产总值<br>   财政 > 地方财政收入,国家统计局地区数据通用接口，包括分省月度数据、分省季度数据、分省年度数据、主要城市月度价格、主要城市年度数据、港澳台月度数据、港澳台年度数据，具体指标见数据官网。
+macro_china_nbs_region,输入参数,indicator,"Union[str, None]",指定指标，表示在当前path下可选择的指标。在指定region参数的情况下，此参数可以设置为None，此时将获取指定地区下所有可选指标的值。indicator和region参数不能同时为None。,国家统计局地区数据通用接口，包括分省月度数据、分省季度数据、分省年度数据、主要城市月度价格、主要城市年度数据、港澳台月度数据、港澳台年度数据，具体指标见数据官网。
+macro_china_nbs_region,输入参数,region,"Union[str, None]",指定地区，为可选指标。指定时表示仅获取当前地区下的数据。,国家统计局地区数据通用接口，包括分省月度数据、分省季度数据、分省年度数据、主要城市月度价格、主要城市年度数据、港澳台月度数据、港澳台年度数据，具体指标见数据官网。
+macro_china_nbs_region,输入参数,period,str,"时间区间<br/>参考格式如下(英文逗号分割，且不能有多余空格)：<br/>    月：201201,201205<br/>    季：2012A,2012B,2012C,2012D<br/>    年：2012,2013 <br>    至今：2013-<br>    最近：last10",国家统计局地区数据通用接口，包括分省月度数据、分省季度数据、分省年度数据、主要城市月度价格、主要城市年度数据、港澳台月度数据、港澳台年度数据，具体指标见数据官网。
+macro_china_nbs_region,输出参数,-,-,-,国家统计局地区数据通用接口，包括分省月度数据、分省季度数据、分省年度数据、主要城市月度价格、主要城市年度数据、港澳台月度数据、港澳台年度数据，具体指标见数据官网。
+macro_stock_finance,输入参数,无,,,同花顺-数据中心-宏观数据-股票筹资
+macro_stock_finance,输出参数,月份,object,-,同花顺-数据中心-宏观数据-股票筹资
+macro_stock_finance,输出参数,募集资金,float64,-,同花顺-数据中心-宏观数据-股票筹资
+macro_stock_finance,输出参数,首发募集资金,float64,-,同花顺-数据中心-宏观数据-股票筹资
+macro_stock_finance,输出参数,增发募集资金,float64,-,同花顺-数据中心-宏观数据-股票筹资
+macro_stock_finance,输出参数,配股募集资金,float64,-,同花顺-数据中心-宏观数据-股票筹资
+macro_rmb_loan,输入参数,无,,,同花顺-数据中心-宏观数据-新增人民币贷款
+macro_rmb_loan,输出参数,月份,object,-,同花顺-数据中心-宏观数据-新增人民币贷款
+macro_rmb_loan,输出参数,新增人民币贷款-总额,float64,-,同花顺-数据中心-宏观数据-新增人民币贷款
+macro_rmb_loan,输出参数,新增人民币贷款-同比,object,-,同花顺-数据中心-宏观数据-新增人民币贷款
+macro_rmb_loan,输出参数,新增人民币贷款-环比,object,-,同花顺-数据中心-宏观数据-新增人民币贷款
+macro_rmb_loan,输出参数,累计人民币贷款-总额,float64,-,同花顺-数据中心-宏观数据-新增人民币贷款
+macro_rmb_loan,输出参数,累计人民币贷款-同比,object,-,同花顺-数据中心-宏观数据-新增人民币贷款
+macro_rmb_deposit,输入参数,无,,,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,月份,object,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增存款-数量,float64,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增存款-同比,object,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增存款-环比,object,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增企业存款-数量,float64,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增企业存款-同比,object,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增企业存款-环比,object,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增储蓄存款-数量,float64,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增储蓄存款-同比,object,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增储蓄存款-环比,object,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增其他存款-数量,float64,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增其他存款-同比,object,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_rmb_deposit,输出参数,新增其他存款-环比,object,-,同花顺-数据中心-宏观数据-人民币存款余额
+macro_china_hk_cpi,输入参数,无,,,东方财富-经济数据一览-中国香港-消费者物价指数
+macro_china_hk_cpi,输出参数,时间,object,-,东方财富-经济数据一览-中国香港-消费者物价指数
+macro_china_hk_cpi,输出参数,前值,float64,-,东方财富-经济数据一览-中国香港-消费者物价指数
+macro_china_hk_cpi,输出参数,现值,float64,-,东方财富-经济数据一览-中国香港-消费者物价指数
+macro_china_hk_cpi,输出参数,发布日期,object,-,东方财富-经济数据一览-中国香港-消费者物价指数
+macro_china_hk_cpi_ratio,输入参数,无,,,东方财富-经济数据一览-中国香港-消费者物价指数年率
+macro_china_hk_cpi_ratio,输出参数,时间,object,-,东方财富-经济数据一览-中国香港-消费者物价指数年率
+macro_china_hk_cpi_ratio,输出参数,前值,float64,注意单位: %,东方财富-经济数据一览-中国香港-消费者物价指数年率
+macro_china_hk_cpi_ratio,输出参数,现值,float64,注意单位: %,东方财富-经济数据一览-中国香港-消费者物价指数年率
+macro_china_hk_cpi_ratio,输出参数,发布日期,object,-,东方财富-经济数据一览-中国香港-消费者物价指数年率
+macro_china_hk_rate_of_unemployment,输入参数,无,,,东方财富-经济数据一览-中国香港-失业率
+macro_china_hk_rate_of_unemployment,输出参数,时间,object,-,东方财富-经济数据一览-中国香港-失业率
+macro_china_hk_rate_of_unemployment,输出参数,前值,float64,注意单位: %,东方财富-经济数据一览-中国香港-失业率
+macro_china_hk_rate_of_unemployment,输出参数,现值,float64,注意单位: %,东方财富-经济数据一览-中国香港-失业率
+macro_china_hk_rate_of_unemployment,输出参数,发布日期,object,-,东方财富-经济数据一览-中国香港-失业率
+macro_china_hk_gbp,输入参数,无,,,东方财富-经济数据一览-中国香港-香港 GDP
+macro_china_hk_gbp,输出参数,时间,object,-,东方财富-经济数据一览-中国香港-香港 GDP
+macro_china_hk_gbp,输出参数,前值,float64,注意单位: 亿港元,东方财富-经济数据一览-中国香港-香港 GDP
+macro_china_hk_gbp,输出参数,现值,float64,注意单位: 亿港元,东方财富-经济数据一览-中国香港-香港 GDP
+macro_china_hk_gbp,输出参数,发布日期,object,-,东方财富-经济数据一览-中国香港-香港 GDP
+macro_china_hk_gbp_ratio,输入参数,无,,,东方财富-经济数据一览-中国香港-香港 GDP 同比
+macro_china_hk_gbp_ratio,输出参数,时间,object,-,东方财富-经济数据一览-中国香港-香港 GDP 同比
+macro_china_hk_gbp_ratio,输出参数,前值,float64,注意单位: %,东方财富-经济数据一览-中国香港-香港 GDP 同比
+macro_china_hk_gbp_ratio,输出参数,现值,float64,注意单位: %,东方财富-经济数据一览-中国香港-香港 GDP 同比
+macro_china_hk_gbp_ratio,输出参数,发布日期,object,-,东方财富-经济数据一览-中国香港-香港 GDP 同比
+macro_china_hk_building_volume,输入参数,无,,,东方财富-经济数据一览-中国香港-香港楼宇买卖合约数量
+macro_china_hk_building_volume,输出参数,时间,object,-,东方财富-经济数据一览-中国香港-香港楼宇买卖合约数量
+macro_china_hk_building_volume,输出参数,前值,float64,-,东方财富-经济数据一览-中国香港-香港楼宇买卖合约数量
+macro_china_hk_building_volume,输出参数,现值,float64,-,东方财富-经济数据一览-中国香港-香港楼宇买卖合约数量
+macro_china_hk_building_volume,输出参数,发布日期,object,-,东方财富-经济数据一览-中国香港-香港楼宇买卖合约数量
+macro_china_hk_building_amount,输入参数,无,,,东方财富-经济数据一览-中国香港-香港楼宇买卖合约成交金额
+macro_china_hk_building_amount,输出参数,时间,object,-,东方财富-经济数据一览-中国香港-香港楼宇买卖合约成交金额
+macro_china_hk_building_amount,输出参数,前值,float64,注意单位: 亿港元,东方财富-经济数据一览-中国香港-香港楼宇买卖合约成交金额
+macro_china_hk_building_amount,输出参数,现值,float64,注意单位: 亿港元,东方财富-经济数据一览-中国香港-香港楼宇买卖合约成交金额
+macro_china_hk_building_amount,输出参数,发布日期,object,-,东方财富-经济数据一览-中国香港-香港楼宇买卖合约成交金额
+macro_china_hk_trade_diff_ratio,输入参数,无,,,东方财富-经济数据一览-中国香港-香港商品贸易差额年率
+macro_china_hk_trade_diff_ratio,输出参数,时间,object,-,东方财富-经济数据一览-中国香港-香港商品贸易差额年率
+macro_china_hk_trade_diff_ratio,输出参数,前值,float64,注意单位: %,东方财富-经济数据一览-中国香港-香港商品贸易差额年率
+macro_china_hk_trade_diff_ratio,输出参数,现值,float64,注意单位: %,东方财富-经济数据一览-中国香港-香港商品贸易差额年率
+macro_china_hk_trade_diff_ratio,输出参数,发布日期,object,-,东方财富-经济数据一览-中国香港-香港商品贸易差额年率
+macro_china_hk_ppi,输入参数,无,,,东方财富-经济数据一览-中国香港-香港制造业PPI年率
+macro_china_hk_ppi,输出参数,时间,object,-,东方财富-经济数据一览-中国香港-香港制造业PPI年率
+macro_china_hk_ppi,输出参数,前值,float64,注意单位: %,东方财富-经济数据一览-中国香港-香港制造业PPI年率
+macro_china_hk_ppi,输出参数,现值,float64,注意单位: %,东方财富-经济数据一览-中国香港-香港制造业PPI年率
+macro_china_hk_ppi,输出参数,发布日期,object,-,东方财富-经济数据一览-中国香港-香港制造业PPI年率
+macro_usa_gdp_monthly,输入参数,无,,,"美国国内生产总值(GDP)报告, 数据区间从 20080228-至今"
+macro_usa_gdp_monthly,输出参数,商品,object,-,"美国国内生产总值(GDP)报告, 数据区间从 20080228-至今"
+macro_usa_gdp_monthly,输出参数,日期,object,-,"美国国内生产总值(GDP)报告, 数据区间从 20080228-至今"
+macro_usa_gdp_monthly,输出参数,今值,float64,注意单位: %,"美国国内生产总值(GDP)报告, 数据区间从 20080228-至今"
+macro_usa_gdp_monthly,输出参数,预测值,float64,注意单位: %,"美国国内生产总值(GDP)报告, 数据区间从 20080228-至今"
+macro_usa_gdp_monthly,输出参数,前值,float64,注意单位: %,"美国国内生产总值(GDP)报告, 数据区间从 20080228-至今"
+macro_usa_cpi_monthly,输入参数,无,,,"美国 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_cpi_monthly,输出参数,商品,object,-,"美国 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_cpi_monthly,输出参数,日期,object,-,"美国 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_cpi_monthly,输出参数,今值,float64,注意单位: %,"美国 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_cpi_monthly,输出参数,预测值,float64,注意单位: %,"美国 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_cpi_monthly,输出参数,前值,float64,注意单位: %,"美国 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_cpi_yoy,输入参数,无,,,"东方财富-经济数据一览-美国-CPI年率, 数据区间从2008-至今"
+macro_usa_cpi_yoy,输出参数,时间,object,-,"东方财富-经济数据一览-美国-CPI年率, 数据区间从2008-至今"
+macro_usa_cpi_yoy,输出参数,发布日期,object,-,"东方财富-经济数据一览-美国-CPI年率, 数据区间从2008-至今"
+macro_usa_cpi_yoy,输出参数,现值,float64,注意单位: %,"东方财富-经济数据一览-美国-CPI年率, 数据区间从2008-至今"
+macro_usa_cpi_yoy,输出参数,前值,float64,注意单位: %,"东方财富-经济数据一览-美国-CPI年率, 数据区间从2008-至今"
+macro_usa_core_cpi_monthly,输入参数,无,,,"美国核心 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_core_cpi_monthly,输出参数,商品,object,-,"美国核心 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_core_cpi_monthly,输出参数,日期,object,-,"美国核心 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_core_cpi_monthly,输出参数,今值,float64,注意单位: %,"美国核心 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_core_cpi_monthly,输出参数,预测值,float64,注意单位: %,"美国核心 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_core_cpi_monthly,输出参数,前值,float64,注意单位: %,"美国核心 CPI 月率报告, 数据区间从 19700101-至今"
+macro_usa_personal_spending,输入参数,无,,,"美国个人支出月率报告, 数据区间从 19700101-至今"
+macro_usa_personal_spending,输出参数,商品,object,-,"美国个人支出月率报告, 数据区间从 19700101-至今"
+macro_usa_personal_spending,输出参数,日期,object,-,"美国个人支出月率报告, 数据区间从 19700101-至今"
+macro_usa_personal_spending,输出参数,今值,float64,注意单位: %,"美国个人支出月率报告, 数据区间从 19700101-至今"
+macro_usa_personal_spending,输出参数,预测值,float64,注意单位: %,"美国个人支出月率报告, 数据区间从 19700101-至今"
+macro_usa_personal_spending,输出参数,前值,float64,注意单位: %,"美国个人支出月率报告, 数据区间从 19700101-至今"
+macro_usa_retail_sales,输入参数,无,,,"美国零售销售月率报告, 数据区间从 19920301-至今"
+macro_usa_retail_sales,输出参数,商品,object,-,"美国零售销售月率报告, 数据区间从 19920301-至今"
+macro_usa_retail_sales,输出参数,日期,object,-,"美国零售销售月率报告, 数据区间从 19920301-至今"
+macro_usa_retail_sales,输出参数,今值,float64,注意单位: %,"美国零售销售月率报告, 数据区间从 19920301-至今"
+macro_usa_retail_sales,输出参数,预测值,float64,注意单位: %,"美国零售销售月率报告, 数据区间从 19920301-至今"
+macro_usa_retail_sales,输出参数,前值,float64,注意单位: %,"美国零售销售月率报告, 数据区间从 19920301-至今"
+macro_usa_import_price,输入参数,无,,,"美国进口物价指数报告, 数据区间从 19890201-至今"
+macro_usa_import_price,输出参数,商品,object,-,"美国进口物价指数报告, 数据区间从 19890201-至今"
+macro_usa_import_price,输出参数,日期,object,-,"美国进口物价指数报告, 数据区间从 19890201-至今"
+macro_usa_import_price,输出参数,今值,float64,注意单位: %,"美国进口物价指数报告, 数据区间从 19890201-至今"
+macro_usa_import_price,输出参数,预测值,float64,注意单位: %,"美国进口物价指数报告, 数据区间从 19890201-至今"
+macro_usa_import_price,输出参数,前值,float64,注意单位: %,"美国进口物价指数报告, 数据区间从 19890201-至今"
+macro_usa_export_price,输入参数,无,,,"美国出口价格指数报告, 数据区间从 19890201-至今"
+macro_usa_export_price,输出参数,商品,object,-,"美国出口价格指数报告, 数据区间从 19890201-至今"
+macro_usa_export_price,输出参数,日期,object,-,"美国出口价格指数报告, 数据区间从 19890201-至今"
+macro_usa_export_price,输出参数,今值,float64,注意单位: %,"美国出口价格指数报告, 数据区间从 19890201-至今"
+macro_usa_export_price,输出参数,预测值,float64,注意单位: %,"美国出口价格指数报告, 数据区间从 19890201-至今"
+macro_usa_export_price,输出参数,前值,float64,注意单位: %,"美国出口价格指数报告, 数据区间从 19890201-至今"
+macro_usa_lmci,输入参数,无,,,"美联储劳动力市场状况指数报告, 数据区间从 20141006-至今"
+macro_usa_lmci,输出参数,商品,object,-,"美联储劳动力市场状况指数报告, 数据区间从 20141006-至今"
+macro_usa_lmci,输出参数,日期,object,-,"美联储劳动力市场状况指数报告, 数据区间从 20141006-至今"
+macro_usa_lmci,输出参数,今值,float64,注意单位: %,"美联储劳动力市场状况指数报告, 数据区间从 20141006-至今"
+macro_usa_lmci,输出参数,预测值,float64,注意单位: %,"美联储劳动力市场状况指数报告, 数据区间从 20141006-至今"
+macro_usa_lmci,输出参数,前值,float64,注意单位: %,"美联储劳动力市场状况指数报告, 数据区间从 20141006-至今"
+macro_usa_unemployment_rate,输入参数,无,,,"美国失业率报告, 数据区间从 19700101-至今"
+macro_usa_unemployment_rate,输出参数,商品,object,-,"美国失业率报告, 数据区间从 19700101-至今"
+macro_usa_unemployment_rate,输出参数,日期,object,-,"美国失业率报告, 数据区间从 19700101-至今"
+macro_usa_unemployment_rate,输出参数,今值,float64,注意单位: %,"美国失业率报告, 数据区间从 19700101-至今"
+macro_usa_unemployment_rate,输出参数,预测值,float64,注意单位: %,"美国失业率报告, 数据区间从 19700101-至今"
+macro_usa_unemployment_rate,输出参数,前值,float64,注意单位: %,"美国失业率报告, 数据区间从 19700101-至今"
+macro_usa_job_cuts,输入参数,无,,,"美国挑战者企业裁员人数报告, 数据区间从 19940201-至今"
+macro_usa_job_cuts,输出参数,商品,object,-,"美国挑战者企业裁员人数报告, 数据区间从 19940201-至今"
+macro_usa_job_cuts,输出参数,日期,object,-,"美国挑战者企业裁员人数报告, 数据区间从 19940201-至今"
+macro_usa_job_cuts,输出参数,今值,float64,注意单位: 万人,"美国挑战者企业裁员人数报告, 数据区间从 19940201-至今"
+macro_usa_job_cuts,输出参数,预测值,float64,注意单位: 万人,"美国挑战者企业裁员人数报告, 数据区间从 19940201-至今"
+macro_usa_job_cuts,输出参数,前值,float64,注意单位: 万人,"美国挑战者企业裁员人数报告, 数据区间从 19940201-至今"
+macro_usa_non_farm,输入参数,无,,,"美国非农就业人数报告, 数据区间从 19700102-至今"
+macro_usa_non_farm,输出参数,商品,object,-,"美国非农就业人数报告, 数据区间从 19700102-至今"
+macro_usa_non_farm,输出参数,日期,object,-,"美国非农就业人数报告, 数据区间从 19700102-至今"
+macro_usa_non_farm,输出参数,今值,float64,注意单位: 万人,"美国非农就业人数报告, 数据区间从 19700102-至今"
+macro_usa_non_farm,输出参数,预测值,float64,注意单位: 万人,"美国非农就业人数报告, 数据区间从 19700102-至今"
+macro_usa_non_farm,输出参数,前值,float64,注意单位: 万人,"美国非农就业人数报告, 数据区间从 19700102-至今"
+macro_usa_adp_employment,输入参数,无,,,"美国 ADP 就业人数报告, 数据区间从 20010601-至今"
+macro_usa_adp_employment,输出参数,商品,object,-,"美国 ADP 就业人数报告, 数据区间从 20010601-至今"
+macro_usa_adp_employment,输出参数,日期,object,-,"美国 ADP 就业人数报告, 数据区间从 20010601-至今"
+macro_usa_adp_employment,输出参数,今值,float64,注意单位: 万人,"美国 ADP 就业人数报告, 数据区间从 20010601-至今"
+macro_usa_adp_employment,输出参数,预测值,float64,注意单位: 万人,"美国 ADP 就业人数报告, 数据区间从 20010601-至今"
+macro_usa_adp_employment,输出参数,前值,float64,注意单位: 万人,"美国 ADP 就业人数报告, 数据区间从 20010601-至今"
+macro_usa_core_pce_price,输入参数,无,,,"美国核心 PCE 物价指数年率报告, 数据区间从 19700101-至今"
+macro_usa_core_pce_price,输出参数,商品,object,-,"美国核心 PCE 物价指数年率报告, 数据区间从 19700101-至今"
+macro_usa_core_pce_price,输出参数,日期,object,-,"美国核心 PCE 物价指数年率报告, 数据区间从 19700101-至今"
+macro_usa_core_pce_price,输出参数,今值,float64,注意单位: %,"美国核心 PCE 物价指数年率报告, 数据区间从 19700101-至今"
+macro_usa_core_pce_price,输出参数,预测值,float64,注意单位: %,"美国核心 PCE 物价指数年率报告, 数据区间从 19700101-至今"
+macro_usa_core_pce_price,输出参数,前值,float64,注意单位: %,"美国核心 PCE 物价指数年率报告, 数据区间从 19700101-至今"
+macro_usa_real_consumer_spending,输入参数,无,,,"美国实际个人消费支出季率初值报告, 数据区间从 20131107-至今"
+macro_usa_real_consumer_spending,输出参数,商品,object,-,"美国实际个人消费支出季率初值报告, 数据区间从 20131107-至今"
+macro_usa_real_consumer_spending,输出参数,日期,object,-,"美国实际个人消费支出季率初值报告, 数据区间从 20131107-至今"
+macro_usa_real_consumer_spending,输出参数,今值,float64,注意单位: %,"美国实际个人消费支出季率初值报告, 数据区间从 20131107-至今"
+macro_usa_real_consumer_spending,输出参数,预测值,float64,注意单位: %,"美国实际个人消费支出季率初值报告, 数据区间从 20131107-至今"
+macro_usa_real_consumer_spending,输出参数,前值,float64,注意单位: %,"美国实际个人消费支出季率初值报告, 数据区间从 20131107-至今"
+macro_usa_trade_balance,输入参数,无,,,"美国贸易帐报告, 数据区间从 19700101-至今"
+macro_usa_trade_balance,输出参数,商品,object,-,"美国贸易帐报告, 数据区间从 19700101-至今"
+macro_usa_trade_balance,输出参数,日期,object,-,"美国贸易帐报告, 数据区间从 19700101-至今"
+macro_usa_trade_balance,输出参数,今值,float64,注意单位: 亿美元,"美国贸易帐报告, 数据区间从 19700101-至今"
+macro_usa_trade_balance,输出参数,预测值,float64,注意单位: 亿美元,"美国贸易帐报告, 数据区间从 19700101-至今"
+macro_usa_trade_balance,输出参数,前值,float64,注意单位: 亿美元,"美国贸易帐报告, 数据区间从 19700101-至今"
+macro_usa_current_account,输入参数,无,,,"美国经常帐报告, 数据区间从 20080317-至今"
+macro_usa_current_account,输出参数,商品,object,-,"美国经常帐报告, 数据区间从 20080317-至今"
+macro_usa_current_account,输出参数,日期,object,-,"美国经常帐报告, 数据区间从 20080317-至今"
+macro_usa_current_account,输出参数,今值,float64,注意单位: 亿美元,"美国经常帐报告, 数据区间从 20080317-至今"
+macro_usa_current_account,输出参数,预测值,float64,注意单位: 亿美元,"美国经常帐报告, 数据区间从 20080317-至今"
+macro_usa_current_account,输出参数,前值,float64,注意单位: 亿美元,"美国经常帐报告, 数据区间从 20080317-至今"
+macro_usa_rig_count,输入参数,无,,,"贝克休斯钻井报告, 数据区间从 19870717-至今"
+macro_usa_rig_count,输出参数,日期,object,-,"贝克休斯钻井报告, 数据区间从 19870717-至今"
+macro_usa_rig_count,输出参数,钻井总数_钻井数,float64,-,"贝克休斯钻井报告, 数据区间从 19870717-至今"
+macro_usa_rig_count,输出参数,钻井总数_变化,float64,-,"贝克休斯钻井报告, 数据区间从 19870717-至今"
+macro_usa_rig_count,输出参数,美国石油钻井_钻井数,float64,-,"贝克休斯钻井报告, 数据区间从 19870717-至今"
+macro_usa_rig_count,输出参数,美国石油钻井_变化,float64,-,"贝克休斯钻井报告, 数据区间从 19870717-至今"
+macro_usa_rig_count,输出参数,混合钻井_钻井数,float64,-,"贝克休斯钻井报告, 数据区间从 19870717-至今"
+macro_usa_rig_count,输出参数,混合钻井_变化,float64,-,"贝克休斯钻井报告, 数据区间从 19870717-至今"
+macro_usa_rig_count,输出参数,美国天然气钻井_钻井数,float64,-,"贝克休斯钻井报告, 数据区间从 19870717-至今"
+macro_usa_rig_count,输出参数,美国天然气钻井_变化,float64,-,"贝克休斯钻井报告, 数据区间从 19870717-至今"
+macro_usa_ppi,输入参数,无,,,"美国生产者物价指数(PPI)报告, 数据区间从 20080226-至今"
+macro_usa_ppi,输出参数,商品,object,-,"美国生产者物价指数(PPI)报告, 数据区间从 20080226-至今"
+macro_usa_ppi,输出参数,日期,object,-,"美国生产者物价指数(PPI)报告, 数据区间从 20080226-至今"
+macro_usa_ppi,输出参数,今值,float64,注意单位: %,"美国生产者物价指数(PPI)报告, 数据区间从 20080226-至今"
+macro_usa_ppi,输出参数,预测值,float64,注意单位: %,"美国生产者物价指数(PPI)报告, 数据区间从 20080226-至今"
+macro_usa_ppi,输出参数,前值,float64,注意单位: %,"美国生产者物价指数(PPI)报告, 数据区间从 20080226-至今"
+macro_usa_core_ppi,输入参数,无,,,"美国核心生产者物价指数(PPI)报告, 数据区间从 20080318-至今"
+macro_usa_core_ppi,输出参数,商品,object,-,"美国核心生产者物价指数(PPI)报告, 数据区间从 20080318-至今"
+macro_usa_core_ppi,输出参数,日期,object,-,"美国核心生产者物价指数(PPI)报告, 数据区间从 20080318-至今"
+macro_usa_core_ppi,输出参数,今值,float64,注意单位: %,"美国核心生产者物价指数(PPI)报告, 数据区间从 20080318-至今"
+macro_usa_core_ppi,输出参数,预测值,float64,注意单位: %,"美国核心生产者物价指数(PPI)报告, 数据区间从 20080318-至今"
+macro_usa_core_ppi,输出参数,前值,float64,注意单位: %,"美国核心生产者物价指数(PPI)报告, 数据区间从 20080318-至今"
+macro_usa_api_crude_stock,输入参数,无,,,"美国 API 原油库存报告, 数据区间从 20120328-至今"
+macro_usa_api_crude_stock,输出参数,商品,object,-,"美国 API 原油库存报告, 数据区间从 20120328-至今"
+macro_usa_api_crude_stock,输出参数,日期,object,-,"美国 API 原油库存报告, 数据区间从 20120328-至今"
+macro_usa_api_crude_stock,输出参数,今值,float64,注意单位: 万桶,"美国 API 原油库存报告, 数据区间从 20120328-至今"
+macro_usa_api_crude_stock,输出参数,预测值,float64,注意单位: 万桶,"美国 API 原油库存报告, 数据区间从 20120328-至今"
+macro_usa_api_crude_stock,输出参数,前值,float64,注意单位: 万桶,"美国 API 原油库存报告, 数据区间从 20120328-至今"
+macro_usa_pmi,输入参数,无,,,"美国 Markit 制造业 PMI 初值报告, 数据区间从 20120601-至今"
+macro_usa_pmi,输出参数,商品,object,-,"美国 Markit 制造业 PMI 初值报告, 数据区间从 20120601-至今"
+macro_usa_pmi,输出参数,日期,object,-,"美国 Markit 制造业 PMI 初值报告, 数据区间从 20120601-至今"
+macro_usa_pmi,输出参数,今值,float64,-,"美国 Markit 制造业 PMI 初值报告, 数据区间从 20120601-至今"
+macro_usa_pmi,输出参数,预测值,float64,-,"美国 Markit 制造业 PMI 初值报告, 数据区间从 20120601-至今"
+macro_usa_pmi,输出参数,前值,float64,-,"美国 Markit 制造业 PMI 初值报告, 数据区间从 20120601-至今"
+macro_usa_ism_pmi,输入参数,无,,,"美国 ISM 制造业 PMI 报告, 数据区间从 19700101-至今"
+macro_usa_ism_pmi,输出参数,商品,object,-,"美国 ISM 制造业 PMI 报告, 数据区间从 19700101-至今"
+macro_usa_ism_pmi,输出参数,日期,object,-,"美国 ISM 制造业 PMI 报告, 数据区间从 19700101-至今"
+macro_usa_ism_pmi,输出参数,今值,float64,-,"美国 ISM 制造业 PMI 报告, 数据区间从 19700101-至今"
+macro_usa_ism_pmi,输出参数,预测值,float64,-,"美国 ISM 制造业 PMI 报告, 数据区间从 19700101-至今"
+macro_usa_ism_pmi,输出参数,前值,float64,-,"美国 ISM 制造业 PMI 报告, 数据区间从 19700101-至今"
+macro_usa_industrial_production,输入参数,无,,,"美国工业产出月率报告, 数据区间从 19700101-至今"
+macro_usa_industrial_production,输出参数,商品,object,-,"美国工业产出月率报告, 数据区间从 19700101-至今"
+macro_usa_industrial_production,输出参数,日期,object,-,"美国工业产出月率报告, 数据区间从 19700101-至今"
+macro_usa_industrial_production,输出参数,今值,float64,注意单位: %,"美国工业产出月率报告, 数据区间从 19700101-至今"
+macro_usa_industrial_production,输出参数,预测值,float64,注意单位: %,"美国工业产出月率报告, 数据区间从 19700101-至今"
+macro_usa_industrial_production,输出参数,前值,float64,注意单位: %,"美国工业产出月率报告, 数据区间从 19700101-至今"
+macro_usa_durable_goods_orders,输入参数,无,,,"美国耐用品订单月率报告, 数据区间从 20080227-至今"
+macro_usa_durable_goods_orders,输出参数,商品,object,-,"美国耐用品订单月率报告, 数据区间从 20080227-至今"
+macro_usa_durable_goods_orders,输出参数,日期,object,-,"美国耐用品订单月率报告, 数据区间从 20080227-至今"
+macro_usa_durable_goods_orders,输出参数,今值,float64,注意单位: %,"美国耐用品订单月率报告, 数据区间从 20080227-至今"
+macro_usa_durable_goods_orders,输出参数,预测值,float64,注意单位: %,"美国耐用品订单月率报告, 数据区间从 20080227-至今"
+macro_usa_durable_goods_orders,输出参数,前值,float64,注意单位: %,"美国耐用品订单月率报告, 数据区间从 20080227-至今"
+macro_usa_factory_orders,输入参数,无,,,"美国工厂订单月率报告, 数据区间从 19920401-至今"
+macro_usa_factory_orders,输出参数,商品,object,-,"美国工厂订单月率报告, 数据区间从 19920401-至今"
+macro_usa_factory_orders,输出参数,日期,object,-,"美国工厂订单月率报告, 数据区间从 19920401-至今"
+macro_usa_factory_orders,输出参数,今值,float64,注意单位: %,"美国工厂订单月率报告, 数据区间从 19920401-至今"
+macro_usa_factory_orders,输出参数,预测值,float64,注意单位: %,"美国工厂订单月率报告, 数据区间从 19920401-至今"
+macro_usa_factory_orders,输出参数,前值,float64,注意单位: %,"美国工厂订单月率报告, 数据区间从 19920401-至今"
+macro_usa_services_pmi,输入参数,无,,,"美国Markit服务业PMI初值报告, 数据区间从 20120701-至今"
+macro_usa_services_pmi,输出参数,商品,object,-,"美国Markit服务业PMI初值报告, 数据区间从 20120701-至今"
+macro_usa_services_pmi,输出参数,日期,object,-,"美国Markit服务业PMI初值报告, 数据区间从 20120701-至今"
+macro_usa_services_pmi,输出参数,今值,float64,-,"美国Markit服务业PMI初值报告, 数据区间从 20120701-至今"
+macro_usa_services_pmi,输出参数,预测值,float64,-,"美国Markit服务业PMI初值报告, 数据区间从 20120701-至今"
+macro_usa_services_pmi,输出参数,前值,float64,-,"美国Markit服务业PMI初值报告, 数据区间从 20120701-至今"
+macro_usa_business_inventories,输入参数,无,,,"美国商业库存月率报告, 数据区间从 19920301-至今"
+macro_usa_business_inventories,输出参数,商品,object,-,"美国商业库存月率报告, 数据区间从 19920301-至今"
+macro_usa_business_inventories,输出参数,日期,object,-,"美国商业库存月率报告, 数据区间从 19920301-至今"
+macro_usa_business_inventories,输出参数,今值,float64,注意单位: %,"美国商业库存月率报告, 数据区间从 19920301-至今"
+macro_usa_business_inventories,输出参数,预测值,float64,注意单位: %,"美国商业库存月率报告, 数据区间从 19920301-至今"
+macro_usa_business_inventories,输出参数,前值,float64,注意单位: %,"美国商业库存月率报告, 数据区间从 19920301-至今"
+macro_usa_ism_non_pmi,输入参数,无,,,"美国 ISM 非制造业 PMI 报告, 数据区间从 19970801-至今"
+macro_usa_ism_non_pmi,输出参数,商品,object,-,"美国 ISM 非制造业 PMI 报告, 数据区间从 19970801-至今"
+macro_usa_ism_non_pmi,输出参数,日期,object,-,"美国 ISM 非制造业 PMI 报告, 数据区间从 19970801-至今"
+macro_usa_ism_non_pmi,输出参数,今值,float64,-,"美国 ISM 非制造业 PMI 报告, 数据区间从 19970801-至今"
+macro_usa_ism_non_pmi,输出参数,预测值,float64,-,"美国 ISM 非制造业 PMI 报告, 数据区间从 19970801-至今"
+macro_usa_ism_non_pmi,输出参数,前值,float64,-,"美国 ISM 非制造业 PMI 报告, 数据区间从 19970801-至今"
+macro_usa_nahb_house_market_index,输入参数,无,,,"美国 NAHB 房产市场指数报告, 数据区间从 19850201-至今"
+macro_usa_nahb_house_market_index,输出参数,商品,object,-,"美国 NAHB 房产市场指数报告, 数据区间从 19850201-至今"
+macro_usa_nahb_house_market_index,输出参数,日期,object,-,"美国 NAHB 房产市场指数报告, 数据区间从 19850201-至今"
+macro_usa_nahb_house_market_index,输出参数,今值,float64,-,"美国 NAHB 房产市场指数报告, 数据区间从 19850201-至今"
+macro_usa_nahb_house_market_index,输出参数,预测值,float64,-,"美国 NAHB 房产市场指数报告, 数据区间从 19850201-至今"
+macro_usa_nahb_house_market_index,输出参数,前值,float64,-,"美国 NAHB 房产市场指数报告, 数据区间从 19850201-至今"
+macro_usa_house_starts,输入参数,无,,,"美国新屋开工总数年化报告, 数据区间从 19700101-至今"
+macro_usa_house_starts,输出参数,商品,object,-,"美国新屋开工总数年化报告, 数据区间从 19700101-至今"
+macro_usa_house_starts,输出参数,日期,object,-,"美国新屋开工总数年化报告, 数据区间从 19700101-至今"
+macro_usa_house_starts,输出参数,今值,float64,注意单位: 万户,"美国新屋开工总数年化报告, 数据区间从 19700101-至今"
+macro_usa_house_starts,输出参数,预测值,float64,注意单位: 万户,"美国新屋开工总数年化报告, 数据区间从 19700101-至今"
+macro_usa_house_starts,输出参数,前值,float64,注意单位: 万户,"美国新屋开工总数年化报告, 数据区间从 19700101-至今"
+macro_usa_new_home_sales,输入参数,无,,,"美国新屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_new_home_sales,输出参数,商品,object,-,"美国新屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_new_home_sales,输出参数,日期,object,-,"美国新屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_new_home_sales,输出参数,今值,float64,注意单位: 万户,"美国新屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_new_home_sales,输出参数,预测值,float64,注意单位: 万户,"美国新屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_new_home_sales,输出参数,前值,float64,注意单位: 万户,"美国新屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_building_permits,输入参数,无,,,"美国营建许可总数报告, 数据区间从 20080220-至今"
+macro_usa_building_permits,输出参数,商品,object,-,"美国营建许可总数报告, 数据区间从 20080220-至今"
+macro_usa_building_permits,输出参数,日期,object,-,"美国营建许可总数报告, 数据区间从 20080220-至今"
+macro_usa_building_permits,输出参数,今值,float64,注意单位: 万户,"美国营建许可总数报告, 数据区间从 20080220-至今"
+macro_usa_building_permits,输出参数,预测值,float64,注意单位: 万户,"美国营建许可总数报告, 数据区间从 20080220-至今"
+macro_usa_building_permits,输出参数,前值,float64,注意单位: 万户,"美国营建许可总数报告, 数据区间从 20080220-至今"
+macro_usa_exist_home_sales,输入参数,无,,,"美国成屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_exist_home_sales,输出参数,商品,object,-,"美国成屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_exist_home_sales,输出参数,日期,object,-,"美国成屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_exist_home_sales,输出参数,今值,float64,注意单位: 万户,"美国成屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_exist_home_sales,输出参数,预测值,float64,注意单位: 万户,"美国成屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_exist_home_sales,输出参数,前值,float64,注意单位: 万户,"美国成屋销售总数年化报告, 数据区间从 19700101-至今"
+macro_usa_house_price_index,输入参数,无,,,"美国 FHFA 房价指数月率报告, 数据区间从 19910301-至今"
+macro_usa_house_price_index,输出参数,商品,object,-,"美国 FHFA 房价指数月率报告, 数据区间从 19910301-至今"
+macro_usa_house_price_index,输出参数,日期,object,-,"美国 FHFA 房价指数月率报告, 数据区间从 19910301-至今"
+macro_usa_house_price_index,输出参数,今值,float64,注意单位: %,"美国 FHFA 房价指数月率报告, 数据区间从 19910301-至今"
+macro_usa_house_price_index,输出参数,预测值,float64,注意单位: %,"美国 FHFA 房价指数月率报告, 数据区间从 19910301-至今"
+macro_usa_house_price_index,输出参数,前值,float64,注意单位: %,"美国 FHFA 房价指数月率报告, 数据区间从 19910301-至今"
+macro_usa_spcs20,输入参数,无,,,"美国S&P/CS20座大城市房价指数年率报告, 数据区间从 20010201-至今"
+macro_usa_spcs20,输出参数,商品,object,-,"美国S&P/CS20座大城市房价指数年率报告, 数据区间从 20010201-至今"
+macro_usa_spcs20,输出参数,日期,object,-,"美国S&P/CS20座大城市房价指数年率报告, 数据区间从 20010201-至今"
+macro_usa_spcs20,输出参数,今值,float64,注意单位: %,"美国S&P/CS20座大城市房价指数年率报告, 数据区间从 20010201-至今"
+macro_usa_spcs20,输出参数,预测值,float64,注意单位: %,"美国S&P/CS20座大城市房价指数年率报告, 数据区间从 20010201-至今"
+macro_usa_spcs20,输出参数,前值,float64,注意单位: %,"美国S&P/CS20座大城市房价指数年率报告, 数据区间从 20010201-至今"
+macro_usa_pending_home_sales,输入参数,无,,,"美国成屋签约销售指数月率报告, 数据区间从 20010301-至今"
+macro_usa_pending_home_sales,输出参数,商品,object,-,"美国成屋签约销售指数月率报告, 数据区间从 20010301-至今"
+macro_usa_pending_home_sales,输出参数,日期,object,-,"美国成屋签约销售指数月率报告, 数据区间从 20010301-至今"
+macro_usa_pending_home_sales,输出参数,今值,float64,注意单位: %,"美国成屋签约销售指数月率报告, 数据区间从 20010301-至今"
+macro_usa_pending_home_sales,输出参数,预测值,float64,注意单位: %,"美国成屋签约销售指数月率报告, 数据区间从 20010301-至今"
+macro_usa_pending_home_sales,输出参数,前值,float64,注意单位: %,"美国成屋签约销售指数月率报告, 数据区间从 20010301-至今"
+macro_usa_phs,输入参数,无,,,"东方财富-经济数据一览-美国-未决房屋销售月率, 数据区间从 20080201-至今"
+macro_usa_phs,输出参数,时间,object,-,"东方财富-经济数据一览-美国-未决房屋销售月率, 数据区间从 20080201-至今"
+macro_usa_phs,输出参数,前值,float64,注意单位: %,"东方财富-经济数据一览-美国-未决房屋销售月率, 数据区间从 20080201-至今"
+macro_usa_phs,输出参数,现值,float64,注意单位: %,"东方财富-经济数据一览-美国-未决房屋销售月率, 数据区间从 20080201-至今"
+macro_usa_phs,输出参数,发布日期,object,-,"东方财富-经济数据一览-美国-未决房屋销售月率, 数据区间从 20080201-至今"
+macro_usa_cb_consumer_confidence,输入参数,无,,,"美国谘商会消费者信心指数报告, 数据区间从 19700101-至今"
+macro_usa_cb_consumer_confidence,输出参数,商品,object,-,"美国谘商会消费者信心指数报告, 数据区间从 19700101-至今"
+macro_usa_cb_consumer_confidence,输出参数,日期,object,-,"美国谘商会消费者信心指数报告, 数据区间从 19700101-至今"
+macro_usa_cb_consumer_confidence,输出参数,今值,float64,-,"美国谘商会消费者信心指数报告, 数据区间从 19700101-至今"
+macro_usa_cb_consumer_confidence,输出参数,预测值,float64,-,"美国谘商会消费者信心指数报告, 数据区间从 19700101-至今"
+macro_usa_cb_consumer_confidence,输出参数,前值,float64,-,"美国谘商会消费者信心指数报告, 数据区间从 19700101-至今"
+macro_usa_nfib_small_business,输入参数,无,,,"美国NFIB小型企业信心指数报告, 数据区间从 19750201-至今"
+macro_usa_nfib_small_business,输出参数,商品,object,-,"美国NFIB小型企业信心指数报告, 数据区间从 19750201-至今"
+macro_usa_nfib_small_business,输出参数,日期,object,-,"美国NFIB小型企业信心指数报告, 数据区间从 19750201-至今"
+macro_usa_nfib_small_business,输出参数,今值,float64,-,"美国NFIB小型企业信心指数报告, 数据区间从 19750201-至今"
+macro_usa_nfib_small_business,输出参数,预测值,float64,-,"美国NFIB小型企业信心指数报告, 数据区间从 19750201-至今"
+macro_usa_nfib_small_business,输出参数,前值,float64,-,"美国NFIB小型企业信心指数报告, 数据区间从 19750201-至今"
+macro_usa_michigan_consumer_sentiment,输入参数,无,,,"美国密歇根大学消费者信心指数初值报告, 数据区间从 19700301-至今"
+macro_usa_michigan_consumer_sentiment,输出参数,商品,object,-,"美国密歇根大学消费者信心指数初值报告, 数据区间从 19700301-至今"
+macro_usa_michigan_consumer_sentiment,输出参数,日期,object,-,"美国密歇根大学消费者信心指数初值报告, 数据区间从 19700301-至今"
+macro_usa_michigan_consumer_sentiment,输出参数,今值,float64,-,"美国密歇根大学消费者信心指数初值报告, 数据区间从 19700301-至今"
+macro_usa_michigan_consumer_sentiment,输出参数,预测值,float64,-,"美国密歇根大学消费者信心指数初值报告, 数据区间从 19700301-至今"
+macro_usa_michigan_consumer_sentiment,输出参数,前值,float64,-,"美国密歇根大学消费者信心指数初值报告, 数据区间从 19700301-至今"
+macro_usa_eia_crude_rate,输入参数,无,,,"美国EIA原油库存报告, 数据区间从 19950801-至今"
+macro_usa_eia_crude_rate,输出参数,商品,object,-,"美国EIA原油库存报告, 数据区间从 19950801-至今"
+macro_usa_eia_crude_rate,输出参数,日期,object,-,"美国EIA原油库存报告, 数据区间从 19950801-至今"
+macro_usa_eia_crude_rate,输出参数,今值,float64,注意单位: 万桶,"美国EIA原油库存报告, 数据区间从 19950801-至今"
+macro_usa_eia_crude_rate,输出参数,预测值,float64,注意单位: 万桶,"美国EIA原油库存报告, 数据区间从 19950801-至今"
+macro_usa_eia_crude_rate,输出参数,前值,float64,注意单位: 万桶,"美国EIA原油库存报告, 数据区间从 19950801-至今"
+macro_usa_initial_jobless,输入参数,无,,,"美国初请失业金人数报告, 数据区间从 19700101-至今"
+macro_usa_initial_jobless,输出参数,商品,object,-,"美国初请失业金人数报告, 数据区间从 19700101-至今"
+macro_usa_initial_jobless,输出参数,日期,object,-,"美国初请失业金人数报告, 数据区间从 19700101-至今"
+macro_usa_initial_jobless,输出参数,今值,float64,注意单位: 万人,"美国初请失业金人数报告, 数据区间从 19700101-至今"
+macro_usa_initial_jobless,输出参数,预测值,float64,注意单位: 万人,"美国初请失业金人数报告, 数据区间从 19700101-至今"
+macro_usa_initial_jobless,输出参数,前值,float64,注意单位: 万人,"美国初请失业金人数报告, 数据区间从 19700101-至今"
+macro_usa_crude_inner,输入参数,无,,,"美国原油产量报告, 数据区间从 19830107-至今, 每周三公布(美国节假日除外), 美国能源信息署(EIA)"
+macro_usa_crude_inner,输出参数,日期,object,-,"美国原油产量报告, 数据区间从 19830107-至今, 每周三公布(美国节假日除外), 美国能源信息署(EIA)"
+macro_usa_crude_inner,输出参数,美国国内原油总量-产量,float64,-,"美国原油产量报告, 数据区间从 19830107-至今, 每周三公布(美国节假日除外), 美国能源信息署(EIA)"
+macro_usa_crude_inner,输出参数,美国国内原油总量-变化,float64,-,"美国原油产量报告, 数据区间从 19830107-至今, 每周三公布(美国节假日除外), 美国能源信息署(EIA)"
+macro_usa_crude_inner,输出参数,美国本土48州原油产量-产量,float64,-,"美国原油产量报告, 数据区间从 19830107-至今, 每周三公布(美国节假日除外), 美国能源信息署(EIA)"
+macro_usa_crude_inner,输出参数,美国本土48州原油产量-变化,float64,-,"美国原油产量报告, 数据区间从 19830107-至今, 每周三公布(美国节假日除外), 美国能源信息署(EIA)"
+macro_usa_crude_inner,输出参数,美国阿拉斯加州原油产量-产量,float64,-,"美国原油产量报告, 数据区间从 19830107-至今, 每周三公布(美国节假日除外), 美国能源信息署(EIA)"
+macro_usa_crude_inner,输出参数,美国阿拉斯加州原油产量-变化,float64,-,"美国原油产量报告, 数据区间从 19830107-至今, 每周三公布(美国节假日除外), 美国能源信息署(EIA)"
+macro_euro_gdp_yoy,输入参数,无,,,"欧元区季度 GDP 年率报告, 数据区间从 20131114-至今"
+macro_euro_gdp_yoy,输出参数,商品,object,-,"欧元区季度 GDP 年率报告, 数据区间从 20131114-至今"
+macro_euro_gdp_yoy,输出参数,日期,object,-,"欧元区季度 GDP 年率报告, 数据区间从 20131114-至今"
+macro_euro_gdp_yoy,输出参数,今值,float64,注意单位: %,"欧元区季度 GDP 年率报告, 数据区间从 20131114-至今"
+macro_euro_gdp_yoy,输出参数,预测值,float64,注意单位: %,"欧元区季度 GDP 年率报告, 数据区间从 20131114-至今"
+macro_euro_gdp_yoy,输出参数,前值,float64,注意单位: %,"欧元区季度 GDP 年率报告, 数据区间从 20131114-至今"
+macro_euro_cpi_mom,输入参数,无,,,"欧元区 CPI 月率报告, 数据区间从 19900301-至今"
+macro_euro_cpi_mom,输出参数,商品,object,-,"欧元区 CPI 月率报告, 数据区间从 19900301-至今"
+macro_euro_cpi_mom,输出参数,日期,object,-,"欧元区 CPI 月率报告, 数据区间从 19900301-至今"
+macro_euro_cpi_mom,输出参数,今值,float64,注意单位: %,"欧元区 CPI 月率报告, 数据区间从 19900301-至今"
+macro_euro_cpi_mom,输出参数,预测值,float64,注意单位: %,"欧元区 CPI 月率报告, 数据区间从 19900301-至今"
+macro_euro_cpi_mom,输出参数,前值,float64,注意单位: %,"欧元区 CPI 月率报告, 数据区间从 19900301-至今"
+macro_euro_cpi_yoy,输入参数,无,,,"欧元区 CPI 年率报告, 数据区间从 19910201-至今"
+macro_euro_cpi_yoy,输出参数,商品,object,-,"欧元区 CPI 年率报告, 数据区间从 19910201-至今"
+macro_euro_cpi_yoy,输出参数,日期,object,-,"欧元区 CPI 年率报告, 数据区间从 19910201-至今"
+macro_euro_cpi_yoy,输出参数,今值,float64,注意单位: %,"欧元区 CPI 年率报告, 数据区间从 19910201-至今"
+macro_euro_cpi_yoy,输出参数,预测值,float64,注意单位: %,"欧元区 CPI 年率报告, 数据区间从 19910201-至今"
+macro_euro_cpi_yoy,输出参数,前值,float64,注意单位: %,"欧元区 CPI 年率报告, 数据区间从 19910201-至今"
+macro_euro_ppi_mom,输入参数,无,,,"欧元区 PPI 月率报告, 数据区间从 19810301-至今"
+macro_euro_ppi_mom,输出参数,商品,object,-,"欧元区 PPI 月率报告, 数据区间从 19810301-至今"
+macro_euro_ppi_mom,输出参数,日期,object,-,"欧元区 PPI 月率报告, 数据区间从 19810301-至今"
+macro_euro_ppi_mom,输出参数,今值,float64,注意单位: %,"欧元区 PPI 月率报告, 数据区间从 19810301-至今"
+macro_euro_ppi_mom,输出参数,预测值,float64,注意单位: %,"欧元区 PPI 月率报告, 数据区间从 19810301-至今"
+macro_euro_ppi_mom,输出参数,前值,float64,注意单位: %,"欧元区 PPI 月率报告, 数据区间从 19810301-至今"
+macro_euro_retail_sales_mom,输入参数,无,,,"欧元区零售销售月率报告, 数据区间从 20000301-至今"
+macro_euro_retail_sales_mom,输出参数,商品,object,-,"欧元区零售销售月率报告, 数据区间从 20000301-至今"
+macro_euro_retail_sales_mom,输出参数,日期,object,-,"欧元区零售销售月率报告, 数据区间从 20000301-至今"
+macro_euro_retail_sales_mom,输出参数,今值,float64,注意单位: %,"欧元区零售销售月率报告, 数据区间从 20000301-至今"
+macro_euro_retail_sales_mom,输出参数,预测值,float64,注意单位: %,"欧元区零售销售月率报告, 数据区间从 20000301-至今"
+macro_euro_retail_sales_mom,输出参数,前值,float64,注意单位: %,"欧元区零售销售月率报告, 数据区间从 20000301-至今"
+macro_euro_employment_change_qoq,输入参数,无,,,"欧元区季调后就业人数季率报告, 数据区间从 20083017-至今"
+macro_euro_employment_change_qoq,输出参数,商品,object,-,"欧元区季调后就业人数季率报告, 数据区间从 20083017-至今"
+macro_euro_employment_change_qoq,输出参数,日期,object,-,"欧元区季调后就业人数季率报告, 数据区间从 20083017-至今"
+macro_euro_employment_change_qoq,输出参数,今值,float64,注意单位: %,"欧元区季调后就业人数季率报告, 数据区间从 20083017-至今"
+macro_euro_employment_change_qoq,输出参数,预测值,float64,注意单位: %,"欧元区季调后就业人数季率报告, 数据区间从 20083017-至今"
+macro_euro_employment_change_qoq,输出参数,前值,float64,注意单位: %,"欧元区季调后就业人数季率报告, 数据区间从 20083017-至今"
+macro_euro_unemployment_rate_mom,输入参数,无,,,"欧元区失业率报告, 数据区间从 19980501-至今"
+macro_euro_unemployment_rate_mom,输出参数,商品,object,-,"欧元区失业率报告, 数据区间从 19980501-至今"
+macro_euro_unemployment_rate_mom,输出参数,日期,object,-,"欧元区失业率报告, 数据区间从 19980501-至今"
+macro_euro_unemployment_rate_mom,输出参数,今值,float64,注意单位: %,"欧元区失业率报告, 数据区间从 19980501-至今"
+macro_euro_unemployment_rate_mom,输出参数,预测值,float64,注意单位: %,"欧元区失业率报告, 数据区间从 19980501-至今"
+macro_euro_unemployment_rate_mom,输出参数,前值,float64,注意单位: %,"欧元区失业率报告, 数据区间从 19980501-至今"
+macro_euro_trade_balance,输入参数,无,,,"欧元区未季调贸易帐报告, 数据区间从 19990201-至今"
+macro_euro_trade_balance,输出参数,商品,object,-,"欧元区未季调贸易帐报告, 数据区间从 19990201-至今"
+macro_euro_trade_balance,输出参数,日期,object,-,"欧元区未季调贸易帐报告, 数据区间从 19990201-至今"
+macro_euro_trade_balance,输出参数,今值,float64,注意单位: %,"欧元区未季调贸易帐报告, 数据区间从 19990201-至今"
+macro_euro_trade_balance,输出参数,预测值,float64,注意单位: %,"欧元区未季调贸易帐报告, 数据区间从 19990201-至今"
+macro_euro_trade_balance,输出参数,前值,float64,注意单位: %,"欧元区未季调贸易帐报告, 数据区间从 19990201-至今"
+macro_euro_current_account_mom,输入参数,无,,,"欧元区经常帐报告, 数据区间从 20080221-至今"
+macro_euro_current_account_mom,输出参数,商品,object,-,"欧元区经常帐报告, 数据区间从 20080221-至今"
+macro_euro_current_account_mom,输出参数,日期,object,-,"欧元区经常帐报告, 数据区间从 20080221-至今"
+macro_euro_current_account_mom,输出参数,今值,float64,注意单位: %,"欧元区经常帐报告, 数据区间从 20080221-至今"
+macro_euro_current_account_mom,输出参数,预测值,float64,注意单位: %,"欧元区经常帐报告, 数据区间从 20080221-至今"
+macro_euro_current_account_mom,输出参数,前值,float64,注意单位: %,"欧元区经常帐报告, 数据区间从 20080221-至今"
+macro_euro_industrial_production_mom,输入参数,无,,,"欧元区工业产出月率报告, 数据区间从 19910301-至今"
+macro_euro_industrial_production_mom,输出参数,商品,object,-,"欧元区工业产出月率报告, 数据区间从 19910301-至今"
+macro_euro_industrial_production_mom,输出参数,日期,object,-,"欧元区工业产出月率报告, 数据区间从 19910301-至今"
+macro_euro_industrial_production_mom,输出参数,今值,float64,注意单位: %,"欧元区工业产出月率报告, 数据区间从 19910301-至今"
+macro_euro_industrial_production_mom,输出参数,预测值,float64,注意单位: %,"欧元区工业产出月率报告, 数据区间从 19910301-至今"
+macro_euro_industrial_production_mom,输出参数,前值,float64,注意单位: %,"欧元区工业产出月率报告, 数据区间从 19910301-至今"
+macro_euro_manufacturing_pmi,输入参数,无,,,"欧元区制造业 PMI 初值报告, 数据区间从 20080222-至今"
+macro_euro_manufacturing_pmi,输出参数,商品,object,-,"欧元区制造业 PMI 初值报告, 数据区间从 20080222-至今"
+macro_euro_manufacturing_pmi,输出参数,日期,object,-,"欧元区制造业 PMI 初值报告, 数据区间从 20080222-至今"
+macro_euro_manufacturing_pmi,输出参数,今值,float64,注意单位: %,"欧元区制造业 PMI 初值报告, 数据区间从 20080222-至今"
+macro_euro_manufacturing_pmi,输出参数,预测值,float64,注意单位: %,"欧元区制造业 PMI 初值报告, 数据区间从 20080222-至今"
+macro_euro_manufacturing_pmi,输出参数,前值,float64,注意单位: %,"欧元区制造业 PMI 初值报告, 数据区间从 20080222-至今"
+macro_euro_services_pmi,输入参数,无,,,"欧元区服务业 PMI 终值报告, 数据区间从 20080222-至今"
+macro_euro_services_pmi,输出参数,商品,object,-,"欧元区服务业 PMI 终值报告, 数据区间从 20080222-至今"
+macro_euro_services_pmi,输出参数,日期,object,-,"欧元区服务业 PMI 终值报告, 数据区间从 20080222-至今"
+macro_euro_services_pmi,输出参数,今值,float64,注意单位: %,"欧元区服务业 PMI 终值报告, 数据区间从 20080222-至今"
+macro_euro_services_pmi,输出参数,预测值,float64,注意单位: %,"欧元区服务业 PMI 终值报告, 数据区间从 20080222-至今"
+macro_euro_services_pmi,输出参数,前值,float64,注意单位: %,"欧元区服务业 PMI 终值报告, 数据区间从 20080222-至今"
+macro_euro_zew_economic_sentiment,输入参数,无,,,"欧元区 ZEW 经济景气指数报告, 数据区间从 20080212-至今"
+macro_euro_zew_economic_sentiment,输出参数,商品,object,-,"欧元区 ZEW 经济景气指数报告, 数据区间从 20080212-至今"
+macro_euro_zew_economic_sentiment,输出参数,日期,object,-,"欧元区 ZEW 经济景气指数报告, 数据区间从 20080212-至今"
+macro_euro_zew_economic_sentiment,输出参数,今值,float64,注意单位: %,"欧元区 ZEW 经济景气指数报告, 数据区间从 20080212-至今"
+macro_euro_zew_economic_sentiment,输出参数,预测值,float64,注意单位: %,"欧元区 ZEW 经济景气指数报告, 数据区间从 20080212-至今"
+macro_euro_zew_economic_sentiment,输出参数,前值,float64,注意单位: %,"欧元区 ZEW 经济景气指数报告, 数据区间从 20080212-至今"
+macro_euro_sentix_investor_confidence,输入参数,无,,,"欧元区 Sentix 投资者信心指数报告, 数据区间从 20020801-至今"
+macro_euro_sentix_investor_confidence,输出参数,商品,object,-,"欧元区 Sentix 投资者信心指数报告, 数据区间从 20020801-至今"
+macro_euro_sentix_investor_confidence,输出参数,日期,object,-,"欧元区 Sentix 投资者信心指数报告, 数据区间从 20020801-至今"
+macro_euro_sentix_investor_confidence,输出参数,今值,float64,注意单位: %,"欧元区 Sentix 投资者信心指数报告, 数据区间从 20020801-至今"
+macro_euro_sentix_investor_confidence,输出参数,预测值,float64,注意单位: %,"欧元区 Sentix 投资者信心指数报告, 数据区间从 20020801-至今"
+macro_euro_sentix_investor_confidence,输出参数,前值,float64,注意单位: %,"欧元区 Sentix 投资者信心指数报告, 数据区间从 20020801-至今"
+macro_germany_ifo,输入参数,无,,,东方财富-数据中心-经济数据一览-IFO商业景气指数
+macro_germany_ifo,输出参数,时间,object,-,东方财富-数据中心-经济数据一览-IFO商业景气指数
+macro_germany_ifo,输出参数,前值,float64,-,东方财富-数据中心-经济数据一览-IFO商业景气指数
+macro_germany_ifo,输出参数,现值,float64,-,东方财富-数据中心-经济数据一览-IFO商业景气指数
+macro_germany_ifo,输出参数,发布日期,object,-,东方财富-数据中心-经济数据一览-IFO商业景气指数
+macro_germany_cpi_monthly,输入参数,无,,,东方财富-数据中心-经济数据一览-德国-消费者物价指数月率终值
+macro_germany_cpi_monthly,输出参数,时间,object,-,东方财富-数据中心-经济数据一览-德国-消费者物价指数月率终值
+macro_germany_cpi_monthly,输出参数,前值,float64,-,东方财富-数据中心-经济数据一览-德国-消费者物价指数月率终值
+macro_germany_cpi_monthly,输出参数,现值,float64,-,东方财富-数据中心-经济数据一览-德国-消费者物价指数月率终值
+macro_germany_cpi_monthly,输出参数,发布日期,object,-,东方财富-数据中心-经济数据一览-德国-消费者物价指数月率终值
+macro_germany_cpi_yearly,输入参数,无,,,东方财富-数据中心-经济数据一览-德国-消费者物价指数年率终值
+macro_germany_cpi_yearly,输出参数,时间,object,-,东方财富-数据中心-经济数据一览-德国-消费者物价指数年率终值
+macro_germany_cpi_yearly,输出参数,前值,float64,-,东方财富-数据中心-经济数据一览-德国-消费者物价指数年率终值
+macro_germany_cpi_yearly,输出参数,现值,float64,-,东方财富-数据中心-经济数据一览-德国-消费者物价指数年率终值
+macro_germany_cpi_yearly,输出参数,发布日期,object,-,东方财富-数据中心-经济数据一览-德国-消费者物价指数年率终值
+macro_germany_trade_adjusted,输入参数,无,,,东方财富-数据中心-经济数据一览-德国-贸易帐(季调后)
+macro_germany_trade_adjusted,输出参数,时间,object,-,东方财富-数据中心-经济数据一览-德国-贸易帐(季调后)
+macro_germany_trade_adjusted,输出参数,前值,float64,-,东方财富-数据中心-经济数据一览-德国-贸易帐(季调后)
+macro_germany_trade_adjusted,输出参数,现值,float64,-,东方财富-数据中心-经济数据一览-德国-贸易帐(季调后)
+macro_germany_trade_adjusted,输出参数,发布日期,object,-,东方财富-数据中心-经济数据一览-德国-贸易帐(季调后)
+macro_germany_gdp,输入参数,无,,,东方财富-数据中心-经济数据一览-德国-GDP
+macro_germany_gdp,输出参数,时间,object,-,东方财富-数据中心-经济数据一览-德国-GDP
+macro_germany_gdp,输出参数,前值,float64,-,东方财富-数据中心-经济数据一览-德国-GDP
+macro_germany_gdp,输出参数,现值,float64,-,东方财富-数据中心-经济数据一览-德国-GDP
+macro_germany_gdp,输出参数,发布日期,object,-,东方财富-数据中心-经济数据一览-德国-GDP
+macro_germany_retail_sale_monthly,输入参数,无,,,东方财富-数据中心-经济数据一览-德国-实际零售销售月率
+macro_germany_retail_sale_monthly,输出参数,时间,object,-,东方财富-数据中心-经济数据一览-德国-实际零售销售月率
+macro_germany_retail_sale_monthly,输出参数,前值,float64,-,东方财富-数据中心-经济数据一览-德国-实际零售销售月率
+macro_germany_retail_sale_monthly,输出参数,现值,float64,-,东方财富-数据中心-经济数据一览-德国-实际零售销售月率
+macro_germany_retail_sale_monthly,输出参数,发布日期,object,-,东方财富-数据中心-经济数据一览-德国-实际零售销售月率
+macro_germany_retail_sale_yearly,输入参数,无,,,东方财富-数据中心-经济数据一览-德国-实际零售销售年率
+macro_germany_retail_sale_yearly,输出参数,时间,object,-,东方财富-数据中心-经济数据一览-德国-实际零售销售年率
+macro_germany_retail_sale_yearly,输出参数,前值,float64,-,东方财富-数据中心-经济数据一览-德国-实际零售销售年率
+macro_germany_retail_sale_yearly,输出参数,现值,float64,-,东方财富-数据中心-经济数据一览-德国-实际零售销售年率
+macro_germany_retail_sale_yearly,输出参数,发布日期,object,-,东方财富-数据中心-经济数据一览-德国-实际零售销售年率
+macro_germany_zew,输入参数,无,,,东方财富-数据中心-经济数据一览-德国-ZEW 经济景气指数
+macro_germany_zew,输出参数,时间,object,-,东方财富-数据中心-经济数据一览-德国-ZEW 经济景气指数
+macro_germany_zew,输出参数,前值,float64,-,东方财富-数据中心-经济数据一览-德国-ZEW 经济景气指数
+macro_germany_zew,输出参数,现值,float64,-,东方财富-数据中心-经济数据一览-德国-ZEW 经济景气指数
+macro_germany_zew,输出参数,发布日期,object,-,东方财富-数据中心-经济数据一览-德国-ZEW 经济景气指数
+macro_swiss_svme,输入参数,无,,,东方财富-经济数据-瑞士-SVME采购经理人指数
+macro_swiss_svme,输出参数,时间,object,-,东方财富-经济数据-瑞士-SVME采购经理人指数
+macro_swiss_svme,输出参数,前值,float64,-,东方财富-经济数据-瑞士-SVME采购经理人指数
+macro_swiss_svme,输出参数,现值,float64,-,东方财富-经济数据-瑞士-SVME采购经理人指数
+macro_swiss_svme,输出参数,发布日期,object,-,东方财富-经济数据-瑞士-SVME采购经理人指数
+macro_swiss_trade,输入参数,无,,,东方财富-经济数据-瑞士-贸易帐
+macro_swiss_trade,输出参数,时间,object,-,东方财富-经济数据-瑞士-贸易帐
+macro_swiss_trade,输出参数,前值,float64,-,东方财富-经济数据-瑞士-贸易帐
+macro_swiss_trade,输出参数,现值,float64,-,东方财富-经济数据-瑞士-贸易帐
+macro_swiss_trade,输出参数,发布日期,object,-,东方财富-经济数据-瑞士-贸易帐
+macro_swiss_cpi_yearly,输入参数,无,,,东方财富-经济数据-瑞士-消费者物价指数年率
+macro_swiss_cpi_yearly,输出参数,时间,object,-,东方财富-经济数据-瑞士-消费者物价指数年率
+macro_swiss_cpi_yearly,输出参数,前值,float64,-,东方财富-经济数据-瑞士-消费者物价指数年率
+macro_swiss_cpi_yearly,输出参数,现值,float64,-,东方财富-经济数据-瑞士-消费者物价指数年率
+macro_swiss_cpi_yearly,输出参数,发布日期,object,-,东方财富-经济数据-瑞士-消费者物价指数年率
+macro_swiss_gdp_quarterly,输入参数,无,,,东方财富-经济数据-瑞士-GDP 季率
+macro_swiss_gdp_quarterly,输出参数,时间,object,-,东方财富-经济数据-瑞士-GDP 季率
+macro_swiss_gdp_quarterly,输出参数,前值,float64,-,东方财富-经济数据-瑞士-GDP 季率
+macro_swiss_gdp_quarterly,输出参数,现值,float64,-,东方财富-经济数据-瑞士-GDP 季率
+macro_swiss_gdp_quarterly,输出参数,发布日期,object,-,东方财富-经济数据-瑞士-GDP 季率
+macro_swiss_gbd_yearly,输入参数,无,,,东方财富-经济数据-瑞士-GDP 年率
+macro_swiss_gbd_yearly,输出参数,时间,object,-,东方财富-经济数据-瑞士-GDP 年率
+macro_swiss_gbd_yearly,输出参数,前值,float64,-,东方财富-经济数据-瑞士-GDP 年率
+macro_swiss_gbd_yearly,输出参数,现值,float64,-,东方财富-经济数据-瑞士-GDP 年率
+macro_swiss_gbd_yearly,输出参数,发布日期,object,-,东方财富-经济数据-瑞士-GDP 年率
+macro_swiss_gbd_bank_rate,输入参数,无,,,东方财富-经济数据-瑞士-央行公布利率决议
+macro_swiss_gbd_bank_rate,输出参数,时间,object,-,东方财富-经济数据-瑞士-央行公布利率决议
+macro_swiss_gbd_bank_rate,输出参数,前值,float64,-,东方财富-经济数据-瑞士-央行公布利率决议
+macro_swiss_gbd_bank_rate,输出参数,现值,float64,-,东方财富-经济数据-瑞士-央行公布利率决议
+macro_swiss_gbd_bank_rate,输出参数,发布日期,object,-,东方财富-经济数据-瑞士-央行公布利率决议
+macro_japan_bank_rate,输入参数,无,,,东方财富-经济数据-日本-央行公布利率决议
+macro_japan_bank_rate,输出参数,时间,object,-,东方财富-经济数据-日本-央行公布利率决议
+macro_japan_bank_rate,输出参数,前值,float64,-,东方财富-经济数据-日本-央行公布利率决议
+macro_japan_bank_rate,输出参数,现值,float64,-,东方财富-经济数据-日本-央行公布利率决议
+macro_japan_bank_rate,输出参数,发布日期,object,-,东方财富-经济数据-日本-央行公布利率决议
+macro_japan_cpi_yearly,输入参数,无,,,东方财富-经济数据-日本-全国消费者物价指数年率
+macro_japan_cpi_yearly,输出参数,时间,object,-,东方财富-经济数据-日本-全国消费者物价指数年率
+macro_japan_cpi_yearly,输出参数,前值,float64,-,东方财富-经济数据-日本-全国消费者物价指数年率
+macro_japan_cpi_yearly,输出参数,现值,float64,-,东方财富-经济数据-日本-全国消费者物价指数年率
+macro_japan_cpi_yearly,输出参数,发布日期,object,-,东方财富-经济数据-日本-全国消费者物价指数年率
+macro_japan_core_cpi_yearly,输入参数,无,,,东方财富-经济数据-日本-全国核心消费者物价指数年率
+macro_japan_core_cpi_yearly,输出参数,时间,object,-,东方财富-经济数据-日本-全国核心消费者物价指数年率
+macro_japan_core_cpi_yearly,输出参数,前值,float64,-,东方财富-经济数据-日本-全国核心消费者物价指数年率
+macro_japan_core_cpi_yearly,输出参数,现值,float64,-,东方财富-经济数据-日本-全国核心消费者物价指数年率
+macro_japan_core_cpi_yearly,输出参数,发布日期,object,-,东方财富-经济数据-日本-全国核心消费者物价指数年率
+macro_japan_unemployment_rate,输入参数,无,,,东方财富-经济数据-日本-失业率
+macro_japan_unemployment_rate,输出参数,时间,object,-,东方财富-经济数据-日本-失业率
+macro_japan_unemployment_rate,输出参数,前值,float64,-,东方财富-经济数据-日本-失业率
+macro_japan_unemployment_rate,输出参数,现值,float64,-,东方财富-经济数据-日本-失业率
+macro_japan_unemployment_rate,输出参数,发布日期,object,-,东方财富-经济数据-日本-失业率
+macro_japan_head_indicator,输入参数,无,,,东方财富-经济数据-日本-领先指标终值
+macro_japan_head_indicator,输出参数,时间,object,-,东方财富-经济数据-日本-领先指标终值
+macro_japan_head_indicator,输出参数,前值,float64,-,东方财富-经济数据-日本-领先指标终值
+macro_japan_head_indicator,输出参数,现值,float64,-,东方财富-经济数据-日本-领先指标终值
+macro_japan_head_indicator,输出参数,发布日期,object,-,东方财富-经济数据-日本-领先指标终值
+macro_uk_halifax_monthly,输入参数,无,,,东方财富-经济数据-英国-Halifax 房价指数月率
+macro_uk_halifax_monthly,输出参数,时间,object,-,东方财富-经济数据-英国-Halifax 房价指数月率
+macro_uk_halifax_monthly,输出参数,前值,float64,-,东方财富-经济数据-英国-Halifax 房价指数月率
+macro_uk_halifax_monthly,输出参数,现值,float64,-,东方财富-经济数据-英国-Halifax 房价指数月率
+macro_uk_halifax_monthly,输出参数,发布日期,object,-,东方财富-经济数据-英国-Halifax 房价指数月率
+macro_uk_halifax_yearly,输入参数,无,,,东方财富-经济数据-英国-Halifax 房价指数年率
+macro_uk_halifax_yearly,输出参数,时间,object,-,东方财富-经济数据-英国-Halifax 房价指数年率
+macro_uk_halifax_yearly,输出参数,前值,float64,-,东方财富-经济数据-英国-Halifax 房价指数年率
+macro_uk_halifax_yearly,输出参数,现值,float64,-,东方财富-经济数据-英国-Halifax 房价指数年率
+macro_uk_halifax_yearly,输出参数,发布日期,object,-,东方财富-经济数据-英国-Halifax 房价指数年率
+macro_uk_trade,输入参数,无,,,东方财富-经济数据-英国-贸易帐
+macro_uk_trade,输出参数,时间,object,-,东方财富-经济数据-英国-贸易帐
+macro_uk_trade,输出参数,前值,float64,-,东方财富-经济数据-英国-贸易帐
+macro_uk_trade,输出参数,现值,float64,-,东方财富-经济数据-英国-贸易帐
+macro_uk_trade,输出参数,发布日期,object,-,东方财富-经济数据-英国-贸易帐
+macro_uk_bank_rate,输入参数,无,,,东方财富-经济数据-英国-央行公布利率决议
+macro_uk_bank_rate,输出参数,时间,object,-,东方财富-经济数据-英国-央行公布利率决议
+macro_uk_bank_rate,输出参数,前值,float64,-,东方财富-经济数据-英国-央行公布利率决议
+macro_uk_bank_rate,输出参数,现值,float64,-,东方财富-经济数据-英国-央行公布利率决议
+macro_uk_bank_rate,输出参数,发布日期,object,-,东方财富-经济数据-英国-央行公布利率决议
+macro_uk_core_cpi_yearly,输入参数,无,,,东方财富-经济数据-英国-核心消费者物价指数年率
+macro_uk_core_cpi_yearly,输出参数,时间,object,-,东方财富-经济数据-英国-核心消费者物价指数年率
+macro_uk_core_cpi_yearly,输出参数,前值,float64,-,东方财富-经济数据-英国-核心消费者物价指数年率
+macro_uk_core_cpi_yearly,输出参数,现值,float64,-,东方财富-经济数据-英国-核心消费者物价指数年率
+macro_uk_core_cpi_yearly,输出参数,发布日期,object,-,东方财富-经济数据-英国-核心消费者物价指数年率
+macro_uk_core_cpi_monthly,输入参数,无,,,东方财富-经济数据-英国-核心消费者物价指数月率
+macro_uk_core_cpi_monthly,输出参数,时间,object,-,东方财富-经济数据-英国-核心消费者物价指数月率
+macro_uk_core_cpi_monthly,输出参数,前值,float64,-,东方财富-经济数据-英国-核心消费者物价指数月率
+macro_uk_core_cpi_monthly,输出参数,现值,float64,-,东方财富-经济数据-英国-核心消费者物价指数月率
+macro_uk_core_cpi_monthly,输出参数,发布日期,object,-,东方财富-经济数据-英国-核心消费者物价指数月率
+macro_uk_cpi_yearly,输入参数,无,,,东方财富-经济数据-英国-消费者物价指数年率
+macro_uk_cpi_yearly,输出参数,时间,object,-,东方财富-经济数据-英国-消费者物价指数年率
+macro_uk_cpi_yearly,输出参数,前值,float64,-,东方财富-经济数据-英国-消费者物价指数年率
+macro_uk_cpi_yearly,输出参数,现值,float64,-,东方财富-经济数据-英国-消费者物价指数年率
+macro_uk_cpi_yearly,输出参数,发布日期,object,-,东方财富-经济数据-英国-消费者物价指数年率
+macro_uk_cpi_monthly,输入参数,无,,,东方财富-经济数据-英国-消费者物价指数月率
+macro_uk_cpi_monthly,输出参数,时间,object,-,东方财富-经济数据-英国-消费者物价指数月率
+macro_uk_cpi_monthly,输出参数,前值,float64,-,东方财富-经济数据-英国-消费者物价指数月率
+macro_uk_cpi_monthly,输出参数,现值,float64,-,东方财富-经济数据-英国-消费者物价指数月率
+macro_uk_cpi_monthly,输出参数,发布日期,object,-,东方财富-经济数据-英国-消费者物价指数月率
+macro_uk_retail_monthly,输入参数,无,,,东方财富-经济数据-英国-零售销售月率
+macro_uk_retail_monthly,输出参数,时间,object,-,东方财富-经济数据-英国-零售销售月率
+macro_uk_retail_monthly,输出参数,前值,float64,-,东方财富-经济数据-英国-零售销售月率
+macro_uk_retail_monthly,输出参数,现值,float64,-,东方财富-经济数据-英国-零售销售月率
+macro_uk_retail_monthly,输出参数,发布日期,object,-,东方财富-经济数据-英国-零售销售月率
+macro_uk_retail_yearly,输入参数,无,,,东方财富-经济数据-英国-零售销售年率
+macro_uk_retail_yearly,输出参数,时间,object,-,东方财富-经济数据-英国-零售销售年率
+macro_uk_retail_yearly,输出参数,前值,float64,-,东方财富-经济数据-英国-零售销售年率
+macro_uk_retail_yearly,输出参数,现值,float64,-,东方财富-经济数据-英国-零售销售年率
+macro_uk_retail_yearly,输出参数,发布日期,object,-,东方财富-经济数据-英国-零售销售年率
+macro_uk_rightmove_yearly,输入参数,无,,,东方财富-经济数据-英国-Rightmove 房价指数年率
+macro_uk_rightmove_yearly,输出参数,时间,object,-,东方财富-经济数据-英国-Rightmove 房价指数年率
+macro_uk_rightmove_yearly,输出参数,前值,float64,-,东方财富-经济数据-英国-Rightmove 房价指数年率
+macro_uk_rightmove_yearly,输出参数,现值,float64,-,东方财富-经济数据-英国-Rightmove 房价指数年率
+macro_uk_rightmove_yearly,输出参数,发布日期,object,-,东方财富-经济数据-英国-Rightmove 房价指数年率
+macro_uk_rightmove_monthly,输入参数,无,,,东方财富-经济数据-英国-Rightmove 房价指数月率
+macro_uk_rightmove_monthly,输出参数,时间,object,-,东方财富-经济数据-英国-Rightmove 房价指数月率
+macro_uk_rightmove_monthly,输出参数,前值,float64,-,东方财富-经济数据-英国-Rightmove 房价指数月率
+macro_uk_rightmove_monthly,输出参数,现值,float64,-,东方财富-经济数据-英国-Rightmove 房价指数月率
+macro_uk_rightmove_monthly,输出参数,发布日期,object,-,东方财富-经济数据-英国-Rightmove 房价指数月率
+macro_uk_gdp_quarterly,输入参数,无,,,东方财富-经济数据-英国-GDP 季率初值
+macro_uk_gdp_quarterly,输出参数,时间,object,-,东方财富-经济数据-英国-GDP 季率初值
+macro_uk_gdp_quarterly,输出参数,前值,float64,-,东方财富-经济数据-英国-GDP 季率初值
+macro_uk_gdp_quarterly,输出参数,现值,float64,-,东方财富-经济数据-英国-GDP 季率初值
+macro_uk_gdp_quarterly,输出参数,发布日期,object,-,东方财富-经济数据-英国-GDP 季率初值
+macro_uk_gdp_yearly,输入参数,无,,,东方财富-经济数据-英国-GDP 年率初值
+macro_uk_gdp_yearly,输出参数,时间,object,-,东方财富-经济数据-英国-GDP 年率初值
+macro_uk_gdp_yearly,输出参数,前值,float64,-,东方财富-经济数据-英国-GDP 年率初值
+macro_uk_gdp_yearly,输出参数,现值,float64,-,东方财富-经济数据-英国-GDP 年率初值
+macro_uk_gdp_yearly,输出参数,发布日期,object,-,东方财富-经济数据-英国-GDP 年率初值
+macro_uk_unemployment_rate,输入参数,无,,,东方财富-经济数据-英国-失业率
+macro_uk_unemployment_rate,输出参数,时间,object,-,东方财富-经济数据-英国-失业率
+macro_uk_unemployment_rate,输出参数,前值,float64,-,东方财富-经济数据-英国-失业率
+macro_uk_unemployment_rate,输出参数,现值,float64,-,东方财富-经济数据-英国-失业率
+macro_uk_unemployment_rate,输出参数,发布日期,object,-,东方财富-经济数据-英国-失业率
+macro_australia_retail_rate_monthly,输入参数,无,,,东方财富-经济数据-澳大利亚-零售销售月率
+macro_australia_retail_rate_monthly,输出参数,时间,object,-,东方财富-经济数据-澳大利亚-零售销售月率
+macro_australia_retail_rate_monthly,输出参数,前值,float64,注意单位: %,东方财富-经济数据-澳大利亚-零售销售月率
+macro_australia_retail_rate_monthly,输出参数,现值,float64,注意单位: %,东方财富-经济数据-澳大利亚-零售销售月率
+macro_australia_retail_rate_monthly,输出参数,发布日期,object,-,东方财富-经济数据-澳大利亚-零售销售月率
+macro_australia_trade,输入参数,无,,,东方财富-经济数据-澳大利亚-贸易帐
+macro_australia_trade,输出参数,时间,object,-,东方财富-经济数据-澳大利亚-贸易帐
+macro_australia_trade,输出参数,前值,float64,注意单位: 亿澳元,东方财富-经济数据-澳大利亚-贸易帐
+macro_australia_trade,输出参数,现值,float64,注意单位: 亿澳元,东方财富-经济数据-澳大利亚-贸易帐
+macro_australia_trade,输出参数,发布日期,object,-,东方财富-经济数据-澳大利亚-贸易帐
+macro_australia_unemployment_rate,输入参数,无,,,东方财富-经济数据-澳大利亚-失业率
+macro_australia_unemployment_rate,输出参数,时间,object,-,东方财富-经济数据-澳大利亚-失业率
+macro_australia_unemployment_rate,输出参数,前值,float64,注意单位: %,东方财富-经济数据-澳大利亚-失业率
+macro_australia_unemployment_rate,输出参数,现值,float64,注意单位: %,东方财富-经济数据-澳大利亚-失业率
+macro_australia_unemployment_rate,输出参数,发布日期,object,-,东方财富-经济数据-澳大利亚-失业率
+macro_australia_ppi_quarterly,输入参数,无,,,东方财富-经济数据-澳大利亚-生产者物价指数季率
+macro_australia_ppi_quarterly,输出参数,时间,object,-,东方财富-经济数据-澳大利亚-生产者物价指数季率
+macro_australia_ppi_quarterly,输出参数,前值,float64,注意单位: %,东方财富-经济数据-澳大利亚-生产者物价指数季率
+macro_australia_ppi_quarterly,输出参数,现值,float64,注意单位: %,东方财富-经济数据-澳大利亚-生产者物价指数季率
+macro_australia_ppi_quarterly,输出参数,发布日期,object,-,东方财富-经济数据-澳大利亚-生产者物价指数季率
+macro_australia_cpi_quarterly,输入参数,无,,,东方财富-经济数据-澳大利亚-消费者物价指数季率
+macro_australia_cpi_quarterly,输出参数,时间,object,-,东方财富-经济数据-澳大利亚-消费者物价指数季率
+macro_australia_cpi_quarterly,输出参数,前值,float64,注意单位: %,东方财富-经济数据-澳大利亚-消费者物价指数季率
+macro_australia_cpi_quarterly,输出参数,现值,float64,注意单位: %,东方财富-经济数据-澳大利亚-消费者物价指数季率
+macro_australia_cpi_quarterly,输出参数,发布日期,object,-,东方财富-经济数据-澳大利亚-消费者物价指数季率
+macro_australia_cpi_yearly,输入参数,无,,,东方财富-经济数据-澳大利亚-消费者物价指数年率
+macro_australia_cpi_yearly,输出参数,时间,object,-,东方财富-经济数据-澳大利亚-消费者物价指数年率
+macro_australia_cpi_yearly,输出参数,前值,float64,注意单位: %,东方财富-经济数据-澳大利亚-消费者物价指数年率
+macro_australia_cpi_yearly,输出参数,现值,float64,注意单位: %,东方财富-经济数据-澳大利亚-消费者物价指数年率
+macro_australia_cpi_yearly,输出参数,发布日期,object,-,东方财富-经济数据-澳大利亚-消费者物价指数年率
+macro_australia_bank_rate,输入参数,无,,,东方财富-经济数据-澳大利亚-央行公布利率决议
+macro_australia_bank_rate,输出参数,时间,object,-,东方财富-经济数据-澳大利亚-央行公布利率决议
+macro_australia_bank_rate,输出参数,前值,float64,注意单位: %,东方财富-经济数据-澳大利亚-央行公布利率决议
+macro_australia_bank_rate,输出参数,现值,float64,注意单位: %,东方财富-经济数据-澳大利亚-央行公布利率决议
+macro_australia_bank_rate,输出参数,发布日期,object,-,东方财富-经济数据-澳大利亚-央行公布利率决议
+macro_canada_new_house_rate,输入参数,无,,,东方财富-经济数据-加拿大-新屋开工
+macro_canada_new_house_rate,输出参数,时间,object,-,东方财富-经济数据-加拿大-新屋开工
+macro_canada_new_house_rate,输出参数,前值,float64,注意单位: 万,东方财富-经济数据-加拿大-新屋开工
+macro_canada_new_house_rate,输出参数,现值,float64,注意单位: 万,东方财富-经济数据-加拿大-新屋开工
+macro_canada_new_house_rate,输出参数,发布日期,object,-,东方财富-经济数据-加拿大-新屋开工
+macro_canada_unemployment_rate,输入参数,无,,,东方财富-经济数据-加拿大-失业率
+macro_canada_unemployment_rate,输出参数,时间,object,-,东方财富-经济数据-加拿大-失业率
+macro_canada_unemployment_rate,输出参数,前值,float64,注意单位: %,东方财富-经济数据-加拿大-失业率
+macro_canada_unemployment_rate,输出参数,现值,float64,注意单位: %,东方财富-经济数据-加拿大-失业率
+macro_canada_unemployment_rate,输出参数,发布日期,object,-,东方财富-经济数据-加拿大-失业率
+macro_canada_trade,输入参数,无,,,东方财富-经济数据-加拿大-贸易帐
+macro_canada_trade,输出参数,时间,object,-,东方财富-经济数据-加拿大-贸易帐
+macro_canada_trade,输出参数,前值,float64,注意单位: 亿加元,东方财富-经济数据-加拿大-贸易帐
+macro_canada_trade,输出参数,现值,float64,注意单位: 亿加元,东方财富-经济数据-加拿大-贸易帐
+macro_canada_trade,输出参数,发布日期,object,-,东方财富-经济数据-加拿大-贸易帐
+macro_canada_retail_rate_monthly,输入参数,无,,,东方财富-经济数据-加拿大-零售销售月率
+macro_canada_retail_rate_monthly,输出参数,时间,object,-,东方财富-经济数据-加拿大-零售销售月率
+macro_canada_retail_rate_monthly,输出参数,前值,float64,注意单位: %,东方财富-经济数据-加拿大-零售销售月率
+macro_canada_retail_rate_monthly,输出参数,现值,float64,注意单位: %,东方财富-经济数据-加拿大-零售销售月率
+macro_canada_retail_rate_monthly,输出参数,发布日期,object,-,东方财富-经济数据-加拿大-零售销售月率
+macro_canada_bank_rate,输入参数,无,,,东方财富-经济数据-加拿大-央行公布利率决议
+macro_canada_bank_rate,输出参数,时间,object,-,东方财富-经济数据-加拿大-央行公布利率决议
+macro_canada_bank_rate,输出参数,前值,float64,注意单位: %,东方财富-经济数据-加拿大-央行公布利率决议
+macro_canada_bank_rate,输出参数,现值,float64,注意单位: %,东方财富-经济数据-加拿大-央行公布利率决议
+macro_canada_bank_rate,输出参数,发布日期,object,-,东方财富-经济数据-加拿大-央行公布利率决议
+macro_canada_core_cpi_yearly,输入参数,无,,,东方财富-经济数据-加拿大-核心消费者物价指数年率
+macro_canada_core_cpi_yearly,输出参数,时间,object,-,东方财富-经济数据-加拿大-核心消费者物价指数年率
+macro_canada_core_cpi_yearly,输出参数,前值,float64,注意单位: %,东方财富-经济数据-加拿大-核心消费者物价指数年率
+macro_canada_core_cpi_yearly,输出参数,现值,float64,注意单位: %,东方财富-经济数据-加拿大-核心消费者物价指数年率
+macro_canada_core_cpi_yearly,输出参数,发布日期,object,-,东方财富-经济数据-加拿大-核心消费者物价指数年率
+macro_canada_core_cpi_monthly,输入参数,无,,,东方财富-经济数据-加拿大-核心消费者物价指数月率
+macro_canada_core_cpi_monthly,输出参数,时间,object,-,东方财富-经济数据-加拿大-核心消费者物价指数月率
+macro_canada_core_cpi_monthly,输出参数,前值,float64,注意单位: %,东方财富-经济数据-加拿大-核心消费者物价指数月率
+macro_canada_core_cpi_monthly,输出参数,现值,float64,注意单位: %,东方财富-经济数据-加拿大-核心消费者物价指数月率
+macro_canada_core_cpi_monthly,输出参数,发布日期,object,-,东方财富-经济数据-加拿大-核心消费者物价指数月率
+macro_canada_cpi_yearly,输入参数,无,,,东方财富-经济数据-加拿大-消费者物价指数年率
+macro_canada_cpi_yearly,输出参数,时间,object,-,东方财富-经济数据-加拿大-消费者物价指数年率
+macro_canada_cpi_yearly,输出参数,前值,float64,注意单位: %,东方财富-经济数据-加拿大-消费者物价指数年率
+macro_canada_cpi_yearly,输出参数,现值,float64,注意单位: %,东方财富-经济数据-加拿大-消费者物价指数年率
+macro_canada_cpi_yearly,输出参数,发布日期,object,-,东方财富-经济数据-加拿大-消费者物价指数年率
+macro_canada_cpi_monthly,输入参数,无,,,东方财富-经济数据-加拿大-消费者物价指数月率
+macro_canada_cpi_monthly,输出参数,时间,object,-,东方财富-经济数据-加拿大-消费者物价指数月率
+macro_canada_cpi_monthly,输出参数,前值,float64,注意单位: %,东方财富-经济数据-加拿大-消费者物价指数月率
+macro_canada_cpi_monthly,输出参数,现值,float64,注意单位: %,东方财富-经济数据-加拿大-消费者物价指数月率
+macro_canada_cpi_monthly,输出参数,发布日期,object,-,东方财富-经济数据-加拿大-消费者物价指数月率
+macro_canada_gdp_monthly,输入参数,无,,,东方财富-经济数据-加拿大-GDP 月率
+macro_canada_gdp_monthly,输出参数,时间,object,-,东方财富-经济数据-加拿大-GDP 月率
+macro_canada_gdp_monthly,输出参数,前值,float64,注意单位: %,东方财富-经济数据-加拿大-GDP 月率
+macro_canada_gdp_monthly,输出参数,现值,float64,注意单位: %,东方财富-经济数据-加拿大-GDP 月率
+macro_canada_gdp_monthly,输出参数,发布日期,object,-,东方财富-经济数据-加拿大-GDP 月率
+macro_cons_gold,输入参数,无,,,"全球最大黄金 ETF—SPDR Gold Trust 持仓报告, 数据区间从 20041119-至今"
+macro_cons_gold,输出参数,商品,object,-,"全球最大黄金 ETF—SPDR Gold Trust 持仓报告, 数据区间从 20041119-至今"
+macro_cons_gold,输出参数,日期,object,-,"全球最大黄金 ETF—SPDR Gold Trust 持仓报告, 数据区间从 20041119-至今"
+macro_cons_gold,输出参数,总库存,float64,注意单位: 吨,"全球最大黄金 ETF—SPDR Gold Trust 持仓报告, 数据区间从 20041119-至今"
+macro_cons_gold,输出参数,增持/减持,float64,注意单位: 吨,"全球最大黄金 ETF—SPDR Gold Trust 持仓报告, 数据区间从 20041119-至今"
+macro_cons_gold,输出参数,总价值,float64,注意单位: 美元,"全球最大黄金 ETF—SPDR Gold Trust 持仓报告, 数据区间从 20041119-至今"
+macro_cons_silver,输入参数,无,,,"全球最大白银 ETF--iShares Silver Trust 持仓报告, 数据区间从 20041202-至今"
+macro_cons_silver,输出参数,商品,object,-,"全球最大白银 ETF--iShares Silver Trust 持仓报告, 数据区间从 20041202-至今"
+macro_cons_silver,输出参数,日期,object,-,"全球最大白银 ETF--iShares Silver Trust 持仓报告, 数据区间从 20041202-至今"
+macro_cons_silver,输出参数,总库存,float64,注意单位: 吨,"全球最大白银 ETF--iShares Silver Trust 持仓报告, 数据区间从 20041202-至今"
+macro_cons_silver,输出参数,增持/减持,float64,注意单位: 吨,"全球最大白银 ETF--iShares Silver Trust 持仓报告, 数据区间从 20041202-至今"
+macro_cons_silver,输出参数,总价值,float64,注意单位: 美元,"全球最大白银 ETF--iShares Silver Trust 持仓报告, 数据区间从 20041202-至今"
+macro_cons_opec_month,输入参数,无,,,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,日期,object,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,阿尔及利亚,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,安哥拉,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,厄瓜多尔,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,加蓬,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,伊朗,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,伊拉克,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,科威特,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,利比亚,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,尼日利亚,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,沙特,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,阿联酋,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,委内瑞拉,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_cons_opec_month,输出参数,欧佩克产量,float64,-,"欧佩克报告, 数据区间从 20170118-至今"
+macro_euro_lme_holding,输入参数,无,,,"伦敦金属交易所(LME)-持仓报告, 数据区间从 20151022-至今"
+macro_euro_lme_holding,输出参数,日期,-,-,"伦敦金属交易所(LME)-持仓报告, 数据区间从 20151022-至今"
+macro_euro_lme_holding,输出参数,铜-多头仓位,-,-,"伦敦金属交易所(LME)-持仓报告, 数据区间从 20151022-至今"
+macro_euro_lme_holding,输出参数,...,-,...,"伦敦金属交易所(LME)-持仓报告, 数据区间从 20151022-至今"
+macro_euro_lme_holding,输出参数,铝-净仓位,-,-,"伦敦金属交易所(LME)-持仓报告, 数据区间从 20151022-至今"
+macro_euro_lme_stock,输入参数,无,,,"伦敦金属交易所(LME)-库存报告, 数据区间从 20140702-至今"
+macro_euro_lme_stock,输出参数,日期,-,-,"伦敦金属交易所(LME)-库存报告, 数据区间从 20140702-至今"
+macro_euro_lme_stock,输出参数,铜-库存,-,-,"伦敦金属交易所(LME)-库存报告, 数据区间从 20140702-至今"
+macro_euro_lme_stock,输出参数,...,...,...,"伦敦金属交易所(LME)-库存报告, 数据区间从 20140702-至今"
+macro_euro_lme_stock,输出参数,镍-注销仓单,-,-,"伦敦金属交易所(LME)-库存报告, 数据区间从 20140702-至今"
+macro_usa_cftc_nc_holding,输入参数,无,,,"美国商品期货交易委员会CFTC外汇类非商业持仓报告, 数据区间从 19830107-至今"
+macro_usa_cftc_nc_holding,输出参数,日期,object,-,"美国商品期货交易委员会CFTC外汇类非商业持仓报告, 数据区间从 19830107-至今"
+macro_usa_cftc_nc_holding,输出参数,美元-多头仓位,float64,-,"美国商品期货交易委员会CFTC外汇类非商业持仓报告, 数据区间从 19830107-至今"
+macro_usa_cftc_nc_holding,输出参数,...,...,-,"美国商品期货交易委员会CFTC外汇类非商业持仓报告, 数据区间从 19830107-至今"
+macro_usa_cftc_nc_holding,输出参数,澳元-净仓位,float64,-,"美国商品期货交易委员会CFTC外汇类非商业持仓报告, 数据区间从 19830107-至今"
+macro_usa_cftc_c_holding,输入参数,无,,,"美国商品期货交易委员会CFTC商品类非商业持仓报告, 数据区间从 19830107-至今"
+macro_usa_cftc_c_holding,输出参数,日期,object,-,"美国商品期货交易委员会CFTC商品类非商业持仓报告, 数据区间从 19830107-至今"
+macro_usa_cftc_c_holding,输出参数,纽约原油-多头仓位,float64,-,"美国商品期货交易委员会CFTC商品类非商业持仓报告, 数据区间从 19830107-至今"
+macro_usa_cftc_c_holding,输出参数,...,...,-,"美国商品期货交易委员会CFTC商品类非商业持仓报告, 数据区间从 19830107-至今"
+macro_usa_cftc_c_holding,输出参数,玉米-净仓位,float64,-,"美国商品期货交易委员会CFTC商品类非商业持仓报告, 数据区间从 19830107-至今"
+macro_usa_cftc_merchant_currency_holding,输入参数,无,,,"美国商品期货交易委员会CFTC外汇类商业持仓报告, 数据区间从 19860115-至今"
+macro_usa_cftc_merchant_currency_holding,输出参数,日期,object,-,"美国商品期货交易委员会CFTC外汇类商业持仓报告, 数据区间从 19860115-至今"
+macro_usa_cftc_merchant_currency_holding,输出参数,美元-多头仓位,float64,-,"美国商品期货交易委员会CFTC外汇类商业持仓报告, 数据区间从 19860115-至今"
+macro_usa_cftc_merchant_currency_holding,输出参数,...,...,-,"美国商品期货交易委员会CFTC外汇类商业持仓报告, 数据区间从 19860115-至今"
+macro_usa_cftc_merchant_currency_holding,输出参数,澳元-净仓位,float64,-,"美国商品期货交易委员会CFTC外汇类商业持仓报告, 数据区间从 19860115-至今"
+macro_usa_cftc_merchant_goods_holding,输入参数,无,,,"美国商品期货交易委员会 CFTC 商品类商业持仓报告, 数据区间从 19860115-至今"
+macro_usa_cftc_merchant_goods_holding,输出参数,日期,object,-,"美国商品期货交易委员会 CFTC 商品类商业持仓报告, 数据区间从 19860115-至今"
+macro_usa_cftc_merchant_goods_holding,输出参数,纽约原油-多头仓位,float64,-,"美国商品期货交易委员会 CFTC 商品类商业持仓报告, 数据区间从 19860115-至今"
+macro_usa_cftc_merchant_goods_holding,输出参数,...,...,-,"美国商品期货交易委员会 CFTC 商品类商业持仓报告, 数据区间从 19860115-至今"
+macro_usa_cftc_merchant_goods_holding,输出参数,玉米-净仓位,float64,-,"美国商品期货交易委员会 CFTC 商品类商业持仓报告, 数据区间从 19860115-至今"
+macro_usa_cme_merchant_goods_holding,输入参数,无,,,"CME-贵金属, 数据区间从 20180405-至今"
+macro_usa_cme_merchant_goods_holding,输出参数,日期,object,-,"CME-贵金属, 数据区间从 20180405-至今"
+macro_usa_cme_merchant_goods_holding,输出参数,品种,object,-,"CME-贵金属, 数据区间从 20180405-至今"
+macro_usa_cme_merchant_goods_holding,输出参数,成交量,float64,-,"CME-贵金属, 数据区间从 20180405-至今"
+macro_info_ws,输入参数,date,str,"date=""20240514""",华尔街见闻-日历-宏观
+macro_info_ws,输出参数,时间,object,-,华尔街见闻-日历-宏观
+macro_info_ws,输出参数,地区,object,-,华尔街见闻-日历-宏观
+macro_info_ws,输出参数,事件,object,-,华尔街见闻-日历-宏观
+macro_info_ws,输出参数,重要性,int64,-,华尔街见闻-日历-宏观
+macro_info_ws,输出参数,今值,float64,-,华尔街见闻-日历-宏观
+macro_info_ws,输出参数,预期,float64,-,华尔街见闻-日历-宏观
+macro_info_ws,输出参数,前值,float64,-,华尔街见闻-日历-宏观
+macro_info_ws,输出参数,链接,object,-,华尔街见闻-日历-宏观
+news_economic_baidu,输入参数,date,str,"date=""20241107""",全球宏观指标重大事件
+news_economic_baidu,输出参数,日期,object,-,全球宏观指标重大事件
+news_economic_baidu,输出参数,时间,object,-,全球宏观指标重大事件
+news_economic_baidu,输出参数,地区,object,-,全球宏观指标重大事件
+news_economic_baidu,输出参数,事件,object,-,全球宏观指标重大事件
+news_economic_baidu,输出参数,公布,float64,-,全球宏观指标重大事件
+news_economic_baidu,输出参数,预期,float64,-,全球宏观指标重大事件
+news_economic_baidu,输出参数,前值,float64,-,全球宏观指标重大事件
+news_economic_baidu,输出参数,重要性,float64,数值越大越重要,全球宏观指标重大事件

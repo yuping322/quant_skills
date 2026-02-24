@@ -1,0 +1,3741 @@
+{
+  "validation_time": "2026-02-15T15:54:23.162973",
+  "total_interfaces": 214,
+  "successful": 205,
+  "failed": 9,
+  "success_rate": 0.9579439252336449,
+  "details": [
+    {
+      "name": "macro_cnbs",
+      "func_name": "macro_cnbs",
+      "description": "中国国家金融与发展实验室-中国宏观杠杆率数据",
+      "status": "success",
+      "data_size": 80,
+      "columns": [
+        "年份",
+        "居民部门",
+        "非金融企业部门",
+        "政府部门",
+        "中央政府",
+        "地方政府",
+        "实体经济部门",
+        "金融部门资产方",
+        "金融部门负债方"
+      ],
+      "error": null,
+      "execution_time": 0.382
+    },
+    {
+      "name": "macro_china_qyspjg",
+      "func_name": "macro_china_qyspjg",
+      "description": "东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今",
+      "status": "success",
+      "data_size": 252,
+      "columns": [
+        "月份",
+        "总指数-指数值",
+        "总指数-同比增长",
+        "总指数-环比增长",
+        "农产品-指数值",
+        "农产品-同比增长",
+        "农产品-环比增长",
+        "矿产品-指数值",
+        "矿产品-同比增长",
+        "矿产品-环比增长",
+        "煤油电-指数值",
+        "煤油电-同比增长",
+        "煤油电-环比增长"
+      ],
+      "error": null,
+      "execution_time": 0.209
+    },
+    {
+      "name": "macro_china_fdi",
+      "func_name": "macro_china_fdi",
+      "description": "东方财富-经济数据一览-中国-外商直接投资数据, 数据区间从 200801-202307",
+      "status": "success",
+      "data_size": 185,
+      "columns": [
+        "月份",
+        "当月",
+        "当月-同比增长",
+        "当月-环比增长",
+        "累计",
+        "累计-同比增长"
+      ],
+      "error": null,
+      "execution_time": 0.293
+    },
+    {
+      "name": "macro_china_lpr",
+      "func_name": "macro_china_lpr",
+      "description": "中国 LPR 品种数据, 数据区间从 19910421-至今",
+      "status": "success",
+      "data_size": 1568,
+      "columns": [
+        "TRADE_DATE",
+        "LPR1Y",
+        "LPR5Y",
+        "RATE_1",
+        "RATE_2"
+      ],
+      "error": null,
+      "execution_time": 1.414
+    },
+    {
+      "name": "macro_china_urban_unemployment",
+      "func_name": "macro_china_urban_unemployment",
+      "description": "国家统计局-月度数据-城镇调查失业率",
+      "status": "success",
+      "data_size": 648,
+      "columns": [
+        "date",
+        "item",
+        "value"
+      ],
+      "error": null,
+      "execution_time": 0.452
+    },
+    {
+      "name": "macro_china_shrzgm",
+      "func_name": "macro_china_shrzgm",
+      "description": "商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今",
+      "status": "error",
+      "data_size": 0,
+      "columns": [],
+      "error": "HTTPSConnectionPool(host='data.mofcom.gov.cn', port=443): Max retries exceeded with url: /datamofcom/front/gnmy/shrzgmQuery (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1028)')))",
+      "execution_time": 0.063
+    },
+    {
+      "name": "macro_china_gdp_yearly",
+      "func_name": "macro_china_gdp_yearly",
+      "description": "金十数据中心-中国 GDP 年率报告, 数据区间从 20110120-至今",
+      "status": "success",
+      "data_size": 61,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.261
+    },
+    {
+      "name": "macro_china_cpi_yearly",
+      "func_name": "macro_china_cpi_yearly",
+      "description": "中国年度 CPI 数据, 数据区间从 19860201-至今",
+      "status": "success",
+      "data_size": 477,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 6.844
+    },
+    {
+      "name": "macro_china_cpi_monthly",
+      "func_name": "macro_china_cpi_monthly",
+      "description": "中国月度 CPI 数据, 数据区间从 19960201-至今",
+      "status": "success",
+      "data_size": 357,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 3.451
+    },
+    {
+      "name": "macro_china_ppi_yearly",
+      "func_name": "macro_china_ppi_yearly",
+      "description": "中国年度 PPI 数据, 数据区间从 19950801-至今",
+      "status": "success",
+      "data_size": 363,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 3.213
+    },
+    {
+      "name": "macro_china_exports_yoy",
+      "func_name": "macro_china_exports_yoy",
+      "description": "中国以美元计算出口年率报告, 数据区间从 19820201-至今",
+      "status": "success",
+      "data_size": 542,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.549
+    },
+    {
+      "name": "macro_china_imports_yoy",
+      "func_name": "macro_china_imports_yoy",
+      "description": "中国以美元计算进口年率报告, 数据区间从 19960201-至今",
+      "status": "success",
+      "data_size": 381,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 3.616
+    },
+    {
+      "name": "macro_china_trade_balance",
+      "func_name": "macro_china_trade_balance",
+      "description": "中国以美元计算贸易帐报告, 数据区间从19810201-至今",
+      "status": "success",
+      "data_size": 565,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.231
+    },
+    {
+      "name": "macro_china_gyzjz",
+      "func_name": "macro_china_gyzjz",
+      "description": "东方财富-中国工业增加值增长, 数据区间从 2008 - 至今",
+      "status": "success",
+      "data_size": 198,
+      "columns": [
+        "月份",
+        "同比增长",
+        "累计增长",
+        "发布时间"
+      ],
+      "error": null,
+      "execution_time": 0.268
+    },
+    {
+      "name": "macro_china_industrial_production_yoy",
+      "func_name": "macro_china_industrial_production_yoy",
+      "description": "中国规模以上工业增加值年率报告, 数据区间从 19900301-至今",
+      "status": "success",
+      "data_size": 413,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 5.652
+    },
+    {
+      "name": "macro_china_pmi_yearly",
+      "func_name": "macro_china_pmi_yearly",
+      "description": "中国年度PMI数据, 数据区间从 20050201-至今",
+      "status": "success",
+      "data_size": 250,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.918
+    },
+    {
+      "name": "macro_china_cx_pmi_yearly",
+      "func_name": "macro_china_cx_pmi_yearly",
+      "description": "中国年度财新 PMI 数据, 数据区间从 20120120-至今",
+      "status": "success",
+      "data_size": 219,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.964
+    },
+    {
+      "name": "macro_china_cx_services_pmi_yearly",
+      "func_name": "macro_china_cx_services_pmi_yearly",
+      "description": "中国财新服务业 PMI 报告, 数据区间从 20120405-至今",
+      "status": "success",
+      "data_size": 166,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.369
+    },
+    {
+      "name": "macro_china_non_man_pmi",
+      "func_name": "macro_china_non_man_pmi",
+      "description": "中国官方非制造业 PMI, 数据区间从 20160101-至今",
+      "status": "success",
+      "data_size": 226,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.664
+    },
+    {
+      "name": "macro_china_fx_reserves_yearly",
+      "func_name": "macro_china_fx_reserves_yearly",
+      "description": "中国年度外汇储备数据, 数据区间从 20140115-至今",
+      "status": "success",
+      "data_size": 132,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.088
+    },
+    {
+      "name": "macro_china_m2_yearly",
+      "func_name": "macro_china_m2_yearly",
+      "description": "中国年度 M2 数据, 数据区间从 19980201-至今",
+      "status": "success",
+      "data_size": 395,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.382
+    },
+    {
+      "name": "macro_china_new_house_price",
+      "func_name": "macro_china_new_house_price",
+      "description": "中国新房价指数月度数据, 数据区间从 201101-至今",
+      "status": "success",
+      "data_size": 362,
+      "columns": [
+        "日期",
+        "城市",
+        "新建商品住宅价格指数-同比",
+        "新建商品住宅价格指数-环比",
+        "新建商品住宅价格指数-定基",
+        "二手住宅价格指数-同比",
+        "二手住宅价格指数-环比",
+        "二手住宅价格指数-定基"
+      ],
+      "error": null,
+      "execution_time": 0.428
+    },
+    {
+      "name": "macro_china_enterprise_boom_index",
+      "func_name": "macro_china_enterprise_boom_index",
+      "description": "中国企业景气及企业家信心指数数据, 数据区间从 2005 一季度-至今",
+      "status": "success",
+      "data_size": 83,
+      "columns": [
+        "季度",
+        "企业景气指数-指数",
+        "企业景气指数-同比",
+        "企业景气指数-环比",
+        "企业家信心指数-指数",
+        "企业家信心指数-同比",
+        "企业家信心指数-环比"
+      ],
+      "error": null,
+      "execution_time": 0.262
+    },
+    {
+      "name": "macro_china_national_tax_receipts",
+      "func_name": "macro_china_national_tax_receipts",
+      "description": "中国全国税收收入数据, 数据区间从 2005 一季度-至今",
+      "status": "success",
+      "data_size": 82,
+      "columns": [
+        "季度",
+        "税收收入合计",
+        "较上年同期",
+        "季度环比"
+      ],
+      "error": null,
+      "execution_time": 0.13
+    },
+    {
+      "name": "macro_china_bank_financing",
+      "func_name": "macro_china_bank_financing",
+      "description": "银行理财产品发行数量, 数据区间从 2000 一月-至今",
+      "status": "success",
+      "data_size": 265,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 0.18
+    },
+    {
+      "name": "macro_china_insurance_income",
+      "func_name": "macro_china_insurance_income",
+      "description": "原保险保费收入, 数据区间从 200407-至今",
+      "status": "success",
+      "data_size": 257,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 0.469
+    },
+    {
+      "name": "macro_china_mobile_number",
+      "func_name": "macro_china_mobile_number",
+      "description": "手机出货量, 数据区间从 201201-至今",
+      "status": "success",
+      "data_size": 168,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 0.305
+    },
+    {
+      "name": "macro_china_vegetable_basket",
+      "func_name": "macro_china_vegetable_basket",
+      "description": "菜篮子产品批发价格指数, 数据区间从 20050927-至今",
+      "status": "success",
+      "data_size": 5586,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 7.445
+    },
+    {
+      "name": "macro_china_agricultural_product",
+      "func_name": "macro_china_agricultural_product",
+      "description": "农产品批发价格总指数, 数据区间从 20050927-至今",
+      "status": "success",
+      "data_size": 5586,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 5.418
+    },
+    {
+      "name": "macro_china_agricultural_index",
+      "func_name": "macro_china_agricultural_index",
+      "description": "农副指数数据, 数据区间从 20111205-至今",
+      "status": "success",
+      "data_size": 4387,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 3.97
+    },
+    {
+      "name": "macro_china_energy_index",
+      "func_name": "macro_china_energy_index",
+      "description": "能源指数数据, 数据区间从 20111205-至今",
+      "status": "success",
+      "data_size": 4387,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 4.484
+    },
+    {
+      "name": "macro_china_commodity_price_index",
+      "func_name": "macro_china_commodity_price_index",
+      "description": "大宗商品价格数据, 数据区间从 20111205-至今",
+      "status": "success",
+      "data_size": 4388,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 3.568
+    },
+    {
+      "name": "macro_global_sox_index",
+      "func_name": "macro_global_sox_index",
+      "description": "费城半导体指数数据, 数据区间从 19940504-至今",
+      "status": "success",
+      "data_size": 7933,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 15.343
+    },
+    {
+      "name": "macro_china_yw_electronic_index",
+      "func_name": "macro_china_yw_electronic_index",
+      "description": "义乌小商品指数-电子元器件数据, 数据区间从 20060911-至今",
+      "status": "success",
+      "data_size": 862,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 1.265
+    },
+    {
+      "name": "macro_china_construction_index",
+      "func_name": "macro_china_construction_index",
+      "description": "建材指数数据, 数据区间从 20111205-至今",
+      "status": "success",
+      "data_size": 3865,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 4.725
+    },
+    {
+      "name": "macro_china_construction_price_index",
+      "func_name": "macro_china_construction_price_index",
+      "description": "建材价格指数数据, 数据区间从 20100615-至今",
+      "status": "success",
+      "data_size": 4732,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 3.015
+    },
+    {
+      "name": "macro_china_lpi_index",
+      "func_name": "macro_china_lpi_index",
+      "description": "物流景气指数数据, 数据区间从 20130701-至今",
+      "status": "success",
+      "data_size": 149,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 0.476
+    },
+    {
+      "name": "macro_china_bdti_index",
+      "func_name": "macro_china_bdti_index",
+      "description": "原油运输指数数据, 数据区间从 20011227-至今",
+      "status": "success",
+      "data_size": 5869,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 3.816
+    },
+    {
+      "name": "macro_china_bsi_index",
+      "func_name": "macro_china_bsi_index",
+      "description": "超灵便型船运价指数数据, 数据区间从 20060103-至今",
+      "status": "success",
+      "data_size": 4926,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 3.401
+    },
+    {
+      "name": "macro_shipping_bci",
+      "func_name": "macro_shipping_bci",
+      "description": "海岬型运费指数, 数据区间从 19990430-至今",
+      "status": "success",
+      "data_size": 6712,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 4.212
+    },
+    {
+      "name": "macro_shipping_bdi",
+      "func_name": "macro_shipping_bdi",
+      "description": "波罗的海干散货指数, 数据区间从 19881019-至今",
+      "status": "success",
+      "data_size": 9392,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 5.543
+    },
+    {
+      "name": "macro_shipping_bpi",
+      "func_name": "macro_shipping_bpi",
+      "description": "巴拿马型运费指数, 数据区间从 19981231-至今",
+      "status": "success",
+      "data_size": 6675,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 5.49
+    },
+    {
+      "name": "macro_shipping_bcti",
+      "func_name": "macro_shipping_bcti",
+      "description": "成品油运输指数, 数据区间从 20011217-至今",
+      "status": "success",
+      "data_size": 5872,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 5.287
+    },
+    {
+      "name": "macro_china_new_financial_credit",
+      "func_name": "macro_china_new_financial_credit",
+      "description": "中国新增信贷数据数据, 数据区间从 200801 至今, 月度数据",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "月份",
+        "当月",
+        "当月-同比增长",
+        "当月-环比增长",
+        "累计",
+        "累计-同比增长"
+      ],
+      "error": null,
+      "execution_time": 0.251
+    },
+    {
+      "name": "macro_china_cpi",
+      "func_name": "macro_china_cpi",
+      "description": "中国居民消费价格指数, 数据区间从 200801 至今, 月度数据",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "月份",
+        "全国-当月",
+        "全国-同比增长",
+        "全国-环比增长",
+        "全国-累计",
+        "城市-当月",
+        "城市-同比增长",
+        "城市-环比增长",
+        "城市-累计",
+        "农村-当月",
+        "农村-同比增长",
+        "农村-环比增长",
+        "农村-累计"
+      ],
+      "error": null,
+      "execution_time": 0.322
+    },
+    {
+      "name": "macro_china_gdp",
+      "func_name": "macro_china_gdp",
+      "description": "中国国内生产总值, 数据区间从 200601 至今, 月度数据",
+      "status": "success",
+      "data_size": 80,
+      "columns": [
+        "季度",
+        "国内生产总值-绝对值",
+        "国内生产总值-同比增长",
+        "第一产业-绝对值",
+        "第一产业-同比增长",
+        "第二产业-绝对值",
+        "第二产业-同比增长",
+        "第三产业-绝对值",
+        "第三产业-同比增长"
+      ],
+      "error": null,
+      "execution_time": 0.142
+    },
+    {
+      "name": "macro_china_ppi",
+      "func_name": "macro_china_ppi",
+      "description": "工业品出厂价格指数, 数据区间从 200601 至今, 月度数据",
+      "status": "success",
+      "data_size": 241,
+      "columns": [
+        "月份",
+        "当月",
+        "当月同比增长",
+        "累计"
+      ],
+      "error": null,
+      "execution_time": 0.244
+    },
+    {
+      "name": "macro_china_pmi",
+      "func_name": "macro_china_pmi",
+      "description": "采购经理人指数, 数据区间从 200801 至今, 月度数据",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "月份",
+        "制造业-指数",
+        "制造业-同比增长",
+        "非制造业-指数",
+        "非制造业-同比增长"
+      ],
+      "error": null,
+      "execution_time": 0.171
+    },
+    {
+      "name": "macro_china_gdzctz",
+      "func_name": "macro_china_gdzctz",
+      "description": "中国城镇固定资产投资, 数据区间从 200802 至今, 月度数据",
+      "status": "success",
+      "data_size": 198,
+      "columns": [
+        "月份",
+        "当月",
+        "同比增长",
+        "环比增长",
+        "自年初累计"
+      ],
+      "error": null,
+      "execution_time": 0.13
+    },
+    {
+      "name": "macro_china_hgjck",
+      "func_name": "macro_china_hgjck",
+      "description": "中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "月份",
+        "当月出口额-金额",
+        "当月出口额-同比增长",
+        "当月出口额-环比增长",
+        "当月进口额-金额",
+        "当月进口额-同比增长",
+        "当月进口额-环比增长",
+        "累计出口额-金额",
+        "累计出口额-同比增长",
+        "累计进口额-金额",
+        "累计进口额-同比增长"
+      ],
+      "error": null,
+      "execution_time": 0.192
+    },
+    {
+      "name": "macro_china_czsr",
+      "func_name": "macro_china_czsr",
+      "description": "中国财政收入, 数据区间从 200801 至今, 月度数据",
+      "status": "success",
+      "data_size": 209,
+      "columns": [
+        "月份",
+        "当月",
+        "当月-同比增长",
+        "当月-环比增长",
+        "累计",
+        "累计-同比增长"
+      ],
+      "error": null,
+      "execution_time": 0.234
+    },
+    {
+      "name": "macro_china_whxd",
+      "func_name": "macro_china_whxd",
+      "description": "外汇贷款数据, 数据区间从 200802 至今, 月度数据",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "月份",
+        "当月",
+        "同比增长",
+        "环比增长",
+        "累计"
+      ],
+      "error": null,
+      "execution_time": 0.183
+    },
+    {
+      "name": "macro_china_wbck",
+      "func_name": "macro_china_wbck",
+      "description": "本外币存款, 数据区间从 200802 至今, 月度数据",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "月份",
+        "当月",
+        "同比增长",
+        "环比增长",
+        "累计"
+      ],
+      "error": null,
+      "execution_time": 0.253
+    },
+    {
+      "name": "macro_china_bond_public",
+      "func_name": "macro_china_bond_public",
+      "description": "中国外汇交易中心暨全国银行间同业拆借中心-债券信息披露-新债发行; 近期债券发行数据",
+      "status": "success",
+      "data_size": 61,
+      "columns": [
+        "债券全称",
+        "债券类型",
+        "发行日期",
+        "计息方式",
+        "价格",
+        "债券期限",
+        "计划发行量",
+        "债券评级"
+      ],
+      "error": null,
+      "execution_time": 7.779
+    },
+    {
+      "name": "macro_china_xfzxx",
+      "func_name": "macro_china_xfzxx",
+      "description": "东方财富网-消费者信心指数",
+      "status": "success",
+      "data_size": 228,
+      "columns": [
+        "月份",
+        "消费者信心指数-指数值",
+        "消费者信心指数-同比增长",
+        "消费者信心指数-环比增长",
+        "消费者满意指数-指数值",
+        "消费者满意指数-同比增长",
+        "消费者满意指数-环比增长",
+        "消费者预期指数-指数值",
+        "消费者预期指数-同比增长",
+        "消费者预期指数-环比增长"
+      ],
+      "error": null,
+      "execution_time": 0.425
+    },
+    {
+      "name": "macro_china_reserve_requirement_ratio",
+      "func_name": "macro_china_reserve_requirement_ratio",
+      "description": "国家统计局-存款准备金率",
+      "status": "success",
+      "data_size": 58,
+      "columns": [
+        "公布时间",
+        "生效时间",
+        "大型金融机构-调整前",
+        "大型金融机构-调整后",
+        "大型金融机构-调整幅度",
+        "中小金融机构-调整前",
+        "中小金融机构-调整后",
+        "中小金融机构-调整幅度",
+        "消息公布次日指数涨跌-上证",
+        "消息公布次日指数涨跌-深证",
+        "备注"
+      ],
+      "error": null,
+      "execution_time": 0.177
+    },
+    {
+      "name": "macro_china_consumer_goods_retail",
+      "func_name": "macro_china_consumer_goods_retail",
+      "description": "东方财富-经济数据-社会消费品零售总额",
+      "status": "success",
+      "data_size": 202,
+      "columns": [
+        "月份",
+        "当月",
+        "同比增长",
+        "环比增长",
+        "累计",
+        "累计-同比增长"
+      ],
+      "error": null,
+      "execution_time": 0.317
+    },
+    {
+      "name": "macro_china_society_electricity",
+      "func_name": "macro_china_society_electricity",
+      "description": "国家统计局-全社会用电分类情况表",
+      "status": "success",
+      "data_size": 235,
+      "columns": [
+        "统计时间",
+        "全社会用电量",
+        "全社会用电量同比",
+        "各行业用电量合计",
+        "各行业用电量合计同比",
+        "第一产业用电量",
+        "第一产业用电量同比",
+        "第二产业用电量",
+        "第二产业用电量同比",
+        "第三产业用电量",
+        "第三产业用电量同比",
+        "城乡居民生活用电量合计",
+        "城乡居民生活用电量合计同比",
+        "城镇居民用电量",
+        "城镇居民用电量同比",
+        "乡村居民用电量",
+        "乡村居民用电量同比"
+      ],
+      "error": null,
+      "execution_time": 0.571
+    },
+    {
+      "name": "macro_china_society_traffic_volume",
+      "func_name": "macro_china_society_traffic_volume",
+      "description": "国家统计局-全社会客货运输量-非累计",
+      "status": "success",
+      "data_size": 2916,
+      "columns": [
+        "统计时间",
+        "统计对象",
+        "货运量",
+        "货运量同比增长",
+        "货物周转量",
+        "公里货物周转量同比增长",
+        "客运量",
+        "客运量同比增长",
+        "旅客周转量",
+        "公里旅客周转量同比增长",
+        "沿海主要港口货物吞吐量",
+        "沿海主要港口货物吞吐量同比增长",
+        "其中:外贸货物吞吐量",
+        "其中:外贸货物吞吐量同比增长",
+        "民航总周转量",
+        "公里民航总周转"
+      ],
+      "error": null,
+      "execution_time": 14.099
+    },
+    {
+      "name": "macro_china_postal_telecommunicational",
+      "func_name": "macro_china_postal_telecommunicational",
+      "description": "国家统计局-邮电业务基本情况-非累计",
+      "status": "success",
+      "data_size": 332,
+      "columns": [
+        "统计时间",
+        "邮电业务总量",
+        "邮电业务总量同比增长",
+        "邮政业务总量",
+        "邮政业务总量同比增长",
+        "电信业务总量",
+        "电信业务总量同比增长",
+        "函件总数",
+        "函件总数同比增长",
+        "包件",
+        "包件同比增长",
+        "特快专递",
+        "特快专递同比增长",
+        "汇票",
+        "汇票同比增长",
+        "订销报纸累计数",
+        "订销报纸累计数同比增长",
+        "订销杂志累计数",
+        "订销杂志累计数同比增长",
+        "集邮业务",
+        "集邮业务同比增长",
+        "邮政储蓄期末余额",
+        "邮政储蓄期末余额同比增长",
+        "长途电话通话时长",
+        "钟长途电话通话时长同比增长",
+        "本地电话期末用户数",
+        "本地电话期末用户数同比增长",
+        "城市电话用户数",
+        "城市电话用户数同比增长",
+        "乡村电话用户数",
+        "乡村电话用户数同比增长",
+        "无线寻呼用户数",
+        "无线寻呼用户数同比增长",
+        "移动电话用户数",
+        "移动电话用户数同比增长",
+        "固定电话用",
+        "固定电话用户数同比增长",
+        "城市住宅电话用户",
+        "城市住宅电话用户同比增长",
+        "乡村住宅电话用户",
+        "乡村住宅电话用户同比增长"
+      ],
+      "error": null,
+      "execution_time": 1.428
+    },
+    {
+      "name": "macro_china_international_tourism_fx",
+      "func_name": "macro_china_international_tourism_fx",
+      "description": "国家统计局-国际旅游外汇收入构成",
+      "status": "success",
+      "data_size": 264,
+      "columns": [
+        "统计年度",
+        "指标",
+        "数量",
+        "比重"
+      ],
+      "error": null,
+      "execution_time": 0.637
+    },
+    {
+      "name": "macro_china_passenger_load_factor",
+      "func_name": "macro_china_passenger_load_factor",
+      "description": "国家统计局-民航客座率及载运率",
+      "status": "success",
+      "data_size": 236,
+      "columns": [
+        "统计时间",
+        "客座率",
+        "载运率"
+      ],
+      "error": null,
+      "execution_time": 0.686
+    },
+    {
+      "name": "macro_china_freight_index",
+      "func_name": "macro_china_freight_index",
+      "description": "新浪财经-中国宏观经济数据-航贸运价指数",
+      "status": "success",
+      "data_size": 4969,
+      "columns": [
+        "截止日期",
+        "波罗的海好望角型船运价指数BCI",
+        "灵便型船综合运价指数BHMI",
+        "波罗的海超级大灵便型船BSI指数",
+        "波罗的海综合运价指数BDI",
+        "HRCI国际集装箱租船指数",
+        "油轮运价指数成品油运价指数BCTI",
+        "油轮运价指数原油运价指数BDTI"
+      ],
+      "error": null,
+      "execution_time": 0.343
+    },
+    {
+      "name": "macro_china_central_bank_balance",
+      "func_name": "macro_china_central_bank_balance",
+      "description": "新浪财经-中国宏观经济数据-央行货币当局资产负债",
+      "status": "error",
+      "data_size": 0,
+      "columns": [],
+      "error": "No value to decode",
+      "execution_time": 1.607
+    },
+    {
+      "name": "macro_china_insurance",
+      "func_name": "macro_china_insurance",
+      "description": "新浪财经-中国宏观经济数据-保险业经营情况",
+      "status": "error",
+      "data_size": 0,
+      "columns": [],
+      "error": "No value to decode",
+      "execution_time": 0.603
+    },
+    {
+      "name": "macro_china_supply_of_money",
+      "func_name": "macro_china_supply_of_money",
+      "description": "新浪财经-中国宏观经济数据-货币供应量",
+      "status": "error",
+      "data_size": 0,
+      "columns": [],
+      "error": "No value to decode",
+      "execution_time": 0.046
+    },
+    {
+      "name": "macro_china_swap_rate",
+      "func_name": "macro_china_swap_rate",
+      "description": "国家统计局-FR007利率互换曲线历史数据",
+      "status": "error",
+      "data_size": 0,
+      "columns": [],
+      "error": "Length mismatch: Expected axis has 0 elements, new values have 17 elements",
+      "execution_time": 0.166
+    },
+    {
+      "name": "macro_china_foreign_exchange_gold",
+      "func_name": "macro_china_foreign_exchange_gold",
+      "description": "国家统计局-央行黄金和外汇储备, 比东财接口数据时间长",
+      "status": "error",
+      "data_size": 0,
+      "columns": [],
+      "error": "No value to decode",
+      "execution_time": 0.058
+    },
+    {
+      "name": "macro_china_retail_price_index",
+      "func_name": "macro_china_retail_price_index",
+      "description": "国家统计局-商品零售价格指数",
+      "status": "error",
+      "data_size": 0,
+      "columns": [],
+      "error": "No value to decode",
+      "execution_time": 0.086
+    },
+    {
+      "name": "macro_china_real_estate",
+      "func_name": "macro_china_real_estate",
+      "description": "国家统计局-国房景气指数",
+      "status": "success",
+      "data_size": 326,
+      "columns": [
+        "日期",
+        "最新值",
+        "涨跌幅",
+        "近3月涨跌幅",
+        "近6月涨跌幅",
+        "近1年涨跌幅",
+        "近2年涨跌幅",
+        "近3年涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 0.725
+    },
+    {
+      "name": "macro_china_fx_gold",
+      "func_name": "macro_china_fx_gold",
+      "description": "中国外汇和黄金储备, 数据区间从 200801 至今, 月度数据",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "月份",
+        "黄金储备-数值",
+        "黄金储备-同比",
+        "黄金储备-环比",
+        "国家外汇储备-数值",
+        "国家外汇储备-同比",
+        "国家外汇储备-环比"
+      ],
+      "error": null,
+      "execution_time": 0.181
+    },
+    {
+      "name": "macro_china_money_supply",
+      "func_name": "macro_china_money_supply",
+      "description": "东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "月份",
+        "货币和准货币(M2)-数量(亿元)",
+        "货币和准货币(M2)-同比增长",
+        "货币和准货币(M2)-环比增长",
+        "货币(M1)-数量(亿元)",
+        "货币(M1)-同比增长",
+        "货币(M1)-环比增长",
+        "流通中的现金(M0)-数量(亿元)",
+        "流通中的现金(M0)-同比增长",
+        "流通中的现金(M0)-环比增长"
+      ],
+      "error": null,
+      "execution_time": 0.153
+    },
+    {
+      "name": "macro_china_stock_market_cap",
+      "func_name": "macro_china_stock_market_cap",
+      "description": "全国股票交易统计表, 数据区间从 200801 至今, 月度数据",
+      "status": "success",
+      "data_size": 218,
+      "columns": [
+        "数据日期",
+        "发行总股本-上海",
+        "发行总股本-深圳",
+        "市价总值-上海",
+        "市价总值-深圳",
+        "成交金额-上海",
+        "成交金额-深圳",
+        "成交量-上海",
+        "成交量-深圳",
+        "A股最高综合股价指数-上海",
+        "A股最高综合股价指数-深圳",
+        "A股最低综合股价指数-上海",
+        "A股最低综合股价指数-深圳"
+      ],
+      "error": null,
+      "execution_time": 0.196
+    },
+    {
+      "name": "macro_china_shibor_all",
+      "func_name": "macro_china_shibor_all",
+      "description": "上海银行业同业拆借报告, 数据区间从 20170317-至今",
+      "status": "success",
+      "data_size": 2225,
+      "columns": [
+        "日期",
+        "O/N-定价",
+        "O/N-涨跌幅",
+        "1W-定价",
+        "1W-涨跌幅",
+        "2W-定价",
+        "2W-涨跌幅",
+        "1M-定价",
+        "1M-涨跌幅",
+        "3M-定价",
+        "3M-涨跌幅",
+        "6M-定价",
+        "6M-涨跌幅",
+        "9M-定价",
+        "9M-涨跌幅",
+        "1Y-定价",
+        "1Y-涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 0.337
+    },
+    {
+      "name": "macro_china_hk_market_info",
+      "func_name": "macro_china_hk_market_info",
+      "description": "香港同业拆借报告, 数据区间从 20170320-至今",
+      "status": "success",
+      "data_size": 2189,
+      "columns": [
+        "日期",
+        "1W-定价",
+        "1W-涨跌幅",
+        "2W-定价",
+        "2W-涨跌幅",
+        "1M-定价",
+        "1M-涨跌幅",
+        "3M-定价",
+        "3M-涨跌幅",
+        "6M-定价",
+        "6M-涨跌幅",
+        "1Y-定价",
+        "1Y-涨跌幅",
+        "ON-定价",
+        "ON-涨跌幅",
+        "2M-定价",
+        "2M-涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 0.479
+    },
+    {
+      "name": "macro_china_daily_energy",
+      "func_name": "macro_china_daily_energy",
+      "description": "中国日度沿海六大电库存数据, 数据区间从20160101-至今, 不再更新, 只能获得历史数据",
+      "status": "success",
+      "data_size": 1207,
+      "columns": [
+        "日期",
+        "沿海六大电库存",
+        "日耗",
+        "存煤可用天数"
+      ],
+      "error": null,
+      "execution_time": 0.225
+    },
+    {
+      "name": "macro_china_rmb",
+      "func_name": "macro_china_rmb",
+      "description": "中国人民币汇率中间价报告, 数据区间从 20170103-20210513",
+      "status": "success",
+      "data_size": 791,
+      "columns": [
+        "日期",
+        "美元/人民币_中间价",
+        "美元/人民币_涨跌幅",
+        "欧元/人民币_中间价",
+        "欧元/人民币_涨跌幅",
+        "100日元/人民币_中间价",
+        "100日元/人民币_涨跌幅",
+        "港元/人民币_中间价",
+        "港元/人民币_涨跌幅",
+        "英镑/人民币_中间价",
+        "英镑/人民币_涨跌幅",
+        "澳元/人民币_中间价",
+        "澳元/人民币_涨跌幅",
+        "新西兰元/人民币_中间价",
+        "新西兰元/人民币_涨跌幅",
+        "新加坡元/人民币_中间价",
+        "新加坡元/人民币_涨跌幅",
+        "瑞郎/人民币_中间价",
+        "瑞郎/人民币_涨跌幅",
+        "加元/人民币_中间价",
+        "加元/人民币_涨跌幅",
+        "人民币/马来西亚林吉特_中间价",
+        "人民币/马来西亚林吉特_涨跌幅",
+        "人民币/俄罗斯卢布_中间价",
+        "人民币/俄罗斯卢布_涨跌幅",
+        "人民币/南非兰特_中间价",
+        "人民币/南非兰特_涨跌幅",
+        "人民币/韩元_中间价",
+        "人民币/韩元_涨跌幅",
+        "人民币/阿联酋迪拉姆_中间价",
+        "人民币/阿联酋迪拉姆_涨跌幅",
+        "人民币/沙特里亚尔_中间价",
+        "人民币/沙特里亚尔_涨跌幅",
+        "人民币/匈牙利福林_中间价",
+        "人民币/匈牙利福林_涨跌幅",
+        "人民币/波兰兹罗提_中间价",
+        "人民币/波兰兹罗提_涨跌幅",
+        "人民币/丹麦克朗_中间价",
+        "人民币/丹麦克朗_涨跌幅",
+        "人民币/瑞典克朗_中间价",
+        "人民币/瑞典克朗_涨跌幅",
+        "人民币/挪威克朗_中间价",
+        "人民币/挪威克朗_涨跌幅",
+        "人民币/土耳其里拉_中间价",
+        "人民币/土耳其里拉_涨跌幅",
+        "人民币/墨西哥比索_中间价",
+        "人民币/墨西哥比索_涨跌幅",
+        "人民币/泰铢_定价",
+        "人民币/泰铢_涨跌幅"
+      ],
+      "error": null,
+      "execution_time": 0.423
+    },
+    {
+      "name": "macro_china_market_margin_sz",
+      "func_name": "macro_china_market_margin_sz",
+      "description": "深圳融资融券报告, 数据区间从 20100331-至今",
+      "status": "success",
+      "data_size": 3656,
+      "columns": [
+        "日期",
+        "融资买入额",
+        "融资余额",
+        "融券卖出量",
+        "融券余量",
+        "融券余额",
+        "融资融券余额"
+      ],
+      "error": null,
+      "execution_time": 0.295
+    },
+    {
+      "name": "macro_china_market_margin_sh",
+      "func_name": "macro_china_market_margin_sh",
+      "description": "上海融资融券报告, 数据区间从 20100331-至今",
+      "status": "success",
+      "data_size": 3854,
+      "columns": [
+        "日期",
+        "融资买入额",
+        "融资余额",
+        "融券卖出量",
+        "融券余量",
+        "融券余额",
+        "融资融券余额"
+      ],
+      "error": null,
+      "execution_time": 0.268
+    },
+    {
+      "name": "macro_china_au_report",
+      "func_name": "macro_china_au_report",
+      "description": "上海黄金交易所报告, 数据区间从 20140905-至今",
+      "status": "success",
+      "data_size": 35581,
+      "columns": [
+        "日期",
+        "商品",
+        "开盘价",
+        "最高价",
+        "最低价",
+        "收盘价",
+        "涨跌",
+        "涨跌幅",
+        "加权平均价",
+        "成交量",
+        "成交金额",
+        "持仓量",
+        "交收方向",
+        "交收量"
+      ],
+      "error": null,
+      "execution_time": 2.368
+    },
+    {
+      "name": "macro_china_nbs_nation",
+      "func_name": "macro_china_nbs_nation",
+      "description": "国家统计局全国数据通用接口，包括月度数据、季度数据、年度数据，具体指标见数据官网。",
+      "status": "error",
+      "data_size": 0,
+      "columns": [],
+      "error": "macro_china_nbs_nation() missing 2 required positional arguments: 'kind' and 'path'",
+      "execution_time": 0.0
+    },
+    {
+      "name": "macro_china_nbs_region",
+      "func_name": "macro_china_nbs_region",
+      "description": "国家统计局地区数据通用接口，包括分省月度数据、分省季度数据、分省年度数据、主要城市月度价格、主要城市年度数据、港澳台月度数据、港澳台年度数据，具体指标见数据官网。",
+      "status": "error",
+      "data_size": 0,
+      "columns": [],
+      "error": "macro_china_nbs_region() missing 3 required positional arguments: 'kind', 'path', and 'indicator'",
+      "execution_time": 0.0
+    },
+    {
+      "name": "macro_stock_finance",
+      "func_name": "macro_stock_finance",
+      "description": "同花顺-数据中心-宏观数据-股票筹资",
+      "status": "success",
+      "data_size": 30,
+      "columns": [
+        "月份",
+        "募集资金",
+        "首发募集资金",
+        "增发募集资金",
+        "配股募集资金"
+      ],
+      "error": null,
+      "execution_time": 0.241
+    },
+    {
+      "name": "macro_rmb_loan",
+      "func_name": "macro_rmb_loan",
+      "description": "同花顺-数据中心-宏观数据-新增人民币贷款",
+      "status": "success",
+      "data_size": 30,
+      "columns": [
+        "月份",
+        "新增人民币贷款-总额",
+        "新增人民币贷款-同比",
+        "新增人民币贷款-环比",
+        "累计人民币贷款-总额",
+        "累计人民币贷款-同比"
+      ],
+      "error": null,
+      "execution_time": 0.191
+    },
+    {
+      "name": "macro_rmb_deposit",
+      "func_name": "macro_rmb_deposit",
+      "description": "同花顺-数据中心-宏观数据-人民币存款余额",
+      "status": "success",
+      "data_size": 30,
+      "columns": [
+        "月份",
+        "新增存款-数量",
+        "新增存款-同比",
+        "新增存款-环比",
+        "新增企业存款-数量",
+        "新增企业存款-同比",
+        "新增企业存款-环比",
+        "新增储蓄存款-数量",
+        "新增储蓄存款-同比",
+        "新增储蓄存款-环比",
+        "新增其他存款-数量",
+        "新增其他存款-同比",
+        "新增其他存款-环比"
+      ],
+      "error": null,
+      "execution_time": 0.285
+    },
+    {
+      "name": "macro_china_hk_cpi",
+      "func_name": "macro_china_hk_cpi",
+      "description": "东方财富-经济数据一览-中国香港-消费者物价指数",
+      "status": "success",
+      "data_size": 172,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.176
+    },
+    {
+      "name": "macro_china_hk_cpi_ratio",
+      "func_name": "macro_china_hk_cpi_ratio",
+      "description": "东方财富-经济数据一览-中国香港-消费者物价指数年率",
+      "status": "success",
+      "data_size": 172,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.441
+    },
+    {
+      "name": "macro_china_hk_rate_of_unemployment",
+      "func_name": "macro_china_hk_rate_of_unemployment",
+      "description": "东方财富-经济数据一览-中国香港-失业率",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.204
+    },
+    {
+      "name": "macro_china_hk_gbp",
+      "func_name": "macro_china_hk_gbp",
+      "description": "东方财富-经济数据一览-中国香港-香港 GDP",
+      "status": "success",
+      "data_size": 72,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.145
+    },
+    {
+      "name": "macro_china_hk_gbp_ratio",
+      "func_name": "macro_china_hk_gbp_ratio",
+      "description": "东方财富-经济数据一览-中国香港-香港 GDP 同比",
+      "status": "success",
+      "data_size": 72,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.699
+    },
+    {
+      "name": "macro_china_hk_building_volume",
+      "func_name": "macro_china_hk_building_volume",
+      "description": "东方财富-经济数据一览-中国香港-香港楼宇买卖合约数量",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.195
+    },
+    {
+      "name": "macro_china_hk_building_amount",
+      "func_name": "macro_china_hk_building_amount",
+      "description": "东方财富-经济数据一览-中国香港-香港楼宇买卖合约成交金额",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.265
+    },
+    {
+      "name": "macro_china_hk_trade_diff_ratio",
+      "func_name": "macro_china_hk_trade_diff_ratio",
+      "description": "东方财富-经济数据一览-中国香港-香港商品贸易差额年率",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.224
+    },
+    {
+      "name": "macro_china_hk_ppi",
+      "func_name": "macro_china_hk_ppi",
+      "description": "东方财富-经济数据一览-中国香港-香港制造业PPI年率",
+      "status": "success",
+      "data_size": 72,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.569
+    },
+    {
+      "name": "macro_usa_gdp_monthly",
+      "func_name": "macro_usa_gdp_monthly",
+      "description": "美国国内生产总值(GDP)报告, 数据区间从 20080228-至今",
+      "status": "success",
+      "data_size": 210,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.627
+    },
+    {
+      "name": "macro_usa_cpi_monthly",
+      "func_name": "macro_usa_cpi_monthly",
+      "description": "美国 CPI 月率报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 669,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 5.558
+    },
+    {
+      "name": "macro_usa_cpi_yoy",
+      "func_name": "macro_usa_cpi_yoy",
+      "description": "东方财富-经济数据一览-美国-CPI年率, 数据区间从2008-至今",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "发布日期",
+        "现值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 0.257
+    },
+    {
+      "name": "macro_usa_core_cpi_monthly",
+      "func_name": "macro_usa_core_cpi_monthly",
+      "description": "美国核心 CPI 月率报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 669,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 8.085
+    },
+    {
+      "name": "macro_usa_personal_spending",
+      "func_name": "macro_usa_personal_spending",
+      "description": "美国个人支出月率报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 668,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.523
+    },
+    {
+      "name": "macro_usa_retail_sales",
+      "func_name": "macro_usa_retail_sales",
+      "description": "美国零售销售月率报告, 数据区间从 19920301-至今",
+      "status": "success",
+      "data_size": 403,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 3.123
+    },
+    {
+      "name": "macro_usa_import_price",
+      "func_name": "macro_usa_import_price",
+      "description": "美国进口物价指数报告, 数据区间从 19890201-至今",
+      "status": "success",
+      "data_size": 442,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 6.076
+    },
+    {
+      "name": "macro_usa_export_price",
+      "func_name": "macro_usa_export_price",
+      "description": "美国出口价格指数报告, 数据区间从 19890201-至今",
+      "status": "success",
+      "data_size": 442,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 3.299
+    },
+    {
+      "name": "macro_usa_lmci",
+      "func_name": "macro_usa_lmci",
+      "description": "美联储劳动力市场状况指数报告, 数据区间从 20141006-至今",
+      "status": "success",
+      "data_size": 34,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 0.432
+    },
+    {
+      "name": "macro_usa_unemployment_rate",
+      "func_name": "macro_usa_unemployment_rate",
+      "description": "美国失业率报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 669,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.56
+    },
+    {
+      "name": "macro_usa_job_cuts",
+      "func_name": "macro_usa_job_cuts",
+      "description": "美国挑战者企业裁员人数报告, 数据区间从 19940201-至今",
+      "status": "success",
+      "data_size": 382,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.693
+    },
+    {
+      "name": "macro_usa_non_farm",
+      "func_name": "macro_usa_non_farm",
+      "description": "美国非农就业人数报告, 数据区间从 19700102-至今",
+      "status": "success",
+      "data_size": 669,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.508
+    },
+    {
+      "name": "macro_usa_adp_employment",
+      "func_name": "macro_usa_adp_employment",
+      "description": "美国 ADP 就业人数报告, 数据区间从 20010601-至今",
+      "status": "success",
+      "data_size": 293,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.014
+    },
+    {
+      "name": "macro_usa_core_pce_price",
+      "func_name": "macro_usa_core_pce_price",
+      "description": "美国核心 PCE 物价指数年率报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 670,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.489
+    },
+    {
+      "name": "macro_usa_real_consumer_spending",
+      "func_name": "macro_usa_real_consumer_spending",
+      "description": "美国实际个人消费支出季率初值报告, 数据区间从 20131107-至今",
+      "status": "success",
+      "data_size": 146,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.13
+    },
+    {
+      "name": "macro_usa_trade_balance",
+      "func_name": "macro_usa_trade_balance",
+      "description": "美国贸易帐报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 670,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.42
+    },
+    {
+      "name": "macro_usa_current_account",
+      "func_name": "macro_usa_current_account",
+      "description": "美国经常帐报告, 数据区间从 20080317-至今",
+      "status": "success",
+      "data_size": 71,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 0.654
+    },
+    {
+      "name": "macro_usa_rig_count",
+      "func_name": "macro_usa_rig_count",
+      "description": "贝克休斯钻井报告, 数据区间从 19870717-至今",
+      "status": "success",
+      "data_size": 1896,
+      "columns": [
+        "日期",
+        "钻井总数_钻井数",
+        "钻井总数_变化",
+        "美国石油钻井_钻井数",
+        "美国石油钻井_变化",
+        "混合钻井_钻井数",
+        "混合钻井_变化",
+        "美国天然气钻井_钻井数",
+        "美国天然气钻井_变化"
+      ],
+      "error": null,
+      "execution_time": 0.203
+    },
+    {
+      "name": "macro_usa_ppi",
+      "func_name": "macro_usa_ppi",
+      "description": "美国生产者物价指数(PPI)报告, 数据区间从 20080226-至今",
+      "status": "success",
+      "data_size": 213,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.522
+    },
+    {
+      "name": "macro_usa_core_ppi",
+      "func_name": "macro_usa_core_ppi",
+      "description": "美国核心生产者物价指数(PPI)报告, 数据区间从 20080318-至今",
+      "status": "success",
+      "data_size": 210,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.504
+    },
+    {
+      "name": "macro_usa_api_crude_stock",
+      "func_name": "macro_usa_api_crude_stock",
+      "description": "美国 API 原油库存报告, 数据区间从 20120328-至今",
+      "status": "success",
+      "data_size": 705,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.608
+    },
+    {
+      "name": "macro_usa_pmi",
+      "func_name": "macro_usa_pmi",
+      "description": "美国 Markit 制造业 PMI 初值报告, 数据区间从 20120601-至今",
+      "status": "success",
+      "data_size": 319,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.196
+    },
+    {
+      "name": "macro_usa_ism_pmi",
+      "func_name": "macro_usa_ism_pmi",
+      "description": "美国 ISM 制造业 PMI 报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 671,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.39
+    },
+    {
+      "name": "macro_usa_industrial_production",
+      "func_name": "macro_usa_industrial_production",
+      "description": "美国工业产出月率报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 669,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.38
+    },
+    {
+      "name": "macro_usa_durable_goods_orders",
+      "func_name": "macro_usa_durable_goods_orders",
+      "description": "美国耐用品订单月率报告, 数据区间从 20080227-至今",
+      "status": "success",
+      "data_size": 221,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.668
+    },
+    {
+      "name": "macro_usa_factory_orders",
+      "func_name": "macro_usa_factory_orders",
+      "description": "美国工厂订单月率报告, 数据区间从 19920401-至今",
+      "status": "success",
+      "data_size": 403,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.765
+    },
+    {
+      "name": "macro_usa_services_pmi",
+      "func_name": "macro_usa_services_pmi",
+      "description": "美国Markit服务业PMI初值报告, 数据区间从 20120701-至今",
+      "status": "success",
+      "data_size": 303,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.127
+    },
+    {
+      "name": "macro_usa_business_inventories",
+      "func_name": "macro_usa_business_inventories",
+      "description": "美国商业库存月率报告, 数据区间从 19920301-至今",
+      "status": "success",
+      "data_size": 403,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.768
+    },
+    {
+      "name": "macro_usa_ism_non_pmi",
+      "func_name": "macro_usa_ism_non_pmi",
+      "description": "美国 ISM 非制造业 PMI 报告, 数据区间从 19970801-至今",
+      "status": "success",
+      "data_size": 342,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.437
+    },
+    {
+      "name": "macro_usa_nahb_house_market_index",
+      "func_name": "macro_usa_nahb_house_market_index",
+      "description": "美国 NAHB 房产市场指数报告, 数据区间从 19850201-至今",
+      "status": "success",
+      "data_size": 489,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 3.365
+    },
+    {
+      "name": "macro_usa_house_starts",
+      "func_name": "macro_usa_house_starts",
+      "description": "美国新屋开工总数年化报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 667,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.433
+    },
+    {
+      "name": "macro_usa_new_home_sales",
+      "func_name": "macro_usa_new_home_sales",
+      "description": "美国新屋销售总数年化报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 669,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.458
+    },
+    {
+      "name": "macro_usa_building_permits",
+      "func_name": "macro_usa_building_permits",
+      "description": "美国营建许可总数报告, 数据区间从 20080220-至今",
+      "status": "success",
+      "data_size": 246,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.754
+    },
+    {
+      "name": "macro_usa_exist_home_sales",
+      "func_name": "macro_usa_exist_home_sales",
+      "description": "美国成屋销售总数年化报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 669,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.37
+    },
+    {
+      "name": "macro_usa_house_price_index",
+      "func_name": "macro_usa_house_price_index",
+      "description": "美国 FHFA 房价指数月率报告, 数据区间从 19910301-至今",
+      "status": "success",
+      "data_size": 414,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 3.745
+    },
+    {
+      "name": "macro_usa_spcs20",
+      "func_name": "macro_usa_spcs20",
+      "description": "美国S&P/CS20座大城市房价指数年率报告, 数据区间从 20010201-至今",
+      "status": "success",
+      "data_size": 298,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.023
+    },
+    {
+      "name": "macro_usa_pending_home_sales",
+      "func_name": "macro_usa_pending_home_sales",
+      "description": "美国成屋签约销售指数月率报告, 数据区间从 20010301-至今",
+      "status": "success",
+      "data_size": 295,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.014
+    },
+    {
+      "name": "macro_usa_phs",
+      "func_name": "macro_usa_phs",
+      "description": "东方财富-经济数据一览-美国-未决房屋销售月率, 数据区间从 20080201-至今",
+      "status": "success",
+      "data_size": 210,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.219
+    },
+    {
+      "name": "macro_usa_cb_consumer_confidence",
+      "func_name": "macro_usa_cb_consumer_confidence",
+      "description": "美国谘商会消费者信心指数报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 672,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.477
+    },
+    {
+      "name": "macro_usa_nfib_small_business",
+      "func_name": "macro_usa_nfib_small_business",
+      "description": "美国NFIB小型企业信心指数报告, 数据区间从 19750201-至今",
+      "status": "success",
+      "data_size": 525,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.505
+    },
+    {
+      "name": "macro_usa_michigan_consumer_sentiment",
+      "func_name": "macro_usa_michigan_consumer_sentiment",
+      "description": "美国密歇根大学消费者信心指数初值报告, 数据区间从 19700301-至今",
+      "status": "success",
+      "data_size": 811,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 5.414
+    },
+    {
+      "name": "macro_usa_eia_crude_rate",
+      "func_name": "macro_usa_eia_crude_rate",
+      "description": "美国EIA原油库存报告, 数据区间从 19950801-至今",
+      "status": "success",
+      "data_size": 1228,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 8.733
+    },
+    {
+      "name": "macro_usa_initial_jobless",
+      "func_name": "macro_usa_initial_jobless",
+      "description": "美国初请失业金人数报告, 数据区间从 19700101-至今",
+      "status": "success",
+      "data_size": 1375,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 8.98
+    },
+    {
+      "name": "macro_usa_crude_inner",
+      "func_name": "macro_usa_crude_inner",
+      "description": "美国原油产量报告, 数据区间从 19830107-至今, 每周三公布(美国节假日除外), 美国能源信息署(EIA)",
+      "status": "success",
+      "data_size": 2246,
+      "columns": [
+        "日期",
+        "美国国内原油总量-产量",
+        "美国国内原油总量-变化",
+        "美国本土48州原油产量-产量",
+        "美国本土48州原油产量-变化",
+        "美国阿拉斯加州原油产量-产量",
+        "美国阿拉斯加州原油产量-变化"
+      ],
+      "error": null,
+      "execution_time": 0.207
+    },
+    {
+      "name": "macro_euro_gdp_yoy",
+      "func_name": "macro_euro_gdp_yoy",
+      "description": "欧元区季度 GDP 年率报告, 数据区间从 20131114-至今",
+      "status": "success",
+      "data_size": 495,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.583
+    },
+    {
+      "name": "macro_euro_cpi_mom",
+      "func_name": "macro_euro_cpi_mom",
+      "description": "欧元区 CPI 月率报告, 数据区间从 19900301-至今",
+      "status": "success",
+      "data_size": 495,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 3.316
+    },
+    {
+      "name": "macro_euro_cpi_yoy",
+      "func_name": "macro_euro_cpi_yoy",
+      "description": "欧元区 CPI 年率报告, 数据区间从 19910201-至今",
+      "status": "success",
+      "data_size": 630,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 4.103
+    },
+    {
+      "name": "macro_euro_ppi_mom",
+      "func_name": "macro_euro_ppi_mom",
+      "description": "欧元区 PPI 月率报告, 数据区间从 19810301-至今",
+      "status": "success",
+      "data_size": 538,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 3.445
+    },
+    {
+      "name": "macro_euro_retail_sales_mom",
+      "func_name": "macro_euro_retail_sales_mom",
+      "description": "欧元区零售销售月率报告, 数据区间从 20000301-至今",
+      "status": "success",
+      "data_size": 310,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.095
+    },
+    {
+      "name": "macro_euro_employment_change_qoq",
+      "func_name": "macro_euro_employment_change_qoq",
+      "description": "欧元区季调后就业人数季率报告, 数据区间从 20083017-至今",
+      "status": "success",
+      "data_size": 100,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 0.754
+    },
+    {
+      "name": "macro_euro_unemployment_rate_mom",
+      "func_name": "macro_euro_unemployment_rate_mom",
+      "description": "欧元区失业率报告, 数据区间从 19980501-至今",
+      "status": "success",
+      "data_size": 331,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.177
+    },
+    {
+      "name": "macro_euro_trade_balance",
+      "func_name": "macro_euro_trade_balance",
+      "description": "欧元区未季调贸易帐报告, 数据区间从 19990201-至今",
+      "status": "success",
+      "data_size": 321,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.602
+    },
+    {
+      "name": "macro_euro_current_account_mom",
+      "func_name": "macro_euro_current_account_mom",
+      "description": "欧元区经常帐报告, 数据区间从 20080221-至今",
+      "status": "success",
+      "data_size": 214,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.527
+    },
+    {
+      "name": "macro_euro_industrial_production_mom",
+      "func_name": "macro_euro_industrial_production_mom",
+      "description": "欧元区工业产出月率报告, 数据区间从 19910301-至今",
+      "status": "success",
+      "data_size": 421,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.909
+    },
+    {
+      "name": "macro_euro_manufacturing_pmi",
+      "func_name": "macro_euro_manufacturing_pmi",
+      "description": "欧元区制造业 PMI 初值报告, 数据区间从 20080222-至今",
+      "status": "success",
+      "data_size": 426,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 2.924
+    },
+    {
+      "name": "macro_euro_services_pmi",
+      "func_name": "macro_euro_services_pmi",
+      "description": "欧元区服务业 PMI 终值报告, 数据区间从 20080222-至今",
+      "status": "success",
+      "data_size": 425,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 3.912
+    },
+    {
+      "name": "macro_euro_zew_economic_sentiment",
+      "func_name": "macro_euro_zew_economic_sentiment",
+      "description": "欧元区 ZEW 经济景气指数报告, 数据区间从 20080212-至今",
+      "status": "success",
+      "data_size": 215,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.512
+    },
+    {
+      "name": "macro_euro_sentix_investor_confidence",
+      "func_name": "macro_euro_sentix_investor_confidence",
+      "description": "欧元区 Sentix 投资者信心指数报告, 数据区间从 20020801-至今",
+      "status": "success",
+      "data_size": 280,
+      "columns": [
+        "商品",
+        "日期",
+        "今值",
+        "预测值",
+        "前值"
+      ],
+      "error": null,
+      "execution_time": 1.902
+    },
+    {
+      "name": "macro_germany_ifo",
+      "func_name": "macro_germany_ifo",
+      "description": "东方财富-数据中心-经济数据一览-IFO商业景气指数",
+      "status": "success",
+      "data_size": 218,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.173
+    },
+    {
+      "name": "macro_germany_cpi_monthly",
+      "func_name": "macro_germany_cpi_monthly",
+      "description": "东方财富-数据中心-经济数据一览-德国-消费者物价指数月率终值",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.234
+    },
+    {
+      "name": "macro_germany_cpi_yearly",
+      "func_name": "macro_germany_cpi_yearly",
+      "description": "东方财富-数据中心-经济数据一览-德国-消费者物价指数年率终值",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.264
+    },
+    {
+      "name": "macro_germany_trade_adjusted",
+      "func_name": "macro_germany_trade_adjusted",
+      "description": "东方财富-数据中心-经济数据一览-德国-贸易帐(季调后)",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.245
+    },
+    {
+      "name": "macro_germany_gdp",
+      "func_name": "macro_germany_gdp",
+      "description": "东方财富-数据中心-经济数据一览-德国-GDP",
+      "status": "success",
+      "data_size": 71,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.16
+    },
+    {
+      "name": "macro_germany_retail_sale_monthly",
+      "func_name": "macro_germany_retail_sale_monthly",
+      "description": "东方财富-数据中心-经济数据一览-德国-实际零售销售月率",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.237
+    },
+    {
+      "name": "macro_germany_retail_sale_yearly",
+      "func_name": "macro_germany_retail_sale_yearly",
+      "description": "东方财富-数据中心-经济数据一览-德国-实际零售销售年率",
+      "status": "success",
+      "data_size": 18,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.169
+    },
+    {
+      "name": "macro_germany_zew",
+      "func_name": "macro_germany_zew",
+      "description": "东方财富-数据中心-经济数据一览-德国-ZEW 经济景气指数",
+      "status": "success",
+      "data_size": 218,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.168
+    },
+    {
+      "name": "macro_swiss_svme",
+      "func_name": "macro_swiss_svme",
+      "description": "东方财富-经济数据-瑞士-SVME采购经理人指数",
+      "status": "success",
+      "data_size": 219,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.334
+    },
+    {
+      "name": "macro_swiss_trade",
+      "func_name": "macro_swiss_trade",
+      "description": "东方财富-经济数据-瑞士-贸易帐",
+      "status": "success",
+      "data_size": 73,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.151
+    },
+    {
+      "name": "macro_swiss_cpi_yearly",
+      "func_name": "macro_swiss_cpi_yearly",
+      "description": "东方财富-经济数据-瑞士-消费者物价指数年率",
+      "status": "success",
+      "data_size": 19,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.185
+    },
+    {
+      "name": "macro_swiss_gdp_quarterly",
+      "func_name": "macro_swiss_gdp_quarterly",
+      "description": "东方财富-经济数据-瑞士-GDP 季率",
+      "status": "success",
+      "data_size": 73,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.133
+    },
+    {
+      "name": "macro_swiss_gbd_yearly",
+      "func_name": "macro_swiss_gbd_yearly",
+      "description": "东方财富-经济数据-瑞士-GDP 年率",
+      "status": "success",
+      "data_size": 58,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.216
+    },
+    {
+      "name": "macro_swiss_gbd_bank_rate",
+      "func_name": "macro_swiss_gbd_bank_rate",
+      "description": "东方财富-经济数据-瑞士-央行公布利率决议",
+      "status": "success",
+      "data_size": 73,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.211
+    },
+    {
+      "name": "macro_japan_bank_rate",
+      "func_name": "macro_japan_bank_rate",
+      "description": "东方财富-经济数据-日本-央行公布利率决议",
+      "status": "success",
+      "data_size": 196,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.326
+    },
+    {
+      "name": "macro_japan_cpi_yearly",
+      "func_name": "macro_japan_cpi_yearly",
+      "description": "东方财富-经济数据-日本-全国消费者物价指数年率",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.188
+    },
+    {
+      "name": "macro_japan_core_cpi_yearly",
+      "func_name": "macro_japan_core_cpi_yearly",
+      "description": "东方财富-经济数据-日本-全国核心消费者物价指数年率",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.254
+    },
+    {
+      "name": "macro_japan_unemployment_rate",
+      "func_name": "macro_japan_unemployment_rate",
+      "description": "东方财富-经济数据-日本-失业率",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.16
+    },
+    {
+      "name": "macro_japan_head_indicator",
+      "func_name": "macro_japan_head_indicator",
+      "description": "东方财富-经济数据-日本-领先指标终值",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.256
+    },
+    {
+      "name": "macro_uk_halifax_monthly",
+      "func_name": "macro_uk_halifax_monthly",
+      "description": "东方财富-经济数据-英国-Halifax 房价指数月率",
+      "status": "success",
+      "data_size": 218,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.277
+    },
+    {
+      "name": "macro_uk_halifax_yearly",
+      "func_name": "macro_uk_halifax_yearly",
+      "description": "东方财富-经济数据-英国-Halifax 房价指数年率",
+      "status": "success",
+      "data_size": 218,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.178
+    },
+    {
+      "name": "macro_uk_trade",
+      "func_name": "macro_uk_trade",
+      "description": "东方财富-经济数据-英国-贸易帐",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.168
+    },
+    {
+      "name": "macro_uk_bank_rate",
+      "func_name": "macro_uk_bank_rate",
+      "description": "东方财富-经济数据-英国-央行公布利率决议",
+      "status": "success",
+      "data_size": 182,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.231
+    },
+    {
+      "name": "macro_uk_core_cpi_yearly",
+      "func_name": "macro_uk_core_cpi_yearly",
+      "description": "东方财富-经济数据-英国-核心消费者物价指数年率",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.317
+    },
+    {
+      "name": "macro_uk_core_cpi_monthly",
+      "func_name": "macro_uk_core_cpi_monthly",
+      "description": "东方财富-经济数据-英国-核心消费者物价指数月率",
+      "status": "success",
+      "data_size": 214,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.425
+    },
+    {
+      "name": "macro_uk_cpi_yearly",
+      "func_name": "macro_uk_cpi_yearly",
+      "description": "东方财富-经济数据-英国-消费者物价指数年率",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.365
+    },
+    {
+      "name": "macro_uk_cpi_monthly",
+      "func_name": "macro_uk_cpi_monthly",
+      "description": "东方财富-经济数据-英国-消费者物价指数月率",
+      "status": "success",
+      "data_size": 214,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.249
+    },
+    {
+      "name": "macro_uk_retail_monthly",
+      "func_name": "macro_uk_retail_monthly",
+      "description": "东方财富-经济数据-英国-零售销售月率",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.164
+    },
+    {
+      "name": "macro_uk_retail_yearly",
+      "func_name": "macro_uk_retail_yearly",
+      "description": "东方财富-经济数据-英国-零售销售年率",
+      "status": "success",
+      "data_size": 213,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.345
+    },
+    {
+      "name": "macro_uk_rightmove_yearly",
+      "func_name": "macro_uk_rightmove_yearly",
+      "description": "东方财富-经济数据-英国-Rightmove 房价指数年率",
+      "status": "success",
+      "data_size": 195,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.178
+    },
+    {
+      "name": "macro_uk_rightmove_monthly",
+      "func_name": "macro_uk_rightmove_monthly",
+      "description": "东方财富-经济数据-英国-Rightmove 房价指数月率",
+      "status": "success",
+      "data_size": 195,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.223
+    },
+    {
+      "name": "macro_uk_gdp_quarterly",
+      "func_name": "macro_uk_gdp_quarterly",
+      "description": "东方财富-经济数据-英国-GDP 季率初值",
+      "status": "success",
+      "data_size": 69,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.142
+    },
+    {
+      "name": "macro_uk_gdp_yearly",
+      "func_name": "macro_uk_gdp_yearly",
+      "description": "东方财富-经济数据-英国-GDP 年率初值",
+      "status": "success",
+      "data_size": 16,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.185
+    },
+    {
+      "name": "macro_uk_unemployment_rate",
+      "func_name": "macro_uk_unemployment_rate",
+      "description": "东方财富-经济数据-英国-失业率",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.28
+    },
+    {
+      "name": "macro_australia_retail_rate_monthly",
+      "func_name": "macro_australia_retail_rate_monthly",
+      "description": "东方财富-经济数据-澳大利亚-零售销售月率",
+      "status": "success",
+      "data_size": 210,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.207
+    },
+    {
+      "name": "macro_australia_trade",
+      "func_name": "macro_australia_trade",
+      "description": "东方财富-经济数据-澳大利亚-贸易帐",
+      "status": "success",
+      "data_size": 188,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.19
+    },
+    {
+      "name": "macro_australia_unemployment_rate",
+      "func_name": "macro_australia_unemployment_rate",
+      "description": "东方财富-经济数据-澳大利亚-失业率",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.208
+    },
+    {
+      "name": "macro_australia_ppi_quarterly",
+      "func_name": "macro_australia_ppi_quarterly",
+      "description": "东方财富-经济数据-澳大利亚-生产者物价指数季率",
+      "status": "success",
+      "data_size": 73,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.144
+    },
+    {
+      "name": "macro_australia_cpi_quarterly",
+      "func_name": "macro_australia_cpi_quarterly",
+      "description": "东方财富-经济数据-澳大利亚-消费者物价指数季率",
+      "status": "success",
+      "data_size": 73,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.208
+    },
+    {
+      "name": "macro_australia_cpi_yearly",
+      "func_name": "macro_australia_cpi_yearly",
+      "description": "东方财富-经济数据-澳大利亚-消费者物价指数年率",
+      "status": "success",
+      "data_size": 73,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.159
+    },
+    {
+      "name": "macro_australia_bank_rate",
+      "func_name": "macro_australia_bank_rate",
+      "description": "东方财富-经济数据-澳大利亚-央行公布利率决议",
+      "status": "success",
+      "data_size": 194,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.181
+    },
+    {
+      "name": "macro_canada_new_house_rate",
+      "func_name": "macro_canada_new_house_rate",
+      "description": "东方财富-经济数据-加拿大-新屋开工",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.246
+    },
+    {
+      "name": "macro_canada_unemployment_rate",
+      "func_name": "macro_canada_unemployment_rate",
+      "description": "东方财富-经济数据-加拿大-失业率",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.187
+    },
+    {
+      "name": "macro_canada_trade",
+      "func_name": "macro_canada_trade",
+      "description": "东方财富-经济数据-加拿大-贸易帐",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.59
+    },
+    {
+      "name": "macro_canada_retail_rate_monthly",
+      "func_name": "macro_canada_retail_rate_monthly",
+      "description": "东方财富-经济数据-加拿大-零售销售月率",
+      "status": "success",
+      "data_size": 73,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.156
+    },
+    {
+      "name": "macro_canada_bank_rate",
+      "func_name": "macro_canada_bank_rate",
+      "description": "东方财富-经济数据-加拿大-央行公布利率决议",
+      "status": "success",
+      "data_size": 174,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.165
+    },
+    {
+      "name": "macro_canada_core_cpi_yearly",
+      "func_name": "macro_canada_core_cpi_yearly",
+      "description": "东方财富-经济数据-加拿大-核心消费者物价指数年率",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.253
+    },
+    {
+      "name": "macro_canada_core_cpi_monthly",
+      "func_name": "macro_canada_core_cpi_monthly",
+      "description": "东方财富-经济数据-加拿大-核心消费者物价指数月率",
+      "status": "success",
+      "data_size": 216,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.263
+    },
+    {
+      "name": "macro_canada_cpi_yearly",
+      "func_name": "macro_canada_cpi_yearly",
+      "description": "东方财富-经济数据-加拿大-消费者物价指数年率",
+      "status": "success",
+      "data_size": 217,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.282
+    },
+    {
+      "name": "macro_canada_cpi_monthly",
+      "func_name": "macro_canada_cpi_monthly",
+      "description": "东方财富-经济数据-加拿大-消费者物价指数月率",
+      "status": "success",
+      "data_size": 215,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.176
+    },
+    {
+      "name": "macro_canada_gdp_monthly",
+      "func_name": "macro_canada_gdp_monthly",
+      "description": "东方财富-经济数据-加拿大-GDP 月率",
+      "status": "success",
+      "data_size": 215,
+      "columns": [
+        "时间",
+        "前值",
+        "现值",
+        "发布日期"
+      ],
+      "error": null,
+      "execution_time": 0.29
+    },
+    {
+      "name": "macro_cons_gold",
+      "func_name": "macro_cons_gold",
+      "description": "全球最大黄金 ETF—SPDR Gold Trust 持仓报告, 数据区间从 20041119-至今",
+      "status": "success",
+      "data_size": 2748,
+      "columns": [
+        "商品",
+        "日期",
+        "总库存",
+        "增持/减持",
+        "总价值"
+      ],
+      "error": null,
+      "execution_time": 20.264
+    },
+    {
+      "name": "macro_cons_silver",
+      "func_name": "macro_cons_silver",
+      "description": "全球最大白银 ETF--iShares Silver Trust 持仓报告, 数据区间从 20041202-至今",
+      "status": "success",
+      "data_size": 1552,
+      "columns": [
+        "商品",
+        "日期",
+        "总库存",
+        "增持/减持",
+        "总价值"
+      ],
+      "error": null,
+      "execution_time": 11.508
+    },
+    {
+      "name": "macro_cons_opec_month",
+      "func_name": "macro_cons_opec_month",
+      "description": "欧佩克报告, 数据区间从 20170118-至今",
+      "status": "success",
+      "data_size": 75,
+      "columns": [
+        "日期",
+        "阿尔及利亚",
+        "安哥拉",
+        "加蓬",
+        "伊朗",
+        "伊拉克",
+        "科威特",
+        "利比亚",
+        "尼日利亚",
+        "沙特",
+        "阿联酋",
+        "委内瑞拉",
+        "欧佩克产量"
+      ],
+      "error": null,
+      "execution_time": 11.398
+    },
+    {
+      "name": "macro_euro_lme_holding",
+      "func_name": "macro_euro_lme_holding",
+      "description": "伦敦金属交易所(LME)-持仓报告, 数据区间从 20151022-至今",
+      "status": "success",
+      "data_size": 756,
+      "columns": [
+        "日期",
+        "铜-多头仓位",
+        "铜-空头仓位",
+        "铜-净仓位",
+        "锌-多头仓位",
+        "锌-空头仓位",
+        "锌-净仓位",
+        "镍-多头仓位",
+        "镍-空头仓位",
+        "镍-净仓位",
+        "铅-多头仓位",
+        "铅-空头仓位",
+        "铅-净仓位",
+        "锡-多头仓位",
+        "锡-空头仓位",
+        "锡-净仓位",
+        "铝-多头仓位",
+        "铝-空头仓位",
+        "铝-净仓位"
+      ],
+      "error": null,
+      "execution_time": 0.253
+    },
+    {
+      "name": "macro_euro_lme_stock",
+      "func_name": "macro_euro_lme_stock",
+      "description": "伦敦金属交易所(LME)-库存报告, 数据区间从 20140702-至今",
+      "status": "success",
+      "data_size": 2612,
+      "columns": [
+        "日期",
+        "铜-库存",
+        "铜-注册仓单",
+        "铜-注销仓单",
+        "锡-库存",
+        "锡-注册仓单",
+        "锡-注销仓单",
+        "铅-库存",
+        "铅-注册仓单",
+        "铅-注销仓单",
+        "锌-库存",
+        "锌-注册仓单",
+        "锌-注销仓单",
+        "铝-库存",
+        "铝-注册仓单",
+        "铝-注销仓单",
+        "镍-库存",
+        "镍-注册仓单",
+        "镍-注销仓单"
+      ],
+      "error": null,
+      "execution_time": 0.428
+    },
+    {
+      "name": "macro_usa_cftc_nc_holding",
+      "func_name": "macro_usa_cftc_nc_holding",
+      "description": "美国商品期货交易委员会CFTC外汇类非商业持仓报告, 数据区间从 19830107-至今",
+      "status": "success",
+      "data_size": 1905,
+      "columns": [
+        "日期",
+        "美元-多头仓位",
+        "美元-空头仓位",
+        "美元-净仓位",
+        "瑞郎-多头仓位",
+        "瑞郎-空头仓位",
+        "瑞郎-净仓位",
+        "纽元-多头仓位",
+        "纽元-空头仓位",
+        "纽元-净仓位",
+        "墨西哥比索-多头仓位",
+        "墨西哥比索-空头仓位",
+        "墨西哥比索-净仓位",
+        "日元-多头仓位",
+        "日元-空头仓位",
+        "日元-净仓位",
+        "欧元-多头仓位",
+        "欧元-空头仓位",
+        "欧元-净仓位",
+        "加元-多头仓位",
+        "加元-空头仓位",
+        "加元-净仓位",
+        "英镑-多头仓位",
+        "英镑-空头仓位",
+        "英镑-净仓位",
+        "澳元-多头仓位",
+        "澳元-空头仓位",
+        "澳元-净仓位"
+      ],
+      "error": null,
+      "execution_time": 0.438
+    },
+    {
+      "name": "macro_usa_cftc_c_holding",
+      "func_name": "macro_usa_cftc_c_holding",
+      "description": "美国商品期货交易委员会CFTC商品类非商业持仓报告, 数据区间从 19830107-至今",
+      "status": "success",
+      "data_size": 1905,
+      "columns": [
+        "日期",
+        "纽约原油-多头仓位",
+        "纽约原油-空头仓位",
+        "纽约原油-净仓位",
+        "原糖-多头仓位",
+        "原糖-空头仓位",
+        "原糖-净仓位",
+        "大豆-多头仓位",
+        "大豆-空头仓位",
+        "大豆-净仓位",
+        "豆油-多头仓位",
+        "豆油-空头仓位",
+        "豆油-净仓位",
+        "豆粕-多头仓位",
+        "豆粕-空头仓位",
+        "豆粕-净仓位",
+        "白银-多头仓位",
+        "白银-空头仓位",
+        "白银-净仓位",
+        "铂金-多头仓位",
+        "铂金-空头仓位",
+        "铂金-净仓位",
+        "钯金-多头仓位",
+        "钯金-空头仓位",
+        "钯金-净仓位",
+        "纽约天然气-多头仓位",
+        "纽约天然气-空头仓位",
+        "纽约天然气-净仓位",
+        "黄金-多头仓位",
+        "黄金-空头仓位",
+        "黄金-净仓位",
+        "棉花-多头仓位",
+        "棉花-空头仓位",
+        "棉花-净仓位",
+        "玉米-多头仓位",
+        "玉米-空头仓位",
+        "玉米-净仓位"
+      ],
+      "error": null,
+      "execution_time": 0.593
+    },
+    {
+      "name": "macro_usa_cftc_merchant_currency_holding",
+      "func_name": "macro_usa_cftc_merchant_currency_holding",
+      "description": "美国商品期货交易委员会CFTC外汇类商业持仓报告, 数据区间从 19860115-至今",
+      "status": "success",
+      "data_size": 1905,
+      "columns": [
+        "日期",
+        "美元-多头仓位",
+        "美元-空头仓位",
+        "美元-净仓位",
+        "瑞郎-多头仓位",
+        "瑞郎-空头仓位",
+        "瑞郎-净仓位",
+        "纽元-多头仓位",
+        "纽元-空头仓位",
+        "纽元-净仓位",
+        "墨西哥比索-多头仓位",
+        "墨西哥比索-空头仓位",
+        "墨西哥比索-净仓位",
+        "日元-多头仓位",
+        "日元-空头仓位",
+        "日元-净仓位",
+        "欧元-多头仓位",
+        "欧元-空头仓位",
+        "欧元-净仓位",
+        "加元-多头仓位",
+        "加元-空头仓位",
+        "加元-净仓位",
+        "英镑-多头仓位",
+        "英镑-空头仓位",
+        "英镑-净仓位",
+        "澳元-多头仓位",
+        "澳元-空头仓位",
+        "澳元-净仓位"
+      ],
+      "error": null,
+      "execution_time": 0.521
+    },
+    {
+      "name": "macro_usa_cftc_merchant_goods_holding",
+      "func_name": "macro_usa_cftc_merchant_goods_holding",
+      "description": "美国商品期货交易委员会 CFTC 商品类商业持仓报告, 数据区间从 19860115-至今",
+      "status": "success",
+      "data_size": 1905,
+      "columns": [
+        "日期",
+        "纽约原油-多头仓位",
+        "纽约原油-空头仓位",
+        "纽约原油-净仓位",
+        "原糖-多头仓位",
+        "原糖-空头仓位",
+        "原糖-净仓位",
+        "大豆-多头仓位",
+        "大豆-空头仓位",
+        "大豆-净仓位",
+        "豆油-多头仓位",
+        "豆油-空头仓位",
+        "豆油-净仓位",
+        "豆粕-多头仓位",
+        "豆粕-空头仓位",
+        "豆粕-净仓位",
+        "白银-多头仓位",
+        "白银-空头仓位",
+        "白银-净仓位",
+        "铂金-多头仓位",
+        "铂金-空头仓位",
+        "铂金-净仓位",
+        "钯金-多头仓位",
+        "钯金-空头仓位",
+        "钯金-净仓位",
+        "纽约天然气-多头仓位",
+        "纽约天然气-空头仓位",
+        "纽约天然气-净仓位",
+        "黄金-多头仓位",
+        "黄金-空头仓位",
+        "黄金-净仓位",
+        "棉花-多头仓位",
+        "棉花-空头仓位",
+        "棉花-净仓位",
+        "玉米-多头仓位",
+        "玉米-空头仓位",
+        "玉米-净仓位"
+      ],
+      "error": null,
+      "execution_time": 0.76
+    },
+    {
+      "name": "macro_usa_cme_merchant_goods_holding",
+      "func_name": "macro_usa_cme_merchant_goods_holding",
+      "description": "CME-贵金属, 数据区间从 20180405-至今",
+      "status": "success",
+      "data_size": 30129,
+      "columns": [
+        "日期",
+        "品种",
+        "成交量"
+      ],
+      "error": null,
+      "execution_time": 1.964
+    },
+    {
+      "name": "macro_info_ws",
+      "func_name": "macro_info_ws",
+      "description": "华尔街见闻-日历-宏观",
+      "status": "success",
+      "data_size": 28,
+      "columns": [
+        "时间",
+        "地区",
+        "事件",
+        "重要性",
+        "今值",
+        "预期",
+        "前值",
+        "链接"
+      ],
+      "error": null,
+      "execution_time": 0.31
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data
+result/
+result_backup*/
+data/
+prompts/
+analysis/
+config/*.json
+!config/unified_field_config.json
+!config/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

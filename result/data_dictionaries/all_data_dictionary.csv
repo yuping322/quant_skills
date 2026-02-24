@@ -1,0 +1,852 @@
+﻿func_name,target_url,description,title,input_params_count,output_params_count,data_example_lines,data_type,limit
+bond_info_cm,https://www.chinamoney.com.cn/chinese/scsjzqxx/,中国外汇交易中心暨全国银行间同业拆借中心-数据-债券信息-信息查询,债券基础信息,8,7,0,bond,
+bond_info_detail_cm,https://www.chinamoney.com.cn/chinese/zqjc/?bondDefinedCode=egfjh08154,中国外汇交易中心暨全国银行间同业拆借中心-数据-债券信息-信息查询-债券详情,债券基础名词,1,2,0,bond,
+bond_cash_summary_sse,https://bond.sse.com.cn/data/statistics/overview/bondow/,上登债券信息网-市场数据-市场统计-市场概览-债券现券市场概览,债券成交概览,1,5,0,bond,单次返回指定交易日的债券现券市场概览数据
+bond_deal_summary_sse,http://bond.sse.com.cn/data/statistics/overview/turnover/,上登债券信息网-市场数据-市场统计-市场概览-债券成交概览,债券基础数据,1,6,0,bond,单次返回指定交易日的债券成交概览数据
+bond_debt_nafmii,http://zhuce.nafmii.org.cn/fans/publicQuery/manager,中国银行间市场交易商协会-非金融企业债务融资工具注册信息系统,中国债券市场行情数据,1,7,0,bond,单次获取指定 page 页面数据的 50 条数据
+bond_spot_quote,https://www.chinamoney.com.cn/chinese/mkdatabond/,中国外汇交易中心暨全国银行间同业拆借中心-市场数据-市场行情-债券市场行情-现券市场做市报价,现券市场成交行情,1,6,0,bond,单次返回所有数据
+bond_spot_deal,https://www.chinamoney.com.cn/chinese/mkdatabond/,中国外汇交易中心暨全国银行间同业拆借中心-市场数据-市场行情-债券市场行情-现券市场成交行情,国债及其他债券收益率曲线,1,6,0,bond,单次返回所有即期数据
+bond_china_yield,https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2019-02-07&endDate=2020-02-04&gjqx=0&qxId=ycqx&locale=cn_ZH,中国债券信息网-国债及其他债券收益率曲线,沪深债券,2,10,0,bond,单次返回所有指定日期间 start_date 到 end_date 需要小于一年的所有数据
+bond_zh_hs_spot,https://vip.stock.finance.sina.com.cn/mkt/#hs_z,新浪财经-债券-沪深债券-实时行情数据,历史行情数据,2,13,0,bond,单次返回所有沪深债券的实时行情数据
+bond_zh_hs_daily,https://money.finance.sina.com.cn/bond/quotes/sh019315.html,"新浪财经-债券-沪深债券-历史行情数据, 历史数据按日频率更新",沪深可转债,1,6,0,bond,单次返回具体某个沪深转债的所有历史行情数据
+bond_cb_profile_sina,https://money.finance.sina.com.cn/bond/info/sz128039.html,新浪财经-债券-可转债-详情资料,可转债-债券概况,1,2,0,bond,单次返回指定 symbol 的可转债-详情资料数据
+bond_cb_summary_sina,https://money.finance.sina.com.cn/bond/quotes/sh155255.html,新浪财经-债券-可转债-债券概况,实时行情数据,1,2,0,bond,单次返回指定 symbol 的可转债-债券概况数据
+bond_zh_hs_cov_spot,https://vip.stock.finance.sina.com.cn/mkt/#hskzz_z,新浪财经-沪深可转债数据,历史行情数据-日频,1,1,0,bond,单次返回所有沪深可转债的实时行情数据
+bond_zh_hs_cov_daily,https://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sh110048,"新浪财经-历史行情数据，日频率更新, 新上的标的需要次日更新数据",历史行情数据-分时,1,6,0,bond,单次返回具体某个沪深可转债的所有历史行情数据
+bond_zh_hs_cov_min,https://quote.eastmoney.com/concept/sz128039.html,东方财富网-可转债-分时行情,历史行情数据-盘前分时,5,0,0,bond,"单次返回指定可转债、指定频率、复权调整和时间区间的分时数据, 其中 1 分钟数据只返回近 1 个交易日数据且不复权; 其余 period 只能获取近期的数据"
+bond_zh_hs_cov_pre_min,https://quote.eastmoney.com/concept/sz128039.html,东方财富网-可转债-分时行情-盘前分时,可转债数据一览表,1,8,0,bond,单次返回指定可转债在最近一个交易日的盘前分时数据
+bond_zh_cov,https://data.eastmoney.com/kzz/default.html,东方财富网-数据中心-新股数据-可转债数据一览表,可转债详情,1,19,0,bond,单次返回当前交易时刻的所有可转债数据
+bond_zh_cov_info,https://data.eastmoney.com/kzz/detail/123121.html,东方财富网-数据中心-新股数据-可转债详情,可转债详情-同花顺,2,1,0,bond,单次返回指定 symbol 的可转债详情数据
+bond_zh_cov_info_ths,https://data.10jqka.com.cn/ipo/bond/,同花顺-数据中心-可转债,可转债比价表,1,16,0,bond,单次返回所有数据
+bond_cov_comparison,https://quote.eastmoney.com/center/fullscreenlist.html#convertible_comparison,东方财富网-行情中心-债券市场-可转债比价表,可转债价值分析,1,20,0,bond,单次返回当前交易时刻的所有可转债比价数据
+bond_zh_cov_value_analysis,https://data.eastmoney.com/kzz/detail/113527.html,东方财富网-行情中心-新股数据-可转债数据-可转债价值分析,可转债溢价率分析,1,6,0,bond,单次返回所有可转债价值分析数据
+bond_zh_cov_value_analysis,https://data.eastmoney.com/kzz/detail/113527.html,东方财富网-行情中心-新股数据-可转债数据-可转债溢价率分析,质押式回购,1,6,0,bond,单次返回所有可转债溢价率分析数据；此接口同 bond_zh_cov_value_analysis
+bond_sh_buy_back_em,https://quote.eastmoney.com/center/gridlist.html#bond_sh_buyback,东方财富网-行情中心-债券市场-上证质押式回购,深证质押式回购,1,12,0,bond,单次返回所有行情数据
+bond_sz_buy_back_em,https://quote.eastmoney.com/center/gridlist.html#bond_sz_buyback,东方财富网-行情中心-债券市场-深证质押式回购,质押式回购历史数据,1,12,0,bond,单次返回所有行情数据
+bond_buy_back_hist_em,https://quote.eastmoney.com/center/gridlist.html#bond_sh_buyback,东方财富网-行情中心-债券市场-质押式回购-历史数据,可转债实时数据-集思录,1,7,0,bond,单次返回所有历史行情数据
+bond_cb_jsl,https://www.jisilu.cn/data/cbnew/#cb,集思录可转债实时数据，包含行情数据（涨跌幅，成交量和换手率等）及可转债基本信息（转股价，溢价率和到期收益率等）,可转债强赎,1,23,0,bond,单次返回当前交易时刻的所有数据
+bond_cb_redeem_jsl,https://www.jisilu.cn/data/cbnew/#redeem,集思录可转债-强赎,集思录可转债等权指数,1,18,0,bond,单次返回所有数据
+bond_cb_index_jsl,https://www.jisilu.cn/web/data/cb/index,可转债-集思录可转债等权指数,可转债转股价格调整记录-集思录,1,29,0,bond,单次返回所有历史数据数据
+bond_cb_adj_logs_jsl,https://app.jisilu.cn/data/cbnew/#cb; 点击带红色星号的转股价会弹出转股价调整记录,集思录-单个可转债的转股价格-调整记录,收盘收益率曲线历史数据,1,6,0,bond,返回当前时刻该可转债的所有转股价格调整记录
+bond_china_close_return,https://www.chinamoney.com.cn/chinese/bkcurvclosedyhis/?bondType=CYCC000&reference=1,"收盘收益率曲线历史数据, 该接口只能获取近 3 个月的数据，且每次获取的数据不超过 1 个月",中美国债收益率,4,5,0,bond,
+bond_zh_us_rate,https://data.eastmoney.com/cjsj/zmgzsyl.html,东方财富网-数据中心-经济数据-中美国债收益率历史数据,中国国债收益率行情,1,13,0,bond,返回 start_date 开始后的所有交易日的数据; 数据从 19901219 开始
+bond_gb_zh_sina,https://stock.finance.sina.com.cn/forex/globalbd/cn10yt.html,新浪财经-债券-中国国债收益率行情数据,美国国债收益率行情,1,6,0,bond,返回最近 1000 个交易日的数据
+bond_gb_us_sina,https://stock.finance.sina.com.cn/forex/globalbd/cn10yt.html,新浪财经-债券-美国国债收益率行情数据,债券发行,1,6,0,bond,返回最近 1000 个交易日的数据
+bond_treasure_issue_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-债券报表-债券发行-国债发行,地方债发行,2,15,0,bond,
+bond_local_government_issue_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-债券报表-债券发行-地方债发行,企业债发行,2,15,0,bond,
+bond_corporate_issue_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-债券报表-债券发行-企业债发行,可转债发行,2,17,0,bond,
+bond_cov_issue_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-债券报表-债券发行-可转债发行,可转债转股,2,31,0,bond,
+bond_cov_stock_issue_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-债券报表-债券发行-可转债转股,中债指数,1,10,0,bond,
+bond_new_composite_index_cbond,https://yield.chinabond.com.cn/cbweb-mn/indices/single_index_query,中国债券信息网-中债指数-中债指数族系-总指数-综合类指数-中债-新综合指数,综合指数,2,2,0,bond,
+bond_composite_index_cbond,https://yield.chinabond.com.cn/cbweb-mn/indices/single_index_query,中国债券信息网-中债指数-中债指数族系-总指数-综合类指数-中债-综合指数,未知接口,2,2,0,bond,
+amac_member_info,https://gs.amac.org.cn/amac-infodisc/res/pof/member/index.html,中国证券投资基金业协会-信息公示-会员信息-会员机构综合查询,从业人员信息,1,7,0,fund_private,单次返回当前时刻所有历史数据
+amac_person_fund_org_list,https://gs.amac.org.cn/amac-infodisc/res/pof/person/personOrgList.html,中国证券投资基金业协会-信息公示-从业人员信息-基金从业人员资格注册信息,债券投资交易相关人员公示,1,7,0,fund_private,单次返回当前时刻所有历史数据
+amac_person_bond_org_list,https://gs.amac.org.cn/amac-infodisc/res/pof/person/personOrgList.html,中国证券投资基金业协会-信息公示-从业人员信息-债券投资交易相关人员公示,私募基金管理人公示,1,4,0,fund_private,单次返回当前时刻所有历史数据
+amac_manager_info,https://gs.amac.org.cn/amac-infodisc/res/pof/manager/index.html,中国证券投资基金业协会-信息公示-私募基金管理人公示-私募基金管理人综合查询,私募基金管理人分类公示,1,7,0,fund_private,单次返回当前时刻所有历史数据
+amac_manager_classify_info,https://gs.amac.org.cn/amac-infodisc/res/pof/manager/managerList.html,中国证券投资基金业协会-信息公示-私募基金管理人公示-私募基金管理人分类公示,证券公司私募基金子公司管理人信息公示,1,12,0,fund_private,单次返回当前时刻所有历史数据
+amac_member_sub_info,https://gs.amac.org.cn/amac-infodisc/res/pof/member/index.html?primaryInvestType=private,中国证券投资基金业协会-信息公示-私募基金管理人公示-证券公司私募基金子公司管理人信息公示,基金产品,1,6,0,fund_private,单次返回当前时刻所有历史数据
+amac_fund_info,https://gs.amac.org.cn/amac-infodisc/res/pof/fund/index.html,中国证券投资基金业协会-信息公示-基金产品公示-私募基金管理人基金产品,证券公司集合资管产品公示,2,7,0,fund_private,"单次返回指定页码之间的所有历史数据, 其中与每页 100 条的目标网站对应; 默认返回所有数据"
+amac_securities_info,https://gs.amac.org.cn/amac-infodisc/res/pof/securities/index.html,中国证券投资基金业协会-信息公示-基金产品公示-证券公司集合资管产品公示,证券公司直投基金,1,10,0,fund_private,单次返回当前时刻所有历史数据
+amac_aoin_info,https://gs.amac.org.cn/amac-infodisc/res/aoin/product/index.html,中国证券投资基金业协会-信息公示-基金产品公示-证券公司直投基金,证券公司私募投资基金,1,5,0,fund_private,单次返回当前时刻所有历史数据
+amac_fund_sub_info,https://gs.amac.org.cn/amac-infodisc/res/pof/subfund/index.html,中国证券投资基金业协会-信息公示-基金产品公示-证券公司私募投资基金,基金公司及子公司集合资管产品公示,1,6,0,fund_private,单次返回当前时刻所有历史数据
+amac_fund_account_info,https://gs.amac.org.cn/amac-infodisc/res/fund/account/index.html,中国证券投资基金业协会-信息公示-基金产品公示-基金公司及子公司集合资管产品公示,资产支持专项计划,1,4,0,fund_private,单次返回当前时刻所有历史数据
+amac_fund_abs,https://gs.amac.org.cn/amac-infodisc/res/fund/abs/index.html,中国证券投资基金业协会-信息公示-产品公示-资产支持专项计划,期货公司集合资管产品公示,1,8,0,fund_private,单次返回当前时刻所有历史数据
+amac_futures_info,https://gs.amac.org.cn/amac-infodisc/res/pof/futures/index.html,中国证券投资基金业协会-信息公示-基金产品公示-期货公司集合资管产品公示,诚信信息,1,10,0,fund_private,单次返回当前时刻所有历史数据
+amac_manager_cancelled_info,https://gs.amac.org.cn/amac-infodisc/res/cancelled/manager/index.html,中国证券投资基金业协会-信息公示-诚信信息-已注销私募基金管理人名单,未知接口,1,5,0,fund_private,单次返回当前时刻所有历史数据
+fund_name_em,http://fund.eastmoney.com/fund.html,东方财富网-天天基金网-基金数据-所有基金的基本信息数据,基金基本信息-雪球,1,5,0,fund_public,单次返回当前时刻所有历史数据
+fund_individual_basic_info_xq,https://danjuanfunds.com/funding/000001,雪球基金-基金详情,基金基本信息-指数型,2,2,0,fund_public,单次返回单只基金基本信息
+fund_info_index_em,http://fund.eastmoney.com/trade/zs.html,东方财富网-天天基金网-基金数据-基金基本信息-指数型,基金申购状态,2,18,0,fund_public,单次返回当前时刻所有历史数据
+fund_purchase_em,"http://fund.eastmoney.com/Fund_sgzt_bzdm.html#fcode,asc_1",东方财富网站-天天基金网-基金数据-基金申购状态,基金行情,1,12,0,fund_public,单次返回当前时刻所有历史数据
+fund_etf_spot_em,https://quote.eastmoney.com/center/gridlist.html#fund_etf,东方财富-ETF 实时行情,基金实时行情-同花顺,1,36,0,fund_public,单次返回所有数据
+fund_etf_category_ths,https://fund.10jqka.com.cn/datacenter/jz/kfs/etf/,同花顺理财-基金数据-每日净值-实时行情,ETF基金实时行情-同花顺,2,16,0,fund_public,单次返回指定 date 和 symbol 的所有数据
+fund_etf_spot_ths,https://fund.10jqka.com.cn/datacenter/jz/kfs/etf/,同花顺理财-基金数据-每日净值-ETF-实时行情,LOF基金实时行情-东财,1,16,0,fund_public,单次返回指定 date 的所有数据
+fund_lof_spot_em,https://quote.eastmoney.com/center/gridlist.html#fund_lof,东方财富-LOF 实时行情,基金实时行情-新浪,1,14,0,fund_public,单次返回所有数据
+fund_etf_category_sina,http://vip.stock.finance.sina.com.cn/fund_center/index.html#jjhqetf,新浪财经-基金列表及行情数据,ETF基金分时行情-东财,1,13,0,fund_public,单次返回指定 symbol 基金的所有数据
+fund_etf_hist_min_em,https://quote.eastmoney.com/sz159707.html,东方财富-ETF 分时行情; 该接口只能获取近期的分时数据，注意时间周期的设置,LOF基金分时行情-东财,5,0,0,fund_public,"单次返回指定 ETF、频率、复权调整和时间区间的分时数据, 其中 1 分钟数据只返回近 5 个交易日数据且不复权"
+fund_lof_hist_min_em,https://quote.eastmoney.com/sz166009.html,东方财富-LOF 分时行情; 该接口只能获取近期的分时数据，注意时间周期的设置,ETF基金历史行情-东财,5,0,0,fund_public,"单次返回指定 LOF、频率、复权调整和时间区间的分时数据, 其中 1 分钟数据只返回近 5 个交易日数据且不复权"
+fund_etf_hist_em,http://quote.eastmoney.com/sz159707.html,"东方财富-ETF 行情; 历史数据按日频率更新, 当日收盘价请在收盘后获取",LOF基金历史行情-东财,5,11,0,fund_public,单次返回指定 ETF、指定周期和指定日期间的历史行情日频率数据
+fund_lof_hist_em,https://quote.eastmoney.com/sz166009.html,"东方财富-LOF 行情; 历史数据按日频率更新, 当日收盘价请在收盘后获取",基金历史行情-新浪,5,11,0,fund_public,单次返回指定 LOF、指定周期和指定日期间的历史行情日频率数据
+fund_etf_hist_sina,http://vip.stock.finance.sina.com.cn/fund_center/index.html#jjhqetf,新浪财经-基金行情的日频率行情数据,基金净值,1,6,0,fund_public,单次返回指定基金的所有数据
+fund_open_fund_daily_em,http://fund.eastmoney.com/fund.html#os_0;isall_0;ft_;pt_1,"东方财富网-天天基金网-基金数据, 此接口在每个交易日 **16:00-23:00** 更新当日的最新开放式基金净值数据",开放式基金-历史数据,1,11,0,fund_public,单次返回当前时刻所有历史数据
+fund_open_fund_info_em,http://fund.eastmoney.com/pingzhongdata/710001.js,东方财富网-天天基金网-基金数据-具体基金信息,货币型基金-实时数据,3,0,0,fund_public,"单次返回当前时刻所有历史数据, 在查询基金数据的时候注意基金前后端问题"
+fund_money_fund_daily_em,http://fund.eastmoney.com/HBJJ_pjsyl.html,"东方财富网-天天基金网-基金数据-货币型基金收益, 此接口数据每个交易日 **16:00～23:00**",货币型基金-历史数据,1,13,0,fund_public,单次返回当前时刻所有历史数据
+fund_money_fund_info_em,https://fundf10.eastmoney.com/jjjz_000009.html,东方财富网-天天基金网-基金数据-货币型基金-历史净值,理财型基金-实时数据,1,5,0,fund_public,单次返回当前时刻所有历史数据
+fund_financial_fund_daily_em,"http://fund.eastmoney.com/lcjj.html#1_1__0__ljjz,desc_1_os1","东方财富网-天天基金网-基金数据-理财型基金-实时数据, 此接口数据每个交易日 **16:00～23:00** 更新",理财型基金-历史数据,1,10,0,fund_public,该接口由于目标网站未更新数据，暂时不能返回数据
+fund_financial_fund_info_em,http://fundf10.eastmoney.com/jjjz_000791.html,东方财富网站-天天基金网-基金数据-理财型基金收益-历史净值明细,分级基金-实时数据,1,7,0,fund_public,单次返回当前时刻所有历史数据
+fund_graded_fund_daily_em,"http://fund.eastmoney.com/fjjj.html#1_1__0__zdf,desc_1","东方财富网-天天基金网-基金数据-分级基金-实时数据, 此接口数据每个交易日 **16:00～23:00**",分级基金-历史数据,1,11,0,fund_public,单次返回当前时刻所有历史数据
+fund_graded_fund_info_em,http://fundf10.eastmoney.com/jjjz_004186.html,东方财富网站-天天基金网-基金数据-分级基金-历史数据,场内交易基金-实时数据,1,6,0,fund_public,单次返回当前时刻所有历史数据
+fund_etf_fund_daily_em,http://fund.eastmoney.com/cnjy_dwjz.html,"东方财富网站-天天基金网-基金数据-场内交易基金-实时数据, 此接口数据每个交易日 **16:00～23:00**",场内交易基金-历史数据,1,11,0,fund_public,单次返回当前时刻所有数据
+fund_etf_fund_info_em,http://fundf10.eastmoney.com/jjjz_004186.html,东方财富网站-天天基金网-基金数据-场内交易基金-历史净值数据,香港基金-历史数据,3,6,0,fund_public,单次返回当前时刻所有历史数据
+fund_hk_fund_hist_em,http://overseas.1234567.com.cn/f10/FundJz/968092#FHPS,东方财富网站-天天基金网-基金数据-香港基金-历史净值明细,分红送配,2,0,0,fund_public,单次返回指定 code 和 symbol 所有历史数据
+fund_etf_dividend_sina,https://finance.sina.com.cn/fund/quotes/510050/bc.shtml,新浪财经-基金-ETF 基金-累计分红,基金分红,1,2,0,fund_public,单次返回所有历史数据
+fund_fh_em,http://fund.eastmoney.com/data/fundfenhong.html,天天基金网-基金数据-分红送配-基金分红,基金拆分,1,7,0,fund_public,单次返回所有历史数据
+fund_cf_em,http://fund.eastmoney.com/data/fundchaifen.html,天天基金网-基金数据-分红送配-基金拆分,基金分红排行,1,6,0,fund_public,单次返回所有历史数据
+fund_fh_rank_em,http://fund.eastmoney.com/data/fundleijifenhong.html,天天基金网-基金数据-分红送配-基金分红排行,基金排行,1,6,0,fund_public,单次返回所有历史数据
+fund_open_fund_rank_em,https://fund.eastmoney.com/data/fundranking.html,东方财富网-数据中心-开放式基金排行,场内交易基金排行榜,1,18,0,fund_public,单次返回当前时刻所有数据
+fund_exchange_rank_em,https://fund.eastmoney.com/data/fbsfundranking.html,东方财富网-数据中心-场内交易基金排行榜,货币型基金排行,1,17,0,fund_public,"单次返回当前时刻所有数据, 每个交易日 17 点后更新"
+fund_money_rank_em,https://fund.eastmoney.com/data/hbxfundranking.html,东方财富网-数据中心-货币型基金排行,理财基金排行,1,18,0,fund_public,"单次返回当前时刻所有数据, 每个交易日 17 点后更新, 货币基金的单位净值均为 1.0000 元，最新一年期定存利率: 1.50%"
+fund_lcx_rank_em,https://fund.eastmoney.com/data/lcxfundranking.html#t;c0;r;sSYL_Z;ddesc;pn50;f;os1;,"东方财富网-数据中心-理财基金排行, 每个交易日17点后更新, 货币基金的单位净值均为 1.0000 元，最新一年期定存利率: 1.50%",香港基金排行,1,16,0,fund_public,由于目标网站没有数据，该接口暂时未能返回数据
+fund_hk_rank_em,https://overseas.1234567.com.cn/FundList,东方财富网-数据中心-基金排行-香港基金排行,基金业绩-雪球,1,18,0,fund_public,单次返回当前时刻所有数据
+fund_individual_achievement_xq,https://danjuanfunds.com/rn/funding/:code/RankInfo?symbol=000001&fd_type=2&btn_pos=1,雪球基金-基金详情-基金业绩-详情,净值估算,2,5,0,fund_public,单次返回单只基金业绩详情
+fund_value_estimation_em,http://fund.eastmoney.com/fundguzhi.html,东方财富网-数据中心-净值估算,基金数据分析,1,9,0,fund_public,单次返回当前交易日指定 symbol 的所有数据
+fund_individual_analysis_xq,https://danjuanfunds.com/funding/000001,雪球基金-基金详情-数据分析,基金盈利概率,2,6,0,fund_public,返回单只基金历史表现分析数据
+fund_individual_profit_probability_xq,https://danjuanfunds.com/funding/000001,雪球基金-基金详情-盈利概率；历史任意时点买入，持有满X时间，盈利概率，以及平均收益,基金持仓资产比例,2,3,0,fund_public,单次返回单只基金历史任意时点买入，持有满 X 时间，盈利概率，以及平均收益
+fund_individual_detail_hold_xq,https://danjuanfunds.com/rn/fund-detail/archive?id=103&code=000001,雪球基金-基金详情-基金持仓-详情,基金基本概况,3,2,0,fund_public,单次返回单只基金指定日期的持仓大类资产比例
+fund_overview_em,https://fundf10.eastmoney.com/jbgk_015641.html,天天基金-基金档案-基本概况,基金交易费率,1,18,0,fund_public,单次返回指定 symbol 的数据
+fund_fee_em,https://fundf10.eastmoney.com/jjfl_015641.html,天天基金-基金档案-购买信息,基金交易规则,2,3,0,fund_public,单次返回指定 symbol 的 indicator 数据
+fund_individual_detail_info_xq,https://danjuanfunds.com/djapi/fund/detail/675091,雪球基金-基金详情-基金交易规则,基金持仓,2,3,0,fund_public,单次返回单只基金基金交易规则
+fund_portfolio_hold_em,https://fundf10.eastmoney.com/ccmx_000001.html,天天基金网-基金档案-投资组合-基金持仓,债券持仓,2,7,0,fund_public,单次返回指定 symbol 和 date 的所有持仓数据
+fund_portfolio_bond_hold_em,https://fundf10.eastmoney.com/ccmx_000001.html,天天基金网-基金档案-投资组合-债券持仓,行业配置,2,6,0,fund_public,单次返回指定 symbol 和 date 的所有持仓数据
+fund_portfolio_industry_allocation_em,https://fundf10.eastmoney.com/hytz_000001.html,天天基金网-基金档案-投资组合-行业配置,重大变动,2,5,0,fund_public,单次返回指定 symbol 和 date 的所有持仓数据
+fund_portfolio_change_em,https://fundf10.eastmoney.com/ccbd_000001.html,天天基金网-基金档案-投资组合-重大变动,基金评级,3,6,0,fund_public,单次返回指定 symbol、indicator 和 date 的所有重大变动数据
+fund_rating_all,https://fund.eastmoney.com/data/fundrating.html,天天基金网-基金评级-基金评级总汇,上海证券评级,1,10,0,fund_public,单次返回所有基金评级数据
+fund_rating_sh,https://fund.eastmoney.com/data/fundrating_3.html,天天基金网-基金评级-上海证券评级,招商证券评级,1,16,0,fund_public,单次返回指定交易日的所有基金评级数据
+fund_rating_zs,http://fund.eastmoney.com/data/fundrating_2.html,天天基金网-基金评级-招商证券评级,济安金信评级,1,13,0,fund_public,单次返回指定交易日的所有基金评级数据
+fund_rating_ja,https://fund.eastmoney.com/data/fundrating_4.html,天天基金网-基金评级-济安金信评级,基金经理,1,14,0,fund_public,单次返回指定交易日的所有基金评级数据
+fund_manager_em,https://fund.eastmoney.com/manager/default.html,天天基金网-基金数据-基金经理大全,新发基金,1,8,0,fund_public,单次返回所有基金经理数据
+fund_new_found_em,https://fund.eastmoney.com/data/xinfound.html,天天基金网-基金数据-新发基金-新成立基金,基金规模,1,11,0,fund_public,单次返回所有新发基金数据
+fund_scale_open_sina,https://vip.stock.finance.sina.com.cn/fund_center/index.html#jjhqetf,基金数据中心-基金规模-开放式基金,封闭式基金,1,9,0,fund_public,单次返回指定 symbol 的基金规模数据
+fund_scale_close_sina,https://vip.stock.finance.sina.com.cn/fund_center/index.html#jjhqetf,基金数据中心-基金规模-封闭式基金,分级子基金,1,9,0,fund_public,单次返回所有封闭式基金的基金规模数据
+fund_scale_structured_sina,https://vip.stock.finance.sina.com.cn/fund_center/index.html#jjgmfjall,基金数据中心-基金规模-分级子基金,ETF 基金份额-上交所,1,9,0,fund_public,单次返回所有分级子基金的基金规模数据
+fund_etf_scale_sse,https://www.sse.com.cn/assortment/fund/etf/list/scale/,上海证券交易所-产品-基金产品-ETF产品-ETF产品列表-基金规模,ETF 基金份额-深交所,1,6,0,fund_public,单次返回指定日期的 ETF 基金份额数据
+fund_etf_scale_szse,https://fund.szse.cn/marketdata/fundslist/index.html,深圳证券交易所-基金产品-基金列表-ETF基金份额,基金公司规模,1,10,0,fund_public,单次返回最近交易日的 ETF 基金份额数据
+fund_aum_em,https://fund.eastmoney.com/Company/lsgm.html,天天基金网-基金数据-基金规模,基金规模走势,1,7,0,fund_public,单次返回所有基金规模数据
+fund_aum_trend_em,http://fund.eastmoney.com/Company/default.html,天天基金网-基金数据-市场全部基金规模走势,基金公司历年管理规模,1,2,0,fund_public,单次返回所有市场全部基金规模走势数据
+fund_aum_hist_em,http://fund.eastmoney.com/Company/lsgm.html,天天基金网-基金数据-基金公司历年管理规模排行列表,REITs,1,9,0,fund_public,单次返回所有基金公司历年管理规模排行列表数据
+reits_realtime_em,http://quote.eastmoney.com/center/gridlist.html#fund_reits_all,东方财富网-行情中心-REITs-沪深 REITs-实时行情,REITs-历史行情,1,12,0,fund_public,单次返回所有 REITs 的实时行情数据
+reits_hist_em,https://quote.eastmoney.com/sh508097.html,东方财富网-行情中心-REITs-沪深 REITs-历史行情,基金报告,1,9,0,fund_public,单次返回指定 symbol 的历史行情数据
+fund_report_stock_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-基金报表-基金重仓股,基金行业配置,1,7,0,fund_public,返回指定 date 的所有数据; date 从 2017 年开始
+fund_report_industry_allocation_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-基金报表-基金行业配置,基金资产配置,1,6,0,fund_public,返回指定 date 的所有数据; date 从 2017 年开始
+fund_report_asset_allocation_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-基金报表-基金资产配置,规模份额,1,6,0,fund_public,返回所有基金资产配置数据
+fund_scale_change_em,https://fund.eastmoney.com/data/gmbdlist.html,天天基金网-基金数据-规模份额-规模变动,持有人结构,1,7,0,fund_public,返回所有规模变动数据
+fund_hold_structure_em,https://fund.eastmoney.com/data/cyrjglist.html,天天基金网-基金数据-规模份额-持有人结构,基金仓位,1,7,0,fund_public,返回所有持有人结构数据
+fund_stock_position_lg,https://legulegu.com/stockdata/fund-position/pos-stock,乐咕乐股-基金仓位-股票型基金仓位,平衡混合型基金仓位,1,3,0,fund_public,返回所有历史数据
+fund_balance_position_lg,https://legulegu.com/stockdata/fund-position/pos-pingheng,乐咕乐股-基金仓位-平衡混合型基金仓位,灵活配置型基金仓位,1,3,0,fund_public,返回所有历史数据
+fund_linghuo_position_lg,https://legulegu.com/stockdata/fund-position/pos-linghuo,乐咕乐股-基金仓位-灵活配置型基金仓位,基金公告,1,3,0,fund_public,返回所有历史数据
+fund_announcement_dividend_em,https://fundf10.eastmoney.com/jjgg_000001_2.html,东方财富网站-天天基金网-基金档案-基金公告-分红配送,定期报告,1,5,0,fund_public,返回所有历史数据
+fund_announcement_report_em,https://fundf10.eastmoney.com/jjgg_000001_3.html,东方财富网站-天天基金网-基金档案-基金公告-定期报告,人事公告,1,5,0,fund_public,返回所有历史数据
+fund_announcement_personnel_em,http://fundf10.eastmoney.com/jjgg_000001_4.html,东方财富网站-天天基金网-基金档案-基金公告-人事调整,未知接口,1,5,0,fund_public,返回所有历史数据
+futures_fees_info,http://openctp.cn/fees.html,openctp 期货交易费用参照表,期货手续费与保证金,1,36,0,futures,单次返回所有数据
+futures_comm_info,https://www.9qihuo.com/qihuoshouxufei,九期网-期货手续费数据,期货规则-交易日历表,1,21,0,futures,单次返回指定 symbol 的所有数据
+futures_rule,https://www.gtjaqh.com/pc/calendar.html,国泰君安期货-交易日历数据表,库存数据-99期货网,1,10,0,futures,单次返回指定交易日所有合约的交易日历数据
+futures_inventory_99,https://www.99qh.com/data/stockIn?productId=61,99 期货网-大宗商品库存数据,库存数据-东方财富,1,3,0,futures,"单次返回指定 symbol 的具体品种的期货库存数据, 仓单日报数据"
+futures_inventory_em,http://data.eastmoney.com/ifdata/kcsj.html,东方财富网-期货数据-库存数据; 近 60 个交易日的期货库存日频率数据,展期收益率,1,3,0,futures,"返回指定交易所指定品种的期货库存数据, 仓单日报数据"
+futures_dce_position_rank,http://www.dce.com.cn/dalianshangpin/xqsj/tjsj26/rtj/rcjccpm/index.html,大连商品交易所指定交易日的具体合约的持仓排名,广州期货交易所,2,0,0,futures,"单次返回所有合约的持仓排名数据, 返回以合约名字为键, 具体排名数据为值的字典"
+futures_gfex_position_rank,http://www.gfex.com.cn/gfex/rcjccpm/hqsj_tjsj.shtml,广州期货交易所-日成交持仓排名,仓单日报,2,0,0,futures,"单次返回所有合约的日成交持仓排名数据, 返回以合约名字为键, 具体排名数据为值的字典"
+futures_warehouse_receipt_czce,http://www.czce.com.cn/cn/jysj/cdrb/H770310index_1.htm,郑州商品交易所-交易数据-仓单日报,仓单日报-大连商品交易所,1,1,0,futures,单次返回当前交易日的所有仓单日报数据
+futures_warehouse_receipt_dce,http://www.dce.com.cn/dce/channel/list/187.html,大连商品交易所-行情数据-统计数据-日统计-仓单日报,仓单日报-上海期货交易所,1,7,0,futures,单次返回当前交易日的所有仓单日报数据
+futures_shfe_warehouse_receipt,https://tsite.shfe.com.cn/statements/dataview.html?paramid=dailystock&paramdate=20200703,提供上海期货交易所指定交割仓库期货仓单日报,仓单日报-广州期货交易所,1,1,0,futures,单次返回当前交易日的所有仓单日报数据
+futures_gfex_warehouse_receipt,http://www.gfex.com.cn/gfex/cdrb/hqsj_tjsj.shtml,广州期货交易所-行情数据-仓单日报,期转现-大商所,1,1,0,futures,单次返回当前交易日的所有仓单日报数据
+futures_to_spot_dce,http://www.dce.com.cn/dalianshangpin/xqsj/tjsj26/jgtj/qzxcx/index.html,大连商品交易所-期转现统计数据,期转现-郑商所,1,3,0,futures,单次返回指定交易日的期转现统计数据
+futures_to_spot_czce,http://www.czce.com.cn/cn/jysj/qzxtj/H770311index_1.htm,郑州商品交易所-期转现统计数据,期转现-上期所,1,2,0,futures,单次返回指定交易日的期转现统计数据
+futures_to_spot_shfe,https://tsite.shfe.com.cn/statements/dataview.html?paramid=kx,上海期货交易所-期转现数据,交割统计-大商所,1,4,0,futures,单次返回指定交易月份的期转现数据
+futures_delivery_dce,http://www.dce.com.cn/dalianshangpin/xqsj/tjsj26/jgtj/jgsj/index.html,大连商品交易所-交割统计,交割统计-郑商所,1,5,0,futures,单次返回指定交易月份的交割统计数据
+futures_delivery_czce,http://www.czce.com.cn/cn/jysj/ydjgcx/H770316index_1.htm,郑州商品交易所-交割统计,交割统计-上期所,1,3,0,futures,单次返回指定交易月份的交割统计数据
+futures_delivery_shfe,https://tsite.shfe.com.cn/statements/dataview.html?paramid=kx,上海期货交易所-交割统计,交割配对-大商所,1,5,0,futures,单次返回指定交易月份的交割统计数据
+futures_delivery_match_dce,http://www.dce.com.cn/dalianshangpin/xqsj/tjsj26/jgtj/jgsj/index.html,大连商品交易所-交割配对,交割配对-郑商所,1,6,0,futures,单次返回指定品种的的交割配对数据
+futures_delivery_match_czce,http://www.czce.com.cn/cn/jysj/jgpd/H770308index_1.htm,郑州商品交易所-交割配对,库存周报,1,7,0,futures,单次返回指定品种的的交割配对数据
+futures_stock_shfe_js,https://datacenter.jin10.com/reportType/dc_shfe_weekly_stock,金十财经-上海期货交易所指定交割仓库库存周报,成交持仓,1,5,0,futures,单次返回指定 date 的库存周报数据
+futures_hold_pos_sina,https://vip.stock.finance.sina.com.cn/q/view/vFutures_Positions_cjcc.php,新浪财经-期货-成交持仓,现期图,3,4,0,futures,单次返回指定合约的成交持仓数据
+futures_spot_sys,https://www.100ppi.com/sf/792.html,生意社-商品与期货-现期图,合约信息,2,0,0,futures,单次返回指定品种的现期图数据
+futures_contract_info_shfe,https://tsite.shfe.com.cn/bourseService/businessdata/summaryinquiry/,上海期货交易所-交易所服务-业务数据-交易参数汇总查询,上海国际能源交易中心,1,8,0,futures,单次返回指定 date 的期货合约信息数据
+futures_contract_info_ine,https://www.ine.cn/bourseService/summary/?name=currinstrumentprop,上海国际能源交易中心-业务指南-交易参数汇总(期货),大连商品交易所,1,7,0,futures,单次返回指定 date 的期货合约信息数据
+futures_contract_info_dce,http://www.dce.com.cn/dce/channel/list/180.html,大连商品交易所-数据中心-业务数据-交易参数-合约信息,郑州商品交易所,1,7,0,futures,单次返回最近交易日的期货合约信息数据
+futures_contract_info_czce,http://www.czce.com.cn/cn/jysj/cksj/H770322index_1.htm,郑州商品交易所-交易数据-参考数据,广州期货交易所,1,40,0,futures,单次返回指定 date 的期货合约信息数据
+futures_contract_info_gfex,http://www.gfex.com.cn/gfex/hyxx/ywcs.shtml,广州期货交易所-业务/服务-合约信息,中国金融期货交易所,1,7,0,futures,单次返回最近交易日的期货合约信息数据
+futures_contract_info_cffex,http://www.gfex.com.cn/gfex/hyxx/ywcs.shtml,中国金融期货交易所-数据-交易参数,期货行情数据,1,12,0,futures,单次返回指定 date 的期货合约信息数据
+futures_zh_spot,https://finance.sina.com.cn/futuremarket/,新浪财经-期货页面的实时行情数据,"此处的合约需要是近期的合约, 否则会报错",3,15,0,futures,单次返回当日可以订阅的所有期货品种数据；只能获取近期合约的数据
+futures_zh_realtime,https://vip.stock.finance.sina.com.cn/quotes_service/view/qihuohangqing.html#titlePos_1,新浪财经-期货实时行情数据,内盘-分时行情数据,1,23,0,futures,单次返回指定 symbol 的数据
+futures_zh_minute_sina,http://vip.stock.finance.sina.com.cn/quotes_service/view/qihuohangqing.html#titlePos_3,新浪财经-期货-分时数据,内盘-历史行情数据-东财,2,7,0,futures,单次返回指定 symbol 和 period 的分时数据
+futures_hist_em,https://qhweb.eastmoney.com/quote,"东方财富网-期货行情-行情数据；其中 weekly, monthly 获取的成交额和持仓量未经验证",内盘-历史行情数据-新浪,4,10,0,futures,单次返回指定 symbol 的所有数据; 只能获取当期合约;
+futures_zh_daily_sina,https://finance.sina.com.cn/futures/quotes/V2105.shtml,新浪财经-期货-日频数据,内盘-历史行情数据-交易所,1,8,0,futures,单次返回指定 symbol 的所有日频数据; 期货连续合约为 品种代码+0，比如螺纹钢连续合约为 RB0;
+get_futures_daily,各交易所网站,"提供各交易所各品种的网站的历史行情数据, 其中 20040625, 20070604, 20081226, 20090119 原网页数据缺失",外盘-品种代码表,3,12,0,futures,单次返回指定时间段指定交易所的所有期货品种历史数据
+futures_hq_subscribe_exchange_symbol,https://finance.sina.com.cn/money/future/hf.html,新浪财经-外盘商品期货品种代码表数据,外盘-实时行情数据,1,2,0,futures,单次返回当前交易日的订阅的所有期货品种的品种代码表数据
+futures_foreign_commodity_realtime,https://finance.sina.com.cn/money/future/hf.html,新浪财经-外盘商品期货数据,其中 subscribe_list 为列表,1,14,0,futures,单次返回当前交易日的订阅的所有期货品种的数据
+futures_global_spot_em,https://quote.eastmoney.com/center/gridlist.html#futures_global,东方财富网-行情中心-期货市场-国际期货-实时行情数据,外盘-历史行情数据-东财,1,14,0,futures,单次返回所有期货品种的实时行情数据
+futures_global_hist_em,https://quote.eastmoney.com/globalfuture/HG25J.html,东方财富网-行情中心-期货市场-国际期货-历史行情数据,外盘-历史行情数据-新浪,1,11,0,futures,单次返回指定品种的历史数据
+futures_foreign_hist,https://finance.sina.com.cn/futuremarket/,新浪财经-期货外盘历史行情数据,外盘-合约详情,1,6,0,futures,单次返回指定品种的历史数据
+futures_foreign_detail,https://finance.sina.com.cn/futuremarket/,新浪财经-期货外盘期货合约详情,新加坡交易所期货,1,12,0,futures,单次返回指定品种的合约详情数据
+futures_settlement_price_sgx,https://www.sgx.com/zh-hans/research-education/derivatives,新加坡交易所-衍生品-历史数据-历史结算价格; 数据于下个工作日新加坡时间下午 2 点起提供,期货连续合约,1,12,0,futures,"单次获取指定交易日前一日的所有期货品种的结算价数据; 只能获取过去 60 个交易日内的数据; 由于国内网络限制, 请使用代理访问"
+futures_main_sina,https://vip.stock.finance.sina.com.cn/quotes_service/view/qihuohangqing.html#titlePos_0,新浪财经-期货-主力连续合约历史数据,期货合约详情-新浪,3,8,0,futures,单次返回单个期货品种的主力连续合约的日频历史数据
+futures_contract_detail,https://finance.sina.com.cn/futures/quotes/V2101.shtml,新浪财经-期货-期货合约详情数据,期货合约详情-东财,1,2,0,futures,单次返回指定 symbol 的合约详情数据
+futures_contract_detail_em,https://quote.eastmoney.com/qihuo/v2602F.html,东方财富-期货-期货合约详情数据,中证商品指数,1,2,0,futures,单次返回指定 symbol 的合约详情数据
+futures_index_ccidx,http://www.ccidx.com/index.html,中证商品指数,现货与股票,1,6,0,futures,单次返回指定 symbol 的指数日频率数据
+futures_spot_stock,https://data.eastmoney.com/ifdata/xhgp.html,东方财富网-数据中心-现货与股票,COMEX 库存数据,1,10,0,futures,单次返回指定 indicator 的所有数据
+futures_comex_inventory,https://data.eastmoney.com/pmetal/comex/by.html,东方财富网-数据中心-期货期权-COMEX 库存数据,生猪信息,1,4,0,futures,单次返回指定 symbol 的所有历史数据
+futures_hog_core,https://zhujia.zhuwang.com.cn,玄田数据-核心数据,成本维度,1,2,0,futures,单次返回指定 symbol 的所有历史数据
+futures_hog_cost,https://zhujia.zhuwang.com.cn,玄田数据-成本维度,供应维度,1,2,0,futures,单次返回指定 symbol 的所有历史数据
+futures_hog_supply,https://zhujia.zhuwang.com.cn,玄田数据-供应维度,生猪市场价格指数,1,2,0,futures,单次返回指定 symbol 的所有历史数据
+index_hog_spot_price,https://hqb.nxin.com/pigindex/index.shtml,行情宝-生猪市场价格指数,期货资讯,1,8,0,futures,单次返回所有数据
+futures_news_shmet,https://www.shmet.com/newsFlash/newsFlash.html?searchKeyword=,上海金属网-快讯,未知接口,1,2,0,futures,指定 symbol 的数据
+stock_zh_index_spot_em,https://quote.eastmoney.com/center/gridlist.html#index_sz,东方财富网-行情中心-沪深京指数,实时行情数据-新浪,1,14,0,index,单次返回所有指数的实时行情数据
+stock_zh_index_spot_sina,https://vip.stock.finance.sina.com.cn/mkt/#hs_s,新浪财经-中国股票指数数据,历史行情数据,1,11,0,index,单次返回所有指数的实时行情数据
+stock_zh_index_daily,https://finance.sina.com.cn/realstock/company/sz399552/nc.shtml(示例),股票指数的历史数据按日频率更新,历史行情数据-腾讯,1,0,0,index,单次返回指定 symbol 的所有历史行情数据
+stock_zh_index_daily_tx,https://gu.qq.com/sh000919/zs,股票指数(或者股票)历史行情数据,历史行情数据-东方财富,0,0,0,index,单次返回具体某个股票指数(或者股票)的所有历史行情数据
+stock_zh_index_daily_em,http://quote.eastmoney.com/center/hszs.html,"东方财富股票指数数据, 历史数据按日频率更新",历史行情数据-通用,3,7,0,index,单次返回具体指数的所有历史行情数据
+index_zh_a_hist,http://quote.eastmoney.com/center/hszs.html,东方财富网-中国股票指数-行情数据,分时行情数据,4,11,0,index,单次返回具体指数指定 period 从 start_date 到 end_date 的之间的近期数据
+index_zh_a_hist_min_em,https://quote.eastmoney.com/center/hszs.html,东方财富网-指数数据-分时行情,港股股票指数,4,8,0,index,单次返回具体指数指定 period 从 start_date 到 end_date 的之间的近期数据，该接口不能返回所有历史数据
+stock_hk_index_spot_sina,https://vip.stock.finance.sina.com.cn/mkt/#zs_hk,新浪财经-行情中心-港股指数,历史行情数据-新浪,1,9,0,index,单次返回所有数据
+stock_hk_index_daily_sina,https://stock.finance.sina.com.cn/hkstock/quotes/CES100.html,新浪财经-港股指数-历史行情数据,实时行情数据-东财,1,6,0,index,单次返回指定 symbol 的所有数据
+stock_hk_index_spot_em,https://quote.eastmoney.com/center/gridlist.html#hk_index,东方财富网-行情中心-港股-指数实时行情,历史行情数据-东财,1,13,0,index,单次返回所有数据
+stock_hk_index_daily_em,https://quote.eastmoney.com/gb/zsHSTECF2L.html,东方财富网-港股-股票指数数据,美股股票指数,1,5,0,index,单次返回指定 symbol 的所有数据
+index_us_stock_sina,https://stock.finance.sina.com.cn/usstock/quotes/.IXIC.html,新浪财经-美股指数行情,全球指数,1,7,0,index,
+index_global_spot_em,https://quote.eastmoney.com/center/gridlist.html#global_qtzs,东方财富网-行情中心-全球指数-实时行情数据,全球指数-历史行情数据-东财,1,12,0,index,
+index_global_hist_em,https://quote.eastmoney.com/gb/zsUDI.html,东方财富网-行情中心-全球指数-历史行情数据,全球指数-历史行情数据-新浪,1,8,0,index,
+index_global_hist_sina,https://finance.sina.com.cn/stock/globalindex/quotes/UKX,新浪财经-行情中心-环球市场-历史行情,中国股票指数成份,1,6,0,index,
+index_stock_cons,http://vip.stock.finance.sina.com.cn/corp/view/vII_NewestComponent.php?page=1&indexid=399639,"指定指数的最新成份股票信息, 注意该接口返回的数据有部分是重复会导致数据缺失, 可以调用 **ak.index_stock_cons_sina()** 获取主流指数数据, 或调用**ak.index_stock_cons_csindex()**获取中证指数网提供的成分数据",主要调用 ak.stock_a_code_to_symbol() 来进行转换,1,3,0,index,
+index_stock_cons_csindex,http://www.csindex.com.cn/zh-CN/indices/index-detail/000300,中证指数网站-成份股目录，可以通过 ak.index_csindex_all() 获取所有指数,中证指数成份股权重,1,9,0,index,
+index_stock_cons_weight_csindex,http://www.csindex.com.cn/zh-CN/indices/index-detail/000300,中证指数网站-成份股权重,国证指数,1,10,0,index,
+index_all_cni,http://www.cnindex.com.cn/zh_indices/sese/index.html?act_menu=1&index_type=-1,国证指数-最近交易日的所有指数的代码和基本信息,指数行情,1,10,0,index,
+index_hist_cni,http://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399001,国证指数-具体指数的日频率行情数据,指数样本详情,3,8,0,index,
+index_detail_cni,http://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399001,国证指数-指数样本详情数据；20251125 开始只能获取近期的数据,历史样本,1,7,0,index,
+index_detail_hist_cni,http://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399001,国证指数-历史样本数据，返回所有历史数据,历史调样,1,7,0,index,
+index_detail_hist_adjust_cni,http://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399001,国证指数-样本详情-历史调样,期权波动率指数,1,6,0,index,
+index_option_50etf_qvix,http://1.optbbs.com/s/vix.shtml?50ETF,50ETF 期权波动率指数 QVIX; 又称中国版的恐慌指数,50ETF 期权波动率指数-分时,1,5,0,index,单次返回所有数据
+index_option_50etf_min_qvix,http://1.optbbs.com/s/vix.shtml?50ETF,50ETF 期权波动率指数-分时,300ETF 期权波动率指数,1,2,0,index,单次返回最近交易日的分时数据
+index_option_300etf_qvix,https://1.optbbs.com/s/vix.shtml?300ETF,300ETF 期权波动率指数 QVIX,300ETF 期权波动率指数-分时,1,5,0,index,单次返回所有数据
+index_option_300etf_min_qvix,https://1.optbbs.com/s/vix.shtml?300ETF,300ETF 期权波动率指数-分时,500ETF 期权波动率指数,1,2,0,index,单次返回最近交易日的分时数据
+index_option_500etf_qvix,http://1.optbbs.com/s/vix.shtml?500ETF,500ETF 期权波动率指数 QVIX,500ETF 期权波动率指数-分时,1,5,0,index,单次返回所有数据
+index_option_500etf_min_qvix,http://1.optbbs.com/s/vix.shtml?500ETF,500ETF 期权波动率指数-分时,创业板 期权波动率指数,1,2,0,index,单次返回最近交易日的分时数据
+index_option_cyb_qvix,http://1.optbbs.com/s/vix.shtml?CYB,创业板 期权波动率指数 QVIX,创业板 期权波动率指数-分时,1,5,0,index,单次返回所有数据
+index_option_cyb_min_qvix,http://1.optbbs.com/s/vix.shtml?CYB,创业板 期权波动率指数-分时,科创板 期权波动率指数,1,2,0,index,单次返回最近交易日的分时数据
+index_option_kcb_qvix,http://1.optbbs.com/s/vix.shtml?KCB,科创板 期权波动率指数 QVIX,科创板 期权波动率指数-分时,1,5,0,index,单次返回所有数据
+index_option_kcb_min_qvix,http://1.optbbs.com/s/vix.shtml?KCB,科创板 期权波动率指数-分时,深证100ETF 期权波动率指数,1,2,0,index,单次返回最近交易日的分时数据
+index_option_100etf_qvix,http://1.optbbs.com/s/vix.shtml?100ETF,深证100ETF 期权波动率指数 QVIX,深证100ETF 期权波动率指数-分时,1,5,0,index,单次返回所有数据
+index_option_100etf_min_qvix,http://1.optbbs.com/s/vix.shtml?100ETF,深证100ETF 期权波动率指数-分时,中证300股指 期权波动率指数,1,2,0,index,单次返回最近交易日的分时数据
+index_option_300index_qvix,http://1.optbbs.com/s/vix.shtml?Index,中证300股指 期权波动率指数 QVIX,中证300股指 期权波动率指数-分时,1,5,0,index,单次返回所有数据
+index_option_300index_min_qvix,http://1.optbbs.com/s/vix.shtml?Index,中证300股指 期权波动率指数-分时,中证1000股指 期权波动率指数,1,2,0,index,单次返回最近交易日的分时数据
+index_option_1000index_qvix,http://1.optbbs.com/s/vix.shtml?Index1000,中证1000股指 期权波动率指数 QVIX,中证1000股指 期权波动率指数-分时,1,5,0,index,单次返回所有数据
+index_option_1000index_min_qvix,http://1.optbbs.com/s/vix.shtml?Index1000,中证1000股指 期权波动率指数-分时,上证50股指 期权波动率指数,1,2,0,index,单次返回最近交易日的分时数据
+index_option_50index_qvix,http://1.optbbs.com/s/vix.shtml?50index,上证50股指 期权波动率指数 QVIX,上证50股指 期权波动率指数-分时,1,5,0,index,单次返回所有数据
+index_option_50index_min_qvix,http://1.optbbs.com/s/vix.shtml?50index,上证50股指 期权波动率指数-分时,申万一级行业信息,1,2,0,index,单次返回最近交易日的分时数据
+sw_index_first_info,https://legulegu.com/stockdata/sw-industry-overview#level1,申万一级行业信息,申万二级行业信息,1,7,0,index,
+sw_index_second_info,https://legulegu.com/stockdata/sw-industry-overview#level1,申万二级行业信息,申万三级行业信息,1,8,0,index,
+sw_index_third_info,https://legulegu.com/stockdata/sw-industry-overview#level1,申万三级行业信息,申万三级行业成份,1,7,0,index,
+sw_index_third_cons,https://legulegu.com/stockdata/index-composition?industryCode=851921.SI,申万三级行业成份,商品现货价格指数,1,17,0,index,
+spot_goods,http://finance.sina.com.cn/futuremarket/spotprice.shtml#titlePos_0,新浪财经-商品现货价格指数,义乌小商品指数,1,4,0,index,
+index_yw,https://www.ywindex.com/Home/Product/index/,指定 symbol 的义乌小商品指数的近期历史数据,柯桥纺织品指数,1,0,0,index,
+index_kq_fz,http://www.kqindex.cn/flzs/jiage,指定 symbol 的柯桥纺织品指数的所有历史数据,柯桥时尚指数,1,0,0,index,
+index_kq_fashion,http://ss.kqindex.cn:9559/rinder_web_kqsszs/index/index_page.do,指定 symbol 的柯桥时尚指数的所有数据,中国食糖指数,1,0,0,index,
+index_sugar_msweet,http://www.msweet.com.cn/mtkj/sjzx13/index.html,沐甜科技数据中心-中国食糖指数,配额内进口糖估算指数,1,4,0,index,
+index_inner_quote_sugar_msweet,http://www.msweet.com.cn/mtkj/sjzx13/index.html,沐甜科技数据中心-配额内进口糖估算指数,配额外进口糖估算指数,1,13,0,index,
+index_outer_quote_sugar_msweet,http://www.msweet.com.cn/mtkj/sjzx13/index.html,沐甜科技数据中心-配额外进口糖估算指数,排污权指数,1,6,0,index,
+index_eri,https://zs.zjpwq.net/,浙江省排污权交易指数的数据,集装箱指数,1,4,0,index,
+drewry_wci_index,https://infogram.com/world-container-index-1h17493095xl4zj,Drewry 集装箱指数的数据,公路物流指数,1,2,0,index,返回指定 symbol 的数据
+index_price_cflp,http://index.0256.cn/expx.htm,获取指定 symbol 的中国公路物流运价指数的数据,中国公路物流运量指数,1,4,0,index,
+index_volume_cflp,http://index.0256.cn/expx.htm,指定 symbol 的中国公路物流运量指数的数据,中证指数,1,4,0,index,
+stock_zh_index_hist_csindex,https://www.csindex.com.cn/zh-CN/indices/index-detail/H30374#/indices/family/detail?indexCode=H30374,中证指数日频率的数据,财新指数,3,16,0,index,该接口返回指定 symbol 的 start_date 和 end_date 的指数日频率数据
+index_pmi_com_cx,https://yun.ccxe.com.cn/indices/pmi,财新数据-指数报告-财新中国 PMI-综合 PMI,制造业 PMI,1,3,0,index,该接口返回所有历史数据，该数据更新至 202507 截止；
+index_pmi_man_cx,https://yun.ccxe.com.cn/indices/pmi,财新数据-指数报告-财新中国 PMI-制造业 PMI,服务业 PMI,1,3,0,index,该接口返回所有历史数据，该数据更新至 202507 截止；
+index_pmi_ser_cx,https://yun.ccxe.com.cn/indices/pmi,财新数据-指数报告-财新中国 PMI-服务业 PMI,数字经济指数,1,3,0,index,该接口返回所有历史数据，该数据更新至 202507 截止；
+index_dei_cx,https://yun.ccxe.com.cn/indices/dei,财新指数-数字经济指数,产业指数,1,3,0,index,该接口返回所有历史数据
+index_ii_cx,https://yun.ccxe.com.cn/indices/dei,财新指数-产业指数,溢出指数,1,3,0,index,该接口返回所有历史数据
+index_si_cx,https://yun.ccxe.com.cn/indices/dei,财新指数-溢出指数,融合指数,1,3,0,index,该接口返回所有历史数据
+index_fi_cx,https://yun.ccxe.com.cn/indices/dei,财新指数-融合指数,基础指数,1,3,0,index,该接口返回所有历史数据
+index_bi_cx,https://yun.ccxe.com.cn/indices/dei,财新指数-基础指数,中国新经济指数,1,3,0,index,该接口返回所有历史数据
+index_nei_cx,https://yun.ccxe.com.cn/indices/nei,财新指数-中国新经济指数,劳动力投入指数,1,3,0,index,该接口返回所有历史数据
+index_li_cx,https://yun.ccxe.com.cn/indices/nei,财新指数-劳动力投入指数,资本投入指数,1,3,0,index,该接口返回所有历史数据
+index_ci_cx,https://yun.ccxe.com.cn/indices/nei,财新指数-资本投入指数,科技投入指数,1,3,0,index,该接口返回所有历史数据
+index_ti_cx,https://yun.ccxe.com.cn/indices/nei,财新指数-科技投入指数,新经济行业入职平均工资水平,1,3,0,index,该接口返回所有历史数据
+index_neaw_cx,https://yun.ccxe.com.cn/indices/nei,财新指数-新经济行业入职平均工资水平,新经济入职工资溢价水平,1,3,0,index,该接口返回所有历史数据
+index_awpr_cx,https://yun.ccxe.com.cn/indices/nei,财新指数-新经济入职工资溢价水平,大宗商品指数,1,3,0,index,该接口返回所有历史数据
+index_cci_cx,https://yun.ccxe.com.cn/indices/nei,财新指数-大宗商品指数,高质量因子,1,3,0,index,该接口返回所有历史数据
+index_qli_cx,https://yun.ccxe.com.cn/indices/qli,财新指数-高质量因子,AI策略指数,1,3,0,index,该接口返回所有历史数据
+index_ai_cx,https://yun.ccxe.com.cn/indices/ai,财新指数-AI策略指数,基石经济指数,1,3,0,index,该接口返回所有历史数据
+index_bei_cx,https://yun.ccxe.com.cn/indices/bei,财新指数-基石经济指数,新动能指数,1,3,0,index,该接口返回所有历史数据
+index_neei_cx,https://yun.ccxe.com.cn/indices/neei,财新指数-新动能指数,指数估值,1,3,0,index,该接口返回所有历史数据
+stock_zh_index_value_csindex,https://www.csindex.com.cn/zh-CN/indices/index-detail/H30374#/indices/family/detail?indexCode=H30374,中证指数-指数估值数据,申万宏源研究,1,10,0,index,"该接口返回指定的指数的估值数据, 该接口只能返回近期的数据"
+index_realtime_fund_sw,https://www.swsresearch.com/institute_sw/allIndex/releasedIndex,申万宏源研究-申万指数-指数发布-基金指数-实时行情,基金指数历史行情,1,5,0,index,该接口返回指定 symbol 的数据
+index_hist_fund_sw,https://www.swsresearch.com/institute_sw/allIndex/releasedIndex/fundDetail?code=807100,申万宏源研究-申万指数-指数发布-基金指数-历史行情,申万指数实时行情,2,6,0,index,该接口返回指定 symbol 的数据
+index_realtime_sw,https://www.swsresearch.com/institute_sw/allIndex/releasedIndex,申万宏源研究-指数系列; 注意其中大类风格指数和金创指数的字段,申万指数历史行情,1,9,0,index,该接口返回指定 symbol 的数据
+index_hist_sw,https://www.swsresearch.com//institute_sw/allIndex/releasedIndex/releasedetail?code=801002&name=申万中小,申万宏源研究-指数发布-指数详情-指数历史数据,申万指数分时行情,2,8,0,index,该接口返回指定 symbol 和 period 的数据
+index_min_sw,https://www.swsresearch.com//institute_sw/allIndex/releasedIndex/releasedetail?code=801001&name=申万中小,申万宏源研究-指数发布-指数详情-指数分时数据,申万指数成分股,1,5,0,index,该接口返回指定 symbol 的数据
+index_component_sw,https://www.swsresearch.com//institute_sw/allIndex/releasedIndex/releasedetail?code=801001&name=申万中小,申万宏源研究-指数发布-指数详情-成分股,申万指数分析-日报表,1,5,0,index,该接口返回指定 symbol 的数据
+index_analysis_daily_sw,https://www.swsresearch.com//institute_sw/allIndex/analysisIndex,申万宏源研究-指数分析-日报表,申万指数分析-周报表,3,14,0,index,该接口返回指定参数的数据
+index_analysis_weekly_sw,https://www.swsresearch.com//institute_sw/allIndex/analysisIndex,申万宏源研究-指数分析-周报表,申万指数分析-月报表,2,14,0,index,该接口返回指定参数的数据
+index_analysis_monthly_sw,https://www.swsresearch.com/institute_sw/allIndex/analysisIndex,申万宏源研究-指数分析-月报表,市场情绪指数,2,14,0,index,该接口返回指定参数的数据
+index_news_sentiment_scope,https://www.chinascope.com/reasearch.html,数库-A股新闻情绪指数,未知接口,1,3,0,index,该接口返回近一年的 A 股新闻情绪指数数据
+macro_cnbs,http://114.115.232.154:8080/,中国国家金融与发展实验室-中国宏观杠杆率数据,国民经济运行状况,1,9,0,macro,单次返回所有历史数据
+macro_china_qyspjg,http://data.eastmoney.com/cjsj/qyspjg.html,"东方财富-经济数据一览-中国-企业商品价格指数, 数据区间从 20050101-至今",外商直接投资数据,1,13,0,macro,单次返回所有历史数据
+macro_china_fdi,https://data.eastmoney.com/cjsj/fdi.html,"东方财富-经济数据一览-中国-外商直接投资数据, 数据区间从 200801-202307",LPR品种数据,1,6,0,macro,单次返回所有历史数据
+macro_china_lpr,https://data.eastmoney.com/cjsj/globalRateLPR.html,"中国 LPR 品种数据, 数据区间从 19910421-至今",城镇调查失业率,1,5,0,macro,单次返回所有历史数据
+macro_china_urban_unemployment,https://data.stats.gov.cn/easyquery.htm?cn=A01&zb=A0203&sj=202304,国家统计局-月度数据-城镇调查失业率,社会融资规模增量统计,1,3,0,macro,单次返回所有历史数据
+macro_china_shrzgm,http://data.mofcom.gov.cn/gnmy/shrzgm.shtml,"商务数据中心-国内贸易-社会融资规模增量统计, 数据区间从 201501-至今",中国 GDP 年率,1,9,0,macro,单次返回所有历史数据
+macro_china_gdp_yearly,https://datacenter.jin10.com/reportType/dc_chinese_gdp_yoy,"金十数据中心-中国 GDP 年率报告, 数据区间从 20110120-至今",物价水平,1,5,0,macro,单次返回所有历史数据
+macro_china_cpi_yearly,https://datacenter.jin10.com/reportType/dc_chinese_cpi_yoy,"中国年度 CPI 数据, 数据区间从 19860201-至今",中国 CPI 月率报告,1,5,0,macro,单次返回所有历史数据
+macro_china_cpi_monthly,https://datacenter.jin10.com/reportType/dc_chinese_cpi_mom,"中国月度 CPI 数据, 数据区间从 19960201-至今",中国 PPI 年率报告,1,5,0,macro,单次返回所有历史数据
+macro_china_ppi_yearly,https://datacenter.jin10.com/reportType/dc_chinese_ppi_yoy,"中国年度 PPI 数据, 数据区间从 19950801-至今",贸易状况,1,5,0,macro,单次返回所有历史数据
+macro_china_exports_yoy,https://datacenter.jin10.com/reportType/dc_chinese_exports_yoy,"中国以美元计算出口年率报告, 数据区间从 19820201-至今",以美元计算进口年率,1,5,0,macro,单次返回所有历史数据
+macro_china_imports_yoy,https://datacenter.jin10.com/reportType/dc_chinese_imports_yoy,"中国以美元计算进口年率报告, 数据区间从 19960201-至今",以美元计算贸易帐(亿美元),1,5,0,macro,单次返回所有历史数据
+macro_china_trade_balance,https://datacenter.jin10.com/reportType/dc_chinese_trade_balance,"中国以美元计算贸易帐报告, 数据区间从19810201-至今",产业指标,1,5,0,macro,单次返回所有历史数据
+macro_china_gyzjz,https://data.eastmoney.com/cjsj/gyzjz.html,"东方财富-中国工业增加值增长, 数据区间从 2008 - 至今",规模以上工业增加值年率,1,4,0,macro,单次返回所有历史数据
+macro_china_industrial_production_yoy,https://datacenter.jin10.com/reportType/dc_chinese_industrial_production_yoy,"中国规模以上工业增加值年率报告, 数据区间从 19900301-至今",官方制造业 PMI,1,5,0,macro,单次返回所有历史数据
+macro_china_pmi_yearly,https://datacenter.jin10.com/reportType/dc_chinese_manufacturing_pmi,"中国年度PMI数据, 数据区间从 20050201-至今",财新制造业PMI终值,1,5,0,macro,单次返回所有历史数据
+macro_china_cx_pmi_yearly,https://datacenter.jin10.com/reportType/dc_chinese_caixin_manufacturing_pmi,"中国年度财新 PMI 数据, 数据区间从 20120120-至今",财新服务业PMI,1,5,0,macro,单次返回所有历史数据
+macro_china_cx_services_pmi_yearly,https://datacenter.jin10.com/reportType/dc_chinese_caixin_services_pmi,"中国财新服务业 PMI 报告, 数据区间从 20120405-至今",中国官方非制造业PMI,1,5,0,macro,单次返回所有历史数据
+macro_china_non_man_pmi,https://datacenter.jin10.com/reportType/dc_chinese_non_manufacturing_pmi,"中国官方非制造业 PMI, 数据区间从 20160101-至今",金融指标,1,5,0,macro,单次返回所有历史数据
+macro_china_fx_reserves_yearly,https://datacenter.jin10.com/reportType/dc_chinese_fx_reserves,"中国年度外汇储备数据, 数据区间从 20140115-至今",M2货币供应年率,1,5,0,macro,单次返回所有历史数据
+macro_china_m2_yearly,https://datacenter.jin10.com/reportType/dc_chinese_m2_money_supply_yoy,"中国年度 M2 数据, 数据区间从 19980201-至今",新房价指数,1,5,0,macro,单次返回所有历史数据
+macro_china_new_house_price,http://data.eastmoney.com/cjsj/newhouse.html,"中国新房价指数月度数据, 数据区间从 201101-至今",企业景气及企业家信心指数,2,8,0,macro,单次返回指定城市的所有历史数据
+macro_china_enterprise_boom_index,http://data.eastmoney.com/cjsj/qyjqzs.html,"中国企业景气及企业家信心指数数据, 数据区间从 2005 一季度-至今",全国税收收入,1,7,0,macro,单次返回所有历史数据
+macro_china_national_tax_receipts,http://data.eastmoney.com/cjsj/nationaltaxreceipts.aspx,"中国全国税收收入数据, 数据区间从 2005 一季度-至今",银行理财产品发行数量,1,4,0,macro,单次返回所有历史数据
+macro_china_bank_financing,https://data.eastmoney.com/cjsj/hyzs_list_EMI01516267.html,"银行理财产品发行数量, 数据区间从 2000 一月-至今",原保险保费收入,1,8,0,macro,单次返回所有历史数据
+macro_china_insurance_income,https://data.eastmoney.com/cjsj/hyzs_list_EMM00088870.html,"原保险保费收入, 数据区间从 200407-至今",手机出货量,1,8,0,macro,单次返回所有历史数据
+macro_china_mobile_number,https://data.eastmoney.com/cjsj/hyzs_list_EMI00225823.html,"手机出货量, 数据区间从 201201-至今",菜篮子产品批发价格指数,1,8,0,macro,单次返回所有历史数据
+macro_china_vegetable_basket,https://data.eastmoney.com/cjsj/hyzs_list_EMI00009275.html,"菜篮子产品批发价格指数, 数据区间从 20050927-至今",农产品批发价格总指数,1,8,0,macro,单次返回所有历史数据
+macro_china_agricultural_product,https://data.eastmoney.com/cjsj/hyzs_list_EMI00009274.html,"农产品批发价格总指数, 数据区间从 20050927-至今",农副指数,1,8,0,macro,单次返回所有历史数据
+macro_china_agricultural_index,https://data.eastmoney.com/cjsj/hyzs_list_EMI00662543.html,"农副指数数据, 数据区间从 20111205-至今",能源指数,1,8,0,macro,单次返回所有历史数据
+macro_china_energy_index,https://data.eastmoney.com/cjsj/hyzs_list_EMI00662539.html,"能源指数数据, 数据区间从 20111205-至今",大宗商品价格,1,8,0,macro,单次返回所有历史数据
+macro_china_commodity_price_index,https://data.eastmoney.com/cjsj/hyzs_list_EMI00662535.html,"大宗商品价格数据, 数据区间从 20111205-至今",费城半导体指数,1,8,0,macro,单次返回所有历史数据
+macro_global_sox_index,https://data.eastmoney.com/cjsj/hyzs_list_EMI00055562.html,"费城半导体指数数据, 数据区间从 19940504-至今",义乌小商品指数-电子元器件,1,8,0,macro,单次返回所有历史数据
+macro_china_yw_electronic_index,https://data.eastmoney.com/cjsj/hyzs_list_EMI00055551.html,"义乌小商品指数-电子元器件数据, 数据区间从 20060911-至今",建材指数,1,8,0,macro,单次返回所有历史数据
+macro_china_construction_index,https://data.eastmoney.com/cjsj/hyzs_list_EMI00662541.html,"建材指数数据, 数据区间从 20111205-至今",建材价格指数,1,8,0,macro,单次返回所有历史数据
+macro_china_construction_price_index,https://data.eastmoney.com/cjsj/hyzs_list_EMI00237146.html,"建材价格指数数据, 数据区间从 20100615-至今",物流景气指数,1,8,0,macro,单次返回所有历史数据
+macro_china_lpi_index,https://data.eastmoney.com/cjsj/hyzs_list_EMI00352262.html,"物流景气指数数据, 数据区间从 20130701-至今",原油运输指数,1,8,0,macro,单次返回所有历史数据
+macro_china_bdti_index,https://data.eastmoney.com/cjsj/hyzs_list_EMI00107668.html,"原油运输指数数据, 数据区间从 20011227-至今",超灵便型船运价指数,1,8,0,macro,单次返回所有历史数据
+macro_china_bsi_index,https://data.eastmoney.com/cjsj/hyzs_list_EMI00107667.html,"超灵便型船运价指数数据, 数据区间从 20060103-至今",海岬型运费指数,1,8,0,macro,单次返回所有历史数据
+macro_shipping_bci,https://data.eastmoney.com/cjsj/hyzs_list_EMI00107666.html,"海岬型运费指数, 数据区间从 19990430-至今",波罗的海干散货指数,1,8,0,macro,单次返回所有历史数据
+macro_shipping_bdi,https://data.eastmoney.com/cjsj/hyzs_list_EMI00107664.html,"波罗的海干散货指数, 数据区间从 19881019-至今",巴拿马型运费指数,1,8,0,macro,单次返回所有历史数据
+macro_shipping_bpi,https://data.eastmoney.com/cjsj/hyzs_list_EMI00107665.html,"巴拿马型运费指数, 数据区间从 19981231-至今",成品油运输指数,1,8,0,macro,单次返回所有历史数据
+macro_shipping_bcti,https://data.eastmoney.com/cjsj/hyzs_list_EMI00107669.html,"成品油运输指数, 数据区间从 20011217-至今",新增信贷数据,1,8,0,macro,单次返回所有历史数据
+macro_china_new_financial_credit,http://data.eastmoney.com/cjsj/xzxd.html,"中国新增信贷数据数据, 数据区间从 200801 至今, 月度数据",居民消费价格指数,1,6,0,macro,单次返回所有历史数据
+macro_china_cpi,http://data.eastmoney.com/cjsj/cpi.html,"中国居民消费价格指数, 数据区间从 200801 至今, 月度数据",国内生产总值,1,13,0,macro,单次返回所有历史数据
+macro_china_gdp,http://data.eastmoney.com/cjsj/gdp.html,"中国国内生产总值, 数据区间从 200601 至今, 月度数据",工业品出厂价格指数,1,9,0,macro,单次返回所有历史数据
+macro_china_ppi,http://data.eastmoney.com/cjsj/ppi.html,"工业品出厂价格指数, 数据区间从 200601 至今, 月度数据",采购经理人指数,1,4,0,macro,单次返回所有历史数据
+macro_china_pmi,http://data.eastmoney.com/cjsj/pmi.html,"采购经理人指数, 数据区间从 200801 至今, 月度数据",中国城镇固定资产投资,1,5,0,macro,单次返回所有历史数据
+macro_china_gdzctz,http://data.eastmoney.com/cjsj/gdzctz.html,"中国城镇固定资产投资, 数据区间从 200802 至今, 月度数据",海关进出口增减情况,1,5,0,macro,单次返回所有历史数据
+macro_china_hgjck,https://data.eastmoney.com/cjsj/hgjck.html,"中国海关进出口增减情况一览表, 数据区间从 200801 至今, 月度数据",财政收入,1,11,0,macro,单次返回所有历史数据
+macro_china_czsr,http://data.eastmoney.com/cjsj/czsr.html,"中国财政收入, 数据区间从 200801 至今, 月度数据",外汇贷款数据,1,6,0,macro,单次返回所有历史数据
+macro_china_whxd,http://data.eastmoney.com/cjsj/whxd.html,"外汇贷款数据, 数据区间从 200802 至今, 月度数据",本外币存款,1,5,0,macro,单次返回所有历史数据
+macro_china_wbck,http://data.eastmoney.com/cjsj/wbck.html,"本外币存款, 数据区间从 200802 至今, 月度数据",新债发行,1,5,0,macro,单次返回所有历史数据
+macro_china_bond_public,https://www.chinamoney.com.cn/chinese/xzjfx/,中国外汇交易中心暨全国银行间同业拆借中心-债券信息披露-新债发行; 近期债券发行数据,消费者信心指数,1,8,0,macro,单次返回所有历史数据
+macro_china_xfzxx,https://data.eastmoney.com/cjsj/xfzxx.html,东方财富网-消费者信心指数,存款准备金率,1,10,0,macro,单次返回所有历史数据
+macro_china_reserve_requirement_ratio,https://data.eastmoney.com/cjsj/ckzbj.html,国家统计局-存款准备金率,社会消费品零售总额,1,11,0,macro,单次返回所有历史数据
+macro_china_consumer_goods_retail,http://data.eastmoney.com/cjsj/xfp.html,东方财富-经济数据-社会消费品零售总额,全社会用电分类情况表,1,6,0,macro,单次返回所有历史数据
+macro_china_society_electricity,http://finance.sina.com.cn/mac/#industry-6-0-31-1,国家统计局-全社会用电分类情况表,全社会客货运输量,1,17,0,macro,单次返回所有历史数据
+macro_china_society_traffic_volume,http://finance.sina.com.cn/mac/#industry-10-0-31-1,国家统计局-全社会客货运输量-非累计,邮电业务基本情况,1,16,0,macro,单次返回所有历史数据
+macro_china_postal_telecommunicational,http://finance.sina.com.cn/mac/#industry-11-0-31-1,国家统计局-邮电业务基本情况-非累计,国际旅游外汇收入构成,1,41,0,macro,单次返回所有历史数据
+macro_china_international_tourism_fx,http://finance.sina.com.cn/mac/#industry-15-0-31-3,国家统计局-国际旅游外汇收入构成,民航客座率及载运率,1,4,0,macro,单次返回所有历史数据
+macro_china_passenger_load_factor,http://finance.sina.com.cn/mac/#industry-20-0-31-1,国家统计局-民航客座率及载运率,航贸运价指数,1,3,0,macro,单次返回所有历史数据
+macro_china_freight_index,http://finance.sina.com.cn/mac/#industry-22-0-31-2,新浪财经-中国宏观经济数据-航贸运价指数,央行货币当局资产负债,1,8,0,macro,单次返回所有历史数据
+macro_china_central_bank_balance,http://finance.sina.com.cn/mac/#fininfo-8-0-31-2,新浪财经-中国宏观经济数据-央行货币当局资产负债,保险业经营情况,1,28,0,macro,单次返回所有历史数据
+macro_china_insurance,http://finance.sina.com.cn/mac/#fininfo-19-0-31-3,新浪财经-中国宏观经济数据-保险业经营情况,货币供应量,1,21,0,macro,单次返回所有历史数据
+macro_china_supply_of_money,http://finance.sina.com.cn/mac/#fininfo-1-0-31-1,新浪财经-中国宏观经济数据-货币供应量,FR007利率互换曲线历史数据,1,17,0,macro,单次返回所有历史数据
+macro_china_swap_rate,https://www.chinamoney.com.cn/chinese/bkcurvfxhis/?cfgItemType=72&curveType=FR007,国家统计局-FR007利率互换曲线历史数据,央行黄金和外汇储备,2,15,0,macro,"单次返回所有历史数据, 该接口只能获取近一年的数据的数据，其中每次只能获取一个月的数据"
+macro_china_foreign_exchange_gold,http://finance.sina.com.cn/mac/#fininfo-5-0-31-2,"国家统计局-央行黄金和外汇储备, 比东财接口数据时间长",商品零售价格指数,1,3,0,macro,单次返回所有历史数据
+macro_china_retail_price_index,http://finance.sina.com.cn/mac/#price-12-0-31-1,国家统计局-商品零售价格指数,国房景气指数,1,3,0,macro,单次返回所有历史数据
+macro_china_real_estate,http://data.eastmoney.com/cjsj/hyzs_list_EMM00121987.html,国家统计局-国房景气指数,外汇和黄金储备,1,8,0,macro,单次返回所有历史数据
+macro_china_fx_gold,http://data.eastmoney.com/cjsj/hjwh.html,"中国外汇和黄金储备, 数据区间从 200801 至今, 月度数据",中国货币供应量,1,7,0,macro,单次返回所有历史数据
+macro_china_money_supply,http://data.eastmoney.com/cjsj/hbgyl.html,"东方财富-经济数据-中国宏观-中国货币供应量; 数据区间从 200801 至今, 月度数据",全国股票交易统计表,1,10,0,macro,单次返回所有历史数据
+macro_china_stock_market_cap,http://data.eastmoney.com/cjsj/gpjytj.html,"全国股票交易统计表, 数据区间从 200801 至今, 月度数据",上海银行业同业拆借报告,1,13,0,macro,单次返回所有历史数据
+macro_china_shibor_all,https://datacenter.jin10.com/reportType/dc_shibor,"上海银行业同业拆借报告, 数据区间从 20170317-至今",人民币香港银行同业拆息,1,21,0,macro,单次返回所有历史数据
+macro_china_hk_market_info,https://datacenter.jin10.com/reportType/dc_hk_market_info,"香港同业拆借报告, 数据区间从 20170320-至今",其他指标,1,21,0,macro,单次返回所有历史数据
+macro_china_daily_energy,https://datacenter.jin10.com/reportType/dc_qihuo_energy_report,"中国日度沿海六大电库存数据, 数据区间从20160101-至今, 不再更新, 只能获得历史数据",人民币汇率中间价报告,1,4,0,macro,单次返回所有历史数据
+macro_china_rmb,https://datacenter.jin10.com/reportType/dc_rmb_data,"中国人民币汇率中间价报告, 数据区间从 20170103-20210513",深圳融资融券报告,1,51,0,macro,单次返回所有历史数据
+macro_china_market_margin_sz,https://datacenter.jin10.com/reportType/dc_market_margin_sz,"深圳融资融券报告, 数据区间从 20100331-至今",上海融资融券报告,1,7,0,macro,单次返回所有历史数据
+macro_china_market_margin_sh,https://datacenter.jin10.com/reportType/dc_market_margin_sse,"上海融资融券报告, 数据区间从 20100331-至今",上海黄金交易所报告,1,7,0,macro,单次返回所有历史数据
+macro_china_au_report,https://datacenter.jin10.com/reportType/dc_sge_report,"上海黄金交易所报告, 数据区间从 20140905-至今",国家统计局通用接口,1,14,0,macro,单次返回所有历史数据
+macro_china_nbs_nation,https://data.stats.gov.cn/easyquery.htm,国家统计局全国数据通用接口，包括月度数据、季度数据、年度数据，具体指标见数据官网。,国家统计局地区数据,3,1,0,macro,根据参数返回指定数据
+macro_china_nbs_region,https://data.stats.gov.cn/easyquery.htm,国家统计局地区数据通用接口，包括分省月度数据、分省季度数据、分省年度数据、主要城市月度价格、主要城市年度数据、港澳台月度数据、港澳台年度数据，具体指标见数据官网。,金融市场,5,1,0,macro,根据参数返回指定数据
+macro_stock_finance,https://data.10jqka.com.cn/macro/finance/,同花顺-数据中心-宏观数据-股票筹资,新增人民币贷款,1,5,0,macro,单次返回所有历史数据
+macro_rmb_loan,https://data.10jqka.com.cn/macro/loan/,同花顺-数据中心-宏观数据-新增人民币贷款,人民币存款余额,1,6,0,macro,单次返回所有历史数据
+macro_rmb_deposit,https://data.10jqka.com.cn/macro/rmb/,同花顺-数据中心-宏观数据-人民币存款余额,中国香港宏观,1,13,0,macro,单次返回所有历史数据
+macro_china_hk_cpi,https://data.eastmoney.com/cjsj/foreign_8_0.html,东方财富-经济数据一览-中国香港-消费者物价指数,消费者物价指数年率,1,4,0,macro,单次返回所有历史数据
+macro_china_hk_cpi_ratio,https://data.eastmoney.com/cjsj/foreign_8_1.html,东方财富-经济数据一览-中国香港-消费者物价指数年率,失业率,1,4,0,macro,单次返回所有历史数据
+macro_china_hk_rate_of_unemployment,https://data.eastmoney.com/cjsj/foreign_8_2.html,东方财富-经济数据一览-中国香港-失业率,GDP,1,4,0,macro,单次返回所有历史数据
+macro_china_hk_gbp,https://data.eastmoney.com/cjsj/foreign_8_3.html,东方财富-经济数据一览-中国香港-香港 GDP,GDP 同比,1,4,0,macro,单次返回所有历史数据
+macro_china_hk_gbp_ratio,https://data.eastmoney.com/cjsj/foreign_8_4.html,东方财富-经济数据一览-中国香港-香港 GDP 同比,香港楼宇买卖合约数量,1,4,0,macro,单次返回所有历史数据
+macro_china_hk_building_volume,https://data.eastmoney.com/cjsj/foreign_8_5.html,东方财富-经济数据一览-中国香港-香港楼宇买卖合约数量,香港楼宇买卖合约成交金额,1,4,0,macro,单次返回所有历史数据
+macro_china_hk_building_amount,https://data.eastmoney.com/cjsj/foreign_8_6.html,东方财富-经济数据一览-中国香港-香港楼宇买卖合约成交金额,香港商品贸易差额年率,1,4,0,macro,单次返回所有历史数据
+macro_china_hk_trade_diff_ratio,https://data.eastmoney.com/cjsj/foreign_8_7.html,东方财富-经济数据一览-中国香港-香港商品贸易差额年率,香港制造业 PPI 年率,1,4,0,macro,单次返回所有历史数据
+macro_china_hk_ppi,https://data.eastmoney.com/cjsj/foreign_8_8.html,东方财富-经济数据一览-中国香港-香港制造业PPI年率,美国宏观,1,4,0,macro,单次返回所有历史数据
+macro_usa_gdp_monthly,https://datacenter.jin10.com/reportType/dc_usa_gdp,"美国国内生产总值(GDP)报告, 数据区间从 20080228-至今",物价水平,1,5,0,macro,单次返回所有历史数据
+macro_usa_cpi_monthly,https://datacenter.jin10.com/reportType/dc_usa_cpi,"美国 CPI 月率报告, 数据区间从 19700101-至今",美国CPI年率报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_cpi_yoy,https://data.eastmoney.com/cjsj/foreign_0_12.html,"东方财富-经济数据一览-美国-CPI年率, 数据区间从2008-至今",美国核心CPI月率报告,1,4,0,macro,单次返回所有历史数据
+macro_usa_core_cpi_monthly,https://datacenter.jin10.com/reportType/dc_usa_core_cpi,"美国核心 CPI 月率报告, 数据区间从 19700101-至今",美国个人支出月率报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_personal_spending,https://datacenter.jin10.com/reportType/dc_usa_personal_spending,"美国个人支出月率报告, 数据区间从 19700101-至今",美国零售销售月率报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_retail_sales,https://datacenter.jin10.com/reportType/dc_usa_retail_sales,"美国零售销售月率报告, 数据区间从 19920301-至今",美国进口物价指数报告,0,5,0,macro,单次返回所有历史数据
+macro_usa_import_price,https://datacenter.jin10.com/reportType/dc_usa_import_price,"美国进口物价指数报告, 数据区间从 19890201-至今",美国出口价格指数报告,0,5,0,macro,单次返回所有历史数据
+macro_usa_export_price,https://datacenter.jin10.com/reportType/dc_usa_export_price,"美国出口价格指数报告, 数据区间从 19890201-至今",劳动力市场,0,5,0,macro,单次返回所有历史数据
+macro_usa_lmci,https://datacenter.jin10.com/reportType/dc_usa_lmci,"美联储劳动力市场状况指数报告, 数据区间从 20141006-至今",失业率,0,5,0,macro,单次返回所有历史数据
+macro_usa_unemployment_rate,https://datacenter.jin10.com/reportType/dc_usa_unemployment_rate,"美国失业率报告, 数据区间从 19700101-至今",美国挑战者企业裁员人数报告,0,5,0,macro,单次返回所有历史数据
+macro_usa_job_cuts,https://datacenter.jin10.com/reportType/dc_usa_job_cuts,"美国挑战者企业裁员人数报告, 数据区间从 19940201-至今",就业人口,0,5,0,macro,单次返回所有历史数据
+macro_usa_non_farm,https://datacenter.jin10.com/reportType/dc_nonfarm_payrolls,"美国非农就业人数报告, 数据区间从 19700102-至今",美国ADP就业人数报告,0,5,0,macro,单次返回所有历史数据
+macro_usa_adp_employment,https://datacenter.jin10.com/reportType/dc_adp_nonfarm_employment,"美国 ADP 就业人数报告, 数据区间从 20010601-至今",消费者收入与支出,0,5,0,macro,单次返回所有历史数据
+macro_usa_core_pce_price,https://datacenter.jin10.com/reportType/dc_usa_core_pce_price,"美国核心 PCE 物价指数年率报告, 数据区间从 19700101-至今",美国实际个人消费支出季率初值报告,0,5,0,macro,单次返回所有历史数据
+macro_usa_real_consumer_spending,https://datacenter.jin10.com/reportType/dc_usa_real_consumer_spending,"美国实际个人消费支出季率初值报告, 数据区间从 20131107-至今",贸易状况,0,5,0,macro,单次返回所有历史数据
+macro_usa_trade_balance,https://datacenter.jin10.com/reportType/dc_usa_trade_balance,"美国贸易帐报告, 数据区间从 19700101-至今",美国经常帐报告,0,5,0,macro,单次返回所有历史数据
+macro_usa_current_account,https://datacenter.jin10.com/reportType/dc_usa_current_account,"美国经常帐报告, 数据区间从 20080317-至今",产业指标,0,5,0,macro,单次返回所有历史数据
+macro_usa_rig_count,https://datacenter.jin10.com/reportType/dc_rig_count_summary,"贝克休斯钻井报告, 数据区间从 19870717-至今",美国生产者物价指数(PPI)报告,1,9,0,macro,单次返回所有历史数据
+macro_usa_ppi,https://datacenter.jin10.com/reportType/dc_usa_ppi,"美国生产者物价指数(PPI)报告, 数据区间从 20080226-至今",美国核心生产者物价指数(PPI)报告,0,5,0,macro,单次返回所有历史数据
+macro_usa_core_ppi,https://datacenter.jin10.com/reportType/dc_usa_core_ppi,"美国核心生产者物价指数(PPI)报告, 数据区间从 20080318-至今",美国 API 原油库存报告,0,5,0,macro,单次返回所有历史数据
+macro_usa_api_crude_stock,https://datacenter.jin10.com/reportType/dc_usa_api_crude_stock,"美国 API 原油库存报告, 数据区间从 20120328-至今",美国Markit制造业PMI初值报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_pmi,https://datacenter.jin10.com/reportType/dc_usa_pmi,"美国 Markit 制造业 PMI 初值报告, 数据区间从 20120601-至今",美国ISM制造业PMI报告,0,5,0,macro,单次返回所有历史数据
+macro_usa_ism_pmi,https://datacenter.jin10.com/reportType/dc_usa_ism_pmi,"美国 ISM 制造业 PMI 报告, 数据区间从 19700101-至今",工业,1,5,0,macro,单次返回所有历史数据
+macro_usa_industrial_production,https://datacenter.jin10.com/reportType/dc_usa_industrial_production,"美国工业产出月率报告, 数据区间从 19700101-至今",美国耐用品订单月率报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_durable_goods_orders,https://datacenter.jin10.com/reportType/dc_usa_durable_goods_orders,"美国耐用品订单月率报告, 数据区间从 20080227-至今",美国工厂订单月率报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_factory_orders,https://datacenter.jin10.com/reportType/dc_usa_factory_orders,"美国工厂订单月率报告, 数据区间从 19920401-至今",服务业,1,5,0,macro,单次返回所有历史数据
+macro_usa_services_pmi,https://datacenter.jin10.com/reportType/dc_usa_services_pmi,"美国Markit服务业PMI初值报告, 数据区间从 20120701-至今",美国商业库存月率报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_business_inventories,https://datacenter.jin10.com/reportType/dc_usa_business_inventories,"美国商业库存月率报告, 数据区间从 19920301-至今",美国ISM非制造业PMI报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_ism_non_pmi,https://datacenter.jin10.com/reportType/dc_usa_ism_non_pmi,"美国 ISM 非制造业 PMI 报告, 数据区间从 19970801-至今",房地产,1,5,0,macro,单次返回所有历史数据
+macro_usa_nahb_house_market_index,https://datacenter.jin10.com/reportType/dc_usa_nahb_house_market_index,"美国 NAHB 房产市场指数报告, 数据区间从 19850201-至今",美国新屋开工总数年化报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_house_starts,https://datacenter.jin10.com/reportType/dc_usa_house_starts,"美国新屋开工总数年化报告, 数据区间从 19700101-至今",美国新屋销售总数年化报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_new_home_sales,https://datacenter.jin10.com/reportType/dc_usa_new_home_sales,"美国新屋销售总数年化报告, 数据区间从 19700101-至今",美国营建许可总数报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_building_permits,https://datacenter.jin10.com/reportType/dc_usa_building_permits,"美国营建许可总数报告, 数据区间从 20080220-至今",美国成屋销售总数年化报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_exist_home_sales,https://datacenter.jin10.com/reportType/dc_usa_exist_home_sales,"美国成屋销售总数年化报告, 数据区间从 19700101-至今",美国FHFA房价指数月率报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_house_price_index,https://datacenter.jin10.com/reportType/dc_usa_house_price_index,"美国 FHFA 房价指数月率报告, 数据区间从 19910301-至今",美国S&P/CS20座大城市房价指数年率报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_spcs20,https://datacenter.jin10.com/reportType/dc_usa_spcs20,"美国S&P/CS20座大城市房价指数年率报告, 数据区间从 20010201-至今",美国成屋签约销售指数月率报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_pending_home_sales,https://datacenter.jin10.com/reportType/dc_usa_pending_home_sales,"美国成屋签约销售指数月率报告, 数据区间从 20010301-至今",领先指标,1,5,0,macro,单次返回所有历史数据
+macro_usa_phs,http://data.eastmoney.com/cjsj/foreign_0_5.html,"东方财富-经济数据一览-美国-未决房屋销售月率, 数据区间从 20080201-至今",美国谘商会消费者信心指数报告,1,4,0,macro,单次返回所有历史数据
+macro_usa_cb_consumer_confidence,https://cdn.jin10.com/dc/reports/dc_usa_cb_consumer_confidence_all.js?v=1578576859,"美国谘商会消费者信心指数报告, 数据区间从 19700101-至今",美国NFIB小型企业信心指数报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_nfib_small_business,https://cdn.jin10.com/dc/reports/dc_usa_nfib_small_business_all.js?v=1578576631,"美国NFIB小型企业信心指数报告, 数据区间从 19750201-至今",美国密歇根大学消费者信心指数初值报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_michigan_consumer_sentiment,https://cdn.jin10.com/dc/reports/dc_usa_michigan_consumer_sentiment_all.js?v=1578576228,"美国密歇根大学消费者信心指数初值报告, 数据区间从 19700301-至今",其他,1,5,0,macro,单次返回所有历史数据
+macro_usa_eia_crude_rate,https://cdn.jin10.com/dc/reports/dc_usa_michigan_consumer_sentiment_all.js?v=1578576228,"美国EIA原油库存报告, 数据区间从 19950801-至今",美国初请失业金人数报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_initial_jobless,https://cdn.jin10.com/dc/reports/dc_usa_michigan_consumer_sentiment_all.js?v=1578576228,"美国初请失业金人数报告, 数据区间从 19700101-至今",美国原油产量报告,1,5,0,macro,单次返回所有历史数据
+macro_usa_crude_inner,https://datacenter.jin10.com/reportType/dc_eia_crude_oil_produce,"美国原油产量报告, 数据区间从 19830107-至今, 每周三公布(美国节假日除外), 美国能源信息署(EIA)",欧元区宏观,1,7,0,macro,单次返回所有历史数据
+macro_euro_gdp_yoy,https://datacenter.jin10.com/reportType/dc_eurozone_gdp_yoy,"欧元区季度 GDP 年率报告, 数据区间从 20131114-至今",物价水平,1,5,0,macro,单次返回所有历史数据
+macro_euro_cpi_mom,https://datacenter.jin10.com/reportType/dc_eurozone_cpi_mom,"欧元区 CPI 月率报告, 数据区间从 19900301-至今",欧元区CPI年率报告,1,5,0,macro,单次返回所有历史数据
+macro_euro_cpi_yoy,https://datacenter.jin10.com/reportType/dc_eurozone_cpi_yoy,"欧元区 CPI 年率报告, 数据区间从 19910201-至今",欧元区PPI月率报告,1,5,0,macro,单次返回所有历史数据
+macro_euro_ppi_mom,https://datacenter.jin10.com/reportType/dc_eurozone_ppi_mom,"欧元区 PPI 月率报告, 数据区间从 19810301-至今",欧元区零售销售月率报告,1,5,0,macro,单次返回所有历史数据
+macro_euro_retail_sales_mom,https://datacenter.jin10.com/reportType/dc_eurozone_retail_sales_mom,"欧元区零售销售月率报告, 数据区间从 20000301-至今",劳动力市场,1,5,0,macro,单次返回所有历史数据
+macro_euro_employment_change_qoq,https://datacenter.jin10.com/reportType/dc_eurozone_employment_change_qoq,"欧元区季调后就业人数季率报告, 数据区间从 20083017-至今",欧元区失业率报告,1,5,0,macro,单次返回所有历史数据
+macro_euro_unemployment_rate_mom,https://datacenter.jin10.com/reportType/dc_eurozone_unemployment_rate_mom,"欧元区失业率报告, 数据区间从 19980501-至今",贸易状况,1,5,0,macro,单次返回所有历史数据
+macro_euro_trade_balance,https://datacenter.jin10.com/reportType/dc_eurozone_trade_balance_mom,"欧元区未季调贸易帐报告, 数据区间从 19990201-至今",欧元区经常帐报告,1,5,0,macro,单次返回所有历史数据
+macro_euro_current_account_mom,https://datacenter.jin10.com/reportType/dc_eurozone_current_account_mom,"欧元区经常帐报告, 数据区间从 20080221-至今",产业指标,1,5,0,macro,单次返回所有历史数据
+macro_euro_industrial_production_mom,https://datacenter.jin10.com/reportType/dc_eurozone_industrial_production_mom,"欧元区工业产出月率报告, 数据区间从 19910301-至今",欧元区制造业PMI初值报告,1,5,0,macro,单次返回所有历史数据
+macro_euro_manufacturing_pmi,https://datacenter.jin10.com/reportType/dc_eurozone_manufacturing_pmi,"欧元区制造业 PMI 初值报告, 数据区间从 20080222-至今",欧元区服务业PMI终值报告,1,5,0,macro,单次返回所有历史数据
+macro_euro_services_pmi,https://datacenter.jin10.com/reportType/dc_eurozone_services_pmi,"欧元区服务业 PMI 终值报告, 数据区间从 20080222-至今",领先指标,1,5,0,macro,单次返回所有历史数据
+macro_euro_zew_economic_sentiment,https://datacenter.jin10.com/reportType/dc_eurozone_zew_economic_sentiment,"欧元区 ZEW 经济景气指数报告, 数据区间从 20080212-至今",欧元区Sentix投资者信心指数报告,1,5,0,macro,单次返回所有历史数据
+macro_euro_sentix_investor_confidence,https://datacenter.jin10.com/reportType/dc_eurozone_sentix_investor_confidence,"欧元区 Sentix 投资者信心指数报告, 数据区间从 20020801-至今",德国宏观,1,5,0,macro,单次返回所有历史数据
+macro_germany_ifo,https://data.eastmoney.com/cjsj/foreign_1_0.html,东方财富-数据中心-经济数据一览-IFO商业景气指数,消费者物价指数月率终值,1,4,0,macro,单次返回所有历史数据
+macro_germany_cpi_monthly,https://data.eastmoney.com/cjsj/foreign_1_1.html,东方财富-数据中心-经济数据一览-德国-消费者物价指数月率终值,消费者物价指数年率终值,1,4,0,macro,单次返回所有历史数据
+macro_germany_cpi_yearly,https://data.eastmoney.com/cjsj/foreign_1_2.html,东方财富-数据中心-经济数据一览-德国-消费者物价指数年率终值,贸易帐-季调后,1,4,0,macro,单次返回所有历史数据
+macro_germany_trade_adjusted,https://data.eastmoney.com/cjsj/foreign_1_3.html,东方财富-数据中心-经济数据一览-德国-贸易帐(季调后),GDP,1,4,0,macro,单次返回所有历史数据
+macro_germany_gdp,https://data.eastmoney.com/cjsj/foreign_1_4.html,东方财富-数据中心-经济数据一览-德国-GDP,实际零售销售月率,1,4,0,macro,单次返回所有历史数据
+macro_germany_retail_sale_monthly,https://data.eastmoney.com/cjsj/foreign_1_5.html,东方财富-数据中心-经济数据一览-德国-实际零售销售月率,实际零售销售年率,1,4,0,macro,单次返回所有历史数据
+macro_germany_retail_sale_yearly,https://data.eastmoney.com/cjsj/foreign_1_6.html,东方财富-数据中心-经济数据一览-德国-实际零售销售年率,ZEW 经济景气指数,1,4,0,macro,单次返回所有历史数据
+macro_germany_zew,https://data.eastmoney.com/cjsj/foreign_1_7.html,东方财富-数据中心-经济数据一览-德国-ZEW 经济景气指数,瑞士宏观,1,4,0,macro,单次返回所有历史数据
+macro_swiss_svme,http://data.eastmoney.com/cjsj/foreign_2_0.html,东方财富-经济数据-瑞士-SVME采购经理人指数,贸易帐,1,4,0,macro,单次返回所有历史数据
+macro_swiss_trade,http://data.eastmoney.com/cjsj/foreign_2_1.html,东方财富-经济数据-瑞士-贸易帐,消费者物价指数年率,1,4,0,macro,单次返回所有历史数据
+macro_swiss_cpi_yearly,http://data.eastmoney.com/cjsj/foreign_2_2.html,东方财富-经济数据-瑞士-消费者物价指数年率,GDP 季率,1,4,0,macro,单次返回所有历史数据
+macro_swiss_gdp_quarterly,http://data.eastmoney.com/cjsj/foreign_2_3.html,东方财富-经济数据-瑞士-GDP 季率,GDP 年率,1,4,0,macro,单次返回所有历史数据
+macro_swiss_gbd_yearly,http://data.eastmoney.com/cjsj/foreign_2_4.html,东方财富-经济数据-瑞士-GDP 年率,央行公布利率决议,1,4,0,macro,单次返回所有历史数据
+macro_swiss_gbd_bank_rate,http://data.eastmoney.com/cjsj/foreign_2_5.html,东方财富-经济数据-瑞士-央行公布利率决议,日本宏观,1,4,0,macro,单次返回所有历史数据
+macro_japan_bank_rate,http://data.eastmoney.com/cjsj/foreign_3_0.html,东方财富-经济数据-日本-央行公布利率决议,全国消费者物价指数年率,1,4,0,macro,单次返回所有历史数据
+macro_japan_cpi_yearly,http://data.eastmoney.com/cjsj/foreign_3_1.html,东方财富-经济数据-日本-全国消费者物价指数年率,全国核心消费者物价指数年率,1,4,0,macro,单次返回所有历史数据
+macro_japan_core_cpi_yearly,http://data.eastmoney.com/cjsj/foreign_2_2.html,东方财富-经济数据-日本-全国核心消费者物价指数年率,失业率,1,4,0,macro,单次返回所有历史数据
+macro_japan_unemployment_rate,http://data.eastmoney.com/cjsj/foreign_2_3.html,东方财富-经济数据-日本-失业率,领先指标终值,1,4,0,macro,单次返回所有历史数据
+macro_japan_head_indicator,http://data.eastmoney.com/cjsj/foreign_3_4.html,东方财富-经济数据-日本-领先指标终值,英国宏观,1,4,0,macro,单次返回所有历史数据
+macro_uk_halifax_monthly,http://data.eastmoney.com/cjsj/foreign_4_0.html,东方财富-经济数据-英国-Halifax 房价指数月率,Halifax 房价指数年率,1,4,0,macro,单次返回所有历史数据
+macro_uk_halifax_yearly,http://data.eastmoney.com/cjsj/foreign_4_1.html,东方财富-经济数据-英国-Halifax 房价指数年率,贸易帐,1,4,0,macro,单次返回所有历史数据
+macro_uk_trade,http://data.eastmoney.com/cjsj/foreign_4_2.html,东方财富-经济数据-英国-贸易帐,央行公布利率决议,1,4,0,macro,单次返回所有历史数据
+macro_uk_bank_rate,http://data.eastmoney.com/cjsj/foreign_4_3.html,东方财富-经济数据-英国-央行公布利率决议,核心消费者物价指数年率,1,4,0,macro,单次返回所有历史数据
+macro_uk_core_cpi_yearly,http://data.eastmoney.com/cjsj/foreign_4_4.html,东方财富-经济数据-英国-核心消费者物价指数年率,核心消费者物价指数月率,1,4,0,macro,单次返回所有历史数据
+macro_uk_core_cpi_monthly,http://data.eastmoney.com/cjsj/foreign_4_7.html,东方财富-经济数据-英国-核心消费者物价指数月率,消费者物价指数年率,1,4,0,macro,单次返回所有历史数据
+macro_uk_cpi_yearly,http://data.eastmoney.com/cjsj/foreign_4_6.html,东方财富-经济数据-英国-消费者物价指数年率,消费者物价指数月率,1,4,0,macro,单次返回所有历史数据
+macro_uk_cpi_monthly,http://data.eastmoney.com/cjsj/foreign_4_7.html,东方财富-经济数据-英国-消费者物价指数月率,零售销售月率,1,4,0,macro,单次返回所有历史数据
+macro_uk_retail_monthly,http://data.eastmoney.com/cjsj/foreign_4_8.html,东方财富-经济数据-英国-零售销售月率,零售销售年率,1,4,0,macro,单次返回所有历史数据
+macro_uk_retail_yearly,http://data.eastmoney.com/cjsj/foreign_4_9.html,东方财富-经济数据-英国-零售销售年率,Rightmove 房价指数年率,1,4,0,macro,单次返回所有历史数据
+macro_uk_rightmove_yearly,http://data.eastmoney.com/cjsj/foreign_4_10.html,东方财富-经济数据-英国-Rightmove 房价指数年率,Rightmove 房价指数月率,1,4,0,macro,单次返回所有历史数据
+macro_uk_rightmove_monthly,http://data.eastmoney.com/cjsj/foreign_4_11.html,东方财富-经济数据-英国-Rightmove 房价指数月率,GDP 季率初值,1,4,0,macro,单次返回所有历史数据
+macro_uk_gdp_quarterly,http://data.eastmoney.com/cjsj/foreign_4_12.html,东方财富-经济数据-英国-GDP 季率初值,GDP 年率初值,1,4,0,macro,单次返回所有历史数据
+macro_uk_gdp_yearly,http://data.eastmoney.com/cjsj/foreign_4_13.html,东方财富-经济数据-英国-GDP 年率初值,失业率,1,4,0,macro,单次返回所有历史数据
+macro_uk_unemployment_rate,http://data.eastmoney.com/cjsj/foreign_4_14.html,东方财富-经济数据-英国-失业率,澳大利亚宏观,1,4,0,macro,单次返回所有历史数据
+macro_australia_retail_rate_monthly,http://data.eastmoney.com/cjsj/foreign_5_0.html,东方财富-经济数据-澳大利亚-零售销售月率,贸易帐,1,4,0,macro,单次返回所有历史数据
+macro_australia_trade,http://data.eastmoney.com/cjsj/foreign_5_1.html,东方财富-经济数据-澳大利亚-贸易帐,失业率,1,4,0,macro,单次返回所有历史数据
+macro_australia_unemployment_rate,http://data.eastmoney.com/cjsj/foreign_5_2.html,东方财富-经济数据-澳大利亚-失业率,生产者物价指数季率,1,4,0,macro,单次返回所有历史数据
+macro_australia_ppi_quarterly,http://data.eastmoney.com/cjsj/foreign_5_3.html,东方财富-经济数据-澳大利亚-生产者物价指数季率,消费者物价指数季率,1,4,0,macro,单次返回所有历史数据
+macro_australia_cpi_quarterly,http://data.eastmoney.com/cjsj/foreign_5_4.html,东方财富-经济数据-澳大利亚-消费者物价指数季率,消费者物价指数年率,1,4,0,macro,单次返回所有历史数据
+macro_australia_cpi_yearly,http://data.eastmoney.com/cjsj/foreign_5_5.html,东方财富-经济数据-澳大利亚-消费者物价指数年率,央行公布利率决议,1,4,0,macro,单次返回所有历史数据
+macro_australia_bank_rate,http://data.eastmoney.com/cjsj/foreign_5_6.html,东方财富-经济数据-澳大利亚-央行公布利率决议,加拿大宏观,1,4,0,macro,单次返回所有历史数据
+macro_canada_new_house_rate,http://data.eastmoney.com/cjsj/foreign_7_0.html,东方财富-经济数据-加拿大-新屋开工,失业率,1,4,0,macro,单次返回所有历史数据
+macro_canada_unemployment_rate,http://data.eastmoney.com/cjsj/foreign_7_1.html,东方财富-经济数据-加拿大-失业率,贸易帐,1,4,0,macro,单次返回所有历史数据
+macro_canada_trade,http://data.eastmoney.com/cjsj/foreign_7_2.html,东方财富-经济数据-加拿大-贸易帐,零售销售月率,1,4,0,macro,单次返回所有历史数据
+macro_canada_retail_rate_monthly,http://data.eastmoney.com/cjsj/foreign_7_3.html,东方财富-经济数据-加拿大-零售销售月率,央行公布利率决议,1,4,0,macro,单次返回所有历史数据
+macro_canada_bank_rate,http://data.eastmoney.com/cjsj/foreign_7_4.html,东方财富-经济数据-加拿大-央行公布利率决议,核心消费者物价指数年率,1,4,0,macro,单次返回所有历史数据
+macro_canada_core_cpi_yearly,http://data.eastmoney.com/cjsj/foreign_7_5.html,东方财富-经济数据-加拿大-核心消费者物价指数年率,核心消费者物价指数月率,1,4,0,macro,单次返回所有历史数据
+macro_canada_core_cpi_monthly,http://data.eastmoney.com/cjsj/foreign_7_6.html,东方财富-经济数据-加拿大-核心消费者物价指数月率,消费者物价指数年率,1,4,0,macro,单次返回所有历史数据
+macro_canada_cpi_yearly,http://data.eastmoney.com/cjsj/foreign_7_7.html,东方财富-经济数据-加拿大-消费者物价指数年率,消费者物价指数月率,1,4,0,macro,单次返回所有历史数据
+macro_canada_cpi_monthly,http://data.eastmoney.com/cjsj/foreign_7_8.html,东方财富-经济数据-加拿大-消费者物价指数月率,GDP 月率,1,4,0,macro,单次返回所有历史数据
+macro_canada_gdp_monthly,http://data.eastmoney.com/cjsj/foreign_7_9.html,东方财富-经济数据-加拿大-GDP 月率,重要机构,1,4,0,macro,单次返回所有历史数据
+macro_cons_gold,https://datacenter.jin10.com/reportType/dc_etf_gold,"全球最大黄金 ETF—SPDR Gold Trust 持仓报告, 数据区间从 20041119-至今",全球最大白银ETF--iShares Silver Trust持仓报告,1,5,0,macro,单次返回所有历史数据
+macro_cons_silver,https://datacenter.jin10.com/reportType/dc_etf_sliver,"全球最大白银 ETF--iShares Silver Trust 持仓报告, 数据区间从 20041202-至今",欧佩克报告,1,5,0,macro,单次返回所有历史数据
+macro_cons_opec_month,https://datacenter.jin10.com/reportType/dc_opec_report,"欧佩克报告, 数据区间从 20170118-至今",伦敦金属交易所,1,14,0,macro,"单次返回所有历史数据, 以网页数据为准."
+macro_euro_lme_holding,https://datacenter.jin10.com/reportType/dc_lme_traders_report,"伦敦金属交易所(LME)-持仓报告, 数据区间从 20151022-至今",库存报告,1,4,0,macro,单次返回所有历史数据
+macro_euro_lme_stock,https://datacenter.jin10.com/reportType/dc_lme_report,"伦敦金属交易所(LME)-库存报告, 数据区间从 20140702-至今",美国商品期货交易委员会,1,4,0,macro,单次返回所有历史数据
+macro_usa_cftc_nc_holding,https://datacenter.jin10.com/reportType/dc_cftc_nc_report,"美国商品期货交易委员会CFTC外汇类非商业持仓报告, 数据区间从 19830107-至今",商品类非商业持仓报告,1,4,0,macro,单次返回所有历史数据
+macro_usa_cftc_c_holding,https://datacenter.jin10.com/reportType/dc_cftc_c_report,"美国商品期货交易委员会CFTC商品类非商业持仓报告, 数据区间从 19830107-至今",外汇类商业持仓报告,1,4,0,macro,单次返回所有历史数据
+macro_usa_cftc_merchant_currency_holding,https://datacenter.jin10.com/reportType/dc_cftc_merchant_currency,"美国商品期货交易委员会CFTC外汇类商业持仓报告, 数据区间从 19860115-至今",商品类商业持仓报告,1,4,0,macro,单次返回所有历史数据
+macro_usa_cftc_merchant_goods_holding,https://datacenter.jin10.com/reportType/dc_cftc_merchant_goods,"美国商品期货交易委员会 CFTC 商品类商业持仓报告, 数据区间从 19860115-至今",芝加哥交易所,1,4,0,macro,单次返回所有历史数据
+macro_usa_cme_merchant_goods_holding,https://datacenter.jin10.com/org,"CME-贵金属, 数据区间从 20180405-至今",全球宏观,1,3,0,macro,单次返回所有历史数据
+macro_info_ws,https://wallstreetcn.com/calendar,华尔街见闻-日历-宏观,全球宏观事件,1,8,0,macro,单次返回指定 date 的数据
+news_economic_baidu,https://gushitong.baidu.com/calendar,全球宏观指标重大事件,未知接口,1,8,0,macro,单次返回指定 date 的所有历史数据
+qdii_e_index_jsl,https://www.jisilu.cn/data/qdii/#qdiia,集思录-T+0 QDII-欧美市场-欧美指数,欧美商品,1,18,0,qdii,单次返回所有数据
+qdii_e_comm_jsl,https://www.jisilu.cn/data/qdii/#qdiia,集思录-T+0 QDII-欧美市场-欧美商品,T+0 QDII 亚洲市场,1,18,0,qdii,单次返回所有数据
+qdii_a_index_jsl,https://www.jisilu.cn/data/qdii/#qdiia,集思录-T+0 QDII-亚洲市场-亚洲指数,未知接口,1,17,0,qdii,单次返回所有数据
+stock_sse_summary,http://www.sse.com.cn/market/stockdata/statistic/,上海证券交易所-股票数据总貌,深圳证券交易所,1,0,0,stock,单次返回最近交易日的股票数据总貌(当前交易日的数据需要交易所收盘后统计)
+stock_szse_summary,http://www.szse.cn/market/overview/index.html,深圳证券交易所-市场总貌-证券类别统计,地区交易排序,1,5,0,stock,单次返回指定 date 的市场总貌数据-证券类别统计(当前交易日的数据需要交易所收盘后统计)
+stock_szse_area_summary,http://www.szse.cn/market/overview/index.html,深圳证券交易所-市场总貌-地区交易排序,###### 股票行业成交,1,7,0,stock,单次返回指定 date 的市场总貌数据-地区交易排序数据
+stock_szse_sector_summary,http://docs.static.szse.cn/www/market/periodical/month/W020220511355248518608.html,深圳证券交易所-统计资料-股票行业成交数据,上海证券交易所-每日概况,2,9,0,stock,单次返回指定 symbol 和 date 的统计资料-股票行业成交数据
+stock_sse_deal_daily,http://www.sse.com.cn/market/stockdata/overview/day/,上海证券交易所-数据-股票数据-成交概况-股票成交概况-每日股票情况,个股信息查询-东财,1,6,0,stock,"单次返回指定日期的每日概况数据, 当前交易日数据需要在收盘后获取; 注意仅支持获取在 20211227（包含）之后的数据"
+stock_individual_info_em,http://quote.eastmoney.com/concept/sh603777.html?from=classic,东方财富-个股-股票信息,个股信息查询-雪球,2,2,0,stock,单次返回指定 symbol 的个股信息
+stock_individual_basic_info_xq,https://xueqiu.com/snowman/S/SH601127/detail#/GSJJ,雪球财经-个股-公司概况-公司简介,行情报价,3,2,0,stock,单次返回指定 symbol 的个股信息
+stock_bid_ask_em,https://quote.eastmoney.com/sz000001.html,东方财富-行情报价,实时行情数据,1,2,0,stock,单次返回指定股票的行情报价数据
+stock_zh_a_spot_em,https://quote.eastmoney.com/center/gridlist.html#hs_a_board,东方财富网-沪深京 A 股-实时行情数据,沪 A 股,1,23,0,stock,单次返回所有沪深京 A 股上市公司的实时行情数据
+stock_sh_a_spot_em,http://quote.eastmoney.com/center/gridlist.html#sh_a_board,东方财富网-沪 A 股-实时行情数据,深 A 股,1,23,0,stock,单次返回所有沪 A 股上市公司的实时行情数据
+stock_sz_a_spot_em,http://quote.eastmoney.com/center/gridlist.html#sz_a_board,东方财富网-深 A 股-实时行情数据,京 A 股,1,23,0,stock,单次返回所有深 A 股上市公司的实时行情数据
+stock_bj_a_spot_em,http://quote.eastmoney.com/center/gridlist.html#bj_a_board,东方财富网-京 A 股-实时行情数据,新股,1,23,0,stock,单次返回所有京 A 股上市公司的实时行情数据
+stock_new_a_spot_em,http://quote.eastmoney.com/center/gridlist.html#newshares,东方财富网-新股-实时行情数据,创业板,1,24,0,stock,单次返回所有新股上市公司的实时行情数据
+stock_cy_a_spot_em,https://quote.eastmoney.com/center/gridlist.html#gem_board,东方财富网-创业板-实时行情,科创板,1,23,0,stock,单次返回所有创业板的实时行情数据
+stock_kc_a_spot_em,http://quote.eastmoney.com/center/gridlist.html#kcb_board,东方财富网-科创板-实时行情,AB 股比价,1,23,0,stock,单次返回所有科创板的实时行情数据
+stock_zh_ab_comparison_em,https://quote.eastmoney.com/center/gridlist.html#ab_comparison,东方财富网-行情中心-沪深京个股-AB股比价-全部AB股比价,实时行情数据-新浪,1,10,0,stock,单次返回全部 AB 股比价的实时行情数据
+stock_zh_a_spot,https://vip.stock.finance.sina.com.cn/mkt/#hs_a,"新浪财经-沪深京 A 股数据, 重复运行本函数会被新浪暂时封 IP, 建议增加时间间隔",实时行情数据-雪球,1,14,0,stock,单次返回沪深京 A 股上市公司的实时行情数据
+stock_individual_spot_xq,https://xueqiu.com/S/SH513520,雪球-行情中心-个股,历史行情数据,3,2,0,stock,单次获取指定 symbol 的最新行情数据
+stock_zh_a_hist,https://quote.eastmoney.com/concept/sh603777.html?from=classic(示例),"东方财富-沪深京 A 股日频率数据; 历史数据按日频率更新, 当日收盘价请在收盘后获取",历史行情数据-新浪,6,0,0,stock,单次返回指定沪深京 A 股上市公司、指定周期和指定日期间的历史行情日频率数据
+stock_zh_a_hist_tx,https://gu.qq.com/sh000919/zs,"腾讯证券-日频-股票历史数据; 历史数据按日频率更新, 当日收盘价请在收盘后获取",分时数据-新浪,5,0,0,stock,单次返回指定沪深京 A 股上市公司、指定周期和指定日期间的历史行情日频率数据
+stock_zh_a_minute,http://finance.sina.com.cn/realstock/company/sh600519/nc.shtml,"新浪财经-沪深京 A 股股票或者指数的分时数据，目前可以获取 1, 5, 15, 30, 60 分钟的数据频率, 可以指定是否复权",分时数据-东财,3,6,0,stock,单次返回指定股票或指数的指定频率的最近交易日的历史分时行情数据; 注意调用频率
+stock_zh_a_hist_min_em,https://quote.eastmoney.com/concept/sh603777.html,东方财富网-行情首页-沪深京 A 股-每日分时行情; 该接口只能获取近期的分时数据，注意时间周期的设置,注意：该接口返回的数据只有最近一个交易日的有开盘价，其他日期开盘价为 0,5,0,0,stock,"单次返回指定股票、频率、复权调整和时间区间的分时数据, 其中 1 分钟数据只返回近 5 个交易日数据且不复权"
+stock_intraday_em,https://quote.eastmoney.com/f1.html?newcode=0.000001,东方财富-分时数据,日内分时数据-新浪,1,4,0,stock,"单次返回指定股票最近一个交易日的分时数据, 包含盘前数据"
+stock_intraday_sina,https://vip.stock.finance.sina.com.cn/quotes_service/view/cn_bill.php?symbol=sz000001,新浪财经-日内分时数据,盘前数据,2,7,0,stock,单次返回指定交易日的分时数据；只能获取近期的数据，此处仅返回大单数据（成交量大于等于: 400手）
+stock_zh_a_hist_pre_min_em,https://quote.eastmoney.com/concept/sh603777.html,东方财富-股票行情-盘前数据,历史分笔数据,3,8,0,stock,"单次返回指定 symbol 的最近一个交易日的股票分钟数据, 包含盘前分钟数据"
+stock_zh_a_tick_tx,http://gu.qq.com/sz300494/gp/detail(示例),"每个交易日 16:00 提供当日数据; 如遇到数据缺失, 请使用 **ak.stock_zh_a_tick_163()** 接口(注意数据会有一定差异)",同行比较,0,6,0,stock,单次返回最近交易日的历史分笔行情数据
+stock_zh_growth_comparison_em,https://emweb.securities.eastmoney.com/pc_hsf10/pages/index.html?type=web&code=000895&color=b#/thbj/czxbj,东方财富-行情中心-同行比较-成长性比较,估值比较,1,21,0,stock,单次返回全部数据
+stock_zh_valuation_comparison_em,https://emweb.securities.eastmoney.com/pc_hsf10/pages/index.html?type=web&code=000895&color=b#/thbj/gzbj,东方财富-行情中心-同行比较-估值比较,杜邦分析比较,1,21,0,stock,单次返回全部数据
+stock_zh_dupont_comparison_em,https://emweb.securities.eastmoney.com/pc_hsf10/pages/index.html?type=web&code=000895&color=b#/thbj/dbfxbj,东方财富-行情中心-同行比较-杜邦分析比较,公司规模,1,19,0,stock,单次返回全部数据
+stock_zh_scale_comparison_em,https://emweb.securities.eastmoney.com/pc_hsf10/pages/index.html?type=web&code=000895&color=b#/thbj/gsgm,东方财富-行情中心-同行比较-公司规模,A股-CDR,1,10,0,stock,单次返回全部数据
+stock_zh_a_cdr_daily,https://finance.sina.com.cn/realstock/company/sh689009/nc.shtml,上海证券交易所-科创板-CDR,B股,3,6,0,stock,"单次返回指定 CDR 的日频率数据, 分钟历史行情数据可以通过 stock_zh_a_minute 获取"
+stock_zh_b_spot_em,http://quote.eastmoney.com/center/gridlist.html#hs_b_board,东方财富网-实时行情数据,实时行情数据-新浪,1,23,0,stock,单次返回所有 B 股上市公司的实时行情数据
+stock_zh_b_spot,http://vip.stock.finance.sina.com.cn/mkt/#hs_b,"B 股数据是从新浪财经获取的数据, 重复运行本函数会被新浪暂时封 IP, 建议增加时间间隔",历史行情数据,0,0,0,stock,单次返回所有 B 股上市公司的实时行情数据
+stock_zh_b_daily,https://finance.sina.com.cn/realstock/company/sh900901/nc.shtml,"B 股数据是从新浪财经获取的数据, 历史数据按日频率更新",分时数据,4,0,0,stock,单次返回指定 B 股上市公司指定日期间的历史行情日频率数据
+stock_zh_b_minute,http://finance.sina.com.cn/realstock/company/sh900901/nc.shtml,"新浪财经 B 股股票或者指数的分时数据，目前可以获取 1, 5, 15, 30, 60 分钟的数据频率, 可以指定是否复权",次新股,3,6,0,stock,单次返回指定股票或指数的指定频率的最近交易日的历史分时行情数据
+stock_zh_a_new,http://vip.stock.finance.sina.com.cn/mkt/#new_stock,新浪财经-行情中心-沪深股市-次新股,股市日历,1,10,0,stock,"单次返回所有次新股行情数据, 由于次新股名单随着交易日变化而变化，只能获取最近交易日的数据"
+stock_gsrl_gsdt_em,https://data.eastmoney.com/gsrl/gsdt.html,东方财富网-数据中心-股市日历-公司动态,风险警示板,1,6,0,stock,单次返回指定交易日的数据
+stock_zh_a_st_em,https://quote.eastmoney.com/center/gridlist.html#st_board,东方财富网-行情中心-沪深个股-风险警示板,新股,1,17,0,stock,单次返回当前交易日风险警示板的所有股票的行情数据
+stock_zh_a_new_em,https://quote.eastmoney.com/center/gridlist.html#newshares,东方财富网-行情中心-沪深个股-新股,新股上市首日,1,17,0,stock,单次返回当前交易日新股板块的所有股票的行情数据
+stock_xgsr_ths,https://data.10jqka.com.cn/ipo/xgsr/,同花顺-数据中心-新股数据-新股上市首日,IPO 受益股,1,12,0,stock,单次返回当前交易日的所有数据
+stock_ipo_benefit_ths,https://data.10jqka.com.cn/ipo/syg/,同花顺-数据中心-新股数据-IPO受益股,两网及退市,1,10,0,stock,"单次返回当前交易日的所有数据; 该数据每周更新一次, 返回最近一周的数据"
+stock_zh_a_stop_em,http://quote.eastmoney.com/center/gridlist.html#staq_net_board,东方财富网-行情中心-沪深个股-两网及退市,科创板,1,17,0,stock,单次返回当前交易日两网及退市的所有股票的行情数据
+stock_zh_kcb_spot,http://vip.stock.finance.sina.com.cn/mkt/#kcb,新浪财经-科创板股票实时行情数据,历史行情数据,1,0,0,stock,"单次返回所有科创板上市公司的实时行情数据; 请控制采集的频率, 大量抓取容易封IP"
+stock_zh_kcb_daily,https://finance.sina.com.cn/realstock/company/sh688001/nc.shtml(示例),新浪财经-科创板股票历史行情数据,科创板公告,2,10,0,stock,"单次返回指定 symbol 和 adjust 的所有历史行情数据; 请控制采集的频率, 大量抓取容易封IP"
+stock_zh_kcb_report_em,https://data.eastmoney.com/notices/kcb.html,东方财富-科创板报告数据,A+H股,2,6,0,stock,单次返回所有科创板上市公司的报告数据
+stock_zh_ah_spot_em,https://quote.eastmoney.com/center/gridlist.html#ah_comparison,"东方财富网-行情中心-沪深港通-AH股比价-实时行情, 延迟 15 分钟更新",实时行情数据-腾讯,1,10,0,stock,单次返回所有 A+H 上市公司的实时行情数据
+stock_zh_ah_spot,https://stockapp.finance.qq.com/mstats/#mod=list&id=hk_ah&module=HK&type=AH,"A+H 股数据是从腾讯财经获取的数据, 延迟 15 分钟更新",历史行情数据,1,13,0,stock,单次返回所有 A+H 上市公司的实时行情数据
+stock_zh_ah_daily,https://gu.qq.com/hk02359/gp,腾讯财经-A+H 股数据,A+H股票字典,4,6,0,stock,单次返回指定参数的 A+H 上市公司的历史行情数据
+stock_zh_ah_name,https://stockapp.finance.qq.com/mstats/#mod=list&id=hk_ah&module=HK&type=AH,"A+H 股数据是从腾讯财经获取的数据, 历史数据按日频率更新",美股,1,2,0,stock,单次返回所有 A+H 上市公司的代码和名称
+stock_us_spot_em,https://quote.eastmoney.com/center/gridlist.html#us_stocks,东方财富网-美股-实时行情,实时行情数据-新浪,1,16,0,stock,单次返回美股所有上市公司的实时行情数据
+stock_us_spot,https://finance.sina.com.cn/stock/usstock/sector.shtml,新浪财经-美股; 获取的数据有 15 分钟延迟; 建议使用 ak.stock_us_spot_em() 来获取数据,历史行情数据-东财,1,1,0,stock,单次返回美股所有上市公司的实时行情数据
+stock_us_hist,https://quote.eastmoney.com/us/ENTX.html#fullScreenChart,东方财富网-行情-美股-每日行情,个股信息查询-雪球,5,11,0,stock,单次返回指定上市公司的指定 adjust 后的所有历史行情数据；注意其中复权参数是否生效！
+stock_individual_basic_info_us_xq,https://xueqiu.com/snowman/S/NVDA/detail#/GSJJ,雪球-个股-公司概况-公司简介,分时数据-东财,3,2,0,stock,单次返回指定 symbol 的个股信息
+stock_us_hist_min_em,https://quote.eastmoney.com/us/ATER.html,东方财富网-行情首页-美股-每日分时行情,历史行情数据-新浪,3,8,0,stock,"单次返回指定上市公司最近 5 个交易日分钟数据, 注意美股数据更新有延时"
+stock_us_daily,http://finance.sina.com.cn/stock/usstock/sector.shtml,"美股历史行情数据，设定 adjust=""qfq"" 则返回前复权后的数据，默认 adjust="""", 则返回未复权的数据，历史数据按日频率更新",粉单市场,2,0,0,stock,单次返回指定上市公司的指定 adjust 后的所有历史行情数据
+stock_us_pink_spot_em,http://quote.eastmoney.com/center/gridlist.html#us_pinksheet,美股粉单市场的实时行情数据,知名美股,1,12,0,stock,单次返回指定所有粉单市场的行情数据
+stock_us_famous_spot_em,http://quote.eastmoney.com/center/gridlist.html#us_wellknown,美股-知名美股的实时行情数据,港股,1,12,0,stock,单次返回指定 symbol 的行情数据
+stock_hk_spot_em,http://quote.eastmoney.com/center/gridlist.html#hk_stocks,所有港股的实时行情数据; 该数据有 15 分钟延时,港股主板实时行情数据-东财,1,12,0,stock,单次返回最近交易日的所有港股的数据
+stock_hk_main_board_spot_em,https://quote.eastmoney.com/center/gridlist.html#hk_mainboard,港股主板的实时行情数据; 该数据有 15 分钟延时,实时行情数据-新浪,1,12,0,stock,单次返回港股主板的数据
+stock_hk_spot,https://vip.stock.finance.sina.com.cn/mkt/#qbgg_hk,获取所有港股的实时行情数据 15 分钟延时,个股信息查询-雪球,1,16,0,stock,单次返回当前时间戳的所有港股的数据
+stock_individual_basic_info_hk_xq,https://xueqiu.com/S/00700,雪球-个股-公司概况-公司简介,分时数据-东财,3,2,0,stock,单次返回指定 symbol 的个股信息
+stock_hk_hist_min_em,http://quote.eastmoney.com/hk/00948.html,东方财富网-行情首页-港股-每日分时行情,其中的 start_date 和 end_date 需要设定为近期,5,0,0,stock,"单次返回指定上市公司最近 5 个交易日分钟数据, 注意港股有延时"
+stock_hk_hist,https://quote.eastmoney.com/hk/08367.html,"港股-历史行情数据, 可以选择返回复权后数据, 更新频率为日频",历史行情数据-新浪,5,11,0,stock,单次返回指定上市公司的历史行情数据
+stock_hk_daily,http://stock.finance.sina.com.cn/hkstock/quotes/01336.html(个例),"港股-历史行情数据, 可以选择返回复权后数据,更新频率为日频",知名港股,2,0,0,stock,"单次返回指定上市公司的历史行情数据(包括前后复权因子), 提供新浪财经拥有的该股票的所有数据("
+stock_hk_famous_spot_em,https://quote.eastmoney.com/center/gridlist.html#hk_wellknown,东方财富网-行情中心-港股市场-知名港股实时行情数据,证券资料,1,12,0,stock,单次返回全部行情数据
+stock_hk_security_profile_em,https://emweb.securities.eastmoney.com/PC_HKF10/pages/home/index.html?code=03900&type=web&color=w#/CompanyProfile,东方财富-港股-证券资料,公司资料,1,13,0,stock,单次返回全部数据
+stock_hk_company_profile_em,https://emweb.securities.eastmoney.com/PC_HKF10/pages/home/index.html?code=03900&type=web&color=w#/CompanyProfile,东方财富-港股-公司资料,财务指标,1,16,0,stock,单次返回全部数据
+stock_hk_financial_indicator_em,https://emweb.securities.eastmoney.com/PC_HKF10/pages/home/index.html?code=03900&type=web&color=w#/CoreReading,东方财富-港股-核心必读-最新指标,分红派息,1,21,0,stock,单次返回全部数据
+stock_hk_dividend_payout_em,https://emweb.securities.eastmoney.com/PC_HKF10/pages/home/index.html?code=03900&type=web&color=w#/CoreReading,东方财富-港股-核心必读-分红派息,行业对比,1,7,0,stock,单次返回全部数据
+stock_hk_growth_comparison_em,https://emweb.securities.eastmoney.com/PC_HKF10/pages/home/index.html?code=03900&type=web&color=w#/IndustryComparison,东方财富-港股-行业对比-成长性对比,估值对比,1,10,0,stock,单次返回全部数据
+stock_hk_valuation_comparison_em,https://emweb.securities.eastmoney.com/PC_HKF10/pages/home/index.html?code=03900&type=web&color=w#/IndustryComparison,东方财富-港股-行业对比-估值对比,规模对比,1,18,0,stock,单次返回全部数据
+stock_hk_scale_comparison_em,https://emweb.securities.eastmoney.com/PC_HKF10/pages/home/index.html?code=03900&type=web&color=w#/IndustryComparison,东方财富-港股-行业对比-规模对比,机构调研,1,10,0,stock,单次返回全部数据
+stock_jgdy_tj_em,http://data.eastmoney.com/jgdy/tj.html,东方财富网-数据中心-特色数据-机构调研-机构调研统计,机构调研-详细,1,11,0,stock,单次返回所有历史数据
+stock_jgdy_detail_em,http://data.eastmoney.com/jgdy/xx.html,东方财富网-数据中心-特色数据-机构调研-机构调研详细,主营介绍-同花顺,1,13,0,stock,"单次所有历史数据, 由于数据量比较大需要等待一定时间"
+stock_zyjs_ths,https://basic.10jqka.com.cn/new/000066/operate.html,同花顺-主营介绍,主营构成-东财,1,5,0,stock,单次返回所有数据
+stock_zygc_em,https://emweb.securities.eastmoney.com/PC_HSF10/BusinessAnalysis/Index?type=web&code=SH688041#,东方财富网-个股-主营构成,描述: 东方财富网-个股-主营构成,1,11,0,stock,单次返回所有历史数据
+stock_gpzy_profile_em,https://data.eastmoney.com/gpzy/marketProfile.aspx,东方财富网-数据中心-特色数据-股权质押-股权质押市场概况,上市公司质押比例,1,8,0,stock,"单次所有历史数据, 由于数据量比较大需要等待一定时间"
+stock_gpzy_pledge_ratio_em,https://data.eastmoney.com/gpzy/pledgeRatio.aspx,东方财富网-数据中心-特色数据-股权质押-上市公司质押比例,重要股东股权质押明细,1,13,0,stock,单次返回指定交易日的所有历史数据; 其中的交易日需要根据网站提供的为准; 请访问 http://data.eastmoney.com/gpzy/pledgeRatio.aspx 查询具体交易日
+stock_gpzy_pledge_ratio_detail_em,https://data.eastmoney.com/gpzy/pledgeDetail.aspx,东方财富网-数据中心-特色数据-股权质押-重要股东股权质押明细,质押机构分布统计-证券公司,1,13,0,stock,"单次所有历史数据, 由于数据量比较大需要等待一定时间"
+stock_gpzy_distribute_statistics_company_em,https://data.eastmoney.com/gpzy/distributeStatistics.aspx,东方财富网-数据中心-特色数据-股权质押-质押机构分布统计-证券公司,质押机构分布统计-银行,1,8,0,stock,单次返回当前时点所有历史数据
+stock_gpzy_distribute_statistics_bank_em,https://data.eastmoney.com/gpzy/distributeStatistics.aspx,东方财富网-数据中心-特色数据-股权质押-质押机构分布统计-银行,上市公司质押比例,1,8,0,stock,单次返回当前时点所有历史数据
+stock_gpzy_industry_data_em,https://data.eastmoney.com/gpzy/industryData.aspx,东方财富网-数据中心-特色数据-股权质押-上市公司质押比例-行业数据,商誉专题,1,7,0,stock,单次返回所有历史数据
+stock_sy_profile_em,https://data.eastmoney.com/sy/scgk.html,东方财富网-数据中心-特色数据-商誉-A股商誉市场概况,商誉减值预期明细,1,8,0,stock,单次所有历史数据
+stock_sy_yq_em,https://data.eastmoney.com/sy/yqlist.html,东方财富网-数据中心-特色数据-商誉-商誉减值预期明细,个股商誉减值明细,1,14,0,stock,单次所有历史数据
+stock_sy_jz_em,https://data.eastmoney.com/sy/jzlist.html,东方财富网-数据中心-特色数据-商誉-个股商誉减值明细,个股商誉明细,1,10,0,stock,单次返回所有历史数据
+stock_sy_em,https://data.eastmoney.com/sy/list.html,东方财富网-数据中心-特色数据-商誉-个股商誉明细,行业商誉,1,10,0,stock,单次返回所有历史数据
+stock_sy_hy_em,https://data.eastmoney.com/sy/hylist.html,东方财富网-数据中心-特色数据-商誉-行业商誉,股票账户统计,1,6,0,stock,单次返回所有历史数据
+stock_account_statistics_em,https://data.eastmoney.com/cjsj/gpkhsj.html,东方财富网-数据中心-特色数据-股票账户统计,分析师指数,1,11,0,stock,单次返回从 201504 开始 202308 的所有历史数据
+stock_analyst_rank_em,https://data.eastmoney.com/invest/invest/list.html,东方财富网-数据中心-研究报告-东方财富分析师指数,分析师详情,1,16,0,stock,单次获取指定年份的所有数据
+stock_analyst_detail_em,https://data.eastmoney.com/invest/invest/11000257131.html,东方财富网-数据中心-研究报告-东方财富分析师指数-分析师详情,千股千评,2,0,0,stock,单次获取指定 indicator 指定的数据
+stock_comment_em,https://data.eastmoney.com/stockcomment/,东方财富网-数据中心-特色数据-千股千评,千股千评详情,1,14,0,stock,单次获取所有数据
+stock_comment_detail_zlkp_jgcyd_em,https://data.eastmoney.com/stockcomment/stock/600000.html,东方财富网-数据中心-特色数据-千股千评-主力控盘-机构参与度,综合评价,1,2,0,stock,单次获取所有 symbol 的数据
+stock_comment_detail_zhpj_lspf_em,https://data.eastmoney.com/stockcomment/stock/600000.html,东方财富网-数据中心-特色数据-千股千评-综合评价-历史评分,市场热度,1,2,0,stock,单次获取指定 symbol 的数据
+stock_comment_detail_scrd_focus_em,https://data.eastmoney.com/stockcomment/stock/600000.html,东方财富网-数据中心-特色数据-千股千评-市场热度-用户关注指数,市场参与意愿,1,2,0,stock,单次获取所有数据
+stock_comment_detail_scrd_desire_em,https://data.eastmoney.com/stockcomment/stock/600000.html,东方财富网-数据中心-特色数据-千股千评-市场热度-市场参与意愿,沪深港通资金流向,1,6,0,stock,单次获取所有数据
+stock_hsgt_fund_flow_summary_em,https://data.eastmoney.com/hsgt/index.html#lssj,东方财富网-数据中心-资金流向-沪深港通资金流向,沪深港通持股,1,13,0,stock,单次获取沪深港通资金流向数据
+stock_sgt_settlement_exchange_rate_szse,https://www.szse.cn/szhk/hkbussiness/exchangerate/index.html,深港通-港股通业务信息-结算汇率,结算汇率-沪港通,1,4,0,stock,单次获取所有深港通结算汇率数据
+stock_sgt_settlement_exchange_rate_sse,http://www.sse.com.cn/services/hkexsc/disclo/ratios,沪港通-港股通信息披露-结算汇兑,参考汇率-深港通,1,4,0,stock,单次获取所有沪港通结算汇率数据
+stock_sgt_reference_exchange_rate_szse,https://www.szse.cn/szhk/hkbussiness/exchangerate/index.html,深港通-港股通业务信息-参考汇率,参考汇率-沪港通,1,4,0,stock,单次获取所有深港通参考汇率数据
+stock_sgt_reference_exchange_rate_sse,http://www.sse.com.cn/services/hkexsc/disclo/ratios/,沪港通-港股通信息披露-参考汇率,港股通成份股,1,4,0,stock,单次获取所有沪港通参考汇率数据
+stock_hk_ggt_components_em,https://quote.eastmoney.com/center/gridlist.html#hk_components,东方财富网-行情中心-港股市场-港股通成份股,沪深港通分时数据,1,12,0,stock,单次获取所有港股通成份股数据
+stock_hsgt_fund_min_em,https://data.eastmoney.com/hsgt/hsgtDetail/scgk.html,东方财富-数据中心-沪深港通-市场概括-分时数据,板块排行,1,0,0,stock,单次返回指定 symbol 的所有数据
+stock_hsgt_board_rank_em,https://data.eastmoney.com/hsgtcg/bk.html,东方财富网-数据中心-沪深港通持股-板块排行,个股排行,2,17,0,stock,单次获取指定 symbol 和 indicator 的所有数据
+stock_hsgt_hold_stock_em,https://data.eastmoney.com/hsgtcg/list.html,东方财富网-数据中心-沪深港通持股-个股排行,每日个股统计,2,16,0,stock,单次获取指定 market 和 indicator 的所有数据
+stock_hsgt_stock_statistics_em,http://data.eastmoney.com/hsgtcg/StockStatistics.aspx,东方财富网-数据中心-沪深港通-沪深港通持股-每日个股统计,机构排行,3,11,0,stock,"单次获取指定 market 的 start_date 和 end_date 之间的所有数据, 该接口只能获取近期的数据"
+stock_hsgt_institution_statistics_em,http://data.eastmoney.com/hsgtcg/InstitutionStatistics.aspx,东方财富网-数据中心-沪深港通-沪深港通持股-机构排行,沪深港通-港股通(沪>港)实时行情,3,7,0,stock,"单次获取指定 market 的所有数据, 该接口只能获取近期的数据"
+stock_hsgt_sh_hk_spot_em,https://quote.eastmoney.com/center/gridlist.html#hk_sh_stocks,东方财富网-行情中心-沪深港通-港股通(沪>港)-股票；按股票代码排序,沪深港通历史数据,1,12,0,stock,单次获取所有数据
+stock_hsgt_hist_em,https://data.eastmoney.com/hsgt/index.html,东方财富网-数据中心-资金流向-沪深港通资金流向-沪深港通历史数据,沪深港通持股-个股,1,0,0,stock,单次获取指定 symbol 的所有数据
+stock_hsgt_individual_em,https://data.eastmoney.com/hsgt/StockHdDetail/002008.html,东方财富网-数据中心-沪深港通-沪深港通持股-具体股票,沪深港通持股-个股详情,1,0,0,stock,单次获取指定 symbol 的截至 20240816 的数据
+stock_hsgt_individual_detail_em,http://data.eastmoney.com/hsgtcg/StockHdStatistics/002008.html(示例),东方财富网-数据中心-沪深港通-沪深港通持股-具体股票-个股详情,停复牌信息,3,10,0,stock,单次获取指定 symbol 的在 start_date 和 end_date 之间的所有数据; 注意只能返回 90 个交易日内的数据
+stock_tfp_em,https://data.eastmoney.com/tfpxx/,东方财富网-数据中心-特色数据-停复牌信息,停复牌,1,9,0,stock,"单次获取指定 date 的停复牌数据, 具体更新逻辑跟目标网页统一"
+news_trade_notify_suspend_baidu,https://gushitong.baidu.com/calendar,百度股市通-交易提醒-停复牌,分红派息,1,6,0,stock,"单次获取指定 date 的停复牌数据, 提供港股的停复牌数据"
+news_trade_notify_dividend_baidu,https://gushitong.baidu.com/calendar,百度股市通-交易提醒-分红派息,个股新闻,2,9,0,stock,"单次获取指定 date 的分红派息数据, 提供港股的分红派息数据"
+stock_news_em,https://so.eastmoney.com/news/s?keyword=603777,东方财富指定个股的新闻资讯数据,财经内容精选,1,6,0,stock,指定 symbol 当日最近 100 条新闻资讯数据
+stock_news_main_cx,https://cxdata.caixin.com/pc/,财新网-财新数据通-最新,财报发行,1,3,0,stock,返回最新 100 条新闻数据
+news_report_time_baidu,https://gushitong.baidu.com/calendar,百度股市通-财报发行,新股数据,1,4,0,stock,"单次获取指定 date 的财报发行, 提供港股的财报发行数据"
+stock_dxsyl_em,https://data.eastmoney.com/xg/xg/dxsyl.html,东方财富网-数据中心-新股申购-打新收益率,新股申购与中签,1,16,0,stock,单次获取所有打新收益率数据
+stock_xgsglb_em,https://data.eastmoney.com/xg/xg/default_2.html,东方财富网-数据中心-新股数据-新股申购-新股申购与中签查询,年报季报,1,0,0,stock,单次获取指定 market 的新股申购与中签查询数据
+stock_yjbb_em,http://data.eastmoney.com/bbsj/202003/yjbb.html,东方财富-数据中心-年报季报-业绩报表,业绩快报,1,16,0,stock,单次获取指定 date 的业绩报告数据
+stock_yjkb_em,https://data.eastmoney.com/bbsj/202003/yjkb.html,东方财富-数据中心-年报季报-业绩快报,业绩预告,1,18,0,stock,单次获取指定 date 的业绩快报数据
+stock_yjyg_em,https://data.eastmoney.com/bbsj/202003/yjyg.html,东方财富-数据中心-年报季报-业绩预告,预约披露时间-东方财富,1,11,0,stock,单次获取指定 date 的业绩预告数据
+stock_yysj_em,https://data.eastmoney.com/bbsj/202003/yysj.html,东方财富-数据中心-年报季报-预约披露时间,预约披露时间-巨潮资讯,2,8,0,stock,单次获取指定 symbol 和 date 的预约披露时间数据
+stock_report_disclosure,http://www.cninfo.com.cn/new/commonUrl?url=data/yypl,巨潮资讯-数据-预约披露的数据,信息披露公告-巨潮资讯,2,7,0,stock,单次获取指定 market 和 period 的预约披露数据
+stock_zh_a_disclosure_report_cninfo,http://www.cninfo.com.cn/new/commonUrl/pageOfSearch?url=disclosure/list/search,巨潮资讯-首页-公告查询-信息披露公告-沪深京,信息披露调研-巨潮资讯,6,5,0,stock,单次获取指定 symbol 的信息披露公告数据
+stock_zh_a_disclosure_relation_cninfo,http://www.cninfo.com.cn/new/commonUrl/pageOfSearch?url=disclosure/list/search,巨潮资讯-首页-公告查询-信息披露调研-沪深京,行业分类数据-巨潮资讯,4,5,0,stock,单次获取指定 symbol 的信息披露调研数据
+stock_industry_category_cninfo,https://webapi.cninfo.com.cn/#/apiDoc,巨潮资讯-数据-行业分类数据,上市公司行业归属的变动情况-巨潮资讯,1,8,0,stock,单次获取指定 symbol 的行业分类数据
+stock_industry_change_cninfo,http://webapi.cninfo.com.cn/#/apiDoc,巨潮资讯-数据-上市公司行业归属的变动情况,公司股本变动-巨潮资讯,3,11,0,stock,单次获取指定 symbol 在 start_date 和 end_date 之间的上市公司行业归属的变动情况数据
+stock_share_change_cninfo,https://webapi.cninfo.com.cn/#/apiDoc,巨潮资讯-数据-公司股本变动,配股实施方案-巨潮资讯,3,44,0,stock,单次获取指定 symbol 在 start_date 和 end_date 之间的公司股本变动数据
+stock_allotment_cninfo,http://webapi.cninfo.com.cn/#/dataBrowse,巨潮资讯-个股-配股实施方案,公司概况-巨潮资讯,3,57,0,stock,单次获取指定 symbol 在 start_date 和 end_date 之间的公司股本变动数据
+stock_profile_cninfo,http://webapi.cninfo.com.cn/#/company,巨潮资讯-个股-公司概况,上市相关-巨潮资讯,1,26,0,stock,单次获取指定 symbol 的公司概况
+stock_ipo_summary_cninfo,https://webapi.cninfo.com.cn/#/company,巨潮资讯-个股-上市相关,资产负债表-沪深,1,15,0,stock,单次获取指定 symbol 的上市相关数据
+stock_zcfz_em,https://data.eastmoney.com/bbsj/202003/zcfz.html,东方财富-数据中心-年报季报-业绩快报-资产负债表,资产负债表-北交所,1,15,0,stock,单次获取指定 date 的资产负债表数据
+stock_zcfz_bj_em,https://data.eastmoney.com/bbsj/202003/zcfz.html,东方财富-数据中心-年报季报-业绩快报-资产负债表,利润表,1,15,0,stock,单次获取指定 date 的资产负债表数据
+stock_lrb_em,http://data.eastmoney.com/bbsj/202003/lrb.html,东方财富-数据中心-年报季报-业绩快报-利润表,现金流量表,1,15,0,stock,单次获取指定 date 的利润表数据
+stock_xjll_em,http://data.eastmoney.com/bbsj/202003/xjll.html,东方财富-数据中心-年报季报-业绩快报-现金流量表,高管持股,1,12,0,stock,单次获取指定 date 的现金流量表数据
+stock_ggcg_em,http://data.eastmoney.com/executive/gdzjc.html,东方财富网-数据中心-特色数据-高管持股,分红配送,1,16,0,stock,单次获取所有高管持股数据数据
+stock_fhps_em,https://data.eastmoney.com/yjfp/,东方财富-数据中心-年报季报-分红配送,分红配送详情-东财,1,18,0,stock,单次获取指定日期的分红配送数据
+stock_fhps_detail_em,https://data.eastmoney.com/yjfp/detail/300073.html,东方财富网-数据中心-分红送配-分红送配详情,分红情况-同花顺,1,19,0,stock,单次获取指定 symbol 的分红配送详情数据
+stock_fhps_detail_ths,https://basic.10jqka.com.cn/new/603444/bonus.html,同花顺-分红情况,分红配送详情-港股-同花顺,1,11,0,stock,单次获取指定 symbol 的分红情况数据
+stock_hk_fhpx_detail_ths,https://stockpage.10jqka.com.cn/HK0700/bonus/,同花顺-港股-分红派息,资金流向,1,9,0,stock,单次获取指定股票的分红派息数据
+stock_fund_flow_individual,https://data.10jqka.com.cn/funds/ggzjl/#refCountId=data_55f13c2c_254,同花顺-数据中心-资金流向-个股资金流,概念资金流,1,0,0,stock,单次获取指定 symbol 的概念资金流数据
+stock_fund_flow_concept,https://data.10jqka.com.cn/funds/gnzjl/#refCountId=data_55f13c2c_254,同花顺-数据中心-资金流向-概念资金流,行业资金流,1,0,0,stock,单次获取指定 symbol 的概念资金流数据
+stock_fund_flow_industry,http://data.10jqka.com.cn/funds/hyzjl/#refCountId=data_55f13c2c_254,同花顺-数据中心-资金流向-行业资金流,大单追踪,1,0,0,stock,单次获取指定 symbol 的行业资金流数据
+stock_fund_flow_big_deal,https://data.10jqka.com.cn/funds/ddzz,同花顺-数据中心-资金流向-大单追踪,东方财富,1,0,0,stock,单次获取当前时点的所有大单追踪数据
+stock_individual_fund_flow,https://data.eastmoney.com/zjlx/detail.html,东方财富网-数据中心-个股资金流向,个股资金流排名,2,13,0,stock,单次获取指定市场和股票的近 100 个交易日的资金流数据
+stock_individual_fund_flow_rank,http://data.eastmoney.com/zjlx/detail.html,东方财富网-数据中心-资金流向-排名,大盘资金流,1,0,0,stock,单次获取指定类型的个股资金流排名数据
+stock_market_fund_flow,https://data.eastmoney.com/zjlx/dpzjlx.html,东方财富网-数据中心-资金流向-大盘,板块资金流排名,1,15,0,stock,单次获取大盘资金流向历史数据
+stock_sector_fund_flow_rank,https://data.eastmoney.com/bkzj/hy.html,东方财富网-数据中心-资金流向-板块资金流-排名,主力净流入排名,2,0,0,stock,单次获取指定板块的指定期限的资金流排名数据
+stock_main_fund_flow,https://data.eastmoney.com/zjlx/list.html,东方财富网-数据中心-资金流向-主力净流入排名,行业个股资金流,1,14,0,stock,单次获取指定 symbol 的主力净流入排名数据
+stock_sector_fund_flow_summary,https://data.eastmoney.com/bkzj/BK1034.html,东方财富网-数据中心-资金流向-行业资金流-xx行业个股资金流,行业历史资金流,2,0,0,stock,单次获取指定 symbol 的个股资金流
+stock_sector_fund_flow_hist,https://data.eastmoney.com/bkzj/BK1034.html,东方财富网-数据中心-资金流向-行业资金流-行业历史资金流,概念历史资金流,1,11,0,stock,单次获取指定行业的行业历史资金流数据
+stock_concept_fund_flow_hist,https://data.eastmoney.com/bkzj/BK0574.html,东方财富网-数据中心-资金流向-概念资金流-概念历史资金流,筹码分布,1,11,0,stock,单次获取指定 symbol 的近期概念历史资金流数据
+stock_cyq_em,https://quote.eastmoney.com/concept/sz000001.html,东方财富网-概念板-行情中心-日K-筹码分布,基本面数据,2,9,0,stock,单次返回指定 symbol 和 adjust 的近 90 个交易日数据
+stock_gddh_em,https://data.eastmoney.com/gddh/,东方财富网-数据中心-股东大会,重大合同,1,12,0,stock,单次返回所有数据
+stock_zdhtmx_em,https://data.eastmoney.com/zdht/mx.html,东方财富网-数据中心-重大合同-重大合同明细,个股研报,2,15,0,stock,单次返回指定 start_date 和 end_date 的所有数据
+stock_research_report_em,https://data.eastmoney.com/report/stock.jshtml,东方财富网-数据中心-研究报告-个股研报,沪深京 A 股公告,1,16,0,stock,单次返回指定 symbol 的所有数据
+stock_notice_report,https://data.eastmoney.com/notices/hsa/5.html,东方财富网-数据中心-公告大全-沪深京 A 股公告,财务报表-新浪,2,6,0,stock,单次获取指定 symbol 和 date 的数据
+stock_financial_report_sina,https://vip.stock.finance.sina.com.cn/corp/go.php/vFD_FinanceSummary/stockid/600600/displaytype/4.phtml?source=fzb&qq-pf-to=pcqq.group,新浪财经-财务报表-三大报表,财务报表-东财,2,5,0,stock,单次获取指定报表的所有年份数据的历史数据
+stock_balance_sheet_by_report_em,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519#lrb-0,东方财富-股票-财务分析-资产负债表-按报告期,资产负债表-按年度,1,1,0,stock,单次获取指定 symbol 的资产负债表-按报告期数据
+stock_balance_sheet_by_yearly_em,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519#lrb-0,东方财富-股票-财务分析-资产负债表-按年度,利润表-按报告期,1,1,0,stock,单次获取指定 symbol 的资产负债表-按年度数据
+stock_profit_sheet_by_report_em,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519#lrb-0,东方财富-股票-财务分析-利润表-报告期,利润表-按年度,1,1,0,stock,单次获取指定 symbol 的利润表-报告期数据
+stock_profit_sheet_by_yearly_em,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519#lrb-0,东方财富-股票-财务分析-利润表-按年度,利润表-按单季度,1,1,0,stock,单次获取指定 symbol 的利润表-按年度数据
+stock_profit_sheet_by_quarterly_em,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519#lrb-0,东方财富-股票-财务分析-利润表-按单季度,现金流量表-按报告期,1,1,0,stock,单次获取指定 symbol 的利润表-按单季度数据
+stock_cash_flow_sheet_by_report_em,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519#lrb-0,东方财富-股票-财务分析-现金流量表-按报告期,现金流量表-按年度,1,1,0,stock,单次获取指定 symbol 的现金流量表-按报告期数据
+stock_cash_flow_sheet_by_yearly_em,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519#lrb-0,东方财富-股票-财务分析-现金流量表-按年度,现金流量表-按单季度,1,1,0,stock,单次获取指定 symbol 的现金流量表-按年度数据
+stock_cash_flow_sheet_by_quarterly_em,https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=sh600519#lrb-0,东方财富-股票-财务分析-现金流量表-按单季度,财务报表-同花顺,1,1,0,stock,单次获取指定 symbol 的现金流量表-按单季度数据
+stock_financial_debt_new_ths,https://basic.10jqka.com.cn/astockpc/astockmain/index.html#/financen?code=000063,同花顺-财务指标-资产负债表；替换 stock_financial_debt_ths 接口,利润表,2,10,0,stock,单次获取资产负债表所有历史数据
+stock_financial_benefit_new_ths,https://basic.10jqka.com.cn/astockpc/astockmain/index.html#/financen?code=000063,同花顺-财务指标-利润表；替换 stock_financial_benefit_ths 接口,现金流量表,2,10,0,stock,单次获取利润表所有历史数据
+stock_financial_cash_new_ths,https://basic.10jqka.com.cn/astockpc/astockmain/index.html#/financen?code=000063,同花顺-财务指标-现金流量表；替换 stock_financial_cash_ths 接口,财务报表-东财-已退市股票,2,10,0,stock,单次获取现金流量表所有历史数据
+stock_balance_sheet_by_report_delisted_em,https://emweb.securities.eastmoney.com/pc_hsf10/pages/index.html?type=web&code=SZ000013#/cwfx/zcfzb,东方财富-股票-财务分析-资产负债表-已退市股票-按报告期,利润表-按报告期,1,1,0,stock,单次获取指定 symbol 的资产负债表-按报告期数据
+stock_profit_sheet_by_report_delisted_em,https://emweb.securities.eastmoney.com/pc_hsf10/pages/index.html?type=web&code=SZ000013#/cwfx/lrb,东方财富-股票-财务分析-利润表-已退市股票-按报告期,现金流量表-按报告期,1,1,0,stock,单次获取指定 symbol 的利润表-按报告期数据
+stock_cash_flow_sheet_by_report_delisted_em,https://emweb.securities.eastmoney.com/pc_hsf10/pages/index.html?type=web&code=SZ000013#/cwfx/xjllb,东方财富-股票-财务分析-现金流量表-已退市股票-按报告期,港股财务报表,1,1,0,stock,单次获取指定 symbol 的现金流量表-按报告期数据
+stock_financial_hk_report_em,https://emweb.securities.eastmoney.com/PC_HKF10/FinancialAnalysis/index?type=web&code=00700,东方财富-港股-财务报表-三大报表,美股财务报表,3,11,0,stock,单次获取指定股票、指定报告且指定报告期的数据
+stock_financial_us_report_em,https://emweb.eastmoney.com/PC_USF10/pages/index.html?code=TSLA&type=web&color=w#/cwfx/zyzb,东方财富-美股-财务分析-三大报表,关键指标-新浪,3,9,0,stock,单次获取指定股票、指定报告且指定报告期的数据
+stock_financial_abstract,https://vip.stock.finance.sina.com.cn/corp/go.php/vFD_FinanceSummary/stockid/600004.phtml,新浪财经-财务报表-关键指标,关键指标-同花顺,1,3,0,stock,单次获取关键指标所有历史数据
+stock_financial_abstract_new_ths,https://basic.10jqka.com.cn/new/000063/finance.html,同花顺-财务指标-重要指标；替换 stock_financial_abstract_ths 接口,主要指标-东方财富,2,10,0,stock,单次获取指定 symbol 的所有数据
+stock_financial_analysis_indicator_em,https://emweb.securities.eastmoney.com/pc_hsf10/pages/index.html?type=web&code=SZ301389&color=b#/cwfx,东方财富-A股-财务分析-主要指标,财务指标,2,45,0,stock,单次获取指定 symbol 的所有数据
+stock_financial_analysis_indicator,https://money.finance.sina.com.cn/corp/go.php/vFD_FinancialGuideLine/stockid/600004/ctrl/2019/displaytype/4.phtml,新浪财经-财务分析-财务指标,港股财务指标,2,86,0,stock,单次获取指定 symbol 和 start_year 的所有财务指标历史数据
+stock_financial_hk_analysis_indicator_em,https://emweb.securities.eastmoney.com/PC_HKF10/NewFinancialAnalysis/index?type=web&code=00700,东方财富-港股-财务分析-主要指标,美股财务指标,2,36,0,stock,单次获取财务指标所有历史数据
+stock_financial_us_analysis_indicator_em,https://emweb.eastmoney.com/PC_USF10/pages/index.html?code=TSLA&type=web&color=w#/cwfx/zyzb,东方财富-美股-财务分析-主要指标,历史分红,2,48,0,stock,单次获取指定股票的所有历史数据
+stock_history_dividend,http://vip.stock.finance.sina.com.cn/q/go.php/vInvestConsult/kind/lsfh/index.phtml,新浪财经-发行与分配-历史分红,十大流通股东(个股),1,8,0,stock,单次获取所有股票的历史分红数据
+stock_gdfx_free_top_10_em,https://emweb.securities.eastmoney.com/PC_HSF10/ShareholderResearch/Index?type=web&code=SH688686#sdltgd-0,东方财富网-个股-十大流通股东,十大股东(个股),2,8,0,stock,单次返回指定 symbol 和 date 的所有数据
+stock_gdfx_top_10_em,https://emweb.securities.eastmoney.com/PC_HSF10/ShareholderResearch/Index?type=web&code=SH688686#sdltgd-0,东方财富网-个股-十大股东,股东持股变动统计-十大流通股东,2,7,0,stock,单次返回指定 symbol 和 date 的所有数据
+stock_gdfx_free_holding_change_em,https://data.eastmoney.com/gdfx/HoldingAnalyse.html,东方财富网-数据中心-股东分析-股东持股变动统计-十大流通股东,股东持股变动统计-十大股东,1,10,0,stock,单次返回指定 date 的所有数据
+stock_gdfx_holding_change_em,https://data.eastmoney.com/gdfx/HoldingAnalyse.html,东方财富网-数据中心-股东分析-股东持股变动统计-十大股东,高管持股变动统计,1,10,0,stock,单次返回指定 date 的所有数据
+stock_management_change_ths,https://basic.10jqka.com.cn/new/688981/event.html,同花顺-公司大事-高管持股变动,股东持股变动统计,1,7,0,stock,单次返回所有数据
+stock_shareholder_change_ths,https://basic.10jqka.com.cn/new/688981/event.html,同花顺-公司大事-股东持股变动,股东持股分析-十大流通股东,1,7,0,stock,单次返回所有数据
+stock_gdfx_free_holding_analyse_em,https://data.eastmoney.com/gdfx/HoldingAnalyse.html,东方财富网-数据中心-股东分析-股东持股分析-十大流通股东,股东持股分析-十大股东,1,15,0,stock,单次获取返回所有数据
+stock_gdfx_holding_analyse_em,https://data.eastmoney.com/gdfx/HoldingAnalyse.html,东方财富网-数据中心-股东分析-股东持股分析-十大股东,股东持股明细-十大流通股东,1,15,0,stock,单次获取返回所有数据
+stock_gdfx_free_holding_detail_em,https://data.eastmoney.com/gdfx/HoldingAnalyse.html,东方财富网-数据中心-股东分析-股东持股明细-十大流通股东,股东持股明细-十大股东,1,12,0,stock,单次返回指定 date 的所有数据
+stock_gdfx_holding_detail_em,https://data.eastmoney.com/gdfx/HoldingAnalyse.html,东方财富网-数据中心-股东分析-股东持股明细-十大股东,股东持股统计-十大流通股东,3,13,0,stock,单次返回指定参数的所有数据
+stock_gdfx_free_holding_statistics_em,https://data.eastmoney.com/gdfx/HoldingAnalyse.html,东方财富网-数据中心-股东分析-股东持股统计-十大股东,股东持股统计-十大股东,1,14,0,stock,单次返回指定 date 的所有数据
+stock_gdfx_holding_statistics_em,https://data.eastmoney.com/gdfx/HoldingAnalyse.html,东方财富网-数据中心-股东分析-股东持股统计-十大股东,股东协同-十大流通股东,1,14,0,stock,单次返回指定 date 的所有数据
+stock_gdfx_free_holding_teamwork_em,https://data.eastmoney.com/gdfx/HoldingAnalyse.html,东方财富网-数据中心-股东分析-股东协同-十大流通股东,股东协同-十大股东,1,7,0,stock,单次返回所有数据
+stock_gdfx_holding_teamwork_em,https://data.eastmoney.com/gdfx/HoldingAnalyse.html,东方财富网-数据中心-股东分析-股东协同-十大股东,股东户数,1,7,0,stock,单次返回所有数据
+stock_zh_a_gdhs,http://data.eastmoney.com/gdhs/,东方财富网-数据中心-特色数据-股东户数数据,股东户数详情,1,16,0,stock,单次获取返回所有数据
+stock_zh_a_gdhs_detail_em,https://data.eastmoney.com/gdhs/detail/000002.html,东方财富网-数据中心-特色数据-股东户数详情,分红配股,1,15,0,stock,单次获取指定 symbol 的所有数据
+stock_history_dividend_detail,https://vip.stock.finance.sina.com.cn/corp/go.php/vISSUE_ShareBonus/stockid/300670.phtml,新浪财经-发行与分配-分红配股,历史分红,3,0,0,stock,单次获取指定股票的新浪财经-发行与分配-分红配股详情
+stock_dividend_cninfo,http://webapi.cninfo.com.cn/#/company?companyid=600009,巨潮资讯-个股-历史分红,新股发行,1,11,0,stock,单次获取指定股票的历史分红数据
+stock_ipo_info,https://vip.stock.finance.sina.com.cn/corp/go.php/vISSUE_NewStock/stockid/600004.phtml,新浪财经-发行与分配-新股发行,新股上会信息,1,2,0,stock,单次获取新股发行的基本信息数据
+stock_ipo_review_em,https://data.eastmoney.com/xg/gh/default.html,东方财富网-数据中心-新股申购-新股上会信息,IPO辅导信息,1,13,0,stock,单次获取所有数据
+stock_ipo_tutor_em,https://data.eastmoney.com/xg/gh/default.html,东方财富网-数据中心-新股申购-IPO辅导信息,股票增发,1,7,0,stock,单次获取所有数据
+stock_add_stock,https://vip.stock.finance.sina.com.cn/corp/go.php/vISSUE_AddStock/stockid/600004.phtml,新浪财经-发行与分配-增发,限售解禁,1,6,0,stock,单次指定 symbol 的股票增发详情数据
+stock_restricted_release_queue_sina,https://vip.stock.finance.sina.com.cn/q/go.php/vInvestConsult/kind/xsjj/index.phtml?symbol=sh600000,新浪财经-发行分配-限售解禁,限售股解禁,1,7,0,stock,单次获取指定 symbol 的限售解禁数据
+stock_restricted_release_summary_em,https://data.eastmoney.com/dxf/marketStatistics.html?type=day&startdate=2022-11-08&enddate=2022-12-19,东方财富网-数据中心-特色数据-限售股解禁,限售股解禁详情,3,8,0,stock,单次获取指定 symbol 在近期限售股解禁数据
+stock_restricted_release_detail_em,https://data.eastmoney.com/dxf/detail.html,东方财富网-数据中心-限售股解禁-解禁详情一览,解禁批次,2,12,0,stock,单次获取指定时间段限售股解禁数据
+stock_restricted_release_queue_em,https://data.eastmoney.com/dxf/q/600000.html,东方财富网-数据中心-个股限售解禁-解禁批次,解禁股东,1,13,0,stock,单次获取指定 symbol 的解禁批次数据
+stock_restricted_release_stockholder_em,https://data.eastmoney.com/dxf/q/600000.html,东方财富网-数据中心-个股限售解禁-解禁股东,流通股东,2,9,0,stock,单次获取指定 symbol 的解禁批次数据
+stock_circulate_stock_holder,https://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CirculateStockHolder/stockid/600000.phtml,新浪财经-股东股本-流通股东,板块行情,1,7,0,stock,单次获取指定 symbol 的流通股东数据
+stock_sector_spot,http://finance.sina.com.cn/stock/sl/,新浪行业-板块行情,板块详情,1,13,0,stock,单次获取指定的板块行情实时数据
+stock_sector_detail,http://finance.sina.com.cn/stock/sl/#area_1,"新浪行业-板块行情-成份详情, 由于新浪网页提供的统计数据有误, 部分行业数量大于统计数",股票列表-A股,1,20,0,stock,单次获取指定的新浪行业-板块行情-成份详情
+stock_info_a_code_name,沪深京三个交易所,沪深京 A 股股票代码和股票简称数据,股票列表-上证,1,2,0,stock,单次获取所有 A 股股票代码和简称数据
+stock_info_sh_name_code,https://www.sse.com.cn/assortment/stock/list/share/,上海证券交易所股票代码和简称数据,股票列表-深证,1,4,0,stock,单次获取所有上海证券交易所股票代码和简称数据
+stock_info_sz_name_code,https://www.szse.cn/market/product/stock/list/index.html,深证证券交易所股票代码和股票简称数据,股票列表-北证,1,0,0,stock,单次获取深证证券交易所股票代码和简称数据
+stock_info_bj_name_code,https://www.bse.cn/nq/listedcompany.html,北京证券交易所股票代码和简称数据,终止/暂停上市-深证,1,8,0,stock,单次获取北京证券交易所所有的股票代码和简称数据
+stock_info_sz_delist,https://www.szse.cn/market/stock/suspend/index.html,深证证券交易所终止/暂停上市股票,两网及退市,1,4,0,stock,单次获取深证证券交易所终止/暂停上市数据
+stock_staq_net_stop,https://quote.eastmoney.com/center/gridlist.html#staq_net_board,东方财富网-行情中心-沪深个股-两网及退市,暂停/终止上市-上证,1,3,0,stock,单次获取所有两网及退市的股票数据
+stock_info_sh_delist,https://www.sse.com.cn/assortment/stock/list/delisting/,上海证券交易所暂停/终止上市股票,股票更名,1,4,0,stock,单次获取上海证券交易所暂停/终止上市股票
+stock_info_change_name,https://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpInfo/stockid/300378.phtml,新浪财经-股票曾用名,名称变更-深证,1,2,0,stock,单次指定 symbol 的所有历史曾用名称
+stock_info_sz_change_name,https://www.szse.cn/www/market/stock/changename/index.html,深证证券交易所-市场数据-股票数据-名称变更,基金持股,1,5,0,stock,单次获取所有历史数据
+stock_fund_stock_holder,https://vip.stock.finance.sina.com.cn/corp/go.php/vCI_FundStockHolder/stockid/600004.phtml,新浪财经-股本股东-基金持股,主要股东,1,7,0,stock,新浪财经-股本股东-基金持股所有历史数据
+stock_main_stock_holder,https://vip.stock.finance.sina.com.cn/corp/go.php/vCI_StockHolder/stockid/600004.phtml,新浪财经-股本股东-主要股东,机构持股,1,10,0,stock,单次获取所有历史数据
+stock_institute_hold,https://vip.stock.finance.sina.com.cn/q/go.php/vComStockHold/kind/jgcg/index.phtml,新浪财经-机构持股-机构持股一览表,机构持股详情,1,8,0,stock,单次获取所有历史数据
+stock_institute_hold_detail,http://vip.stock.finance.sina.com.cn/q/go.php/vComStockHold/kind/jgcg/index.phtml,新浪财经-机构持股-机构持股详情,机构推荐,2,12,0,stock,单次所有历史数据
+stock_institute_recommend,http://stock.finance.sina.com.cn/stock/go.php/vIR_RatingNewest/index.phtml,新浪财经-机构推荐池-具体指标的数据,股票评级记录,1,1,0,stock,单次获取新浪财经-机构推荐池-具体指标的所有数据
+stock_institute_recommend_detail,http://stock.finance.sina.com.cn/stock/go.php/vIR_StockSearch/key/sz000001.phtml,新浪财经-机构推荐池-股票评级记录,投资评级,1,8,0,stock,单次获取新浪财经-机构推荐池-股票评级记录的所有数据
+stock_rank_forecast_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-评级预测-投资评级,申万个股行业分类变动历史,1,11,0,stock,单次获取指定交易日的所有数据
+stock_industry_clf_hist_sw,http://www.swhyresearch.com/institute_sw/allIndex/downloadCenter/industryType,申万宏源研究-行业分类-全部行业分类,行业市盈率,1,4,0,stock,单次获取所有个股的行业分类变动历史数据
+stock_industry_pe_ratio_cninfo,http://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-行业分析-行业市盈率,新股过会,2,12,0,stock,单次获取指定 symbol 在指定交易日的所有数据; 只能获取近期的数据
+stock_new_gh_cninfo,https://webapi.cninfo.com.cn/#/xinguList,巨潮资讯-数据中心-新股数据-新股过会,新股发行,1,6,0,stock,单次获取近一年所有新股过会的数据
+stock_new_ipo_cninfo,https://webapi.cninfo.com.cn/#/xinguList,巨潮资讯-数据中心-新股数据-新股发行,董监高及相关人员持股变动-上证,1,13,0,stock,单次获取近三年所有新股发行的数据
+stock_share_hold_change_sse,http://www.sse.com.cn/disclosure/credibility/supervision/change/,上海证券交易所-披露-监管信息公开-公司监管-董董监高人员股份变动,董监高及相关人员持股变动-深证,1,13,0,stock,单次获取指定 symbol 的数据
+stock_share_hold_change_szse,http://www.szse.cn/disclosure/supervision/change/index.html,深圳证券交易所-信息披露-监管信息公开-董监高人员股份变动,董监高及相关人员持股变动-北证,1,12,0,stock,单次获取指定 symbol 的数据
+stock_share_hold_change_bse,https://www.bse.cn/disclosure/djg_sharehold_change.html,北京证券交易所-信息披露-监管信息-董监高及相关人员持股变动,股东人数及持股集中度,1,10,0,stock,单次获取指定 symbol 的数据
+stock_hold_num_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-股东股本-股东人数及持股集中度,股本变动,1,9,0,stock,"单次指定 date 的股东人数及持股集中度数据, 从 20170331 开始"
+stock_hold_change_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-股东股本-股本变动,实际控制人持股变动,1,10,0,stock,单次指定 symbol 的股本变动数据
+stock_hold_control_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-股东股本-实际控制人持股变动,高管持股变动明细,1,8,0,stock,"单次指定 symbol 的实际控制人持股变动数据, 从 2010 开始"
+stock_hold_management_detail_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-股东股本-高管持股变动明细,董监高及相关人员持股变动明细,1,16,0,stock,"单次指定 symbol 的高管持股变动明细数据, 返回近一年的数据"
+stock_hold_management_detail_em,https://data.eastmoney.com/executive/list.html,东方财富网-数据中心-特色数据-高管持股-董监高及相关人员持股变动明细,人员增减持股变动明细,1,16,0,stock,单次返回所有数据
+stock_hold_management_person_em,https://data.eastmoney.com/executive/personinfo.html?name=%E5%90%B4%E8%BF%9C&code=001308,东方财富网-数据中心-特色数据-高管持股-人员增减持股变动明细,对外担保,2,16,0,stock,单次返回指定 symbol 和 name 的数据
+stock_cg_guarantee_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-公司治理-对外担保,公司诉讼,3,7,0,stock,单次指定 symbol 和起始日期的对外担保数据
+stock_cg_lawsuit_cninfo,http://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-公司治理-公司诉讼,股权质押,3,5,0,stock,单次指定 symbol 和起始日期的公司诉讼数据
+stock_cg_equity_mortgage_cninfo,https://webapi.cninfo.com.cn/#/thematicStatistics,巨潮资讯-数据中心-专题统计-公司治理-股权质押,美港目标价,1,10,0,stock,单次指定 date 的股权质押数据
+stock_price_js,https://www.ushknews.com/report.html,美港电讯-美港目标价数据,券商业绩月报,1,6,0,stock,"单次获取所有数据, 数据从 2019-至今; 该接口暂时不能使用"
+stock_qsjy_em,http://data.eastmoney.com/other/qsjy.html,东方财富网-数据中心-特色数据-券商业绩月报,A 股股息率,1,14,0,stock,"单次获取所有数据, 数据从 201006-202007, 月频率"
+stock_a_gxl_lg,https://legulegu.com/stockdata/guxilv,乐咕乐股-股息率-A 股股息率,恒生指数股息率,1,2,0,stock,单次获取指定 symbol 的所有历史数据
+stock_hk_gxl_lg,https://legulegu.com/stockdata/market/hk/dv/hsi,乐咕乐股-股息率-恒生指数股息率,大盘拥挤度,1,2,0,stock,单次获取所有月度历史数据
+stock_a_congestion_lg,https://legulegu.com/stockdata/ashares-congestion,乐咕乐股-大盘拥挤度,股债利差,1,3,0,stock,单次获取近 4 年的历史数据
+stock_ebs_lg,https://legulegu.com/stockdata/equity-bond-spread,乐咕乐股-股债利差,巴菲特指标,1,4,0,stock,单次所有历史数据
+stock_buffett_index_lg,https://legulegu.com/stockdata/marketcap-gdp,乐估乐股-底部研究-巴菲特指标,A 股等权重与中位数市盈率,1,6,0,stock,单次获取所有历史数据
+stock_a_ttm_lyr,https://www.legulegu.com/stockdata/a-ttm-lyr,乐咕乐股-A 股等权重市盈率与中位数市盈率,A 股等权重与中位数市净率,1,14,0,stock,单次返回所有数据
+stock_a_all_pb,https://www.legulegu.com/stockdata/all-pb,乐咕乐股-A 股等权重与中位数市净率,主板市盈率,1,8,0,stock,单次返回所有数据
+stock_market_pe_lg,https://legulegu.com/stockdata/shanghaiPE,乐咕乐股-主板市盈率,指数市盈率,1,0,0,stock,单次获取指定 symbol 的所有数据
+stock_index_pe_lg,https://legulegu.com/stockdata/sz50-ttm-lyr,乐咕乐股-指数市盈率,主板市净率,1,8,0,stock,单次获取指定 symbol 的所有数据
+stock_market_pb_lg,https://legulegu.com/stockdata/shanghaiPB,乐咕乐股-主板市净率,指数市净率,1,5,0,stock,单次获取指定 symbol 的所有数据
+stock_index_pb_lg,https://legulegu.com/stockdata/sz50-pb,乐咕乐股-指数市净率,A 股估值指标,1,5,0,stock,单次获取指定 symbol 的所有数据
+stock_zh_valuation_baidu,https://gushitong.baidu.com/stock/ab-002044,百度股市通-A 股-财务报表-估值数据,个股估值,3,2,0,stock,单次获取指定 symbol 和 indicator 的所有历史数据
+stock_value_em,https://data.eastmoney.com/gzfx/detail/300766.html,东方财富网-数据中心-估值分析-每日互动-每日互动-估值分析,涨跌投票,1,13,0,stock,单次获取指定 symbol 的所有历史数据
+stock_zh_vote_baidu,https://gushitong.baidu.com/index/ab-000001,百度股市通- A 股或指数-股评-投票,港股个股指标,2,5,0,stock,单次获取指定 symbol 和 indicator 的所有数据
+stock_hk_indicator_eniu,https://eniu.com/gu/hk01093/roe,"亿牛网-港股个股指标: 市盈率, 市净率, 股息率, ROE, 市值",港股估值指标,2,1,0,stock,单次获取指定 symbol 和 indicator 的所有历史数据
+stock_hk_valuation_baidu,https://gushitong.baidu.com/stock/hk-06969,百度股市通-港股-财务报表-估值数据,美股估值指标,3,2,0,stock,单次获取指定 symbol 的指定 indicator 的特定 period 的历史数据
+stock_us_valuation_baidu,https://gushitong.baidu.com/stock/us-NVDA,百度股市通-美股-财务报表-估值数据,创新高和新低的股票数量,3,2,0,stock,单次获取指定 symbol 的指定 indicator 的特定 period 的历史数据
+stock_a_high_low_statistics,https://www.legulegu.com/stockdata/high-low-statistics,不同市场的创新高和新低的股票数量,破净股统计,1,8,0,stock,单次获取指定 market 的近两年的历史数据
+stock_a_below_net_asset_statistics,https://www.legulegu.com/stockdata/below-net-asset-statistics,乐咕乐股-A 股破净股统计数据,基金持股,1,0,0,stock,单次获取指定 symbol 的所有历史数据
+stock_report_fund_hold,http://data.eastmoney.com/zlsj/2020-06-30-1-2.html,东方财富网-数据中心-主力数据-基金持仓,基金持股明细,2,9,0,stock,单次返回指定 symbol 和 date 的所有历史数据
+stock_report_fund_hold_detail,http://data.eastmoney.com/zlsj/ccjj/2020-12-31-008286.html,东方财富网-数据中心-主力数据-基金持仓-基金持仓明细表,龙虎榜,2,7,0,stock,单次返回指定 symbol 和 date 的所有历史数据
+stock_lhb_detail_em,https://data.eastmoney.com/stock/tradedetail.html,东方财富网-数据中心-龙虎榜单-龙虎榜详情,个股上榜统计,2,21,0,stock,单次返回所有历史数据
+stock_lhb_stock_statistic_em,https://data.eastmoney.com/stock/tradedetail.html,东方财富网-数据中心-龙虎榜单-个股上榜统计,机构买卖每日统计,1,20,0,stock,单次返回所有历史数据
+stock_lhb_jgmmtj_em,https://data.eastmoney.com/stock/jgmmtj.html,东方财富网-数据中心-龙虎榜单-机构买卖每日统计,机构席位追踪,2,16,0,stock,单次返回所有历史数据
+stock_lhb_jgstatistic_em,https://data.eastmoney.com/stock/jgstatistic.html,东方财富网-数据中心-龙虎榜单-机构席位追踪,每日活跃营业部,1,16,0,stock,单次返回所有历史数据
+stock_lhb_hyyyb_em,https://data.eastmoney.com/stock/hyyyb.html,东方财富网-数据中心-龙虎榜单-每日活跃营业部,营业部详情数据-东财,2,9,0,stock,单次返回所有历史数据
+stock_lhb_yyb_detail_em,https://data.eastmoney.com/stock/lhb/yyb/10188715.html,东方财富网-数据中心-龙虎榜单-营业部历史交易明细-营业部交易明细,营业部排行,1,19,0,stock,单次返回指定营业部的所有历史数据
+stock_lhb_yybph_em,https://data.eastmoney.com/stock/yybph.html,东方财富网-数据中心-龙虎榜单-营业部排行,营业部统计,1,17,0,stock,单次返回所有历史数据
+stock_lhb_traderstatistic_em,https://data.eastmoney.com/stock/traderstatistic.html,东方财富网-数据中心-龙虎榜单-营业部统计,个股龙虎榜详情,1,8,0,stock,单次返回所有历史数据
+stock_lhb_stock_detail_em,https://data.eastmoney.com/stock/lhb/600077.html,东方财富网-数据中心-龙虎榜单-个股龙虎榜详情,龙虎榜-营业部排行,3,7,0,stock,单次返回所有历史数据
+stock_lh_yyb_most,https://data.10jqka.com.cn/market/longhu/,龙虎榜-营业部排行-上榜次数最多,龙虎榜-营业部排行-资金实力最强,1,7,0,stock,单次返回所有历史数据
+stock_lh_yyb_capital,https://data.10jqka.com.cn/market/longhu/,龙虎榜-营业部排行-资金实力最强,龙虎榜-营业部排行-抱团操作实力,1,7,0,stock,单次返回所有历史数据
+stock_lh_yyb_control,https://data.10jqka.com.cn/market/longhu/,龙虎榜-营业部排行-抱团操作实力,龙虎榜-每日详情,1,6,0,stock,单次返回所有历史数据
+stock_lhb_detail_daily_sina,https://vip.stock.finance.sina.com.cn/q/go.php/vInvestConsult/kind/lhb/index.phtml,新浪财经-龙虎榜-每日详情,龙虎榜-个股上榜统计,1,8,0,stock,单次返回指定 date 的所有数据
+stock_lhb_ggtj_sina,https://vip.stock.finance.sina.com.cn/q/go.php/vLHBData/kind/ggtj/index.phtml,新浪财经-龙虎榜-个股上榜统计,龙虎榜-营业上榜统计,1,8,0,stock,单次返回指定 symbol 的所有历史数据
+stock_lhb_yytj_sina,https://vip.stock.finance.sina.com.cn/q/go.php/vLHBData/kind/yytj/index.phtml,新浪财经-龙虎榜-营业上榜统计,龙虎榜-机构席位追踪,1,7,0,stock,单次返回指定 symbol 的所有历史数据
+stock_lhb_jgzz_sina,https://vip.stock.finance.sina.com.cn/q/go.php/vLHBData/kind/jgzz/index.phtml,新浪财经-龙虎榜-机构席位追踪,龙虎榜-机构席位成交明细,1,7,0,stock,单次返回指定 symbol 的所有历史数据
+stock_lhb_jgmx_sina,https://vip.stock.finance.sina.com.cn/q/go.php/vLHBData/kind/jgzz/index.phtml,新浪财经-龙虎榜-机构席位成交明细,首发申报信息,1,6,0,stock,单次返回所有历史数据
+stock_ipo_declare_em,https://data.eastmoney.com/xg/xg/sbqy.html,东方财富网-数据中心-新股申购-首发申报信息-首发申报企业信息,IPO审核信息,1,10,0,stock,单次返回所有历史数据
+stock_register_all_em,https://data.eastmoney.com/xg/ipo/,东方财富网-数据中心-新股数据-IPO审核信息-全部,科创板,1,12,0,stock,单次返回所有历史数据
+stock_register_kcb,https://data.eastmoney.com/xg/ipo/,东方财富网-数据中心-新股数据-IPO审核信息-科创板,创业板,1,12,0,stock,单次返回所有历史数据
+stock_register_cyb,https://data.eastmoney.com/xg/ipo/,东方财富网-数据中心-新股数据-IPO审核信息-创业板,上海主板,1,12,0,stock,单次返回所有历史数据
+stock_register_sh,https://data.eastmoney.com/xg/ipo/,东方财富网-数据中心-新股数据-IPO审核信息-上海主板,深圳主板,1,12,0,stock,单次返回所有历史数据
+stock_register_sz,https://data.eastmoney.com/xg/ipo/,东方财富网-数据中心-新股数据-IPO审核信息-深圳主板,北交所,1,12,0,stock,单次返回所有历史数据
+stock_register_bj,https://data.eastmoney.com/xg/ipo/,东方财富网-数据中心-新股数据-IPO审核信息-北交所,达标企业,1,12,0,stock,单次返回所有历史数据
+stock_register_db,https://data.eastmoney.com/xg/cyb/,东方财富网-数据中心-新股数据-注册制审核-达标企业,增发,1,13,0,stock,单次返回所有历史数据
+stock_qbzf_em,https://data.eastmoney.com/other/gkzf.html,东方财富网-数据中心-新股数据-增发-全部增发,配股,1,11,0,stock,单次返回所有历史数据
+stock_pg_em,https://data.eastmoney.com/xg/pg/,东方财富网-数据中心-新股数据-配股,股票回购数据,1,13,0,stock,单次返回所有历史数据
+stock_repurchase_em,https://data.eastmoney.com/gphg/hglist.html,东方财富网-数据中心-股票回购-股票回购数据,股本结构,1,18,0,stock,单次返回所有历史数据
+stock_zh_a_gbjg_em,https://emweb.securities.eastmoney.com/pc_hsf10/pages/index.html#/gbjg,东方财富-A股数据-股本结构,大宗交易,1,9,0,stock,单次返回所有历史数据
+stock_dzjy_sctj,https://data.eastmoney.com/dzjy/dzjy_sctj.html,东方财富网-数据中心-大宗交易-市场统计,每日明细,1,9,0,stock,单次返回所有历史数据
+stock_dzjy_mrmx,https://data.eastmoney.com/dzjy/dzjy_mrmx.html,东方财富网-数据中心-大宗交易-每日明细,每日统计,3,0,0,stock,单次返回所有历史数据
+stock_dzjy_mrtj,https://data.eastmoney.com/dzjy/dzjy_mrtj.html,东方财富网-数据中心-大宗交易-每日统计,活跃 A 股统计,2,12,0,stock,单次返回所有历史数据
+stock_dzjy_hygtj,https://data.eastmoney.com/dzjy/dzjy_hygtj.html,东方财富网-数据中心-大宗交易-活跃 A 股统计,活跃营业部统计,1,16,0,stock,单次返回所有历史数据
+stock_dzjy_hyyybtj,https://data.eastmoney.com/dzjy/dzjy_hyyybtj.html,东方财富网-数据中心-大宗交易-活跃营业部统计,营业部排行,1,9,0,stock,单次返回所有历史数据
+stock_dzjy_yybph,https://data.eastmoney.com/dzjy/dzjy_yybph.html,东方财富网-数据中心-大宗交易-营业部排行,一致行动人,1,14,0,stock,单次返回所有历史数据
+stock_yzxdr_em,http://data.eastmoney.com/yzxdr/,东方财富网-数据中心-特色数据-一致行动人,融资融券,1,10,0,stock,单次返回所有历史数据
+stock_margin_ratio_pa,https://stock.pingan.com/static/webinfo/margin/business.html?businessType=0,融资融券-标的证券名单及保证金比例查询,两融账户信息,2,4,0,stock,单次返回指定交易所和交易日的所有历史数据
+stock_margin_account_info,https://data.eastmoney.com/rzrq/zhtjday.html,东方财富网-数据中心-融资融券-融资融券账户统计-两融账户信息,上海证券交易所,1,13,0,stock,单次返回所有历史数据
+stock_margin_sse,http://www.sse.com.cn/market/othersdata/margin/sum/,上海证券交易所-融资融券数据-融资融券汇总数据,融资融券明细,2,7,0,stock,单次返回指定时间段内的所有历史数据
+stock_margin_detail_sse,http://www.sse.com.cn/market/othersdata/margin/detail/,上海证券交易所-融资融券数据-融资融券明细数据,深圳证券交易所,1,9,0,stock,单次返回交易日的所有历史数据
+stock_margin_szse,https://www.szse.cn/disclosure/margin/margin/index.html,深圳证券交易所-融资融券数据-融资融券汇总数据,融资融券明细,1,6,0,stock,单次返回指定时间内的所有历史数据
+stock_margin_detail_szse,https://www.szse.cn/disclosure/margin/margin/index.html,深证证券交易所-融资融券数据-融资融券交易明细数据,标的证券信息,1,8,0,stock,单次返回指定 date 的所有历史数据
+stock_margin_underlying_info_szse,https://www.szse.cn/disclosure/margin/object/index.html,深圳证券交易所-融资融券数据-标的证券信息,盈利预测-东方财富,1,8,0,stock,单次返回交易日的所有历史数据
+stock_profit_forecast_em,http://data.eastmoney.com/report/profitforecast.jshtml,"东方财富网-数据中心-研究报告-盈利预测; 该数据源网页端返回数据有异常, 本接口已修复该异常",港股盈利预测-经济通,1,13,0,stock,单次返回指定 symbol 的数据
+stock_hk_profit_forecast_et,https://www.etnet.com.hk/www/sc/stocks/realtime/quote_profit.php?code=9999,经济通-公司资料-盈利预测,盈利预测-同花顺,2,0,0,stock,单次返回指定 symbol 和 indicator 的数据
+stock_profit_forecast_ths,http://basic.10jqka.com.cn/new/600519/worth.html,同花顺-盈利预测,概念板块,2,0,0,stock,单次返回指定 symbol 和 indicator 的数据
+stock_board_concept_index_ths,https://q.10jqka.com.cn/gn/detail/code/301558,同花顺-板块-概念板块-指数日频率数据,同花顺-概念板块简介,3,7,0,stock,单次返回所有日频指数数据
+stock_board_concept_info_ths,http://q.10jqka.com.cn/gn/detail/code/301558/,同花顺-板块-概念板块-板块简介,东方财富-概念板块,1,2,0,stock,单次返回所有数据
+stock_board_concept_name_em,https://quote.eastmoney.com/center/boardlist.html#concept_board,东方财富网-行情中心-沪深京板块-概念板块,东方财富-概念板块-实时行情,1,12,0,stock,单次返回当前时刻所有概念板块的实时行情数据
+stock_board_concept_spot_em,https://quote.eastmoney.com/bk/90.BK0818.html,东方财富网-行情中心-沪深京板块-概念板块-实时行情,东方财富-成份股,1,2,0,stock,单次返回指定概念板块的实时行情数据
+stock_board_concept_cons_em,http://quote.eastmoney.com/center/boardlist.html#boards-BK06551,东方财富-沪深板块-概念板块-板块成份,东方财富-指数,1,16,0,stock,单次返回当前时刻所有成份股
+stock_board_concept_hist_em,http://quote.eastmoney.com/bk/90.BK0715.html,东方财富-沪深板块-概念板块-历史行情数据,东方财富-指数-分时,5,11,0,stock,单次返回指定 symbol 和 adjust 的历史数据
+stock_board_concept_hist_min_em,http://quote.eastmoney.com/bk/90.BK0715.html,东方财富-沪深板块-概念板块-分时历史行情数据,富途牛牛-美股概念-成分股,2,0,0,stock,单次返回指定 symbol 和 period 的历史数据
+stock_concept_cons_futu,https://www.futunn.com/quote/sparks-us,富途牛牛-主题投资-概念板块-成分股,行业板块,1,7,0,stock,单次返回指定概念板块成分股数据
+stock_board_industry_summary_ths,https://q.10jqka.com.cn/thshy/,同花顺-同花顺行业一览表,同花顺-指数,1,12,0,stock,单次返回当前时刻同花顺行业一览表
+stock_board_industry_index_ths,https://q.10jqka.com.cn/thshy/detail/code/881270/,同花顺-板块-行业板块-指数日频率数据,东方财富-行业板块,3,7,0,stock,单次返回所有日频指数数据
+stock_board_industry_name_em,https://quote.eastmoney.com/center/boardlist.html#industry_board,东方财富-沪深京板块-行业板块,东方财富-行业板块-实时行情,1,12,0,stock,单次返回当前时刻所有行业板的实时行情数据
+stock_board_industry_spot_em,https://quote.eastmoney.com/bk/90.BK1027.html,东方财富网-沪深板块-行业板块-实时行情,东方财富-成份股,1,2,0,stock,单次返回指定板块的实时行情数据
+stock_board_industry_cons_em,https://data.eastmoney.com/bkzj/BK1027.html,东方财富-沪深板块-行业板块-板块成份,东方财富-指数-日频,1,16,0,stock,单次返回指定 symbol 的所有成份股
+stock_board_industry_hist_em,https://quote.eastmoney.com/bk/90.BK1027.html,东方财富-沪深板块-行业板块-历史行情数据,东方财富-指数-分时,5,11,0,stock,单次返回指定 symbol 和 adjust 的所有历史数据
+stock_board_industry_hist_min_em,http://quote.eastmoney.com/bk/90.BK1027.html,东方财富-沪深板块-行业板块-分时历史行情数据,股票热度,2,0,0,stock,单次返回指定 symbol 和 period 的所有历史数据
+stock_hot_follow_xq,https://xueqiu.com/hq,雪球-沪深股市-热度排行榜-关注排行榜,讨论排行榜,1,4,0,stock,单次返回指定 symbol 的排行数据
+stock_hot_tweet_xq,https://xueqiu.com/hq,雪球-沪深股市-热度排行榜-讨论排行榜,交易排行榜,1,4,0,stock,单次返回指定 symbol 的排行数据
+stock_hot_deal_xq,https://xueqiu.com/hq,雪球-沪深股市-热度排行榜-交易排行榜,股票热度-东财,1,4,0,stock,单次返回指定 symbol 的排行数据
+stock_hot_rank_em,http://guba.eastmoney.com/rank/,东方财富网站-股票热度,飙升榜-A股,1,6,0,stock,单次返回当前交易日前 100 个股票的人气排名数据
+stock_hot_up_em,http://guba.eastmoney.com/rank/,东方财富-个股人气榜-飙升榜,人气榜-港股,1,7,0,stock,单次返回当前交易日前 100 个股票的飙升榜排名数据
+stock_hk_hot_rank_em,https://guba.eastmoney.com/rank/,东方财富-个股人气榜-人气榜-港股市场,历史趋势及粉丝特征,1,5,0,stock,单次返回当前交易日前 100 个股票的人气排名数据
+stock_hot_rank_detail_em,http://guba.eastmoney.com/rank/stock?code=000665,东方财富网-股票热度-历史趋势及粉丝特征,港股,1,5,0,stock,单次返回指定 symbol 的股票近期历史数据
+stock_hk_hot_rank_detail_em,https://guba.eastmoney.com/rank/stock?code=HK_00700,东方财富网-股票热度-历史趋势,互动平台,1,3,0,stock,单次返回指定 symbol 的股票近期历史数据
+stock_irm_cninfo,https://irm.cninfo.com.cn/,互动易-提问,互动易-回答,1,14,0,stock,单次返回近期 10000 条提问数据
+stock_irm_ans_cninfo,https://irm.cninfo.com.cn/,互动易-回答,上证e互动,1,7,0,stock,单次返回指定 symbol 的回答数据
+stock_sns_sseinfo,https://sns.sseinfo.com/company.do?uid=65,上证e互动-提问与回答,个股人气榜-实时变动,1,9,0,stock,单次返回指定 symbol 的提问与回答数据
+stock_hot_rank_detail_realtime_em,http://guba.eastmoney.com/rank/stock?code=000665,东方财富网-个股人气榜-实时变动,港股,1,2,0,stock,单次返回指定 symbol 的股票近期历史数据
+stock_hk_hot_rank_detail_realtime_em,https://guba.eastmoney.com/rank/stock?code=HK_00700,东方财富网-个股人气榜-实时变动,热门关键词,1,2,0,stock,单次返回指定 symbol 的股票近期历史数据
+stock_hot_keyword_em,http://guba.eastmoney.com/rank/stock?code=000665,东方财富-个股人气榜-热门关键词,内部交易,1,5,0,stock,单次返回指定 symbol 的最近交易日时点数据
+stock_inner_trade_xq,https://xueqiu.com/hq/insider,雪球-行情中心-沪深股市-内部交易,个股人气榜-最新排名,1,9,0,stock,单次返回所有历史数据
+stock_hot_rank_latest_em,http://guba.eastmoney.com/rank/stock?code=000665,东方财富-个股人气榜-最新排名,港股,1,2,0,stock,单次返回指定 symbol 的股票近期历史数据
+stock_hk_hot_rank_latest_em,https://guba.eastmoney.com/rank/stock?code=HK_00700,东方财富-个股人气榜-最新排名,热搜股票,1,2,0,stock,单次返回指定 symbol 的股票近期历史数据
+stock_hot_search_baidu,https://gushitong.baidu.com/expressnews,百度股市通-热搜股票,相关股票,3,3,0,stock,"单次返回指定 symbol, date 和 time 的热搜股票数据"
+stock_hot_rank_relate_em,http://guba.eastmoney.com/rank/stock?code=000665,东方财富-个股人气榜-相关股票,盘口异动,1,4,0,stock,单次返回指定 symbol 的股票近期历史数据
+stock_changes_em,http://quote.eastmoney.com/changes/,东方财富-行情中心-盘口异动数据,板块异动详情,1,5,0,stock,单次指定 symbol 的最近交易日的盘口异动数据
+stock_board_change_em,https://quote.eastmoney.com/changes/,东方财富-行情中心-当日板块异动详情,涨停板行情,1,8,0,stock,返回最近交易日的数据
+stock_zt_pool_em,https://quote.eastmoney.com/ztb/detail#type=ztgc,东方财富网-行情中心-涨停板行情-涨停股池,昨日涨停股池,1,16,0,stock,单次返回指定 date 的涨停股池数据; 该接口只能获取近期的数据
+stock_zt_pool_previous_em,https://quote.eastmoney.com/ztb/detail#type=zrzt,东方财富网-行情中心-涨停板行情-昨日涨停股池,强势股池,1,16,0,stock,单次返回指定 date 的昨日涨停股池数据; 该接口只能获取近期的数据
+stock_zt_pool_strong_em,https://quote.eastmoney.com/ztb/detail#type=qsgc,东方财富网-行情中心-涨停板行情-强势股池,次新股池,1,16,0,stock,单次返回指定 date 的强势股池数据；该接口只能获取近期的数据
+stock_zt_pool_sub_new_em,https://quote.eastmoney.com/ztb/detail#type=cxgc,东方财富网-行情中心-涨停板行情-次新股池,炸板股池,1,16,0,stock,单次返回指定 date 的次新股池数据；该接口只能获取近期的数据
+stock_zt_pool_zbgc_em,https://quote.eastmoney.com/ztb/detail#type=zbgc,东方财富网-行情中心-涨停板行情-炸板股池,跌停股池,1,16,0,stock,单次返回指定 date 的炸板股池数据；该接口只能获取近期的数据
+stock_zt_pool_dtgc_em,https://quote.eastmoney.com/ztb/detail#type=zbgc,东方财富网-行情中心-涨停板行情-跌停股池,赚钱效应分析,1,16,0,stock,单次返回指定 date 的跌停股池数据；该接口只能获取近期的数据
+stock_market_activity_legu,https://www.legulegu.com/stockdata/market-activity,乐咕乐股网-赚钱效应分析数据,资讯数据,1,2,0,stock,单次返回当前赚钱效应分析数据
+stock_rank_cxfl_ths,https://data.10jqka.com.cn/rank/cxfl/,同花顺-数据中心-技术选股-持续放量,持续缩量,1,10,0,stock,单次返回所有数据
+stock_rank_cxsl_ths,https://data.10jqka.com.cn/rank/cxsl/,同花顺-数据中心-技术选股-持续缩量,向上突破,1,10,0,stock,单次返回所有数据
+stock_rank_xstp_ths,https://data.10jqka.com.cn/rank/xstp/,同花顺-数据中心-技术选股-向上突破,向下突破,1,8,0,stock,单次返回所有数据
+stock_rank_xxtp_ths,https://data.10jqka.com.cn/rank/xxtp/,同花顺-数据中心-技术选股-向下突破,量价齐升,1,8,0,stock,单次返回所有数据
+stock_rank_ljqs_ths,https://data.10jqka.com.cn/rank/ljqs/,同花顺-数据中心-技术选股-量价齐升,量价齐跌,1,8,0,stock,单次返回所有数据
+stock_rank_ljqd_ths,https://data.10jqka.com.cn/rank/ljqd/,同花顺-数据中心-技术选股-量价齐跌,险资举牌,1,8,0,stock,单次返回所有数据
+stock_rank_xzjp_ths,https://data.10jqka.com.cn/financial/xzjp/,同花顺-数据中心-技术选股-险资举牌,ESG 评级,1,12,0,stock,单次返回所有数据
+stock_esg_rate_sina,https://finance.sina.com.cn/esg/grade.shtml,新浪财经-ESG评级中心-ESG评级-ESG评级数据,MSCI,1,6,0,stock,单次返回所有数据
+stock_esg_msci_sina,https://finance.sina.com.cn/esg/grade.shtml,新浪财经-ESG评级中心-ESG评级-MSCI,路孚特,1,7,0,stock,单次返回所有数据
+stock_esg_rft_sina,https://finance.sina.com.cn/esg/grade.shtml,新浪财经-ESG评级中心-ESG评级-路孚特,秩鼎,1,13,0,stock,单次返回所有数据
+stock_esg_zd_sina,https://finance.sina.com.cn/esg/grade.shtml,新浪财经-ESG评级中心-ESG评级-秩鼎,华证指数,1,6,0,stock,单次返回所有数据
+stock_esg_hz_sina,https://finance.sina.com.cn/esg/grade.shtml,新浪财经-ESG评级中心-ESG评级-华证指数,未知接口,1,12,0,stock,单次返回所有数据
